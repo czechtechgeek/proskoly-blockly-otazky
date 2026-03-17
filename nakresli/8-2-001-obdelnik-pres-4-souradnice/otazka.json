@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "id": "8-2-001",
+    "typ": "nakresli",
+    "nazev": "Obdélník přes 4 souřadnice",
+    "tematicky_okruh": "8.2-souradnice-obrazce",
+    "difficulty": 3,
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_up",
+      "turtle_pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "jumpTo na 4 body obdélníku: A(80,80)→B(240,80)→C(240,200)→D(80,200)→A. Pero kreslí."
+  },
+  "cms": {
+    "task_text": "Nakreslete obdélník pomocí [hlp]absolutních souřadnic[/hlp]. Body: A(80,80), B(240,80), C(240,200), D(80,200). Vraťte se do A.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 80,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 80,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.PenDown();[[240,80],[240,200],[80,200],[80,80]].forEach(([x,y])=>turtle.jumpTo(x,y));",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_jump_to",
+          "inputs": {
+            "X": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 80
+                }
+              }
+            },
+            "Y": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 80
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 80
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "160,120,160,120",
+      "cary_tolerance": 10,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "turtle_jump_to,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "2-3-d002",
+    "typ": "doplň",
+    "nazev": "Písmeno H — doplň příčku",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 3,
+    "koncepty": ["forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "H: levá svislá 80px dolů, příčka 60px vpravo uprostřed (40px od vrchu), pravá svislá 40px dolů. Start: x=125, y=75, uhel=270 (dolů). start_blocks_xml: dva oddělené řetězce. Řetězec 1: forward(80)+PenUp = levá svislá. Řetězec 2: PenDown+forward(40)+PenUp+backward(80) = pravá svislá (volná, čeká na napojení). Student doplní příčku: backward(40)+left(90)+PenDown+forward(60)+right(90) a propojí oba řetězce."
+  },
+  "cms": {
+    "task_text": "Kód nakreslí dvě svislé čáry písmene H, ale [hlp]chybí střední příčka[/hlp]. Doplňte chybějící bloky tak, aby příčka propojila obě svislé čáry uprostřed. Příčka je 60 px.",
+    "pozice_podkladu": {
+      "x": 125,
+      "y": 75,
+      "uhel": 270
+    },
+    "pozice_kurzoru": {
+      "x": 125,
+      "y": 75,
+      "uhel": 270
+    },
+    "sketch_code": "turtle.forward(80);turtle.PenUp();turtle.backward(40);turtle.left(90);turtle.PenDown();turtle.forward(60);turtle.right(90);turtle.forward(40);turtle.PenUp();turtle.backward(80);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward",
+          "fields": {
+            "DISTANCE": 40
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"s1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_pen_up\" id=\"s2\"></block></next></block><block type=\"turtle_pen_down\" id=\"s3\" x=\"50\" y=\"180\"><next><block type=\"turtle_forward\" id=\"s4\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_pen_up\" id=\"s5\"><next><block type=\"turtle_backward\" id=\"s6\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "80,60,40",
+      "cary_tolerance": 5,
+      "uhly": "90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 12,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"s1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_pen_up\" id=\"s2\"><next><block type=\"turtle_backward\" id=\"n1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_left\" id=\"n2\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"n3\"><next><block type=\"turtle_forward\" id=\"n4\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\" id=\"n5\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"s3\"><next><block type=\"turtle_forward\" id=\"s4\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_pen_up\" id=\"s5\"><next><block type=\"turtle_backward\" id=\"s6\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokalni otestovani v sandboxu"
+  }
+}

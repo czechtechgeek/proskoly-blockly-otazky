@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "2-3-n002c",
+    "typ": "nakresli",
+    "nazev": "Nakresli písmeno T — 120 px",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 3,
+    "koncepty": ["forward", "backward", "right", "pen_up", "pen_down"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Mutace 2-3-002. T: příčka 120px vpravo + svislá 80px dolů (ze středu příčky). Start: x=60, y=100, uhel=0 (vpravo). backward(60) na střed příčky."
+  },
+  "cms": {
+    "task_text": "Nakreslete [hlp]písmeno T[/hlp]. Horní příčka je 120 pixelů, svislá část 80 pixelů.",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 100,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 100,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(120);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.PenDown();turtle.forward(80);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 120
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward",
+          "fields": {
+            "DISTANCE": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "120,80",
+      "cary_tolerance": 5,
+      "uhly": "90",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_pen_up\" id=\"2\"><next><block type=\"turtle_backward\" id=\"3\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\" id=\"4\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"5\"><next><block type=\"turtle_forward\" id=\"6\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokalni otestovani v sandboxu"
+  }
+}

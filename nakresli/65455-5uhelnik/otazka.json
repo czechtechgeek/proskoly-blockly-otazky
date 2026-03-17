@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "65455",
+    "typ": "nakresli",
+    "nazev": "5úhelník",
+    "tematicky_okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "koncepty": [],
+    "verze": 1,
+    "stav": "published",
+    "cms_id": 65455,
+    "cms_url": "https://edit.proskoly.cz/run-test/65455",
+    "asana_asset_url": "https://app.asana.com/app/asana/-/get_asset?asset_id=1211547993009835",
+    "poznamky": null
+  },
+  "cms": {
+    "task_text": "",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 10,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": null,
+      "typy_bloku": ""
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

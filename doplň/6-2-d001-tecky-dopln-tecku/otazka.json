@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "id": "6-2-d001",
+    "typ": "doplň",
+    "nazev": "Tečky — doplň tečku",
+    "tematicky_okruh": "6.2-tecky",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_dot",
+      "turtle_pen_up",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Smyčka se pohybuje po obvodu, ale [hlp]chybí blok pro tečku[/hlp] na každém vrcholu. Doplňte ho.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<8;i++){turtle.dot();turtle.PenUp();turtle.forward(60);turtle.right(45);turtle.PenDown();}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_dot"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 45
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">8</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">45</field><next><block type=\"turtle_pen_down\"></block></next></block></next></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "45,45,45,45,45,45,45",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "controls_repeat_ext,turtle_dot,turtle_pen_up,turtle_pen_down,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

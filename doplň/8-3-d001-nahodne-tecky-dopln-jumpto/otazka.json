@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "8-3-d001",
+    "typ": "doplň",
+    "nazev": "Náhodné tečky — doplň jumpTo",
+    "tematicky_okruh": "8.3-nahodne-skoky",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_jump_to",
+      "turtle_dot",
+      "math_random_int"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Smyčka kreslí tečky, ale [hlp]chybí blok jumpTo[/hlp] pro skok na náhodnou pozici. Doplňte ho.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<8;i++){turtle.jumpTo(Math.random()*280+20,Math.random()*280+20);turtle.dot();}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_jump_to",
+          "inputs": {
+            "X": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 160
+                }
+              }
+            },
+            "Y": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 160
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_random_int",
+          "inputs": {
+            "FROM": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 20
+                }
+              }
+            },
+            "TO": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 300
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">8</field></shadow></value><statement name=\"DO\"><block type=\"turtle_dot\"></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 4,
+      "typy_bloku": "controls_repeat_ext,turtle_jump_to,turtle_dot,math_random_int"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

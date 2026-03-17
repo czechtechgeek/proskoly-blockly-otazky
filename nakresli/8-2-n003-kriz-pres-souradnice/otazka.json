@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "id": "8-2-n003",
+    "typ": "nakresli",
+    "nazev": "Kříž přes souřadnice",
+    "tematicky_okruh": "8.2-souradnice-obrazce",
+    "difficulty": 3,
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_down",
+      "turtle_pen_up"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Nakreslete [hlp]kříž[/hlp] pomocí absolutních souřadnic. Vodorovná čára: (60,160)→(260,160). Svislá: (160,60)→(160,260).",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.PenDown();turtle.jumpTo(260,160);turtle.PenUp();turtle.jumpTo(160,60);turtle.PenDown();turtle.jumpTo(160,260);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_jump_to",
+          "inputs": {
+            "X": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 160
+                }
+              }
+            },
+            "Y": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 160
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "200,200",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "turtle_pen_down,turtle_pen_up,turtle_jump_to"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

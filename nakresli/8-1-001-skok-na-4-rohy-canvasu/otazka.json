@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "id": "8-1-001",
+    "typ": "nakresli",
+    "nazev": "Skok na 4 rohy canvasu",
+    "tematicky_okruh": "8.1-souradnice",
+    "difficulty": 2,
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "jumpTo(50,50), dot(), jumpTo(270,50), dot()... 4 rohy canvasu. Souřadnicový systém."
+  },
+  "cms": {
+    "task_text": "Skočte na [hlp]4 rohy plátna[/hlp] (50,50), (270,50), (270,270), (50,270) a na každém místě udělejte tečku.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "[[50,50],[270,50],[270,270],[50,270]].forEach(([x,y])=>{turtle.jumpTo(x,y);turtle.dot();});",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_jump_to",
+          "inputs": {
+            "X": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 50
+                }
+              }
+            },
+            "Y": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 50
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_dot"
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 50
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "turtle_jump_to,turtle_dot"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_jump_to\" x=\"50\" y=\"50\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">50</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">50</field></shadow></value><next><block type=\"turtle_dot\"><next><block type=\"turtle_jump_to\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">270</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">50</field></shadow></value><next><block type=\"turtle_dot\"><next><block type=\"turtle_jump_to\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">270</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">270</field></shadow></value><next><block type=\"turtle_dot\"><next><block type=\"turtle_jump_to\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">50</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">270</field></shadow></value><next><block type=\"turtle_dot\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

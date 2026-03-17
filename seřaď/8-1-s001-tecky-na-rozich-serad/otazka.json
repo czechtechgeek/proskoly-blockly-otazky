@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "8-1-s001",
+    "typ": "seřaď",
+    "nazev": "Tečky na rozích — seřaď",
+    "tematicky_okruh": "8.1-souradnice",
+    "difficulty": 2,
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Seřaďte: pro každý roh [hlp]nejdřív skočte (jumpTo), pak tečka (dot)[/hlp].",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.jumpTo(50,50);turtle.dot();turtle.jumpTo(270,50);turtle.dot();",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_dot\" x=\"200\" y=\"26\"></block><block type=\"turtle_jump_to\" x=\"22\" y=\"26\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">50</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">50</field></shadow></value></block><block type=\"turtle_jump_to\" x=\"22\" y=\"140\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">270</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">50</field></shadow></value></block><block type=\"turtle_dot\" x=\"200\" y=\"140\"></block></xml>",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 4,
+      "typy_bloku": "turtle_jump_to,turtle_dot"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

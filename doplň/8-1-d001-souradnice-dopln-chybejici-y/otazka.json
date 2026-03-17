@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "8-1-d001",
+    "typ": "doplň",
+    "nazev": "Souřadnice — doplň chybějící Y",
+    "tematicky_okruh": "8.1-souradnice",
+    "difficulty": 2,
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Blok jumpTo má X souřadnici, ale [hlp]chybí Y souřadnice[/hlp]. Doplňte Y=80.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.jumpTo(160,80);turtle.dot();",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 80
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_jump_to\" x=\"50\" y=\"50\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">160</field></shadow></value></block></xml>",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 2,
+      "typy_bloku": "turtle_jump_to,turtle_dot"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "4-2-002",
+    "typ": "doplň",
+    "nazev": "Barevná hvězda — doplň barvu",
+    "tematicky_okruh": "4.2-barvy",
+    "difficulty": 2,
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Hvězda 5 cípů. Smyčka má forward + right(144) ale chybí set_pen_color před každým tahem."
+  },
+  "cms": {
+    "task_text": "Kód kreslí hvězdu, ale [hlp]chybí nastavení barvy[/hlp] pera. Doplňte blok pro nastavení barvy před pohyb dopředu.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "const c=['#ff0000','#ff8800','#ffff00','#00cc00','#0000ff'];for(let i=0;i<5;i++){turtle.setPenColor(c[i]);turtle.forward(100);turtle.right(144);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_set_pen_color_fixed"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">100</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">144</field></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "100,100,100,100,100",
+      "cary_tolerance": 5,
+      "uhly": "144,144,144,144",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_set_pen_color_fixed"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

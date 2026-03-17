@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "1-3-n010e",
+    "typ": "nakresli",
+    "nazev": "Zpět a otočit — opačný směr",
+    "tematicky_okruh": "pero",
+    "difficulty": 2,
+    "koncepty": ["forward", "backward", "right", "penUp", "penDown"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru 60 pixelů dopředu[/hlp], pak [hlp]bez kreslení se vrátila zpět na výchozí bod[/hlp] (pero nahoru, 60 pixelů dozadu, pero dolů), otočila se vpravo o 180° (úplný obrat) a nakreslila [hlp]druhou čáru 60 pixelů[/hlp]. Výsledek jsou dvě čáry vycházející ze stejného bodu v opačných směrech — jako přímka.",
+    "pozice_podkladu": { "x": 130, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 130, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.forward(60);turtle.right(180);turtle.forward(60);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {"kind": "block", "type": "turtle_forward"},
+        {"kind": "block", "type": "turtle_backward"},
+        {"kind": "block", "type": "turtle_right"},
+        {"kind": "block", "type": "turtle_pen_up"},
+        {"kind": "block", "type": "turtle_pen_down"}
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "60,60",
+      "cary_tolerance": 5,
+      "uhly": "180",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\">\n  <block type=\"turtle_forward\" x=\"20\" y=\"20\">\n    <field name=\"DISTANCE\">60</field>\n    <next>\n      <block type=\"turtle_pen_up\">\n        <next>\n          <block type=\"turtle_backward\">\n            <field name=\"DISTANCE\">60</field>\n            <next>\n              <block type=\"turtle_pen_down\">\n                <next>\n                  <block type=\"turtle_right\">\n                    <field name=\"ANGLE\">180</field>\n                    <next>\n                      <block type=\"turtle_forward\">\n                        <field name=\"DISTANCE\">60</field>\n                      </block>\n                    </next>\n                  </block>\n                </next>\n              </block>\n            </next>\n          </block>\n        </next>\n      </block>\n    </next>\n  </block>\n</xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

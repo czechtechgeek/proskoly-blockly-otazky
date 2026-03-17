@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "2-2-008",
+    "typ": "nakresli",
+    "nazev": "Mřížka čtverců 2×3",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "koncepty": ["controls_repeat_ext", "forward", "right", "pen_up", "pen_down", "backward", "left"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]mřížku 2 řady × 3 sloupce čtverců o straně 50 pixelů[/hlp] s mezerami 10 px mezi čtverci. Použijte vnořené smyčky a pero pro přesuny.",
+    "pozice_podkladu": { "x": 40, "y": 60, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 40, "y": 60, "uhel": 0 },
+    "sketch_code": "turtle.jumpTo(40,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(110,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(180,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(40,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(110,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(180,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        { "kind": "block", "type": "controls_repeat_ext" },
+        { "kind": "block", "type": "math_number" },
+        { "kind": "block", "type": "turtle_forward" },
+        { "kind": "block", "type": "turtle_right" },
+        { "kind": "block", "type": "turtle_pen_up" },
+        { "kind": "block", "type": "turtle_pen_down" },
+        { "kind": "block", "type": "turtle_backward" },
+        { "kind": "block", "type": "turtle_left" }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 14,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down,turtle_backward,turtle_left"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\"><field name=\"NUM\">2</field></block></value><statement name=\"DO\"><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><block type=\"math_number\"><field name=\"NUM\">3</field></block></value><statement name=\"DO\"><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><block type=\"math_number\"><field name=\"NUM\">4</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></statement></block></statement><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_down\"></block></next></block></next></block></next></block></statement><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">180</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu. Outer repeat(2) pro 2 řady. Inner repeat(3) pro 3 čtverce v řadě. Uvnitř: repeat(4){forward(50);right(90)} nakreslí čtverec, pak penUp+forward(60)+penDown přesune na další čtverec. Po inner smyčce: penUp+backward(180)+right(90)+forward(60)+left(90)+penDown přesune na začátek další řady. Celkem 14 bloků (bez math_number bloků)."
+  }
+}

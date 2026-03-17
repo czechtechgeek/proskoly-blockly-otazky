@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "id": "2-2-002",
+    "typ": "nakresli",
+    "nazev": "Tečkovaná čára",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "opakuj(5){ penDown, forward(20), penUp, forward(15) }"
+  },
+  "cms": {
+    "task_text": "Naprogramujte [hlp]tečkovanou čáru[/hlp]: nakreslete 5 úseků po 20 pixelech s mezerami 15 pixelů. Použijte smyčku a pero.",
+    "pozice_podkladu": {
+      "x": 30,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 30,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<5;i++){turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 5
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 20
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "20,20,20,20,20",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field></block></next></block></next></block></next></block></statement></block></xml>"
+  }
+}

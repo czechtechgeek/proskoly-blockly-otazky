@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "1-3-n013",
+    "typ": "nakresli",
+    "nazev": "Návrat do výchozí pozice — L-tvar modře",
+    "tematicky_okruh": "pero",
+    "difficulty": 2,
+    "koncepty": ["setPenColor", "forward", "backward", "right", "left", "penUp", "penDown"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]modré písmeno L[/hlp]: nejprve 100 pixelů dopředu, pak odbočte vpravo o 90° a 60 pixelů dopředu. Poté [hlp]bez kreslení se vraťte zpět na výchozí bod[/hlp] (pero nahoru, dozadu, otočit, dozadu, pero dolů). Barva pera: modrá (#0000FF).",
+    "pozice_podkladu": { "x": 160, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 160, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.setPenColor('#0000FF');turtle.forward(100);turtle.right(90);turtle.forward(60);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {"kind": "block", "type": "turtle_set_pen_color_fixed"},
+        {"kind": "block", "type": "turtle_forward"},
+        {"kind": "block", "type": "turtle_backward"},
+        {"kind": "block", "type": "turtle_right"},
+        {"kind": "block", "type": "turtle_left"},
+        {"kind": "block", "type": "turtle_pen_up"},
+        {"kind": "block", "type": "turtle_pen_down"}
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "100,60",
+      "cary_tolerance": 5,
+      "uhly": "90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 9,
+      "typy_bloku": "turtle_set_pen_color_fixed,turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\">\n  <block type=\"turtle_set_pen_color_fixed\" x=\"20\" y=\"20\">\n    <field name=\"COLOR\">#0000FF</field>\n    <next>\n      <block type=\"turtle_forward\">\n        <field name=\"DISTANCE\">100</field>\n        <next>\n          <block type=\"turtle_right\">\n            <field name=\"ANGLE\">90</field>\n            <next>\n              <block type=\"turtle_forward\">\n                <field name=\"DISTANCE\">60</field>\n                <next>\n                  <block type=\"turtle_pen_up\">\n                    <next>\n                      <block type=\"turtle_backward\">\n                        <field name=\"DISTANCE\">60</field>\n                        <next>\n                          <block type=\"turtle_left\">\n                            <field name=\"ANGLE\">90</field>\n                            <next>\n                              <block type=\"turtle_backward\">\n                                <field name=\"DISTANCE\">100</field>\n                                <next>\n                                  <block type=\"turtle_pen_down\">\n                                  </block>\n                                </next>\n                              </block>\n                            </next>\n                          </block>\n                        </next>\n                      </block>\n                    </next>\n                  </block>\n                </next>\n              </block>\n            </next>\n          </block>\n        </next>\n      </block>\n    </next>\n  </block>\n</xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

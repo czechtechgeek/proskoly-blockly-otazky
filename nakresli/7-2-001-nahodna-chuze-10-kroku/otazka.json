@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "7-2-001",
+    "typ": "nakresli",
+    "nazev": "Náhodná chůze — 10 kroků",
+    "tematicky_okruh": "7.2-nahoda",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "turtle_right",
+      "math_random_int"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "opakuj(10){ forward(random 20–80), right(random 0–360) }. Náhodná trasa."
+  },
+  "cms": {
+    "task_text": "Naprogramujte [hlp]náhodnou chůzi 10 kroků[/hlp]. Každý krok má náhodnou délku (20–80 px) a náhodný úhel otočení (0–90°).",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<10;i++){turtle.forward(20+Math.floor(Math.random()*61));turtle.right(Math.floor(Math.random()*91));}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward_number"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_random_int",
+          "inputs": {
+            "FROM": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 20
+                }
+              }
+            },
+            "TO": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 80
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "controls_repeat_ext,turtle_forward_number,turtle_right,math_random_int"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

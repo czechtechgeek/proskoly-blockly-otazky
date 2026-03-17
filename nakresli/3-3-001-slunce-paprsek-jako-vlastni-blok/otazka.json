@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "id": "3-3-001",
+    "typ": "nakresli",
+    "nazev": "Slunce — paprsek jako vlastní blok",
+    "tematicky_okruh": "3.3-slunce",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů (definice + volání) — standardní Blockly procedures",
+      "priorita": "vysoka",
+      "poznamka": "Nutné pro kapitolu 3. Otázka: Slunce"
+    },
+    "poznamky": "Definuj paprsek(forward 60, backward 60), zavolej 8× v repeat se right(45)."
+  },
+  "cms": {
+    "task_text": "Nakreslete [hlp]slunce s 8 paprsky[/hlp]. Definujte vlastní blok 'paprsek' (dopředu 60, dozadu 60) a zavolejte ho 8× se smyčkou.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 90
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 90
+    },
+    "sketch_code": "for(let i=0;i<8;i++){turtle.forward(60);turtle.backward(60);turtle.right(45);}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": 60
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": 60
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": 45
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Smyčky",
+          "colour": 120,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
+              "inputs": {
+                "TIMES": {
+                  "shadow": {
+                    "type": "math_number",
+                    "fields": {
+                      "NUM": 8
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60",
+      "cary_tolerance": 5,
+      "uhly": "45,45,45,45,45,45,45",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

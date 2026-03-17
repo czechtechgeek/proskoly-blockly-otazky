@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "2-3-o001",
+    "typ": "oprav",
+    "nazev": "Písmeno L — oprav délku",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 2,
+    "koncepty": ["forward", "left"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Chyba: svislá čára má forward(40) místo správného forward(60). Pismeno L: svislá 60px dolů + pricka 40px vpravo. Start: x=125, y=75, uhel=270 (dolu)."
+  },
+  "cms": {
+    "task_text": "Kód níže má [hlp]chybu v délce svislé části[/hlp] písmene L. Svislá část má být 60 px, vodorovná 40 px. Najdi a oprav chybu.",
+    "pozice_podkladu": {
+      "x": 125,
+      "y": 75,
+      "uhel": 270
+    },
+    "pozice_kurzoru": {
+      "x": 125,
+      "y": 75,
+      "uhel": 270
+    },
+    "sketch_code": "turtle.forward(60);turtle.left(90);turtle.forward(40);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left",
+          "fields": {
+            "ANGLE": 90
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"s1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_left\" id=\"s2\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"s3\"><field name=\"DISTANCE\">40</field></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "60,40",
+      "cary_tolerance": 5,
+      "uhly": "90",
+      "uhly_tolerance": 10,
+      "max_bloku": 4,
+      "typy_bloku": "turtle_forward,turtle_left"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"s1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\" id=\"s2\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"s3\"><field name=\"DISTANCE\">40</field></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokalni otestovani v sandboxu"
+  }
+}

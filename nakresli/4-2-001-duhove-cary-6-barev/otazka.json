@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "id": "4-2-001",
+    "typ": "nakresli",
+    "nazev": "Duhové čáry — 6 barev",
+    "tematicky_okruh": "4.2-barvy",
+    "difficulty": 3,
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "6 vodorovných čar, každá jiná barva (ROYGBV). penUp posun dolů 20px mezi čarami."
+  },
+  "cms": {
+    "task_text": "Nakreslete [hlp]6 duhových čar[/hlp] pod sebou (každá 150 px, rozestup 20 px). Každá čára má jinou barvu duhy.",
+    "pozice_podkladu": {
+      "x": 30,
+      "y": 40,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 30,
+      "y": 40,
+      "uhel": 0
+    },
+    "sketch_code": "const colors=['#ff0000','#ff7700','#ffff00','#00aa00','#0000ff','#8800aa'];colors.forEach(c=>{turtle.setPenColor(c);turtle.forward(150);turtle.PenUp();turtle.backward(150);turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();});",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_set_pen_color_fixed"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 150
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward",
+          "fields": {
+            "DISTANCE": 150
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left",
+          "fields": {
+            "ANGLE": 90
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "150,150,150,150,150,150",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 30,
+      "typy_bloku": "turtle_set_pen_color_fixed,turtle_forward,turtle_backward,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

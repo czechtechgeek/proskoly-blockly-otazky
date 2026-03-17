@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "1-2-s001",
+    "typ": "seřaď",
+    "nazev": "Kříž — seřaď bloky",
+    "tematicky_okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Bloky pro kreslení kříže jsou rozhozeny. [hlp]Sestavte správný kříž[/hlp].",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(60);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.PenDown();turtle.forward(60);turtle.backward(60);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"22\" y=\"26\"><field name=\"DISTANCE\">60</field></block><block type=\"turtle_pen_up\" x=\"180\" y=\"26\"></block><block type=\"turtle_backward\" x=\"22\" y=\"120\"><field name=\"DISTANCE\">60</field></block><block type=\"turtle_right\" x=\"180\" y=\"120\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_pen_down\" x=\"22\" y=\"210\"></block><block type=\"turtle_forward\" x=\"180\" y=\"210\"><field name=\"DISTANCE\">60</field></block><block type=\"turtle_backward\" x=\"22\" y=\"300\"><field name=\"DISTANCE\">60</field></block></xml>",
+    "validace": {
+      "cary_delky": "60,60,60",
+      "cary_tolerance": 5,
+      "uhly": "90",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_pen_up,turtle_pen_down,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

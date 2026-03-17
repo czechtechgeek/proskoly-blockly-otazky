@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "1-3-n015b",
+    "typ": "nakresli",
+    "nazev": "Kříž — ramena 80 px",
+    "tematicky_okruh": "pero",
+    "difficulty": 2,
+    "koncepty": ["forward", "backward", "right", "penUp", "penDown"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]kříž ze dvou čar 80 × 80 pixelů[/hlp]. Začněte z bodu (160, 120) s úhlem 180°. Nejprve nakreslete svislou čáru (80 px), pak [hlp]bez kreslení se přesuňte doprostřed[/hlp] (pero nahoru, dozadu 40 px, otočit vpravo 90°, dozadu 40 px) a nakreslete vodorovnou čáru (80 px).",
+    "pozice_podkladu": { "x": 160, "y": 120, "uhel": 180 },
+    "pozice_kurzoru":  { "x": 160, "y": 120, "uhel": 180 },
+    "sketch_code": "turtle.forward(80);turtle.PenUp();turtle.backward(40);turtle.right(90);turtle.backward(40);turtle.PenDown();turtle.forward(80);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {"kind": "block", "type": "turtle_forward"},
+        {"kind": "block", "type": "turtle_backward"},
+        {"kind": "block", "type": "turtle_right"},
+        {"kind": "block", "type": "turtle_pen_up"},
+        {"kind": "block", "type": "turtle_pen_down"}
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "80,80",
+      "cary_tolerance": 5,
+      "uhly": "90",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\">\n  <block type=\"turtle_forward\" x=\"20\" y=\"20\">\n    <field name=\"DISTANCE\">80</field>\n    <next>\n      <block type=\"turtle_pen_up\">\n        <next>\n          <block type=\"turtle_backward\">\n            <field name=\"DISTANCE\">40</field>\n            <next>\n              <block type=\"turtle_right\">\n                <field name=\"ANGLE\">90</field>\n                <next>\n                  <block type=\"turtle_backward\">\n                    <field name=\"DISTANCE\">40</field>\n                    <next>\n                      <block type=\"turtle_pen_down\">\n                        <next>\n                          <block type=\"turtle_forward\">\n                            <field name=\"DISTANCE\">80</field>\n                          </block>\n                        </next>\n                      </block>\n                    </next>\n                  </block>\n                </next>\n              </block>\n            </next>\n          </block>\n        </next>\n      </block>\n    </next>\n  </block>\n</xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

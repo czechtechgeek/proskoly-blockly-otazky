@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "5-1-002",
+    "typ": "doplň",
+    "nazev": "Spirála — doplň zvětšování délky",
+    "tematicky_okruh": "5.1-promenne",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Smyčka while s forward(delka) a right(90), ale chybí math_change delka o 10. Doplň."
+  },
+  "cms": {
+    "task_text": "Kód kreslí spirálu, ale [hlp]chybí blok pro zvětšování délky[/hlp]. Doplňte ho — délka se má zvětšit o 10 po každém kroku.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "let l=10;while(l<=100){turtle.forward(l);turtle.right(90);l+=10;}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "math_change",
+          "fields": {
+            "VAR": {
+              "name": "delka"
+            }
+          },
+          "inputs": {
+            "DELTA": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "10,20,30,40,50,60,70,80,90,100",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "controls_whileUntil,variables_set,math_change,turtle_forward_number,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

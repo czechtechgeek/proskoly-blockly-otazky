@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "2-1-012",
+    "typ": "nakresli",
+    "nazev": "Hexagon — větší, z bodu C",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "koncepty": ["controls_repeat_ext", "forward", "right"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Mutace 2-1-005. C[125,175], uhel=0, strana 50px. Hexagon se vejde: max dosah ~125+300=425 → moc velký. Použijeme stranu 45px."
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]pravidelný šestiúhelník o straně 45 pixelů[/hlp]. Použijte smyčku.",
+    "pozice_podkladu": { "x": 125, "y": 175, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 125, "y": 175, "uhel": 0 },
+    "sketch_code": "for(let i=0;i<6;i++){turtle.forward(45);turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        { "kind": "block", "type": "controls_repeat_ext", "inputs": { "TIMES": { "shadow": { "type": "math_number", "fields": { "NUM": 6 } } } } },
+        { "kind": "block", "type": "math_number", "fields": { "NUM": 6 } },
+        { "kind": "block", "type": "turtle_forward", "fields": { "DISTANCE": 45 } },
+        { "kind": "block", "type": "turtle_right", "fields": { "ANGLE": 90 } }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "45,45,45,45,45,45",
+      "cary_tolerance": 5,
+      "uhly": "60,60,60,60,60",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">45</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">60</field></block></next></block></statement></block></xml>"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "id": "2-3-n011",
+    "typ": "nakresli",
+    "nazev": "Vzor ve smyčce — opakované T",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 4,
+    "koncepty": ["controls_repeat_ext", "forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "4x pismeno T v rade. Start: x=30, y=100, uhel=0 (vpravo). Kazde T: forward(60) pricka, PenUp, backward(30) na stred, right(90) dolu, PenDown, forward(40) svisla, PenUp, backward(40) zpet, left(90) vpravo, forward(50) posun na dalsi T, PenDown. Uhly: right(90) + left(90) x4. Cary: 60 + 40 x4."
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby pomocí [hlp]smyčky opakování nakreslila 4× písmeno T[/hlp] v řadě vedle sebe. Každé T má příčku 60 px a svislou část 40 px.",
+    "pozice_podkladu": {
+      "x": 30,
+      "y": 100,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 30,
+      "y": 100,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<4;i++){turtle.forward(60);turtle.PenUp();turtle.backward(30);turtle.right(90);turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.backward(40);turtle.left(90);turtle.forward(50);turtle.PenDown();}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext"
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 4
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward",
+          "fields": {
+            "DISTANCE": 40
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "60,40,60,40,60,40,60,40",
+      "cary_tolerance": 5,
+      "uhly": "90,90,90,90,90,90,90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 13,
+      "typy_bloku": "controls_repeat_ext,math_number,turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"m1\"><field name=\"NUM\">4</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"b1\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_up\" id=\"b2\"><next><block type=\"turtle_backward\" id=\"b3\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\" id=\"b4\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"b5\"><next><block type=\"turtle_forward\" id=\"b6\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_pen_up\" id=\"b7\"><next><block type=\"turtle_backward\" id=\"b8\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_left\" id=\"b9\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b10\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_pen_down\" id=\"b11\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokalni otestovani v sandboxu"
+  }
+}

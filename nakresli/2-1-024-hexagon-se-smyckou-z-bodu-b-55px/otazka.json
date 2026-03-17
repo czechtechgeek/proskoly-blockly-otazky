@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "2-1-024",
+    "typ": "nakresli",
+    "nazev": "Hexagon se smyčkou — z bodu B, 55px",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Mutace. x=225,y=75,uhel=270, strana=55px."
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]hexagon 55px[/hlp]. Tip: 6 stran, úhel [hlp]60°[/hlp].",
+    "pozice_podkladu": {
+      "x": 225,
+      "y": 75,
+      "uhel": 270
+    },
+    "pozice_kurzoru": {
+      "x": 225,
+      "y": 75,
+      "uhel": 270
+    },
+    "sketch_code": "for(let i=0;i<6;i++){turtle.forward(55);turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 6
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 6
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 55
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "55,55,55,55,55,55",
+      "cary_tolerance": 5,
+      "uhly": "60,60,60,60,60",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">55</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">60</field></block></next></block></statement></block></xml>"
+  }
+}

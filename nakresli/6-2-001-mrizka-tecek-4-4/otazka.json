@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "id": "6-2-001",
+    "typ": "nakresli",
+    "nazev": "Mřížka teček 4×4",
+    "tematicky_okruh": "6.2-tecky",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_dot",
+      "turtle_pen_up",
+      "turtle_pen_down",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "4 řady × 4 tečky. Vnořená smyčka: outer(4 řady), inner(4 tečky + jump), posun na další řadu."
+  },
+  "cms": {
+    "task_text": "Naprogramujte [hlp]mřížku 4×4 teček[/hlp]. Tečky jsou vzdáleny 40 px od sebe.",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 60,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 60,
+      "uhel": 0
+    },
+    "sketch_code": "for(let r=0;r<4;r++){for(let c=0;c<4;c++){turtle.dot();if(c<3){turtle.PenUp();turtle.forward(40);turtle.PenDown();}}turtle.PenUp();turtle.backward(120);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.PenDown();}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 4
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_dot"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 40
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward",
+          "fields": {
+            "DISTANCE": 40
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left",
+          "fields": {
+            "ANGLE": 90
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 15,
+      "typy_bloku": "controls_repeat_ext,turtle_dot,turtle_pen_up,turtle_pen_down,turtle_forward,turtle_backward"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

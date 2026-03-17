@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "id": "5-1-o001",
+    "typ": "oprav",
+    "nazev": "Spirála — oprav počáteční hodnotu",
+    "tematicky_okruh": "5.1-promenne",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number",
+      "turtle_right"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Spirála začíná od hodnoty 100 — [hlp]ale má začínat od 10[/hlp]. Opravte počáteční hodnotu proměnné.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "let l=10;while(l<=100){turtle.forward(l);turtle.right(90);l+=10;}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "variables_set",
+          "fields": {
+            "VAR": {
+              "name": "delka"
+            }
+          },
+          "inputs": {
+            "VALUE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 10
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 10
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "10,20,30,40,50,60,70,80,90,100",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "controls_whileUntil,variables_set,math_change,turtle_forward_number,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

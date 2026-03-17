@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "7-1-o001",
+    "typ": "oprav",
+    "nazev": "Podmínky — oprav obrácené barvy",
+    "tematicky_okruh": "7.1-podminky",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_for",
+      "controls_if",
+      "turtle_set_pen_color_fixed"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Kód střídá barvy, ale [hlp]podmínka je obrácená[/hlp] — sudé jsou modré místo červené. Opravte ji.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=1;i<=6;i++){if(i%2===0){turtle.setPenColor('#ff0000');}else{turtle.setPenColor('#0000ff');}turtle.forward(50);turtle.backward(50);turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "logic_compare"
+        },
+        {
+          "kind": "block",
+          "type": "math_modulo"
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 2
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "60,60,60,60,60",
+      "uhly_tolerance": 10,
+      "max_bloku": 10,
+      "typy_bloku": "controls_for,controls_if,turtle_set_pen_color_fixed,turtle_forward_number"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "2-2-n001",
+    "typ": "nakresli",
+    "nazev": "Dva čtverce s mezerou — bez smyčky",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "koncepty": [
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Vstupní otázka do 2.2 bez smyčky (diff 2). Dva čtverce 50px s mezerou 20px kreslené sekvencí bez opakování. sketch_code používá PenUp/PenDown jako výjimku — bez nich by mezera mezi čtverci nebyla vidět v referenčním obrázku."
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]dva čtverce o straně 50 pixelů[/hlp] s mezerou 20 pixelů mezi nimi. Použijte bloky pero nahoru a pero dolů pro přesun mezi čtverci.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.PenUp();turtle.forward(70);turtle.PenDown();turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 50
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "50,50,50,50,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "90,90,90,90,90,90,90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 21,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"f1\" x=\"20\" y=\"20\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"rg1\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"f2\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"rg2\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"f3\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"rg3\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"f4\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"rg4\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\" id=\"pu1\"><next><block type=\"turtle_forward\" id=\"f5\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_pen_down\" id=\"pd1\"><next><block type=\"turtle_forward\" id=\"f6\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"rg5\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"f7\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"rg6\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"f8\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"rg7\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"f9\"><field name=\"DISTANCE\">50</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

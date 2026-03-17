@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "id": "5-1-001",
+    "typ": "nakresli",
+    "nazev": "Čtvercová spirála — for + proměnná",
+    "tematicky_okruh": "5.1-promenne",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_for",
+      "turtle_forward_number",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "for(i=1 to 20 step 1){ forward(i*5), right(90) }. For smyčka kde i roste = spirála."
+  },
+  "cms": {
+    "task_text": "Naprogramujte [hlp]čtvercovou spirálu[/hlp] pomocí smyčky for. Proměnná i jde od 1 do 20, délka tahu = i × 5 pixelů.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=1;i<=20;i++){turtle.forward(i*5);turtle.right(90);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_for",
+          "inputs": {
+            "FROM": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            },
+            "TO": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 20
+                }
+              }
+            },
+            "BY": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward_number"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_arithmetic"
+        },
+        {
+          "kind": "block",
+          "type": "variables_get",
+          "fields": {
+            "VAR": {
+              "name": "i"
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 5
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "controls_for,turtle_forward_number,turtle_right,math_arithmetic"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

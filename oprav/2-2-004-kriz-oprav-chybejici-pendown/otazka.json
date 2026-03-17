@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "2-2-004",
+    "typ": "oprav",
+    "nazev": "Kříž — oprav chybějící penDown",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "koncepty": [
+      "forward",
+      "pen_up",
+      "pen_down",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Kód má nakreslit kříž, ale chybí penDown po přesunu. Jedna vodorovná a jedna svislá čára."
+  },
+  "cms": {
+    "task_text": "Kód má nakreslit [hlp]kříž[/hlp], ale pero zůstane nahoře po přesunu. Opravte — doplňte [hlp]pero dolů[/hlp] na správné místo.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 100,
+      "uhel": 270
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 100,
+      "uhel": 270
+    },
+    "sketch_code": "turtle.forward(120);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.PenDown();turtle.forward(60);turtle.backward(120);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward",
+          "fields": {
+            "DISTANCE": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">120</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "120,60,120",
+      "cary_tolerance": 5,
+      "uhly": "90",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_pen_up,turtle_pen_down,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">120</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

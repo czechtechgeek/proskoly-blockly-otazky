@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "2-1-013",
+    "typ": "nakresli",
+    "nazev": "Hvězda se smyčkou — otočená vlevo",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "koncepty": ["controls_repeat_ext", "forward", "left"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Mutace 2-1-004 s turtle_left místo right. Hvězda se kreslí proti směru hodinových ručiček. left(144)."
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]pěticípou hvězdu o délce cípu 90 pixelů[/hlp]. Tentokrát se otáčejte [hlp]vlevo[/hlp].",
+    "pozice_podkladu": { "x": 160, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 160, "y": 160, "uhel": 0 },
+    "sketch_code": "for(let i=0;i<5;i++){turtle.forward(90);turtle.left(144);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        { "kind": "block", "type": "controls_repeat_ext", "inputs": { "TIMES": { "shadow": { "type": "math_number", "fields": { "NUM": 5 } } } } },
+        { "kind": "block", "type": "math_number", "fields": { "NUM": 5 } },
+        { "kind": "block", "type": "turtle_forward", "fields": { "DISTANCE": 90 } },
+        { "kind": "block", "type": "turtle_left", "fields": { "ANGLE": 144 } }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "90,90,90,90,90",
+      "cary_tolerance": 5,
+      "uhly": "144,144,144,144",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_left"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">90</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">144</field></block></next></block></statement></block></xml>"
+  }
+}

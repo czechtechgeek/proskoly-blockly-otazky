@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "id": "4-2-n003",
+    "typ": "nakresli",
+    "nazev": "Duhový hexagon — každá strana jiná barva",
+    "tematicky_okruh": "4.2-barvy",
+    "difficulty": 3,
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Nakreslete [hlp]šestiúhelník o straně 70 px[/hlp], kde každá strana má jinou barvu duhy.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "const c=['#ff0000','#ff7700','#ffff00','#00aa00','#0000ff','#8800aa'];for(let i=0;i<6;i++){turtle.setPenColor(c[i]);turtle.forward(70);turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_set_pen_color_fixed"
+        },
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 6
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 70
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 60
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "70,70,70,70,70,70",
+      "cary_tolerance": 5,
+      "uhly": "60,60,60,60,60",
+      "uhly_tolerance": 10,
+      "max_bloku": 16,
+      "typy_bloku": "turtle_set_pen_color_fixed,controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "id": "2-2-006",
+    "typ": "nakresli",
+    "nazev": "Soustředné čtverce",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "3 čtverce 40/70/100px ze středu. Každý = smyčka, mezi nimi penUp a posun zpět."
+  },
+  "cms": {
+    "task_text": "Naprogramujte [hlp]tři soustředné čtverce[/hlp] o stranách 40, 70 a 100 pixelů. Všechny vycházejí ze středu.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 4
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 40
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "40,40,40,40,70,70,70,70,100,100,100,100",
+      "cary_tolerance": 5,
+      "uhly": "90,90,90,90,90,90,90,90,90,90,90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 9,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"rg1\"><field name=\"ANGLE\">90</field></block></next></block></statement><next><block type=\"controls_repeat_ext\" id=\"r2\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f2\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\" id=\"rg2\"><field name=\"ANGLE\">90</field></block></next></block></statement><next><block type=\"controls_repeat_ext\" id=\"r3\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f3\"><field name=\"DISTANCE\">100</field><next><block type=\"turtle_right\" id=\"rg3\"><field name=\"ANGLE\">90</field></block></next></block></statement></block></next></block></next></block></xml>"
+  }
+}

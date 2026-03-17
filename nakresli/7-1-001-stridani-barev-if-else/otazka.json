@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "7-1-001",
+    "typ": "nakresli",
+    "nazev": "Střídání barev — if/else",
+    "tematicky_okruh": "7.1-podminky",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_for",
+      "controls_if",
+      "logic_compare",
+      "math_modulo",
+      "turtle_set_pen_color_fixed",
+      "turtle_forward_number",
+      "turtle_right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "for i=1 to 8: if(i%2==0) červená else modrá; forward(i*10); right(45)."
+  },
+  "cms": {
+    "task_text": "Nakreslete 8 paprsků. [hlp]Sudé paprsky kreslete červeně, liché modře[/hlp]. Délka paprsku = i × 10 px.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=1;i<=8;i++){turtle.setPenColor(i%2===0?'#ff0000':'#0000ff');turtle.forward(i*10);turtle.backward(i*10);turtle.right(45);}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Logika",
+          "colour": 210,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "controls_if"
+            },
+            {
+              "kind": "block",
+              "type": "logic_compare"
+            },
+            {
+              "kind": "block",
+              "type": "math_modulo"
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Smyčky",
+          "colour": 120,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "controls_for",
+              "inputs": {
+                "FROM": {
+                  "shadow": {
+                    "type": "math_number",
+                    "fields": {
+                      "NUM": 1
+                    }
+                  }
+                },
+                "TO": {
+                  "shadow": {
+                    "type": "math_number",
+                    "fields": {
+                      "NUM": 8
+                    }
+                  }
+                },
+                "BY": {
+                  "shadow": {
+                    "type": "math_number",
+                    "fields": {
+                      "NUM": 1
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Turtle",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_set_pen_color_fixed"
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward_number"
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward_number"
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": 45
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Matematika",
+          "colour": 230,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "math_arithmetic"
+            },
+            {
+              "kind": "block",
+              "type": "math_number",
+              "fields": {
+                "NUM": 2
+              }
+            },
+            {
+              "kind": "block",
+              "type": "variables_get",
+              "fields": {
+                "VAR": {
+                  "name": "i"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "45,45,45,45,45,45,45",
+      "uhly_tolerance": 10,
+      "max_bloku": 12,
+      "typy_bloku": "controls_for,controls_if,turtle_set_pen_color_fixed,turtle_forward_number"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

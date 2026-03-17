@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "id": "2-2-n007",
+    "typ": "nakresli",
+    "nazev": "Soustředné hexagony (3×)",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Nakreslete [hlp]tři soustředné šestiúhelníky[/hlp] o stranách 30, 55 a 80 px. Stejná výchozí pozice.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 6
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 30
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 6
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "30,30,30,30,30,30,55,55,55,55,55,55,80,80,80,80,80,80",
+      "cary_tolerance": 5,
+      "uhly": "60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60",
+      "uhly_tolerance": 10,
+      "max_bloku": 9,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\" id=\"rg1\"><field name=\"ANGLE\">60</field></block></next></block></statement><next><block type=\"controls_repeat_ext\" id=\"r2\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f2\"><field name=\"DISTANCE\">55</field><next><block type=\"turtle_right\" id=\"rg2\"><field name=\"ANGLE\">60</field></block></next></block></statement><next><block type=\"controls_repeat_ext\" id=\"r3\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f3\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"rg3\"><field name=\"ANGLE\">60</field></block></next></block></statement></block></next></block></next></block></xml>"
+  }
+}

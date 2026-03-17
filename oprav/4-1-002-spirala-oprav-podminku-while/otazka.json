@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "id": "4-1-002",
+    "typ": "oprav",
+    "nazev": "Spirála — oprav podmínku while",
+    "tematicky_okruh": "4.1-while",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "logic_compare"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Start: while(length > 150) — špatná podmínka. Správně: length < 150 (nebo <= 150)."
+  },
+  "cms": {
+    "task_text": "Kód má kreslit spirálu, ale [hlp]podmínka while je špatně[/hlp] — smyčka vůbec neproběhne. Opravte ji.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "let l=10;while(l<=150){turtle.forward(l);turtle.right(90);l+=10;}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "logic_compare"
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 150
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "10,20,30,40,50,60,70,80,90,100,110,120,130,140,150",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_whileUntil,variables_set,math_change,turtle_forward_number,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

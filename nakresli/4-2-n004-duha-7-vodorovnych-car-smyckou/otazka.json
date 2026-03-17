@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "4-2-n004",
+    "typ": "nakresli",
+    "nazev": "Duha — 7 vodorovných čar smyčkou",
+    "tematicky_okruh": "4.2-barvy",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_for",
+      "turtle_set_pen_color_fixed",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte [hlp]7 vodorovných čar duhy[/hlp] smyčkou. Každá iterace smyčky = jiná barva. Délka čáry 150 px, rozestup 25 px.",
+    "pozice_podkladu": {
+      "x": 30,
+      "y": 30,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 30,
+      "y": 30,
+      "uhel": 0
+    },
+    "sketch_code": "const c=['#ff0000','#ff7700','#ffff00','#00aa00','#0099ff','#0000ff','#8800aa'];for(let i=0;i<7;i++){turtle.setPenColor(c[i]);turtle.forward(150);turtle.PenUp();turtle.backward(150);turtle.right(90);turtle.forward(25);turtle.left(90);turtle.PenDown();}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_for",
+          "inputs": {
+            "FROM": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 0
+                }
+              }
+            },
+            "TO": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 6
+                }
+              }
+            },
+            "BY": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_set_pen_color_fixed"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 150
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward",
+          "fields": {
+            "DISTANCE": 150
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left",
+          "fields": {
+            "ANGLE": 90
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "150,150,150,150,150,150,150",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 20,
+      "typy_bloku": "controls_for,turtle_set_pen_color_fixed,turtle_forward,turtle_backward,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "6-1-s001",
+    "typ": "seřaď",
+    "nazev": "Nastavení pera — seřaď",
+    "tematicky_okruh": "6.1-barvy",
+    "difficulty": 2,
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "turtle_set_pen_width",
+      "forward"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Seřaďte: [hlp]nejdřív barva, pak tloušťka, pak kreslete čáru[/hlp].",
+    "pozice_podkladu": {
+      "x": 30,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 30,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenColor('#ff7700');turtle.setPenWidth(6);turtle.forward(150);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"22\" y=\"26\"><field name=\"DISTANCE\">150</field></block><block type=\"turtle_set_pen_width\" x=\"200\" y=\"26\"><value name=\"WIDTH\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value></block><block type=\"turtle_set_pen_color_fixed\" x=\"22\" y=\"140\"><field name=\"COLOUR\">#ff7700</field></block></xml>",
+    "validace": {
+      "cary_delky": "150",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "turtle_set_pen_color_fixed,turtle_set_pen_width,turtle_forward"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_set_pen_color_fixed\" x=\"50\" y=\"50\"><field name=\"COLOUR\">#ff7700</field><next><block type=\"turtle_set_pen_width\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">150</field></block></next></block></next></block></xml>"
+  }
+}

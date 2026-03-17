@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "2-1-027",
+    "typ": "nakresli",
+    "nazev": "Hvězda 5-cípá — z bodu D, 70px",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Mutace. x=225,y=225,uhel=180, strana=70px."
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]hvězdu 70px[/hlp]. Tip: 5 cípů, úhel [hlp]144°[/hlp].",
+    "pozice_podkladu": {
+      "x": 225,
+      "y": 225,
+      "uhel": 180
+    },
+    "pozice_kurzoru": {
+      "x": 225,
+      "y": 225,
+      "uhel": 180
+    },
+    "sketch_code": "for(let i=0;i<5;i++){turtle.forward(70);turtle.right(144);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 5
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 70
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 90
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "70,70,70,70,70",
+      "cary_tolerance": 5,
+      "uhly": "144,144,144,144",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">144</field></block></next></block></statement></block></xml>"
+  }
+}

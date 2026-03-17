@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "1-1-s002",
+    "typ": "seřaď",
+    "nazev": "Přímka a otočení — seřaď",
+    "tematicky_okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "koncepty": [
+      "forward",
+      "right",
+      "backward"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky, aby želva nakreslila [hlp]písmeno L[/hlp] (dopředu 80, otočit, dopředu 60).",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(80);turtle.right(90);turtle.forward(60);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_right\" x=\"180\" y=\"26\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" x=\"22\" y=\"140\"><field name=\"DISTANCE\">60</field></block><block type=\"turtle_forward\" x=\"22\" y=\"26\"><field name=\"DISTANCE\">80</field></block></xml>",
+    "validace": {
+      "cary_delky": "80,60",
+      "cary_tolerance": 5,
+      "uhly": "90",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "id": "8-2-n002",
+    "typ": "nakresli",
+    "nazev": "Trojúhelník přes 3 souřadnicové body",
+    "tematicky_okruh": "8.2-souradnice-obrazce",
+    "difficulty": 3,
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_down",
+      "turtle_pen_up"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Nakreslete trojúhelník pomocí [hlp]absolutních souřadnic[/hlp]. Body: A(80,240), B(240,240), C(160,80). Vraťte se do A.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 240,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 240,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.PenDown();turtle.jumpTo(240,240);turtle.jumpTo(160,80);turtle.jumpTo(80,240);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_jump_to",
+          "inputs": {
+            "X": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 80
+                }
+              }
+            },
+            "Y": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 80
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 80
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "160,184,160",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "turtle_pen_down,turtle_jump_to"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

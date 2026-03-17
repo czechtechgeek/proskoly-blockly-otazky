@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "4-2-s001",
+    "typ": "seřaď",
+    "nazev": "Barevné čáry — seřaď bloky",
+    "tematicky_okruh": "4.2-barvy",
+    "difficulty": 2,
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "forward"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky: [hlp]nejdřív nastavte barvu, pak nakreslete čáru[/hlp] (2× — červená a modrá).",
+    "pozice_podkladu": {
+      "x": 30,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 30,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenColor('#ff0000');turtle.forward(80);turtle.setPenColor('#0000ff');turtle.forward(80);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"22\" y=\"26\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_set_pen_color_fixed\" x=\"200\" y=\"26\"><field name=\"COLOUR\">#ff0000</field></block><block type=\"turtle_set_pen_color_fixed\" x=\"22\" y=\"120\"><field name=\"COLOUR\">#0000ff</field></block><block type=\"turtle_forward\" x=\"200\" y=\"120\"><field name=\"DISTANCE\">80</field></block></xml>",
+    "validace": {
+      "cary_delky": "80,80",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 4,
+      "typy_bloku": "turtle_set_pen_color_fixed,turtle_forward"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_set_pen_color_fixed\" x=\"50\" y=\"50\"><field name=\"COLOUR\">#ff0000</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_set_pen_color_fixed\"><field name=\"COLOUR\">#0000ff</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></xml>"
+  }
+}

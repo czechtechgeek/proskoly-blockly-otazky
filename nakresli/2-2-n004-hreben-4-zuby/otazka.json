@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "2-2-n004",
+    "typ": "nakresli",
+    "nazev": "Hřeben — 4 zuby",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "koncepty": ["controls_repeat_ext", "forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Geometrie: start x=60, y=200, uhel=90 (mířit nahoru). Každý zub: forward(40) nahoru, backward(40) zpět dolů, PenUp, right(90)=mířit vpravo, forward(20)=posun vpravo, left(90)=zpět nahoru, PenDown. 4 zuby. Čáry: 8× 40px (4 nahoru + 4 dolů jako backward). Úhly: right(90), left(90) × 4 = 8 úhlů."
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]hřeben se 4 zuby[/hlp]. Každý zub je [hlp]40 pixelů vysoký[/hlp], zuby jsou od sebe vzdáleny [hlp]20 pixelů[/hlp]. Využijte [hlp]pero[/hlp] pro přesun mezi zuby a [hlp]smyčku opakuj 4×[/hlp].",
+    "pozice_podkladu": { "x": 60, "y": 200, "uhel": 90 },
+    "pozice_kurzoru":  { "x": 60, "y": 200, "uhel": 90 },
+    "sketch_code": "turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        { "kind": "block", "type": "controls_repeat_ext" },
+        { "kind": "block", "type": "math_number" },
+        { "kind": "block", "type": "turtle_forward" },
+        { "kind": "block", "type": "turtle_backward" },
+        { "kind": "block", "type": "turtle_right" },
+        { "kind": "block", "type": "turtle_left" },
+        { "kind": "block", "type": "turtle_pen_up" },
+        { "kind": "block", "type": "turtle_pen_down" }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "40,40,40,40,40,40,40,40",
+      "cary_tolerance": 5,
+      "uhly": "90,90,90,90,90,90,90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_repeat_ext,math_number,turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"n1\"><field name=\"NUM\">4</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"b1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_backward\" id=\"b2\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_pen_up\" id=\"b3\"><next><block type=\"turtle_right\" id=\"b4\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b5\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_left\" id=\"b6\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"b7\"></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

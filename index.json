@@ -1,0 +1,4311 @@
+[
+  {
+    "path": "otazky/nakresli/001-ctverec-zaklady/otazka.json",
+    "id": "001",
+    "nazev": "Čtverec — základy",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "review",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-1-s001-ctverec-serad-bloky/otazka.json",
+    "id": "1-1-s001",
+    "nazev": "Čtverec — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-1-s002-primka-a-otoceni-serad/otazka.json",
+    "id": "1-1-s002",
+    "nazev": "Přímka a otočení — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "backward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/65308-nakresli-ctverec/otazka.json",
+    "id": "65308",
+    "nazev": "Nakresli čtverec",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65309-nakresli-primku/otazka.json",
+    "id": "65309",
+    "nazev": "Nakresli přímku",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65310-nakresli-pismeno-l/otazka.json",
+    "id": "65310",
+    "nazev": "Nakresli písmeno L",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65312-pohyb-bez-kresleni/otazka.json",
+    "id": "65312",
+    "nazev": "Pohyb bez kreslení",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65313-hledani-chyby-nespravne-otoceni-obdelnik/otazka.json",
+    "id": "65313",
+    "nazev": "Hledání chyby: Nesprávné otočení obdélník",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65315-pohyb-vpred-a-vzad/otazka.json",
+    "id": "65315",
+    "nazev": "Pohyb vpřed a vzad",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65316-hledani-chyby-neuplny-kriz-oprav-hvezdu-1/otazka.json",
+    "id": "65316",
+    "nazev": "Hledání chyby: Neúplný kříž - Oprav hvězdu 1",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65316-hledani-chyby-neuplny-kriz-oprav-hvezdu-4/otazka.json",
+    "id": "65316",
+    "nazev": "Hledání chyby: Neúplný kříž - Oprav hvězdu 4",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65317-nastav-rychlost-a-okamzite-vykresleni/otazka.json",
+    "id": "65317",
+    "nazev": "Nastav rychlost a okamžité vykreslení",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65318-pohyb-vpred-a-vzad-relativni/otazka.json",
+    "id": "65318",
+    "nazev": "Pohyb vpřed a vzad (relativní)",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65319-kombinace-otoceni/otazka.json",
+    "id": "65319",
+    "nazev": "Kombinace otočení",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65320-hledani-chyby-chybejici-nastaveni-pozice/otazka.json",
+    "id": "65320",
+    "nazev": "Hledání chyby: Chybějící nastavení pozice",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65321-absolutni-smer-a-pohyb/otazka.json",
+    "id": "65321",
+    "nazev": "Absolutní směr a pohyb",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 4,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65322-pohyb-v-kruhu-opakovani/otazka.json",
+    "id": "65322",
+    "nazev": "Pohyb v kruhu (opakování)",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65322-hledani-chyby-neuplny-kriz-oprav-hvezdu-3/otazka.json",
+    "id": "65322",
+    "nazev": "Hledání chyby: Neúplný kříž - Oprav hvězdu 3",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65323-hledani-chyby-pevna-pozice-misto-nahodne/otazka.json",
+    "id": "65323",
+    "nazev": "Hledání chyby: Pevná pozice místo náhodné",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65324-hledani-chyby-spatne-otoceni-k-puvodni-pozici/otazka.json",
+    "id": "65324",
+    "nazev": "Hledání chyby: Špatné otočení k původní pozici",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65325-kombinace-absolutni-pozice-a-smeru/otazka.json",
+    "id": "65325",
+    "nazev": "Kombinace absolutní pozice a směru",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 4,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65326-zelva-ve-stredu-obrazovky/otazka.json",
+    "id": "65326",
+    "nazev": "Želva ve středu obrazovky",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65327-relativni-zmena-pozice-x-y/otazka.json",
+    "id": "65327",
+    "nazev": "Relativní změna pozice (x, y)",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65328-nakresli-obrazec-jehoz-sekvence-delky-definuje-zap/otazka.json",
+    "id": "65328",
+    "nazev": "Nakresli obrazec jehož sekvence délky definuje zápis",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65329-hledani-chyby-nadbytecne-otoceni-v-cyklu/otazka.json",
+    "id": "65329",
+    "nazev": "Hledání chyby: Nadbytečné otočení v cyklu",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65330-primka-mezi-dvema-body/otazka.json",
+    "id": "65330",
+    "nazev": "Přímka mezi dvěma body",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65331-pohyb-v-absolutnim-smeru-dolu/otazka.json",
+    "id": "65331",
+    "nazev": "Pohyb v absolutním směru (dolů)",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 4,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65332-otoceni-o-360-stupnu/otazka.json",
+    "id": "65332",
+    "nazev": "Otočení o 360 stupňů",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65333-ziskani-souradnic-x-a-y/otazka.json",
+    "id": "65333",
+    "nazev": "Získání souřadnic X a Y",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65334-pohyb-vpred-a-absolutni-otoceni/otazka.json",
+    "id": "65334",
+    "nazev": "Pohyb vpřed a absolutní otočení",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65335-vytvor-kruh/otazka.json",
+    "id": "65335",
+    "nazev": "Vytvoř kruh",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65377-nakresli-ctverec-50bodu/otazka.json",
+    "id": "65377",
+    "nazev": "Nakresli čtverec 50bodů",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65378-nakresli-ctverec-150bodu/otazka.json",
+    "id": "65378",
+    "nazev": "Nakresli čtverec 150bodů",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65379-nakresli-ctverec-100bodu-doleva/otazka.json",
+    "id": "65379",
+    "nazev": "Nakresli čtverec 100bodů - doleva",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65380-nakresli-ctverec-80bodu-z-bodu-b/otazka.json",
+    "id": "65380",
+    "nazev": "Nakresli čtverec 80bodů z bodu B",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65381-nakresli-ctverec-125bodu-z-bodu-b/otazka.json",
+    "id": "65381",
+    "nazev": "Nakresli čtverec 125bodů z bodu B",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65382-nakresli-ctverec-75bodu-z-bodu-c/otazka.json",
+    "id": "65382",
+    "nazev": "Nakresli čtverec 75bodů z bodu C",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65383-nakresli-ctverec-145bodu-z-bodu-c/otazka.json",
+    "id": "65383",
+    "nazev": "Nakresli čtverec 145bodů z bodu C",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65384-nakresli-ctverec-45bodu-z-bodu-d/otazka.json",
+    "id": "65384",
+    "nazev": "Nakresli čtverec 45bodů z bodu D",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65385-nakresli-ctverec-95bodu-z-bodu-d/otazka.json",
+    "id": "65385",
+    "nazev": "Nakresli čtverec 95bodů z bodu D",
+    "typ": "oprav",
+    "okruh": "1.1-zaklady",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65386-nakresli-primku-o-delce-125-bodu/otazka.json",
+    "id": "65386",
+    "nazev": "Nakresli přímku o délce 125 bodů.",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65387-nakresli-primku-o-delce-65-bodu/otazka.json",
+    "id": "65387",
+    "nazev": "Nakresli přímku o délce 65 bodů.",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65388-nakresli-primku-o-delce-150-bodu/otazka.json",
+    "id": "65388",
+    "nazev": "Nakresli přímku o délce 150 bodů.",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65389-nakresli-primku-o-delce-35-bodu/otazka.json",
+    "id": "65389",
+    "nazev": "Nakresli přímku o délce 35 bodů.",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65390-nakresli-primku-o-delce-70-bodu/otazka.json",
+    "id": "65390",
+    "nazev": "Nakresli přímku o délce 70 bodů.",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65391-nakresli-primku-o-delce-110-bodu/otazka.json",
+    "id": "65391",
+    "nazev": "Nakresli přímku o délce 110 bodů.",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65392-nakresli-primku-o-delce-95-bodu/otazka.json",
+    "id": "65392",
+    "nazev": "Nakresli přímku o délce 95 bodů.",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65393-nakresli-pismeno-u-z-bodu-a/otazka.json",
+    "id": "65393",
+    "nazev": "nakresli písmeno U z bodu A",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65394-nakresli-pismeno-u-z-bodu-b/otazka.json",
+    "id": "65394",
+    "nazev": "nakresli písmeno U z bodu B",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65395-nakresli-pismeno-c-z-bodu-b/otazka.json",
+    "id": "65395",
+    "nazev": "nakresli písmeno C z bodu B",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65396-nakresli-pismeno-c-z-bodu-f/otazka.json",
+    "id": "65396",
+    "nazev": "nakresli písmeno C z bodu F",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65397-nakresli-pismeno-s-z-bodu-e/otazka.json",
+    "id": "65397",
+    "nazev": "nakresli písmeno S z bodu E",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65398-nakresli-pismeno-s-z-bodu-b/otazka.json",
+    "id": "65398",
+    "nazev": "nakresli písmeno S z bodu B",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/doplň/65399-dokresli-pismeno-p-z-bodu-e/otazka.json",
+    "id": "65399",
+    "nazev": "Dokresli písmeno P z bodu E",
+    "typ": "doplň",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/doplň/65400-dokresli-pismeno-p-z-bodu-c/otazka.json",
+    "id": "65400",
+    "nazev": "Dokresli písmeno P z bodu C",
+    "typ": "doplň",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65401-nakresli-pismeno-v/otazka.json",
+    "id": "65401",
+    "nazev": "nakresli písmeno V",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/doplň/65402-dokresli-pismeno-o/otazka.json",
+    "id": "65402",
+    "nazev": "Dokresli písmeno O",
+    "typ": "doplň",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65403-nakresli-pismeno-f-z-bodu-b/otazka.json",
+    "id": "65403",
+    "nazev": "Nakresli písmeno F z bodu B",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65404-nakresli-pismeno-e-z-bodu-b/otazka.json",
+    "id": "65404",
+    "nazev": "nakresli písmeno E z bodu B",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65404-nakresli-pismeno-f-z-bodu-e/otazka.json",
+    "id": "65404",
+    "nazev": "Nakresli písmeno F z bodu E",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65406-nakresli-pismeno-e-z-bodu-f/otazka.json",
+    "id": "65406",
+    "nazev": "nakresli písmeno E z bodu F",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65407-nakresli-pismeno-x-z-bodu-a-po-smeru/otazka.json",
+    "id": "65407",
+    "nazev": "Nakresli písmeno X z bodu A po směru",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65408-nakresli-pismeno-x-z-bodu-f-proti-smeru/otazka.json",
+    "id": "65408",
+    "nazev": "Nakresli písmeno X z bodu F proti směru",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65409-nakresli-pismeno-k/otazka.json",
+    "id": "65409",
+    "nazev": "nakresli písmeno K",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65410-nakresli-pismeno-y/otazka.json",
+    "id": "65410",
+    "nazev": "Nakresli písmeno Y",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65411-nakresli-pismeno-t/otazka.json",
+    "id": "65411",
+    "nazev": "Nakresli písmeno T",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65412-nakresli-pismeno-t/otazka.json",
+    "id": "65412",
+    "nazev": "Nakresli písmeno T",
+    "typ": "nakresli",
+    "okruh": "1.1-zaklady",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/seřaď/1-2-s001-kriz-serad-bloky/otazka.json",
+    "id": "1-2-s001",
+    "nazev": "Kříž — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/65417-kriz/otazka.json",
+    "id": "65417",
+    "nazev": "Kříž",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65418-sestiuhelnik/otazka.json",
+    "id": "65418",
+    "nazev": "šestiúhelník",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65419-y/otazka.json",
+    "id": "65419",
+    "nazev": "Y",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65420-dve-cary/otazka.json",
+    "id": "65420",
+    "nazev": "Dvě čáry",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65421-hledani-chyby-neuplny-kriz-oprav-hvezdu-2/otazka.json",
+    "id": "65421",
+    "nazev": "Hledání chyby: Neúplný kříž - Oprav hvězdu 2",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65428-hledani-chyby-nespravne-otoceni-obdelnik-2/otazka.json",
+    "id": "65428",
+    "nazev": "Hledání chyby: Nesprávné otočení obdélník 2",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65429-hledani-chyby-nespravne-otoceni-ctverec/otazka.json",
+    "id": "65429",
+    "nazev": "Hledání chyby: Nesprávné otočení čtverec",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65430-hledani-chyby-nespravne-otoceni-sestiuhelnik/otazka.json",
+    "id": "65430",
+    "nazev": "Hledání chyby: Nesprávné otočení šestiúhelník",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65431-vetrnik/otazka.json",
+    "id": "65431",
+    "nazev": "větrník",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65432-sponkovacka/otazka.json",
+    "id": "65432",
+    "nazev": "\"sponkovačka\"",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65433-parat/otazka.json",
+    "id": "65433",
+    "nazev": "\"pařát\"",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65435-znak-radioaktivity/otazka.json",
+    "id": "65435",
+    "nazev": "\"znak radioaktivity\"",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65436-pismeno-m/otazka.json",
+    "id": "65436",
+    "nazev": "Písmeno M",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65437-hvezda-z-pismena-m/otazka.json",
+    "id": "65437",
+    "nazev": "Hvězda z písmena M",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65438-pismeno-n/otazka.json",
+    "id": "65438",
+    "nazev": "Písmeno N",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65439-presypaci-hodiny/otazka.json",
+    "id": "65439",
+    "nazev": "Přesýpací hodiny",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65440-osmiuhelnik/otazka.json",
+    "id": "65440",
+    "nazev": "Osmiúhelník",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65441-trojuhelnik/otazka.json",
+    "id": "65441",
+    "nazev": "trojúhelník",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65442-2xkruh/otazka.json",
+    "id": "65442",
+    "nazev": "2xkruh",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65443-3xkruh/otazka.json",
+    "id": "65443",
+    "nazev": "3xkruh",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65445-hledani-chyby-ctverec/otazka.json",
+    "id": "65445",
+    "nazev": "Hledání chyby: čtverec",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65446-hledani-chyby-kruh/otazka.json",
+    "id": "65446",
+    "nazev": "Hledání chyby:  kruh",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65447-hledani-chyby-obdelnik/otazka.json",
+    "id": "65447",
+    "nazev": "Hledání chyby: obdélník",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65448-tvar-hrazda/otazka.json",
+    "id": "65448",
+    "nazev": "tvar hrazda",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65449-tvar-kladina/otazka.json",
+    "id": "65449",
+    "nazev": "tvar kladina",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65450-obracene-z/otazka.json",
+    "id": "65450",
+    "nazev": "obrácené Z",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65452-hledani-chyby-sestiuhelnik/otazka.json",
+    "id": "65452",
+    "nazev": "Hledání chyby: šestiúhelník",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65453-hledani-chyby-kosodelnik/otazka.json",
+    "id": "65453",
+    "nazev": "Hledání chyby: kosodelník",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65454-hledani-chyby-ctverec/otazka.json",
+    "id": "65454",
+    "nazev": "Hledání chyby: čtverec",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65455-5uhelnik/otazka.json",
+    "id": "65455",
+    "nazev": "5úhelník",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65456-2xctverec/otazka.json",
+    "id": "65456",
+    "nazev": "2xčtverec",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65457-hvezda/otazka.json",
+    "id": "65457",
+    "nazev": "hvězda",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65458-hvezda/otazka.json",
+    "id": "65458",
+    "nazev": "hvězda",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65459-1-hvezda/otazka.json",
+    "id": "65459",
+    "nazev": "1.hvězda",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65460-2-hvezda/otazka.json",
+    "id": "65460",
+    "nazev": "2.hvězda",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65461-3-hvezda/otazka.json",
+    "id": "65461",
+    "nazev": "3.hvězda",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65462-4-hvezda/otazka.json",
+    "id": "65462",
+    "nazev": "4.hvězda",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65463-5xpetiuhelniku/otazka.json",
+    "id": "65463",
+    "nazev": "5xpětiúhelníků",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65464-5xtrojuhelnik/otazka.json",
+    "id": "65464",
+    "nazev": "5xtrojúhelník",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65465-hmozdinka/otazka.json",
+    "id": "65465",
+    "nazev": "\"hmoždinka\"",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65466-kriz/otazka.json",
+    "id": "65466",
+    "nazev": "\"kříž\"",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65467-vlajka/otazka.json",
+    "id": "65467",
+    "nazev": "vlajka",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65468-pozice-v-ctverci/otazka.json",
+    "id": "65468",
+    "nazev": "pozice v čtverci",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65469-pozice-v-obdelniku/otazka.json",
+    "id": "65469",
+    "nazev": "pozice v obdélníku",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65470-pozice-v-sestiuhelniku/otazka.json",
+    "id": "65470",
+    "nazev": "pozice v šestiúhelníku",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/oprav/65473-hledani-chyby-v-poctu-otoceni-patnactiuhelnik/otazka.json",
+    "id": "65473",
+    "nazev": "Hledání chyby: v počtu otočení patnáctiúhelník",
+    "typ": "oprav",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65474-2-primka-mezi-dvema-body/otazka.json",
+    "id": "65474",
+    "nazev": "2.Přímka mezi dvěma body",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65475-3-primka-mezi-dvema-body/otazka.json",
+    "id": "65475",
+    "nazev": "3.Přímka mezi dvěma body",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65476-4-primka-mezi-dvema-body/otazka.json",
+    "id": "65476",
+    "nazev": "4.Přímka mezi dvěma body",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65477-1-roh/otazka.json",
+    "id": "65477",
+    "nazev": "1.Roh",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65478-2-roh/otazka.json",
+    "id": "65478",
+    "nazev": "2.Roh",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65479-3-roh/otazka.json",
+    "id": "65479",
+    "nazev": "3.Roh",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65480-4-roh/otazka.json",
+    "id": "65480",
+    "nazev": "4.Roh",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65481-otoceni-o-360-ctverec/otazka.json",
+    "id": "65481",
+    "nazev": "otočení o 360° - čtverec",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65482-otoceni-o-360-lomena-cara/otazka.json",
+    "id": "65482",
+    "nazev": "otočení o 360° - lomená čára",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65483-otoceni-o-360-had-klikatice/otazka.json",
+    "id": "65483",
+    "nazev": "otočení o 360° - had klikatice",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65484-desetiuhelnik/otazka.json",
+    "id": "65484",
+    "nazev": "desetiúhelník",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/doplň/65485-patnactiuhelnik/otazka.json",
+    "id": "65485",
+    "nazev": "patnáctiúhelník",
+    "typ": "doplň",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65486-ctverec/otazka.json",
+    "id": "65486",
+    "nazev": "čtverec",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65487-trojuhelnik/otazka.json",
+    "id": "65487",
+    "nazev": "trojúhelník",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65488-ctverec/otazka.json",
+    "id": "65488",
+    "nazev": "čtverec",
+    "typ": "nakresli",
+    "okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/doplň/1-3-d001-ctverec-dopln-nastaveni-barvy/otazka.json",
+    "id": "1-3-d001",
+    "nazev": "Čtverec — doplň nastavení barvy",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "forward",
+      "right",
+      "controls_repeat_ext"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n002-ctverec-kazda-strana-jina-barva/otazka.json",
+    "id": "1-3-n002",
+    "nazev": "Čtverec — každá strana jiná barva",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n003-trojuhelnik-barva-tloustka/otazka.json",
+    "id": "1-3-n003",
+    "nazev": "Trojúhelník — barva + tloušťka",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "turtle_set_pen_width",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o001-ctverec-oprav-barvu-pera/otazka.json",
+    "id": "1-3-o001",
+    "nazev": "Čtverec — oprav barvu pera",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "forward",
+      "right",
+      "controls_repeat_ext"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s001-barevna-cara-serad/otazka.json",
+    "id": "1-3-s001",
+    "nazev": "Barevná čára — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "turtle_set_pen_width",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/65311-obarvi-trojuhelnik-libovolnou-barvou/otazka.json",
+    "id": "65311",
+    "nazev": "Obarvi trojúhelník libovolnou barvou.",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65314-vymaz-a-nastav-tloustku-pera/otazka.json",
+    "id": "65314",
+    "nazev": "Vymaž a nastav tloušťku pera",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65413-obdelnik-jinou-barvou/otazka.json",
+    "id": "65413",
+    "nazev": "obdélník jinou barvou",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65414-ctverec-jinou-barvou/otazka.json",
+    "id": "65414",
+    "nazev": "čtverec jinou barvou",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65415-6ti-uhelnik-jinou-barvou/otazka.json",
+    "id": "65415",
+    "nazev": "6ti-úhelník jinou barvou",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65416-ctverec-jinou-barvou/otazka.json",
+    "id": "65416",
+    "nazev": "čtverec jinou barvou",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65424-obdelnik-nastav-tloustku-pera/otazka.json",
+    "id": "65424",
+    "nazev": "obdélník nastav tloušťku pera",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65425-kruh-nastav-tloustku-pera/otazka.json",
+    "id": "65425",
+    "nazev": "kruh nastav tloušťku pera",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65426-ctverec-nastav-tloustku-pera/otazka.json",
+    "id": "65426",
+    "nazev": "čtverec nastav tloušťku pera",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/65427-sestiuhelnik-nastav-tloustku-pera/otazka.json",
+    "id": "65427",
+    "nazev": "šestiúhelník nastav tloušťku pera",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "published",
+    "koncepty": []
+  },
+  {
+    "path": "otazky/nakresli/10-1-001-snehova-vlocka-koch-2-urovne/otazka.json",
+    "id": "10-1-001",
+    "nazev": "Sněhová vločka (Koch) — 2 úrovně",
+    "typ": "nakresli",
+    "okruh": "10.1-pokrocile",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/10-2-001-mandala-12-opakovani-vlastniho-vzoru/otazka.json",
+    "id": "10-2-001",
+    "nazev": "Mandala — 12 opakování vlastního vzoru",
+    "typ": "nakresli",
+    "okruh": "10.2-kombinace",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "turtle_set_pen_color_fixed"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-001-ctverec-se-smyckou/otazka.json",
+    "id": "2-1-001",
+    "nazev": "Čtverec se smyčkou",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-002-trojuhelnik-se-smyckou/otazka.json",
+    "id": "2-1-002",
+    "nazev": "Rovnostranný trojúhelník se smyčkou",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-003-ctverec-doplň-otoceni/otazka.json",
+    "id": "2-1-003",
+    "nazev": "Čtverec — doplň chybějící otočení",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-004-hvezda-oprav-pocet-opakovani/otazka.json",
+    "id": "2-1-004",
+    "nazev": "Hvězda — oprav počet opakování",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-005-hexagon-se-smyckou/otazka.json",
+    "id": "2-1-005",
+    "nazev": "Pravidelný šestiúhelník se smyčkou",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-006-trojuhelnik-oprav-pocet-stran/otazka.json",
+    "id": "2-1-006",
+    "nazev": "Trojúhelník — oprav počet stran",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-007-hvezda-oprav-uhel/otazka.json",
+    "id": "2-1-007",
+    "nazev": "Hvězda — oprav úhel otočení",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-008-osmiuhelnik/otazka.json",
+    "id": "2-1-008",
+    "nazev": "Pravidelný osmiúhelník",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-009-hexagon-seřaď/otazka.json",
+    "id": "2-1-009",
+    "nazev": "Hexagon — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-010-ctverec-z-bodu-b/otazka.json",
+    "id": "2-1-010",
+    "nazev": "Čtverec ze smyčkou — z bodu B, 50px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-011-trojuhelnik-z-bodu-e/otazka.json",
+    "id": "2-1-011",
+    "nazev": "Trojúhelník se smyčkou — z bodu E, 80px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-012-hexagon-velky/otazka.json",
+    "id": "2-1-012",
+    "nazev": "Hexagon — větší, z bodu C",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-013-hvezda-vlevo/otazka.json",
+    "id": "2-1-013",
+    "nazev": "Hvězda se smyčkou — otočená vlevo",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-014-hexagon-doplň-uhel/otazka.json",
+    "id": "2-1-014",
+    "nazev": "Hexagon — doplň chybějící otočení",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-015-ctverec-se-smyckou-z-bodu-c-100px/otazka.json",
+    "id": "2-1-015",
+    "nazev": "Čtverec se smyčkou — z bodu C, 100px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-016-ctverec-se-smyckou-z-bodu-d-65px/otazka.json",
+    "id": "2-1-016",
+    "nazev": "Čtverec se smyčkou — z bodu D, 65px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-017-ctverec-se-smyckou-z-bodu-f-80px-nahoru/otazka.json",
+    "id": "2-1-017",
+    "nazev": "Čtverec se smyčkou — z bodu F, 80px, nahoru",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-018-trojuhelnik-se-smyckou-z-bodu-a-90px/otazka.json",
+    "id": "2-1-018",
+    "nazev": "Trojúhelník se smyčkou — z bodu A, 90px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-019-trojuhelnik-se-smyckou-z-bodu-d-110px/otazka.json",
+    "id": "2-1-019",
+    "nazev": "Trojúhelník se smyčkou — z bodu D, 110px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-020-ctverec-oprav-spatny-uhel/otazka.json",
+    "id": "2-1-020",
+    "nazev": "Čtverec — oprav špatný úhel",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-021-hvezda-serad-bloky/otazka.json",
+    "id": "2-1-021",
+    "nazev": "Hvězda — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-022-ctverec-dopln-pocet-opakovani/otazka.json",
+    "id": "2-1-022",
+    "nazev": "Čtverec — doplň počet opakování",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-023-trojuhelnik-dopln-pocet-opakovani/otazka.json",
+    "id": "2-1-023",
+    "nazev": "Trojúhelník — doplň počet opakování",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-024-hexagon-se-smyckou-z-bodu-b-55px/otazka.json",
+    "id": "2-1-024",
+    "nazev": "Hexagon se smyčkou — z bodu B, 55px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-025-hexagon-se-smyckou-z-bodu-e-50px/otazka.json",
+    "id": "2-1-025",
+    "nazev": "Hexagon se smyčkou — z bodu E, 50px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-026-hvezda-5-cipa-z-bodu-a-80px/otazka.json",
+    "id": "2-1-026",
+    "nazev": "Hvězda 5-cípá — z bodu A, 80px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-027-hvezda-5-cipa-z-bodu-d-70px/otazka.json",
+    "id": "2-1-027",
+    "nazev": "Hvězda 5-cípá — z bodu D, 70px",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-n028-pravidelny-petiuhelnik-se-smyckou/otazka.json",
+    "id": "2-1-n028",
+    "nazev": "Pravidelný pětiúhelník se smyčkou",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-1-n029-kruh-ze-smycky-36-kroku/otazka.json",
+    "id": "2-1-n029",
+    "nazev": "Kruh ze smyčky (36 kroků)",
+    "typ": "nakresli",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o028-ctverec-right-je-za-smyckou-misto-uvnitr/otazka.json",
+    "id": "2-1-o028",
+    "nazev": "Čtverec — right je za smyčkou místo uvnitř",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-001-dva-ctverce-s-mezerou/otazka.json",
+    "id": "2-2-001",
+    "nazev": "Dva čtverce s mezerou",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-002-teckovana-cara/otazka.json",
+    "id": "2-2-002",
+    "nazev": "Tečkovaná čára",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-003-teckovana-cara-dopln-pero-nahoru/otazka.json",
+    "id": "2-2-003",
+    "nazev": "Tečkovaná čára — doplň pero nahoru",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-004-kriz-oprav-chybejici-pendown/otazka.json",
+    "id": "2-2-004",
+    "nazev": "Kříž — oprav chybějící penDown",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "pen_up",
+      "pen_down",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-005-tri-trojuhelniky-v-rade/otazka.json",
+    "id": "2-2-005",
+    "nazev": "Tři trojúhelníky v řadě",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-006-soustredne-ctverce/otazka.json",
+    "id": "2-2-006",
+    "nazev": "Soustředné čtverce",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-007-prerusovany-ctverec/otazka.json",
+    "id": "2-2-007",
+    "nazev": "Přerušovaný čtverec",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-008-mrizka-ctvercu-2x3/otazka.json",
+    "id": "2-2-008",
+    "nazev": "Mřížka čtverců 2×3",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down",
+      "backward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d001-hreben-dopln-penup/otazka.json",
+    "id": "2-2-d001",
+    "nazev": "Hřeben — doplň penUp mezi zuby",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d002-zebrik-dopln-pricle/otazka.json",
+    "id": "2-2-d002",
+    "nazev": "Žebřík — doplň příčle",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d003-prerusovana-cara-dopln-pocet/otazka.json",
+    "id": "2-2-d003",
+    "nazev": "Přerušovaná čára — doplň počet opakování",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d004-2-2-mrizka-ctvercu-dopln-posun-na-dalsi-radu/otazka.json",
+    "id": "2-2-d004",
+    "nazev": "2×2 mřížka čtverců — doplň posun na další řadu",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n001-ctverce-s-mezerou-jednoduchy/otazka.json",
+    "id": "2-2-n001",
+    "nazev": "Dva čtverce s mezerou — bez smyčky",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n002-carkova-cara-bez-smycky/otazka.json",
+    "id": "2-2-n002",
+    "nazev": "Čárkovaná čára — bez smyčky",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n003-schody-3-schody/otazka.json",
+    "id": "2-2-n003",
+    "nazev": "Schody — 3 schody",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n003b-schody-50px/otazka.json",
+    "id": "2-2-n003b",
+    "nazev": "Schody — 3 schody, 50 px",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n003c-schody-4-kroky/otazka.json",
+    "id": "2-2-n003c",
+    "nazev": "Schody — 4 schody, 35 px",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n004-hreben-4-zuby/otazka.json",
+    "id": "2-2-n004",
+    "nazev": "Hřeben — 4 zuby",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n005-l-tvar/otazka.json",
+    "id": "2-2-n005",
+    "nazev": "L-tvar",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n006-prerusovana-cara-repeat/otazka.json",
+    "id": "2-2-n006",
+    "nazev": "Přerušovaná čára — se smyčkou",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n007-soustredne-hexagony-3/otazka.json",
+    "id": "2-2-n007",
+    "nazev": "Soustředné hexagony (3×)",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n008-zebrik/otazka.json",
+    "id": "2-2-n008",
+    "nazev": "Žebřík",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n009-prerusovany-ctverec-vnoreny-repeat/otazka.json",
+    "id": "2-2-n009",
+    "nazev": "Přerušovaný čtverec — vnořená smyčka",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o001-soustredne-ctverce-spatny-uhel/otazka.json",
+    "id": "2-2-o001",
+    "nazev": "Čtverec — oprav špatný úhel",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o002-prerusovana-cara-spatna-mezera/otazka.json",
+    "id": "2-2-o002",
+    "nazev": "Přerušovaná čára — špatná délka mezery",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o003-schody-spatny-smer/otazka.json",
+    "id": "2-2-o003",
+    "nazev": "Schody — špatný směr otočení",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s001-teckovana-cara-serad-bloky/otazka.json",
+    "id": "2-2-s001",
+    "nazev": "Tečkovaná čára — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s002-dva-ctverce-serad/otazka.json",
+    "id": "2-2-s002",
+    "nazev": "Dva čtverce s mezerou — seřaď",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s003-hreben-serad/otazka.json",
+    "id": "2-2-s003",
+    "nazev": "Hřeben — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-001-nakresli-pismeno-l/otazka.json",
+    "id": "2-3-001",
+    "nazev": "Nakresli písmeno L",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-002-nakresli-pismeno-t/otazka.json",
+    "id": "2-3-002",
+    "nazev": "Nakresli písmeno T",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-003-nakresli-pismeno-h/otazka.json",
+    "id": "2-3-003",
+    "nazev": "Nakresli písmeno H",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-004-pismeno-f-dopln-pendown/otazka.json",
+    "id": "2-3-004",
+    "nazev": "Písmeno F — doplň penDown",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-005-pismeno-e-oprav-poradi-tahu/otazka.json",
+    "id": "2-3-005",
+    "nazev": "Písmeno E — oprav pořadí tahů",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d002-pismeno-h-dopln-pricku/otazka.json",
+    "id": "2-3-d002",
+    "nazev": "Písmeno H — doplň příčku",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n001b-pismeno-l-50px/otazka.json",
+    "id": "2-3-n001b",
+    "nazev": "Nakresli písmeno L — 50 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n001c-pismeno-l-100px/otazka.json",
+    "id": "2-3-n001c",
+    "nazev": "Nakresli písmeno L — 100 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n002b-pismeno-t-80px/otazka.json",
+    "id": "2-3-n002b",
+    "nazev": "Nakresli písmeno T — 80 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n002c-pismeno-t-120px/otazka.json",
+    "id": "2-3-n002c",
+    "nazev": "Nakresli písmeno T — 120 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n003b-pismeno-h-60px/otazka.json",
+    "id": "2-3-n003b",
+    "nazev": "Nakresli písmeno H — 60 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n003c-pismeno-h-100px/otazka.json",
+    "id": "2-3-n003c",
+    "nazev": "Nakresli písmeno H — 100 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n006-nakresli-pismeno-i/otazka.json",
+    "id": "2-3-n006",
+    "nazev": "Nakresli písmeno I",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n006b-pismeno-i-60px/otazka.json",
+    "id": "2-3-n006b",
+    "nazev": "Nakresli písmeno I — 60 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n006c-pismeno-i-100px/otazka.json",
+    "id": "2-3-n006c",
+    "nazev": "Nakresli písmeno I — 100 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n007-nakresli-pismeno-c/otazka.json",
+    "id": "2-3-n007",
+    "nazev": "Nakresli písmeno C",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n007b-pismeno-c-60px/otazka.json",
+    "id": "2-3-n007b",
+    "nazev": "Nakresli písmeno C — 60 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n007c-pismeno-c-100px/otazka.json",
+    "id": "2-3-n007c",
+    "nazev": "Nakresli písmeno C — 100 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n008-nakresli-pismeno-n/otazka.json",
+    "id": "2-3-n008",
+    "nazev": "Nakresli písmeno N",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n008b-pismeno-n-60px/otazka.json",
+    "id": "2-3-n008b",
+    "nazev": "Nakresli písmeno N — 60 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n008c-pismeno-n-100px/otazka.json",
+    "id": "2-3-n008c",
+    "nazev": "Nakresli písmeno N — 100 px",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n009-nakresli-slovo-lt/otazka.json",
+    "id": "2-3-n009",
+    "nazev": "Nakresli slovo LT",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n010-opakovane-pismeno-llll/otazka.json",
+    "id": "2-3-n010",
+    "nazev": "Opakované písmeno LLLL",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n011-vzor-ve-smycce/otazka.json",
+    "id": "2-3-n011",
+    "nazev": "Vzor ve smyčce — opakované T",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o001-pismeno-l-spatna-delka/otazka.json",
+    "id": "2-3-o001",
+    "nazev": "Písmeno L — oprav délku",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s001-pismeno-t-serad-bloky/otazka.json",
+    "id": "2-3-s001",
+    "nazev": "Písmeno T — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s002-pismeno-e-serad-tahy/otazka.json",
+    "id": "2-3-s002",
+    "nazev": "Písmeno E — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-1-001-vagon-jako-vlastni-blok/otazka.json",
+    "id": "3-1-001",
+    "nazev": "Vagón jako vlastní blok",
+    "typ": "nakresli",
+    "okruh": "3.1-vlastni-bloky",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-1-002-vlak-ze-3-vagonu/otazka.json",
+    "id": "3-1-002",
+    "nazev": "Vlak ze 3 vagónů",
+    "typ": "nakresli",
+    "okruh": "3.1-vlastni-bloky",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-3-001-slunce-paprsek-jako-vlastni-blok/otazka.json",
+    "id": "3-3-001",
+    "nazev": "Slunce — paprsek jako vlastní blok",
+    "typ": "nakresli",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-4-001-domek-stena-strecha/otazka.json",
+    "id": "3-4-001",
+    "nazev": "Domek — stěna + střecha",
+    "typ": "nakresli",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/4-1-001-ctvercova-spirala-while-promenna/otazka.json",
+    "id": "4-1-001",
+    "nazev": "Čtvercová spirála — while + proměnná",
+    "typ": "nakresli",
+    "okruh": "4.1-while",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "variables_get",
+      "math_change",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/4-1-002-spirala-oprav-podminku-while/otazka.json",
+    "id": "4-1-002",
+    "nazev": "Spirála — oprav podmínku while",
+    "typ": "oprav",
+    "okruh": "4.1-while",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "logic_compare"
+    ]
+  },
+  {
+    "path": "otazky/doplň/4-1-d001-spirala-dopln-podminku-while/otazka.json",
+    "id": "4-1-d001",
+    "nazev": "Spirála — doplň podmínku while",
+    "typ": "doplň",
+    "okruh": "4.1-while",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "logic_compare",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/4-1-n002-spirala-krok-5-px/otazka.json",
+    "id": "4-1-n002",
+    "nazev": "Spirála — krok 5 px",
+    "typ": "nakresli",
+    "okruh": "4.1-while",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/4-1-n003-spirala-krok-15-px/otazka.json",
+    "id": "4-1-n003",
+    "nazev": "Spirála — krok 15 px",
+    "typ": "nakresli",
+    "okruh": "4.1-while",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/4-1-s001-spirala-serad-nastav-while-kresli-zvys/otazka.json",
+    "id": "4-1-s001",
+    "nazev": "Spirála — seřaď: nastav → while → kresli → zvyš",
+    "typ": "seřaď",
+    "okruh": "4.1-while",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/4-2-001-duhove-cary-6-barev/otazka.json",
+    "id": "4-2-001",
+    "nazev": "Duhové čáry — 6 barev",
+    "typ": "nakresli",
+    "okruh": "4.2-barvy",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/4-2-002-barevna-hvezda-dopln-barvu/otazka.json",
+    "id": "4-2-002",
+    "nazev": "Barevná hvězda — doplň barvu",
+    "typ": "doplň",
+    "okruh": "4.2-barvy",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/4-2-n003-duhovy-hexagon-kazda-strana-jina-barva/otazka.json",
+    "id": "4-2-n003",
+    "nazev": "Duhový hexagon — každá strana jiná barva",
+    "typ": "nakresli",
+    "okruh": "4.2-barvy",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/4-2-n004-duha-7-vodorovnych-car-smyckou/otazka.json",
+    "id": "4-2-n004",
+    "nazev": "Duha — 7 vodorovných čar smyčkou",
+    "typ": "nakresli",
+    "okruh": "4.2-barvy",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_for",
+      "turtle_set_pen_color_fixed",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/4-2-o001-barevne-cary-oprav-spatnou-barvu/otazka.json",
+    "id": "4-2-o001",
+    "nazev": "Barevné čáry — oprav špatnou barvu",
+    "typ": "oprav",
+    "okruh": "4.2-barvy",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/4-2-s001-barevne-cary-serad-bloky/otazka.json",
+    "id": "4-2-s001",
+    "nazev": "Barevné čáry — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "4.2-barvy",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/4-4-001-nahodna-delka-cary/otazka.json",
+    "id": "4-4-001",
+    "nazev": "Náhodná délka čáry",
+    "typ": "nakresli",
+    "okruh": "4.4-nahoda",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_random_int",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/4-4-d001-nahodne-paprsky-dopln-nahodne-cislo/otazka.json",
+    "id": "4-4-d001",
+    "nazev": "Náhodné paprsky — doplň náhodné číslo",
+    "typ": "doplň",
+    "okruh": "4.4-nahoda",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_random_int",
+      "turtle_right",
+      "turtle_backward_number"
+    ]
+  },
+  {
+    "path": "otazky/oprav/4-4-o001-nahodne-cislo-oprav-rozsah/otazka.json",
+    "id": "4-4-o001",
+    "nazev": "Náhodné číslo — oprav rozsah",
+    "typ": "oprav",
+    "okruh": "4.4-nahoda",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_random_int",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/4-4-s001-nahodny-pohyb-serad/otazka.json",
+    "id": "4-4-s001",
+    "nazev": "Náhodný pohyb — seřaď",
+    "typ": "seřaď",
+    "okruh": "4.4-nahoda",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_random_int",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/5-1-001-ctvercova-spirala-for-promenna/otazka.json",
+    "id": "5-1-001",
+    "nazev": "Čtvercová spirála — for + proměnná",
+    "typ": "nakresli",
+    "okruh": "5.1-promenne",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_for",
+      "turtle_forward_number",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/5-1-002-spirala-dopln-zvetsovani-delky/otazka.json",
+    "id": "5-1-002",
+    "nazev": "Spirála — doplň zvětšování délky",
+    "typ": "doplň",
+    "okruh": "5.1-promenne",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/5-1-n003-trojuhelnikova-spirala/otazka.json",
+    "id": "5-1-n003",
+    "nazev": "Trojúhelníková spirála",
+    "typ": "nakresli",
+    "okruh": "5.1-promenne",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/5-1-o001-spirala-oprav-pocatecni-hodnotu/otazka.json",
+    "id": "5-1-o001",
+    "nazev": "Spirála — oprav počáteční hodnotu",
+    "typ": "oprav",
+    "okruh": "5.1-promenne",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/5-1-s001-spirala-serad-bloky/otazka.json",
+    "id": "5-1-s001",
+    "nazev": "Spirála — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "5.1-promenne",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/5-3-001-ctverec-delka-vypocet/otazka.json",
+    "id": "5-3-001",
+    "nazev": "Čtverec — délka = výpočet",
+    "typ": "nakresli",
+    "okruh": "5.3-matematika",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_arithmetic",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/5-3-d001-ctverec-dopln-vypocet-delky/otazka.json",
+    "id": "5-3-d001",
+    "nazev": "Čtverec — doplň výpočet délky",
+    "typ": "doplň",
+    "okruh": "5.3-matematika",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_arithmetic",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/5-3-o001-vypocet-oprav-operaci-na/otazka.json",
+    "id": "5-3-o001",
+    "nazev": "Výpočet — oprav operaci (× na +)",
+    "typ": "oprav",
+    "okruh": "5.3-matematika",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_arithmetic",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/5-3-s001-vypocet-delky-serad/otazka.json",
+    "id": "5-3-s001",
+    "nazev": "Výpočet délky — seřaď",
+    "typ": "seřaď",
+    "okruh": "5.3-matematika",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_arithmetic",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/6-1-001-ctverec-s-tloustkou-pera/otazka.json",
+    "id": "6-1-001",
+    "nazev": "Čtverec s tloušťkou pera",
+    "typ": "nakresli",
+    "okruh": "6.1-barvy",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_width",
+      "turtle_set_pen_color_fixed",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/6-1-d001-ctverec-dopln-tloustku-pera/otazka.json",
+    "id": "6-1-d001",
+    "nazev": "Čtverec — doplň tloušťku pera",
+    "typ": "doplň",
+    "okruh": "6.1-barvy",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_width",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/6-1-n002-tri-tvary-kazdy-jinou-tloustkou/otazka.json",
+    "id": "6-1-n002",
+    "nazev": "Tři tvary — každý jinou tloušťkou",
+    "typ": "nakresli",
+    "okruh": "6.1-barvy",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_width",
+      "turtle_set_pen_color_fixed",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/6-1-o001-ctverec-oprav-tloustku-pera/otazka.json",
+    "id": "6-1-o001",
+    "nazev": "Čtverec — oprav tloušťku pera",
+    "typ": "oprav",
+    "okruh": "6.1-barvy",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_width",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/6-1-s001-nastaveni-pera-serad/otazka.json",
+    "id": "6-1-s001",
+    "nazev": "Nastavení pera — seřaď",
+    "typ": "seřaď",
+    "okruh": "6.1-barvy",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_set_pen_color_fixed",
+      "turtle_set_pen_width",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/6-2-001-mrizka-tecek-4-4/otazka.json",
+    "id": "6-2-001",
+    "nazev": "Mřížka teček 4×4",
+    "typ": "nakresli",
+    "okruh": "6.2-tecky",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_dot",
+      "turtle_pen_up",
+      "turtle_pen_down",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/6-2-d001-tecky-dopln-tecku/otazka.json",
+    "id": "6-2-d001",
+    "nazev": "Tečky — doplň tečku",
+    "typ": "doplň",
+    "okruh": "6.2-tecky",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_dot",
+      "turtle_pen_up",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/6-2-o001-tecky-v-kruhu-oprav-pocet/otazka.json",
+    "id": "6-2-o001",
+    "nazev": "Tečky v kruhu — oprav počet",
+    "typ": "oprav",
+    "okruh": "6.2-tecky",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_dot",
+      "turtle_pen_up",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/6-2-s001-tecka-na-pozici-serad/otazka.json",
+    "id": "6-2-s001",
+    "nazev": "Tečka na pozici — seřaď",
+    "typ": "seřaď",
+    "okruh": "6.2-tecky",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/7-1-001-stridani-barev-if-else/otazka.json",
+    "id": "7-1-001",
+    "nazev": "Střídání barev — if/else",
+    "typ": "nakresli",
+    "okruh": "7.1-podminky",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_for",
+      "controls_if",
+      "logic_compare",
+      "math_modulo",
+      "turtle_set_pen_color_fixed",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/7-1-d001-podminky-dopln-vetev-else/otazka.json",
+    "id": "7-1-d001",
+    "nazev": "Podmínky — doplň větev else",
+    "typ": "doplň",
+    "okruh": "7.1-podminky",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_for",
+      "controls_if",
+      "turtle_set_pen_color_fixed",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/7-1-o001-podminky-oprav-obracene-barvy/otazka.json",
+    "id": "7-1-o001",
+    "nazev": "Podmínky — oprav obrácené barvy",
+    "typ": "oprav",
+    "okruh": "7.1-podminky",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_for",
+      "controls_if",
+      "turtle_set_pen_color_fixed"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/7-1-s001-podminky-serad-smycka-if-barva-kresli/otazka.json",
+    "id": "7-1-s001",
+    "nazev": "Podmínky — seřaď: smyčka → if → barva → kresli",
+    "typ": "seřaď",
+    "okruh": "7.1-podminky",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_for",
+      "controls_if",
+      "turtle_set_pen_color_fixed",
+      "turtle_forward_number",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/7-2-001-nahodna-chuze-10-kroku/otazka.json",
+    "id": "7-2-001",
+    "nazev": "Náhodná chůze — 10 kroků",
+    "typ": "nakresli",
+    "okruh": "7.2-nahoda",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "turtle_right",
+      "math_random_int"
+    ]
+  },
+  {
+    "path": "otazky/oprav/7-2-002-nahodny-polygon-oprav-rozsah/otazka.json",
+    "id": "7-2-002",
+    "nazev": "Náhodný polygon — oprav rozsah",
+    "typ": "oprav",
+    "okruh": "7.2-nahoda",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_random_int"
+    ]
+  },
+  {
+    "path": "otazky/doplň/7-2-d001-nahodny-pohyb-dopln-nahodu-do-otoceni/otazka.json",
+    "id": "7-2-d001",
+    "nazev": "Náhodný pohyb — doplň náhodu do otočení",
+    "typ": "doplň",
+    "okruh": "7.2-nahoda",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_random_int",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/7-2-s001-nahodny-pohyb-serad-bloky/otazka.json",
+    "id": "7-2-s001",
+    "nazev": "Náhodný pohyb — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "7.2-nahoda",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_forward_number",
+      "math_random_int",
+      "turtle_right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/8-1-001-skok-na-4-rohy-canvasu/otazka.json",
+    "id": "8-1-001",
+    "nazev": "Skok na 4 rohy canvasu",
+    "typ": "nakresli",
+    "okruh": "8.1-souradnice",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ]
+  },
+  {
+    "path": "otazky/doplň/8-1-d001-souradnice-dopln-chybejici-y/otazka.json",
+    "id": "8-1-d001",
+    "nazev": "Souřadnice — doplň chybějící Y",
+    "typ": "doplň",
+    "okruh": "8.1-souradnice",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ]
+  },
+  {
+    "path": "otazky/oprav/8-1-o001-souradnice-oprav-prehozene-x-a-y/otazka.json",
+    "id": "8-1-o001",
+    "nazev": "Souřadnice — oprav přehozené X a Y",
+    "typ": "oprav",
+    "okruh": "8.1-souradnice",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/8-1-s001-tecky-na-rozich-serad/otazka.json",
+    "id": "8-1-s001",
+    "nazev": "Tečky na rozích — seřaď",
+    "typ": "seřaď",
+    "okruh": "8.1-souradnice",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/8-2-001-obdelnik-pres-4-souradnice/otazka.json",
+    "id": "8-2-001",
+    "nazev": "Obdélník přes 4 souřadnice",
+    "typ": "nakresli",
+    "okruh": "8.2-souradnice-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_up",
+      "turtle_pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/8-2-d001-obdelnik-dopln-chybejici-roh/otazka.json",
+    "id": "8-2-d001",
+    "nazev": "Obdélník — doplň chybějící roh",
+    "typ": "doplň",
+    "okruh": "8.2-souradnice-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/8-2-n002-trojuhelnik-pres-3-souradnicove-body/otazka.json",
+    "id": "8-2-n002",
+    "nazev": "Trojúhelník přes 3 souřadnicové body",
+    "typ": "nakresli",
+    "okruh": "8.2-souradnice-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_down",
+      "turtle_pen_up"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/8-2-n003-kriz-pres-souradnice/otazka.json",
+    "id": "8-2-n003",
+    "nazev": "Kříž přes souřadnice",
+    "typ": "nakresli",
+    "okruh": "8.2-souradnice-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_down",
+      "turtle_pen_up"
+    ]
+  },
+  {
+    "path": "otazky/oprav/8-2-o001-obdelnik-oprav-spatnou-souradnici/otazka.json",
+    "id": "8-2-o001",
+    "nazev": "Obdélník — oprav špatnou souřadnici",
+    "typ": "oprav",
+    "okruh": "8.2-souradnice-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/8-2-s001-obdelnik-souradnicemi-serad/otazka.json",
+    "id": "8-2-s001",
+    "nazev": "Obdélník souřadnicemi — seřaď",
+    "typ": "seřaď",
+    "okruh": "8.2-souradnice-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_pen_down",
+      "turtle_pen_up"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/8-3-001-nahodne-skoky-s-teckami/otazka.json",
+    "id": "8-3-001",
+    "nazev": "Náhodné skoky s tečkami",
+    "typ": "nakresli",
+    "okruh": "8.3-nahodne-skoky",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_jump_to",
+      "turtle_dot",
+      "math_random_int"
+    ]
+  },
+  {
+    "path": "otazky/doplň/8-3-d001-nahodne-tecky-dopln-jumpto/otazka.json",
+    "id": "8-3-d001",
+    "nazev": "Náhodné tečky — doplň jumpTo",
+    "typ": "doplň",
+    "okruh": "8.3-nahodne-skoky",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_jump_to",
+      "turtle_dot",
+      "math_random_int"
+    ]
+  },
+  {
+    "path": "otazky/oprav/8-3-o001-nahodne-tecky-oprav-souradnice-mimo-canvas/otazka.json",
+    "id": "8-3-o001",
+    "nazev": "Náhodné tečky — oprav souřadnice mimo canvas",
+    "typ": "oprav",
+    "okruh": "8.3-nahodne-skoky",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_jump_to",
+      "turtle_dot",
+      "math_random_int"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/8-3-s001-nahodne-tecky-serad-skok-tecka/otazka.json",
+    "id": "8-3-s001",
+    "nazev": "Náhodné tečky — seřaď: skok → tečka",
+    "typ": "seřaď",
+    "okruh": "8.3-nahodne-skoky",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_jump_to",
+      "turtle_dot",
+      "math_random_int"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/9-1-001-vlastni-blok-nakreslictverec-delka/otazka.json",
+    "id": "9-1-001",
+    "nazev": "Vlastní blok nakresliCtverec(délka)",
+    "typ": "nakresli",
+    "okruh": "9.1-parametry",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "controls_repeat_ext"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n001-primacara-pero/otazka.json",
+    "id": "1-3-n001",
+    "nazev": "Přímá čára — barva pera",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "setPenColor",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n004-dve-cary-pero/otazka.json",
+    "id": "1-3-n004",
+    "nazev": "Dvě čáry — různé barvy",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "setPenColor",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n005-zpet-na-start/otazka.json",
+    "id": "1-3-n005",
+    "nazev": "Zpět na start — pero nahoru",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n006-osmiuhelnik-pero/otazka.json",
+    "id": "1-3-n006",
+    "nazev": "Osmiúhelník — zelené pero",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenColor",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n007-cik-cak/otazka.json",
+    "id": "1-3-n007",
+    "nazev": "Cik-cak vzor",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n007b-cik-cak-50px/otazka.json",
+    "id": "1-3-n007b",
+    "nazev": "Cik-cak — kratší kroky",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n007c-cik-cak-80px/otazka.json",
+    "id": "1-3-n007c",
+    "nazev": "Cik-cak — delší kroky",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n007d-cik-cak-5kroku/otazka.json",
+    "id": "1-3-n007d",
+    "nazev": "Cik-cak — 5 kroků",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n007e-cik-cak-uhel100/otazka.json",
+    "id": "1-3-n007e",
+    "nazev": "Cik-cak — plošší úhel 100°",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n008-obdelnik-pero/otazka.json",
+    "id": "1-3-n008",
+    "nazev": "Obdélník — oranžové pero",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenColor",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n008b-obdelnik-100x50/otazka.json",
+    "id": "1-3-n008b",
+    "nazev": "Obdélník 100 × 50 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n008c-obdelnik-140x70/otazka.json",
+    "id": "1-3-n008c",
+    "nazev": "Obdélník 140 × 70 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n008d-obdelnik-80x40/otazka.json",
+    "id": "1-3-n008d",
+    "nazev": "Obdélník 80 × 40 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n008e-obdelnik-120x80/otazka.json",
+    "id": "1-3-n008e",
+    "nazev": "Obdélník 120 × 80 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n009-prerusovana-cara/otazka.json",
+    "id": "1-3-n009",
+    "nazev": "Přerušovaná čára",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n009b-prerusovana-2useky/otazka.json",
+    "id": "1-3-n009b",
+    "nazev": "Přerušovaná čára — 2 úseky",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n009c-prerusovana-4useky/otazka.json",
+    "id": "1-3-n009c",
+    "nazev": "Přerušovaná čára — 4 úseky",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n009d-prerusovana-50px/otazka.json",
+    "id": "1-3-n009d",
+    "nazev": "Přerušovaná čára — delší úseky 50 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n009e-prerusovana-svisla/otazka.json",
+    "id": "1-3-n009e",
+    "nazev": "Přerušovaná čára — svislá",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n010-zpet-a-otocit/otazka.json",
+    "id": "1-3-n010",
+    "nazev": "Zpět a otočit — dvě čáry do L",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n010b-zpet-vlevo/otazka.json",
+    "id": "1-3-n010b",
+    "nazev": "Zpět a otočit — vlevo",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n010c-zpet-100px/otazka.json",
+    "id": "1-3-n010c",
+    "nazev": "Zpět a otočit — delší čáry 100 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n010d-zpet-ruzne-delky/otazka.json",
+    "id": "1-3-n010d",
+    "nazev": "Zpět a otočit — různé délky ramen",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n010e-zpet-180/otazka.json",
+    "id": "1-3-n010e",
+    "nazev": "Zpět a otočit — opačný směr",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n011-trojuhelnik-s-mezerou/otazka.json",
+    "id": "1-3-n011",
+    "nazev": "Trojúhelník s mezerou — dvě strany",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n011b-trojuhelnik-mezera-60px/otazka.json",
+    "id": "1-3-n011b",
+    "nazev": "Trojúhelník s mezerou — strana 60 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n011c-trojuhelnik-mezera-100px/otazka.json",
+    "id": "1-3-n011c",
+    "nazev": "Trojúhelník s mezerou — strana 100 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n011d-trojuhelnik-mezera-druha/otazka.json",
+    "id": "1-3-n011d",
+    "nazev": "Trojúhelník s mezerou — přeskočit druhou stranu",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n012-spiralka-pero/otazka.json",
+    "id": "1-3-n012",
+    "nazev": "Schodovitá spirála",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n013-navrat-vychozi-pozice/otazka.json",
+    "id": "1-3-n013",
+    "nazev": "Návrat do výchozí pozice — L-tvar modře",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenColor",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n014-zmena-tloustky/otazka.json",
+    "id": "1-3-n014",
+    "nazev": "Změna tloušťky čáry",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n015-kriz-pero/otazka.json",
+    "id": "1-3-n015",
+    "nazev": "Kříž — pero nahoru pro přesun",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n015b-kriz-80px/otazka.json",
+    "id": "1-3-n015b",
+    "nazev": "Kříž — ramena 80 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n015c-kriz-100px/otazka.json",
+    "id": "1-3-n015c",
+    "nazev": "Kříž — ramena 100 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n015d-kriz-vodorovny-prvni/otazka.json",
+    "id": "1-3-n015d",
+    "nazev": "Kříž — nejdříve vodorovná čára",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n015e-kriz-asymetricky/otazka.json",
+    "id": "1-3-n015e",
+    "nazev": "Kříž — asymetrický 120 × 80 px",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n016-zpetny-pohyb/otazka.json",
+    "id": "1-3-n016",
+    "nazev": "Zpětný pohyb — dopředu a dozadu",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n017-viceuhelnik-pero/otazka.json",
+    "id": "1-3-n017",
+    "nazev": "Šestiúhelník — fialové pero",
+    "typ": "nakresli",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenColor",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o002-najdi-chybu-obdelnik/otazka.json",
+    "id": "1-3-o002",
+    "nazev": "Najdi chybu — obdélník špatné rozměry",
+    "typ": "oprav",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o003-najdi-chybu-ctverec/otazka.json",
+    "id": "1-3-o003",
+    "nazev": "Najdi chybu — čtverec špatný úhel",
+    "typ": "oprav",
+    "okruh": "pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  }
+]

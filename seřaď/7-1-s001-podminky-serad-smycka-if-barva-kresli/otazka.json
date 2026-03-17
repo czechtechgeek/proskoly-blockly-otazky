@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "7-1-s001",
+    "typ": "seřaď",
+    "nazev": "Podmínky — seřaď: smyčka → if → barva → kresli",
+    "tematicky_okruh": "7.1-podminky",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_for",
+      "controls_if",
+      "turtle_set_pen_color_fixed",
+      "turtle_forward_number",
+      "turtle_right"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky: smyčka for → if podmínka → nastavení barvy → pohyb → otočení.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=1;i<=6;i++){if(i%2===0){turtle.setPenColor('#ff0000');}turtle.forward(50);turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_right\" x=\"22\" y=\"26\"><field name=\"ANGLE\">60</field></block><block type=\"controls_if\" x=\"200\" y=\"26\"></block><block type=\"turtle_set_pen_color_fixed\" x=\"22\" y=\"130\"><field name=\"COLOUR\">#ff0000</field></block><block type=\"turtle_forward_number\" x=\"200\" y=\"130\"></block><block type=\"controls_for\" x=\"22\" y=\"260\"><value name=\"FROM\"><shadow type=\"math_number\"><field name=\"NUM\">1</field></shadow></value><value name=\"TO\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><value name=\"BY\"><shadow type=\"math_number\"><field name=\"NUM\">1</field></shadow></value></block></xml>",
+    "validace": {
+      "cary_delky": "50,50,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "60,60,60,60,60",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_for,controls_if,turtle_set_pen_color_fixed,turtle_forward_number,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

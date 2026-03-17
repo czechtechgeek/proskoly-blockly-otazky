@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "6-2-s001",
+    "typ": "seřaď",
+    "nazev": "Tečka na pozici — seřaď",
+    "tematicky_okruh": "6.2-tecky",
+    "difficulty": 2,
+    "koncepty": [
+      "turtle_jump_to",
+      "turtle_dot"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Seřaďte: [hlp]nejdřív skočte na pozici, pak udělejte tečku[/hlp] — 3 tečky na různých místech.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.jumpTo(80,80);turtle.dot();turtle.jumpTo(160,160);turtle.dot();turtle.jumpTo(240,240);turtle.dot();",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_dot\" x=\"200\" y=\"26\"></block><block type=\"turtle_jump_to\" x=\"22\" y=\"26\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">80</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">80</field></shadow></value></block><block type=\"turtle_jump_to\" x=\"22\" y=\"130\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">160</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">160</field></shadow></value></block><block type=\"turtle_dot\" x=\"200\" y=\"130\"></block><block type=\"turtle_jump_to\" x=\"22\" y=\"230\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">240</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">240</field></shadow></value></block><block type=\"turtle_dot\" x=\"200\" y=\"230\"></block></xml>",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "turtle_jump_to,turtle_dot"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

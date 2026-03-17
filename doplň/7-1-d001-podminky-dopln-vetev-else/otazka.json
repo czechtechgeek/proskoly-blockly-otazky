@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "7-1-d001",
+    "typ": "doplň",
+    "nazev": "Podmínky — doplň větev else",
+    "tematicky_okruh": "7.1-podminky",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_for",
+      "controls_if",
+      "turtle_set_pen_color_fixed",
+      "turtle_forward_number",
+      "turtle_right"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Smyčka střídá barvy, ale [hlp]chybí větev else[/hlp] pro liché paprsky. Doplňte blok conditions if-else.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=1;i<=6;i++){if(i%2===0){turtle.setPenColor('#ff0000');}else{turtle.setPenColor('#0000ff');}turtle.forward(i*10);turtle.backward(i*10);turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_if"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_set_pen_color_fixed"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "60,60,60,60,60",
+      "uhly_tolerance": 10,
+      "max_bloku": 10,
+      "typy_bloku": "controls_for,controls_if,turtle_set_pen_color_fixed,turtle_forward_number,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

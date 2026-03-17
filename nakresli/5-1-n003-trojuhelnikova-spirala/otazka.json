@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "5-1-n003",
+    "typ": "nakresli",
+    "nazev": "Trojúhelníková spirála",
+    "tematicky_okruh": "5.1-promenne",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_whileUntil",
+      "variables_set",
+      "math_change",
+      "turtle_forward_number",
+      "turtle_right"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte [hlp]trojúhelníkovou spirálu[/hlp]: délka roste o 8 px, otočení 120°. Opakujte dokud délka ≤ 100 px.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "let l=8;while(l<=100){turtle.forward(l);turtle.right(120);l+=8;}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_whileUntil"
+        },
+        {
+          "kind": "block",
+          "type": "variables_set",
+          "fields": {
+            "VAR": {
+              "name": "delka"
+            }
+          },
+          "inputs": {
+            "VALUE": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 8
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "variables_get",
+          "fields": {
+            "VAR": {
+              "name": "delka"
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_change",
+          "fields": {
+            "VAR": {
+              "name": "delka"
+            }
+          },
+          "inputs": {
+            "DELTA": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 8
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "logic_compare"
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 100
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward_number"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 120
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "8,16,24,32,40,48,56,64,72,80,88,96",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_whileUntil,variables_set,math_change,turtle_forward_number,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

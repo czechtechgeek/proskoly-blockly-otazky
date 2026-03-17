@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "2-2-n003",
+    "typ": "nakresli",
+    "nazev": "Schody — 3 schody",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "koncepty": ["controls_repeat_ext", "forward", "right", "left"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Geometrie: start x=60, y=200, uhel=0 (vpravo). Každý schod = forward(40) vpravo + right(90) = mířit dolů + forward(40) dolů + left(90) = zpět na 0° (vpravo). 3 opakování → schody jdou doprava a dolů. Výsledná pozice: x=60+3×40=180, y=200+3×40=320 — na dolní hraně canvasu."
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]3 schody[/hlp]. Každý schod je tvořen [hlp]vodorovnou čárou 40 px[/hlp] a [hlp]svislou čárou 40 px[/hlp]. Schody jdou doprava dolů. Použijte [hlp]smyčku opakuj 3×[/hlp].",
+    "pozice_podkladu": { "x": 60, "y": 200, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 60, "y": 200, "uhel": 0 },
+    "sketch_code": "turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        { "kind": "block", "type": "controls_repeat_ext" },
+        { "kind": "block", "type": "math_number" },
+        { "kind": "block", "type": "turtle_forward" },
+        { "kind": "block", "type": "turtle_right" },
+        { "kind": "block", "type": "turtle_left" }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "40,40,40,40,40,40",
+      "cary_tolerance": 5,
+      "uhly": "90,90,90,90,90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "controls_repeat_ext,math_number,turtle_forward,turtle_right,turtle_left"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"n1\"><field name=\"NUM\">3</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"b1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"b2\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_left\" id=\"b4\"><field name=\"ANGLE\">90</field></block></next></block></next></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

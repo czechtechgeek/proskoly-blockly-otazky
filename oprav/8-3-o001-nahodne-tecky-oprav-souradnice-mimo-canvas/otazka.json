@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "8-3-o001",
+    "typ": "oprav",
+    "nazev": "Náhodné tečky — oprav souřadnice mimo canvas",
+    "tematicky_okruh": "8.3-nahodne-skoky",
+    "difficulty": 2,
+    "koncepty": [
+      "controls_repeat_ext",
+      "turtle_jump_to",
+      "turtle_dot",
+      "math_random_int"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Tečky padají mimo plátno — [hlp]rozsah souřadnic je moc velký[/hlp] (0–1000). Opravte na 20–300.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<8;i++){turtle.jumpTo(Math.floor(Math.random()*281)+20,Math.floor(Math.random()*281)+20);turtle.dot();}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "math_random_int",
+          "inputs": {
+            "FROM": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 20
+                }
+              }
+            },
+            "TO": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 300
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 300
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 4,
+      "typy_bloku": "controls_repeat_ext,turtle_jump_to,turtle_dot,math_random_int"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

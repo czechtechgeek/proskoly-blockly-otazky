@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "1-3-n006",
+    "typ": "nakresli",
+    "nazev": "Osmiúhelník — zelené pero",
+    "tematicky_okruh": "pero",
+    "difficulty": 2,
+    "koncepty": ["setPenColor", "forward", "right"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]pravidelný osmiúhelník se stranou 50 pixelů[/hlp]. Barvu pera nastavte na zelenou (#008000). Pravidelný osmiúhelník má 8 stran stejné délky a každé otočení je o 45°.",
+    "pozice_podkladu": { "x": 160, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 160, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.setPenColor('#008000');turtle.forward(50);turtle.right(45);turtle.forward(50);turtle.right(45);turtle.forward(50);turtle.right(45);turtle.forward(50);turtle.right(45);turtle.forward(50);turtle.right(45);turtle.forward(50);turtle.right(45);turtle.forward(50);turtle.right(45);turtle.forward(50);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {"kind": "block", "type": "turtle_set_pen_color_fixed"},
+        {"kind": "block", "type": "turtle_forward"},
+        {"kind": "block", "type": "turtle_right"}
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "50,50,50,50,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "45,45,45,45,45,45,45",
+      "uhly_tolerance": 10,
+      "max_bloku": 18,
+      "typy_bloku": "turtle_set_pen_color_fixed,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\">\n  <block type=\"turtle_set_pen_color_fixed\" x=\"20\" y=\"20\">\n    <field name=\"COLOR\">#008000</field>\n    <next>\n      <block type=\"turtle_forward\">\n        <field name=\"DISTANCE\">50</field>\n        <next>\n          <block type=\"turtle_right\">\n            <field name=\"ANGLE\">45</field>\n            <next>\n              <block type=\"turtle_forward\">\n                <field name=\"DISTANCE\">50</field>\n                <next>\n                  <block type=\"turtle_right\">\n                    <field name=\"ANGLE\">45</field>\n                    <next>\n                      <block type=\"turtle_forward\">\n                        <field name=\"DISTANCE\">50</field>\n                        <next>\n                          <block type=\"turtle_right\">\n                            <field name=\"ANGLE\">45</field>\n                            <next>\n                              <block type=\"turtle_forward\">\n                                <field name=\"DISTANCE\">50</field>\n                                <next>\n                                  <block type=\"turtle_right\">\n                                    <field name=\"ANGLE\">45</field>\n                                    <next>\n                                      <block type=\"turtle_forward\">\n                                        <field name=\"DISTANCE\">50</field>\n                                        <next>\n                                          <block type=\"turtle_right\">\n                                            <field name=\"ANGLE\">45</field>\n                                            <next>\n                                              <block type=\"turtle_forward\">\n                                                <field name=\"DISTANCE\">50</field>\n                                                <next>\n                                                  <block type=\"turtle_right\">\n                                                    <field name=\"ANGLE\">45</field>\n                                                    <next>\n                                                      <block type=\"turtle_forward\">\n                                                        <field name=\"DISTANCE\">50</field>\n                                                        <next>\n                                                          <block type=\"turtle_right\">\n                                                            <field name=\"ANGLE\">45</field>\n                                                            <next>\n                                                              <block type=\"turtle_forward\">\n                                                                <field name=\"DISTANCE\">50</field>\n                                                              </block>\n                                                            </next>\n                                                          </block>\n                                                        </next>\n                                                      </block>\n                                                    </next>\n                                                  </block>\n                                                </next>\n                                              </block>\n                                            </next>\n                                          </block>\n                                        </next>\n                                      </block>\n                                    </next>\n                                  </block>\n                                </next>\n                              </block>\n                            </next>\n                          </block>\n                        </next>\n                      </block>\n                    </next>\n                  </block>\n                </next>\n              </block>\n            </next>\n          </block>\n        </next>\n      </block>\n    </next>\n  </block>\n</xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

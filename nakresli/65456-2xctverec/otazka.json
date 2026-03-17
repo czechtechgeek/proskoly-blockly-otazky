@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "65456",
+    "typ": "nakresli",
+    "nazev": "2xčtverec",
+    "tematicky_okruh": "1.2-pohyb",
+    "difficulty": 1,
+    "koncepty": [],
+    "verze": 1,
+    "stav": "published",
+    "cms_id": 65456,
+    "cms_url": "https://edit.proskoly.cz/run-test/65456",
+    "asana_asset_url": "https://app.asana.com/app/asana/-/get_asset?asset_id=1211547993009837",
+    "poznamky": "bude se muset změnit pozice tak, aby se nevykreslily přes sebe tvar předpřipravený Zatím nechávám otevřené"
+  },
+  "cms": {
+    "task_text": "",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 10,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": null,
+      "typy_bloku": ""
+    },
+    "spravna_odpoved_xml": ""
+  }
+}
