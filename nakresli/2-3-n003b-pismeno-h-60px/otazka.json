@@ -5,7 +5,14 @@
     "nazev": "Nakresli písmeno H — 60 px",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 3,
-    "koncepty": ["forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 2,
     "stav": "draft",
     "poznamky": "Mutace 2-3-003. H: levá svislá 60px dolů, PenUp zpět, forward 40px vpravo, pravá svislá 60px dolů, PenUp na střed (30px), příčka 40px vlevo. Start: x=50, y=220, uhel=270."
@@ -68,7 +75,7 @@
     "validace": {
       "cary_delky": "60,60,40",
       "cary_tolerance": 5,
-      "uhly": "90,90,90",
+      "uhly": "90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 12,
       "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"

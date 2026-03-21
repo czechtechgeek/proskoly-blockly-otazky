@@ -107,7 +107,7 @@
     "validace": {
       "cary_delky": "150,150,150,150,150,150,150",
       "cary_tolerance": 5,
-      "uhly": "",
+      "uhly": "-90,90,-90,90,-90,90,-90,90,-90,90,-90,90,-90,90",
       "uhly_tolerance": 10,
       "max_bloku": 20,
       "typy_bloku": "controls_for,turtle_set_pen_color_fixed,turtle_forward,turtle_backward,turtle_pen_up,turtle_pen_down"

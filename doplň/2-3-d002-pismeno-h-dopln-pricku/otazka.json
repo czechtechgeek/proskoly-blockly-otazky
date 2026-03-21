@@ -5,7 +5,14 @@
     "nazev": "Písmeno H — doplň příčku",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 3,
-    "koncepty": ["forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "H: levá svislá 80px dolů, příčka 60px vpravo uprostřed (40px od vrchu), pravá svislá 40px dolů. Start: x=125, y=75, uhel=270 (dolů). start_blocks_xml: dva oddělené řetězce. Řetězec 1: forward(80)+PenUp = levá svislá. Řetězec 2: PenDown+forward(40)+PenUp+backward(80) = pravá svislá (volná, čeká na napojení). Student doplní příčku: backward(40)+left(90)+PenDown+forward(60)+right(90) a propojí oba řetězce."
@@ -68,7 +75,7 @@
     "validace": {
       "cary_delky": "80,60,40",
       "cary_tolerance": 5,
-      "uhly": "90,90",
+      "uhly": "90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 12,
       "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"

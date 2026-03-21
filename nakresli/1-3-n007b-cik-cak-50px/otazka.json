@@ -5,28 +5,49 @@
     "nazev": "Cik-cak — kratší kroky",
     "tematicky_okruh": "pero",
     "difficulty": 2,
-    "koncepty": ["forward", "right", "left"],
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]cik-cak vzor ze 4 čar, každá 50 pixelů[/hlp]. Želva se střídavě otáčí vpravo o 120° a vlevo o 120°. Výsledek vypadá jako blesk nebo klikatá čára.",
-    "pozice_podkladu": { "x": 60, "y": 130, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 60, "y": 130, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 130,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 130,
+      "uhel": 0
+    },
     "sketch_code": "turtle.forward(50);turtle.right(120);turtle.forward(50);turtle.left(120);turtle.forward(50);turtle.right(120);turtle.forward(50);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_right"},
-        {"kind": "block", "type": "turtle_left"}
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left"
+        }
       ]
     },
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "50,50,50,50",
       "cary_tolerance": 5,
-      "uhly": "120,120,120",
+      "uhly": "-120,120,-120",
       "uhly_tolerance": 10,
       "max_bloku": 7,
       "typy_bloku": "turtle_forward,turtle_right,turtle_left"

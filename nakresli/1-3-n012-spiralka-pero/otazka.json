@@ -5,27 +5,44 @@
     "nazev": "Schodovitá spirála",
     "tematicky_okruh": "pero",
     "difficulty": 3,
-    "koncepty": ["forward", "right"],
+    "koncepty": [
+      "forward",
+      "right"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]schodovitou spirálu[/hlp]. Kreslí se 3 páry čar, každý pár je delší: nejprve 20 px, pak 40 px a nakonec 60 px. Mezi každou čarou se otočte vpravo o 90°. Celkem 6 čar a 5 otočení.",
-    "pozice_podkladu": { "x": 100, "y": 100, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 100, "y": 100, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 100,
+      "y": 100,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 100,
+      "y": 100,
+      "uhel": 0
+    },
     "sketch_code": "turtle.forward(20);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_right"}
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        }
       ]
     },
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "20,20,40,40,60,60",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90,90",
+      "uhly": "-90,-90,-90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 12,
       "typy_bloku": "turtle_forward,turtle_right"

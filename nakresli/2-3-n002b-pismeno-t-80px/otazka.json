@@ -5,7 +5,13 @@
     "nazev": "Nakresli písmeno T — 80 px",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 3,
-    "koncepty": ["forward", "backward", "right", "pen_up", "pen_down"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Mutace 2-3-002. T: příčka 80px vpravo + svislá 60px dolů (ze středu příčky). Start: x=80, y=80, uhel=0 (vpravo). backward(40) na střed příčky."
@@ -68,7 +74,7 @@
     "validace": {
       "cary_delky": "80,60",
       "cary_tolerance": 5,
-      "uhly": "90",
+      "uhly": "-90",
       "uhly_tolerance": 10,
       "max_bloku": 6,
       "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_pen_up,turtle_pen_down"

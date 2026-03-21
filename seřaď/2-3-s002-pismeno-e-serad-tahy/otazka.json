@@ -5,7 +5,14 @@
     "nazev": "Písmeno E — seřaď tahy",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 3,
-    "koncepty": ["forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "E: svislá 60px dolů + horní příčka 60px + dolní příčka 60px. Start: x=125, y=75, uhel=270. 13 bloků přeházeno ve workspace, student je seřadí."
@@ -31,7 +38,7 @@
     "validace": {
       "cary_delky": "60,60,60",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90",
+      "uhly": "90,-90,90",
       "uhly_tolerance": 10,
       "max_bloku": 13,
       "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"

@@ -5,7 +5,15 @@
     "nazev": "Vzor ve smyčce — opakované T",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 4,
-    "koncepty": ["controls_repeat_ext", "forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "4x pismeno T v rade. Start: x=30, y=100, uhel=0 (vpravo). Kazde T: forward(60) pricka, PenUp, backward(30) na stred, right(90) dolu, PenDown, forward(40) svisla, PenUp, backward(40) zpet, left(90) vpravo, forward(50) posun na dalsi T, PenDown. Uhly: right(90) + left(90) x4. Cary: 60 + 40 x4."
@@ -79,7 +87,7 @@
     "validace": {
       "cary_delky": "60,40,60,40,60,40,60,40",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90,90,90,90,90",
+      "uhly": "-90,90,-90,90,-90,90,-90,90",
       "uhly_tolerance": 10,
       "max_bloku": 13,
       "typy_bloku": "controls_repeat_ext,math_number,turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"

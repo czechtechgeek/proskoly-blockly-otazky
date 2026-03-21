@@ -5,15 +5,27 @@
     "nazev": "Čtverec se smyčkou",
     "tematicky_okruh": "2.1-cyklus",
     "difficulty": 2,
-    "koncepty": ["controls_repeat_ext", "forward", "right"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Pilot otázka 2.1. Základní čtverec — student poprvé použije smyčku místo 4 opakování. Ověřit zda validace správně detekuje řešení přes smyčku."
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čtverec o straně 80 pixelů[/hlp]. Použijte [hlp]blok opakuj[/hlp] — kód bude kratší než bez smyčky.",
-    "pozice_podkladu": { "x": 160, "y": 160, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 160, "y": 160, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
     "sketch_code": "for(let i=0;i<4;i++){turtle.forward(80);turtle.right(90);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
@@ -23,24 +35,35 @@
           "type": "controls_repeat_ext",
           "inputs": {
             "TIMES": {
-              "shadow": { "type": "math_number", "fields": { "NUM": 4 } }
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 4
+                }
+              }
             }
           }
         },
         {
           "kind": "block",
           "type": "math_number",
-          "fields": { "NUM": 4 }
+          "fields": {
+            "NUM": 4
+          }
         },
         {
           "kind": "block",
           "type": "turtle_forward",
-          "fields": { "DISTANCE": 80 }
+          "fields": {
+            "DISTANCE": 80
+          }
         },
         {
           "kind": "block",
           "type": "turtle_right",
-          "fields": { "ANGLE": 90 }
+          "fields": {
+            "ANGLE": 90
+          }
         }
       ]
     },
@@ -48,7 +71,7 @@
     "validace": {
       "cary_delky": "80,80,80,80",
       "cary_tolerance": 5,
-      "uhly": "90,90,90",
+      "uhly": "-90,-90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 3,
       "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"

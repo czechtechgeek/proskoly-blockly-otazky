@@ -45,7 +45,7 @@
     "validace": {
       "cary_delky": "",
       "cary_tolerance": 5,
-      "uhly": "60,60,60,60,60",
+      "uhly": "-60",
       "uhly_tolerance": 10,
       "max_bloku": 10,
       "typy_bloku": "controls_for,controls_if,turtle_set_pen_color_fixed,turtle_forward_number,turtle_right"

@@ -5,28 +5,49 @@
     "nazev": "Obdélník — oranžové pero",
     "tematicky_okruh": "pero",
     "difficulty": 2,
-    "koncepty": ["setPenColor", "forward", "right"],
+    "koncepty": [
+      "setPenColor",
+      "forward",
+      "right"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]obdélník 120 × 60 pixelů[/hlp] oranžovou barvou (#FF6600). Nastavte barvu pera a pak nakreslete obdélník — dvě delší strany (120 px) a dvě kratší strany (60 px).",
-    "pozice_podkladu": { "x": 100, "y": 130, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 100, "y": 130, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 100,
+      "y": 130,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 100,
+      "y": 130,
+      "uhel": 0
+    },
     "sketch_code": "turtle.setPenColor('#FF6600');turtle.forward(120);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(120);turtle.right(90);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_set_pen_color_fixed"},
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_right"}
+        {
+          "kind": "block",
+          "type": "turtle_set_pen_color_fixed"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        }
       ]
     },
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "120,60,120,60",
       "cary_tolerance": 5,
-      "uhly": "90,90,90",
+      "uhly": "-90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 10,
       "typy_bloku": "turtle_set_pen_color_fixed,turtle_forward,turtle_right"

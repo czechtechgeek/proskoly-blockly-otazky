@@ -5,31 +5,59 @@
     "nazev": "Schody — 4 schody, 35 px",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 3,
-    "koncepty": ["controls_repeat_ext", "forward", "right", "left"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Mutace 2-2-n003: 4 schody místo 3, délka 35px, start x=60, y=180. 4 schody × 35px = výsledek x=60+4×35=200, y=180+4×35=320 — přesně na dolní hraně canvasu. Smyčka se opakuje 4× místo 3×."
   },
   "cms": {
     "task_text": "Naprogramujte želvu, aby nakreslila [hlp]4 schody[/hlp]. Každý schod je tvořen [hlp]vodorovnou čárou 35 px[/hlp] a [hlp]svislou čárou 35 px[/hlp]. Schody jdou doprava dolů. Použijte [hlp]smyčku opakuj 4×[/hlp].",
-    "pozice_podkladu": { "x": 60, "y": 180, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 60, "y": 180, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 180,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 180,
+      "uhel": 0
+    },
     "sketch_code": "turtle.forward(35);turtle.right(90);turtle.forward(35);turtle.left(90);turtle.forward(35);turtle.right(90);turtle.forward(35);turtle.left(90);turtle.forward(35);turtle.right(90);turtle.forward(35);turtle.left(90);turtle.forward(35);turtle.right(90);turtle.forward(35);turtle.left(90);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        { "kind": "block", "type": "controls_repeat_ext" },
-        { "kind": "block", "type": "math_number" },
-        { "kind": "block", "type": "turtle_forward" },
-        { "kind": "block", "type": "turtle_right" },
-        { "kind": "block", "type": "turtle_left" }
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext"
+        },
+        {
+          "kind": "block",
+          "type": "math_number"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left"
+        }
       ]
     },
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "35,35,35,35,35,35,35,35",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90,90,90,90,90",
+      "uhly": "-90,90,-90,90,-90,90,-90,90",
       "uhly_tolerance": 10,
       "max_bloku": 6,
       "typy_bloku": "controls_repeat_ext,math_number,turtle_forward,turtle_right,turtle_left"

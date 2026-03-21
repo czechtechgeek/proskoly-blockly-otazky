@@ -5,15 +5,28 @@
     "nazev": "Schody — špatný směr otočení",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 3,
-    "koncepty": ["controls_repeat_ext", "forward", "right", "left"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Chyba: right(90) a left(90) jsou prohozeny. Se špatným kódem (left → right): forward(40), left(90)=nahoru, forward(40)nahoru, right(90)=vpravo → schody jdou doprava a NAHORU místo dolů. Opravený kód: forward(40), right(90)=dolů, forward(40), left(90)=vpravo → schody jdou doprava dolů."
   },
   "cms": {
     "task_text": "Program má nakreslit schody jdoucí [hlp]doprava dolů[/hlp], ale kvůli chybě jdou špatným směrem. Opravte [hlp]směr otáčení[/hlp] (zaměňte vpravo a vlevo) tak, aby schody klesaly dolů.",
-    "pozice_podkladu": { "x": 60, "y": 200, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 60, "y": 200, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 200,
+      "uhel": 0
+    },
     "sketch_code": "turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
@@ -23,7 +36,7 @@
     "validace": {
       "cary_delky": "40,40,40,40,40,40",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90,90,90",
+      "uhly": "-90,90,-90,90,-90,90",
       "uhly_tolerance": 10,
       "max_bloku": 6,
       "typy_bloku": "controls_repeat_ext,math_number,turtle_forward,turtle_right,turtle_left"

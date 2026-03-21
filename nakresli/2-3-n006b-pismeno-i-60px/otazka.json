@@ -5,7 +5,14 @@
     "nazev": "Nakresli písmeno I — 60 px",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 2,
-    "koncepty": ["forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 2,
     "stav": "draft",
     "poznamky": "Mutace 2-3-n006. I: horní příčka 40px, svislá 60px, dolní příčka 40px. Start: (100,220) směr vpravo (0°)."
@@ -68,7 +75,7 @@
     "validace": {
       "cary_delky": "40,60,40",
       "cary_tolerance": 5,
-      "uhly": "90,90",
+      "uhly": "-90,90",
       "uhly_tolerance": 10,
       "max_bloku": 10,
       "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"

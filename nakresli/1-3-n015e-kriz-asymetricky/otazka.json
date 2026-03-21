@@ -5,30 +5,59 @@
     "nazev": "Kříž — asymetrický 120 × 80 px",
     "tematicky_okruh": "pero",
     "difficulty": 2,
-    "koncepty": ["forward", "backward", "right", "penUp", "penDown"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]asymetrický kříž — svislá čára 120 px, vodorovná čára 80 px[/hlp]. Začněte z bodu (160, 100) s úhlem 180°. Nejprve nakreslete svislou čáru (120 px), pak [hlp]bez kreslení se přesuňte doprostřed[/hlp] (pero nahoru, dozadu 60 px, otočit vpravo 90°, dozadu 40 px) a nakreslete vodorovnou čáru (80 px).",
-    "pozice_podkladu": { "x": 160, "y": 100, "uhel": 180 },
-    "pozice_kurzoru":  { "x": 160, "y": 100, "uhel": 180 },
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 100,
+      "uhel": 180
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 100,
+      "uhel": 180
+    },
     "sketch_code": "turtle.forward(120);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.backward(40);turtle.PenDown();turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_backward"},
-        {"kind": "block", "type": "turtle_right"},
-        {"kind": "block", "type": "turtle_pen_up"},
-        {"kind": "block", "type": "turtle_pen_down"}
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
       ]
     },
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "120,80",
       "cary_tolerance": 5,
-      "uhly": "90",
+      "uhly": "-90",
       "uhly_tolerance": 10,
       "max_bloku": 7,
       "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_pen_up,turtle_pen_down"

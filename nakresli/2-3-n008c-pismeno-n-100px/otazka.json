@@ -5,7 +5,14 @@
     "nazev": "Nakresli písmeno N — 100 px",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 2,
-    "koncepty": ["forward", "backward", "right", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 2,
     "stav": "draft",
     "poznamky": "Mutace 2-3-n008. N (zjednodušené): všechny části 100px, tvar ⊓. Start: (60,160) směr dolů (270°). forward(100) → y=260, v canvasu OK."
@@ -68,7 +75,7 @@
     "validace": {
       "cary_delky": "100,100,100",
       "cary_tolerance": 5,
-      "uhly": "90,90",
+      "uhly": "90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 8,
       "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"

@@ -5,29 +5,54 @@
     "nazev": "Trojúhelník s mezerou — strana 60 px",
     "tematicky_okruh": "pero",
     "difficulty": 2,
-    "koncepty": ["penUp", "penDown", "forward", "right"],
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]dvě strany rovnostranného trojúhelníku o délce 60 pixelů[/hlp] — první stranu přeskočte (pero nahoru), nakreslete druhou a třetí stranu. Každé otočení je o 120° vpravo.",
-    "pozice_podkladu": { "x": 150, "y": 250, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 150, "y": 250, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 150,
+      "y": 250,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 150,
+      "y": 250,
+      "uhel": 0
+    },
     "sketch_code": "turtle.PenUp();turtle.forward(60);turtle.PenDown();turtle.right(120);turtle.forward(60);turtle.right(120);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_pen_up"},
-        {"kind": "block", "type": "turtle_pen_down"},
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_right"}
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        }
       ]
     },
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "60,60",
       "cary_tolerance": 5,
-      "uhly": "120",
+      "uhly": "-120,-120",
       "uhly_tolerance": 10,
       "max_bloku": 7,
       "typy_bloku": "turtle_pen_up,turtle_pen_down,turtle_forward,turtle_right"

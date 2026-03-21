@@ -5,34 +5,73 @@
     "nazev": "Žebřík — doplň příčle",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 3,
-    "koncepty": ["controls_repeat_ext", "forward", "right", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "start_blocks_xml obsahuje dva hotové svislé sloupce. Chybí smyčka s příčlemi. Student musí přidat controls_repeat_ext s příkazy pro kreslení příčlí. Geometrie: levý sloupec nakreslen od (90,80)→(90,200), PenUp na (90,80), pravý sloupec (120,80)→(120,200). Příčle: 4× forward(30) z levého sloupce vpravo, na y=80,110,140,170."
   },
   "cms": {
     "task_text": "Dva svislé sloupce žebříku jsou již nakresleny. [hlp]Doplňte smyčku pro 4 příčle[/hlp]. Každá příčel je [hlp]30 pixelů dlouhá[/hlp] a příčle jsou od sebe vzdáleny [hlp]30 pixelů[/hlp]. Nezapomeňte použít [hlp]pero[/hlp] pro přesuny mezi příčlemi.",
-    "pozice_podkladu": { "x": 90, "y": 80, "uhel": 270 },
-    "pozice_kurzoru":  { "x": 90, "y": 80, "uhel": 270 },
+    "pozice_podkladu": {
+      "x": 90,
+      "y": 80,
+      "uhel": 270
+    },
+    "pozice_kurzoru": {
+      "x": 90,
+      "y": 80,
+      "uhel": 270
+    },
     "sketch_code": "turtle.forward(120);turtle.PenUp();turtle.backward(120);turtle.right(90);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.backward(30);turtle.left(90);turtle.forward(30);turtle.right(90);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.backward(30);turtle.left(90);turtle.forward(30);turtle.right(90);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.backward(30);turtle.left(90);turtle.forward(30);turtle.right(90);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.backward(30);turtle.left(90);turtle.forward(30);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.PenDown();turtle.forward(120);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        { "kind": "block", "type": "controls_repeat_ext" },
-        { "kind": "block", "type": "math_number" },
-        { "kind": "block", "type": "turtle_forward" },
-        { "kind": "block", "type": "turtle_backward" },
-        { "kind": "block", "type": "turtle_right" },
-        { "kind": "block", "type": "turtle_left" },
-        { "kind": "block", "type": "turtle_pen_up" },
-        { "kind": "block", "type": "turtle_pen_down" }
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext"
+        },
+        {
+          "kind": "block",
+          "type": "math_number"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
       ]
     },
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"20\" y=\"20\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_pen_up\" id=\"b2\"><next><block type=\"turtle_backward\" id=\"b3\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_right\" id=\"b4\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b5\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\" id=\"b6\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"b7\"><next><block type=\"turtle_forward\" id=\"b8\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_pen_up\" id=\"b9\"><next><block type=\"turtle_backward\" id=\"b10\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_left\" id=\"b11\"><field name=\"ANGLE\">90</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "validace": {
       "cary_delky": "120,30,30,30,30,120",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90",
+      "uhly": "-90,90,-90,90,-90,90,-90,90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 20,
       "typy_bloku": "controls_repeat_ext,math_number,turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"

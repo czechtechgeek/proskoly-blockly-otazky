@@ -5,28 +5,45 @@
     "nazev": "L-tvar",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 2,
-    "koncepty": ["forward", "right"],
+    "koncepty": [
+      "forward",
+      "right"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Jednoduchý L-tvar bez pera a bez smyčky. Start x=100, y=240, uhel=90 (mířit nahoru). forward(80) nahoru, right(90) = mířit vpravo, forward(40) vpravo. Výsledek: svislá čára 80px + vodorovná 40px = písmeno L."
   },
   "cms": {
     "task_text": "Naprogramujte želvu, aby nakreslila [hlp]tvar písmene L[/hlp]. Svislá část L je [hlp]80 pixelů dlouhá[/hlp], vodorovná část je [hlp]40 pixelů dlouhá[/hlp].",
-    "pozice_podkladu": { "x": 100, "y": 240, "uhel": 90 },
-    "pozice_kurzoru":  { "x": 100, "y": 240, "uhel": 90 },
+    "pozice_podkladu": {
+      "x": 100,
+      "y": 240,
+      "uhel": 90
+    },
+    "pozice_kurzoru": {
+      "x": 100,
+      "y": 240,
+      "uhel": 90
+    },
     "sketch_code": "turtle.forward(80);turtle.right(90);turtle.forward(40);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        { "kind": "block", "type": "turtle_forward" },
-        { "kind": "block", "type": "turtle_right" }
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        }
       ]
     },
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "80,40",
       "cary_tolerance": 5,
-      "uhly": "90",
+      "uhly": "-90",
       "uhly_tolerance": 10,
       "max_bloku": 4,
       "typy_bloku": "turtle_forward,turtle_right"

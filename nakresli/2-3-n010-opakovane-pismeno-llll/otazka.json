@@ -5,7 +5,14 @@
     "nazev": "Opakované písmeno LLLL",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 3,
-    "koncepty": ["controls_repeat_ext", "forward", "right", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "4x pismeno L v rade pomoci smycky. Kazde L: svislá 60px nahoru + priccka 40px vpravo dole. Start: x=30, y=240, uhel=90 (nahoru). V smycce: forward(60) svislá, PenUp, backward(60) zpet, right(90), PenDown, forward(40) pricka, PenUp, forward(15) mezera, PenDown, left(90)."
@@ -79,7 +86,7 @@
     "validace": {
       "cary_delky": "60,40,60,40,60,40,60,40",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90,90,90,90,90",
+      "uhly": "-90,90,-90,90,-90,90,-90,90",
       "uhly_tolerance": 10,
       "max_bloku": 12,
       "typy_bloku": "controls_repeat_ext,math_number,turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
