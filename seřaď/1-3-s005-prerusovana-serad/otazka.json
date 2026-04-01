@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "1-3-s005",
+    "typ": "seřaď",
+    "nazev": "Seřaď: Přerušovaná čára",
+    "tematicky_okruh": "1.3-pero",
+    "difficulty": 3,
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "sketch_code používá PenDown/PenUp protože mezera je součástí referenčního obrázku"
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]přerušovanou čáru[/hlp] — čára 40px, mezera 15px, čára 40px.",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(40);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" id=\"1\" x=\"20\" y=\"40\"></block><block type=\"turtle_forward\" id=\"2\" x=\"200\" y=\"200\"><field name=\"DISTANCE\">40</field></block><block type=\"turtle_pen_up\" id=\"3\" x=\"280\" y=\"80\"></block><block type=\"turtle_forward\" id=\"4\" x=\"60\" y=\"260\"><field name=\"DISTANCE\">15</field></block><block type=\"turtle_pen_down\" id=\"5\" x=\"140\" y=\"120\"></block><block type=\"turtle_forward\" id=\"6\" x=\"240\" y=\"300\"><field name=\"DISTANCE\">40</field></block></xml>",
+    "validace": {
+      "cary_delky": "40,40",
+      "cary_tolerance": 3,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "turtle_pen_down,turtle_pen_up,turtle_forward"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" id=\"1\" x=\"50\" y=\"50\"><next><block type=\"turtle_forward\" id=\"2\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_pen_up\" id=\"3\"><next><block type=\"turtle_forward\" id=\"4\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_pen_down\" id=\"5\"><next><block type=\"turtle_forward\" id=\"6\"><field name=\"DISTANCE\">40</field></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

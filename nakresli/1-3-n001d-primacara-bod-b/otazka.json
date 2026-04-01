@@ -1,35 +1,44 @@
 {
   "meta": {
-    "id": "1-3-s001",
-    "typ": "seřaď",
-    "nazev": "Seřaď: Přímá čára",
+    "id": "1-3-n001d",
+    "typ": "nakresli",
+    "nazev": "Přímá čára dolů z bodu B — pero",
     "tematicky_okruh": "1.3-pero",
     "difficulty": 1,
     "koncepty": [
       "pen_down",
       "forward"
     ],
-    "verze": 2,
+    "verze": 1,
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]přímou čáru dlouhou 100 pixelů[/hlp]. Pero musí být spuštěno před pohybem.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]přímou čáru dolů dlouhou 100 pixelů[/hlp]. Nezapomeňte pero spustit!",
     "pozice_podkladu": {
-      "x": 60,
-      "y": 160,
-      "uhel": 0
+      "x": 225,
+      "y": 75,
+      "uhel": 270
     },
     "pozice_kurzoru": {
-      "x": 60,
-      "y": 160,
-      "uhel": 0
+      "x": 225,
+      "y": 75,
+      "uhel": 270
     },
     "sketch_code": "turtle.forward(100);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
-      "contents": []
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        }
+      ]
     },
-    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"20\" y=\"30\"><field name=\"DISTANCE\">100</field></block><block type=\"turtle_pen_down\" x=\"220\" y=\"150\"></block></xml>",
+    "start_blocks_xml": "",
     "validace": {
       "cary_delky": "100",
       "cary_tolerance": 5,

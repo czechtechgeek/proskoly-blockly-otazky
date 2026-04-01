@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id": "1-3-d007",
+    "typ": "doplň",
+    "nazev": "Zpět na start — doplň penUp",
+    "tematicky_okruh": "1.3-pero",
+    "difficulty": 1,
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward",
+      "backward"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "sketch_code používá PenDown/PenUp - zpáteční cesta nesmí kreslit"
+  },
+  "cms": {
+    "task_text": "Kód má nakreslit čáru a vrátit želvičku zpět bez stopy. [hlp]Doplňte blok, který pero zvedne[/hlp] před návratem.",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.PenDown();turtle.forward(80);turtle.PenUp();turtle.backward(80);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" x=\"50\" y=\"50\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "80",
+      "cary_tolerance": 4,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 4,
+      "typy_bloku": "turtle_pen_down,turtle_pen_up,turtle_forward,turtle_backward"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" x=\"50\" y=\"50\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

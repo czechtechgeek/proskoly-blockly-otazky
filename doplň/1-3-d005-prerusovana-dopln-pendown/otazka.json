@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "1-3-d005",
+    "typ": "doplň",
+    "nazev": "Přerušovaná čára — doplň penDown",
+    "tematicky_okruh": "1.3-pero",
+    "difficulty": 2,
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "sketch_code používá PenDown/PenUp protože mezery jsou součástí referenčního obrázku přerušované čáry"
+  },
+  "cms": {
+    "task_text": "Přerušovaná čára se nezačala kreslit. [hlp]Doplňte na začátek blok pro spuštění pera[/hlp].",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(30);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "30,30,30",
+      "cary_tolerance": 3,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 9,
+      "typy_bloku": "turtle_pen_down,turtle_pen_up,turtle_forward"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" x=\"50\" y=\"50\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

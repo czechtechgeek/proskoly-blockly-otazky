@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "1-3-d009",
+    "typ": "doplň",
+    "nazev": "Dva trojúhelníky — doplň penUp",
+    "tematicky_okruh": "1.3-pero",
+    "difficulty": 2,
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward",
+      "right",
+      "repeat"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "sketch_code používá PenDown/PenUp - přesun mezi dvěma trojúhelníky nesmí kreslit"
+  },
+  "cms": {
+    "task_text": "Kód má nakreslit [hlp]dva oddělené trojúhelníky[/hlp]. Doplňte blok, který pero zvedne při přesunu mezi nimi.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.PenDown();turtle.forward(40);turtle.right(120);turtle.forward(40);turtle.right(120);turtle.forward(40);turtle.right(120);turtle.PenUp();turtle.forward(60);turtle.PenDown();turtle.forward(40);turtle.right(120);turtle.forward(40);turtle.right(120);turtle.forward(40);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" x=\"50\" y=\"50\"><next><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">120</field></block></next></block></statement><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_down\"><next><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">120</field></block></next></block></statement></block></next></block></next></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "40,40,40,40,40,40",
+      "cary_tolerance": 3,
+      "uhly": "120,120,120,120,120",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "turtle_pen_down,turtle_pen_up,controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" x=\"50\" y=\"50\"><next><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">120</field></block></next></block></statement><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_down\"><next><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">120</field></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

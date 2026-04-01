@@ -6,7 +6,7 @@
     "typ": "nakresli",
     "okruh": "1.1-zaklady",
     "difficulty": 1,
-    "stav": "review",
+    "stav": "published",
     "koncepty": [
       "forward",
       "right"
@@ -1308,28 +1308,239 @@
   {
     "path": "otazky/doplň/1-3-d001-ctverec-dopln-nastaveni-barvy/otazka.json",
     "id": "1-3-d001",
-    "nazev": "Čtverec — doplň nastavení barvy",
+    "nazev": "Čtverec — doplň penDown",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward",
+      "right",
+      "repeat"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d002-primacara-dopln-pendown/otazka.json",
+    "id": "1-3-d002",
+    "nazev": "Přímá čára — doplň penDown",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d003-dve-cary-dopln-penup/otazka.json",
+    "id": "1-3-d003",
+    "nazev": "Dvě čáry — doplň penUp",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d004-trojuhelnik-dopln-pendown/otazka.json",
+    "id": "1-3-d004",
+    "nazev": "Trojúhelník — doplň penDown",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward",
+      "right",
+      "repeat"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d005-prerusovana-dopln-pendown/otazka.json",
+    "id": "1-3-d005",
+    "nazev": "Přerušovaná čára — doplň penDown",
     "typ": "doplň",
     "okruh": "1.3-pero",
     "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "turtle_set_pen_color_fixed",
+      "pen_down",
+      "pen_up",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d006-kriz-dopln-penup/otazka.json",
+    "id": "1-3-d006",
+    "nazev": "Kříž — doplň penUp",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d007-zpet-na-start-dopln-penup/otazka.json",
+    "id": "1-3-d007",
+    "nazev": "Zpět na start — doplň penUp",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward",
+      "backward"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d008-osmiuhelnik-dopln-pendown/otazka.json",
+    "id": "1-3-d008",
+    "nazev": "Osmiúhelník — doplň penDown",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
       "forward",
       "right",
-      "controls_repeat_ext"
+      "repeat"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d009-trojuhelnik-mezera-dopln-penup/otazka.json",
+    "id": "1-3-d009",
+    "nazev": "Dva trojúhelníky — doplň penUp",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward",
+      "right",
+      "repeat"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d010-zpetny-pohyb-dopln-backward/otazka.json",
+    "id": "1-3-d010",
+    "nazev": "Zpětný pohyb — doplň backward",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "backward"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d011-obdelnik-dopln-pendown/otazka.json",
+    "id": "1-3-d011",
+    "nazev": "Obdélník — doplň penDown",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward",
+      "right",
+      "repeat"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n001-primacara-pero/otazka.json",
+    "id": "1-3-n001",
+    "nazev": "Přímá čára — pero",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n001b-primacara-150px/otazka.json",
+    "id": "1-3-n001b",
+    "nazev": "Přímá čára 150 px — pero",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n001c-primacara-svisla/otazka.json",
+    "id": "1-3-n001c",
+    "nazev": "Svislá čára nahoru — pero",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n001d-primacara-bod-b/otazka.json",
+    "id": "1-3-n001d",
+    "nazev": "Přímá čára dolů z bodu B — pero",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n001e-primacara-dozadu/otazka.json",
+    "id": "1-3-n001e",
+    "nazev": "Přímá čára dozadu — pero",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "backward"
     ]
   },
   {
     "path": "otazky/nakresli/1-3-n002-ctverec-kazda-strana-jina-barva/otazka.json",
     "id": "1-3-n002",
-    "nazev": "Čtverec — každá strana jiná barva",
+    "nazev": "Čtverec — pero",
     "typ": "nakresli",
     "okruh": "1.3-pero",
-    "difficulty": 3,
+    "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "turtle_set_pen_color_fixed",
+      "pen_down",
       "forward",
       "right"
     ]
@@ -1337,45 +1548,185 @@
   {
     "path": "otazky/nakresli/1-3-n003-trojuhelnik-barva-tloustka/otazka.json",
     "id": "1-3-n003",
-    "nazev": "Trojúhelník — barva + tloušťka",
+    "nazev": "Trojúhelník — pero",
     "typ": "nakresli",
     "okruh": "1.3-pero",
     "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "turtle_set_pen_color_fixed",
-      "turtle_set_pen_width",
+      "pen_down",
       "forward",
       "right"
     ]
   },
   {
+    "path": "otazky/nakresli/1-3-n014-zmena-tloustky/otazka.json",
+    "id": "1-3-n014",
+    "nazev": "Tři čáry s mezerami — pero",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward"
+    ]
+  },
+  {
     "path": "otazky/oprav/1-3-o001-ctverec-oprav-barvu-pera/otazka.json",
     "id": "1-3-o001",
-    "nazev": "Čtverec — oprav barvu pera",
+    "nazev": "Přímá čára — oprav chybějící penDown",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o004-dve-cary-spatny-penup/otazka.json",
+    "id": "1-3-o004",
+    "nazev": "Dvě čáry — penUp na špatném místě",
     "typ": "oprav",
     "okruh": "1.3-pero",
     "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "turtle_set_pen_color_fixed",
+      "pen_down",
+      "pen_up",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o005-trojuhelnik-chybi-pendown/otazka.json",
+    "id": "1-3-o005",
+    "nazev": "Trojúhelník — chybí penDown",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
       "forward",
       "right",
-      "controls_repeat_ext"
+      "repeat"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o006-prerusovana-spatna-mezera/otazka.json",
+    "id": "1-3-o006",
+    "nazev": "Přerušovaná — špatná délka mezery",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o007-kriz-chybi-penup/otazka.json",
+    "id": "1-3-o007",
+    "nazev": "Kříž — chybí penUp při přesunu",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward",
+      "backward",
+      "right"
     ]
   },
   {
     "path": "otazky/seřaď/1-3-s001-barevna-cara-serad/otazka.json",
     "id": "1-3-s001",
-    "nazev": "Barevná čára — seřaď",
+    "nazev": "Seřaď: Přímá čára",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s002-dve-cary-serad/otazka.json",
+    "id": "1-3-s002",
+    "nazev": "Seřaď: Dvě čáry",
     "typ": "seřaď",
     "okruh": "1.3-pero",
     "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "turtle_set_pen_color_fixed",
-      "turtle_set_pen_width",
+      "pen_down",
+      "pen_up",
       "forward"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s003-ctverec-serad/otazka.json",
+    "id": "1-3-s003",
+    "nazev": "Seřaď: Čtverec s perem",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s004-trojuhelnik-serad/otazka.json",
+    "id": "1-3-s004",
+    "nazev": "Seřaď: Trojúhelník s perem",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s005-prerusovana-serad/otazka.json",
+    "id": "1-3-s005",
+    "nazev": "Seřaď: Přerušovaná čára",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s006-zpet-na-start-serad/otazka.json",
+    "id": "1-3-s006",
+    "nazev": "Seřaď: Zpět na start",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward",
+      "backward"
     ]
   },
   {
@@ -1530,6 +1881,20 @@
     "okruh": "2.1-cyklus",
     "difficulty": 2,
     "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-003-ctverec-dopln-chybejici-otoceni/otazka.json",
+    "id": "2-1-003",
+    "nazev": "Čtverec — doplň chybějící otočení",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "ready",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3728,19 +4093,6 @@
     ]
   },
   {
-    "path": "otazky/nakresli/1-3-n001-primacara-pero/otazka.json",
-    "id": "1-3-n001",
-    "nazev": "Přímá čára — barva pera",
-    "typ": "nakresli",
-    "okruh": "pero",
-    "difficulty": 1,
-    "stav": "draft",
-    "koncepty": [
-      "setPenColor",
-      "forward"
-    ]
-  },
-  {
     "path": "otazky/nakresli/1-3-n004-dve-cary-pero/otazka.json",
     "id": "1-3-n004",
     "nazev": "Dvě čáry — různé barvy",
@@ -4158,21 +4510,6 @@
       "left",
       "penUp",
       "penDown"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/1-3-n014-zmena-tloustky/otazka.json",
-    "id": "1-3-n014",
-    "nazev": "Změna tloušťky čáry",
-    "typ": "nakresli",
-    "okruh": "pero",
-    "difficulty": 2,
-    "stav": "draft",
-    "koncepty": [
-      "forward",
-      "penUp",
-      "penDown",
-      "setPenWidth"
     ]
   },
   {

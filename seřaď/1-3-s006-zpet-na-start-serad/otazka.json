@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "id": "1-3-s006",
+    "typ": "seřaď",
+    "nazev": "Seřaď: Zpět na start",
+    "tematicky_okruh": "1.3-pero",
+    "difficulty": 2,
+    "koncepty": [
+      "pen_down",
+      "pen_up",
+      "forward",
+      "backward"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "sketch_code používá PenDown/PenUp protože zpátka nesmí kreslit"
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky: nakreslete [hlp]čáru 90px a vraťte želvičku zpět[/hlp] bez stopy.",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.PenDown();turtle.forward(90);turtle.PenUp();turtle.backward(90);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" id=\"1\" x=\"200\" y=\"30\"></block><block type=\"turtle_forward\" id=\"2\" x=\"40\" y=\"200\"><field name=\"DISTANCE\">90</field></block><block type=\"turtle_pen_up\" id=\"3\" x=\"260\" y=\"180\"></block><block type=\"turtle_backward\" id=\"4\" x=\"80\" y=\"290\"><field name=\"DISTANCE\">90</field></block></xml>",
+    "validace": {
+      "cary_delky": "90",
+      "cary_tolerance": 4,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 4,
+      "typy_bloku": "turtle_pen_down,turtle_pen_up,turtle_forward,turtle_backward"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" id=\"1\" x=\"50\" y=\"50\"><next><block type=\"turtle_forward\" id=\"2\"><field name=\"DISTANCE\">90</field><next><block type=\"turtle_pen_up\" id=\"3\"><next><block type=\"turtle_backward\" id=\"4\"><field name=\"DISTANCE\">90</field></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}
