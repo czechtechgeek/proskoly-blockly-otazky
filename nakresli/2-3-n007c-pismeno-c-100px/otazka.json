@@ -5,13 +5,16 @@
     "nazev": "Nakresli písmeno C — 100 px",
     "tematicky_okruh": "2.3-pismena",
     "difficulty": 2,
-    "koncepty": ["forward", "left"],
+    "koncepty": [
+      "forward",
+      "left"
+    ],
     "verze": 2,
     "stav": "draft",
     "poznamky": "Mutace 2-3-n007. C: jeden plynulý tah, všechny části 100px. Start: (180,150) směr vlevo (180°). Opraveno z (100,250) uhel=0 — původní pozice by šla mimo canvas (y=250+100=350>320)."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno C[/hlp]. Všechny části jsou 100 pixelů.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno C[/hlp]. Všechny části jsou 100 bodů.",
     "pozice_podkladu": {
       "x": 180,
       "y": 150,
@@ -22,7 +25,7 @@
       "y": 150,
       "uhel": 180
     },
-    "sketch_code": "turtle.forward(100);turtle.left(90);turtle.forward(100);turtle.left(90);turtle.forward(100);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(100);turtle.left(90);turtle.forward(100);turtle.left(90);turtle.forward(100);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

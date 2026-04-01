@@ -15,7 +15,7 @@
     "poznamky": "Exteriérový úhel = 360/8 = 45°. Toolbox záměrně nenapovídá správný úhel — student ho musí sám vypočítat."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]pravidelný osmiúhelník o straně 60 pixelů[/hlp]. Pozor: tentokrát Vám toolbox nenapovídá správný úhel — spočítejte ho sami!",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]pravidelný osmiúhelník o straně 60 bodů[/hlp]. Pozor: tentokrát Vám toolbox nenapovídá správný úhel — spočítejte ho sami!",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -26,7 +26,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<8;i++){turtle.forward(60);turtle.right(45);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<8;i++){turtle.forward(60);turtle.right(45);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

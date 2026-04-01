@@ -16,7 +16,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]kříž ze dvou čar 120 × 120 pixelů[/hlp]. Začněte z bodu (160, 100) s úhlem 180° (míří dolů). Nejprve nakreslete svislou čáru dolů (120 px), pak [hlp]bez kreslení se přesuňte doprostřed[/hlp] (pero nahoru, dozadu 60 px, otočit vpravo 90°, dozadu 60 px) a nakreslete vodorovnou čáru (120 px).",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]kříž ze dvou čar 120 × 120 bodů[/hlp]. Začněte z bodu (160, 100) s úhlem 180° (míří dolů). Nejprve nakreslete svislou čáru dolů (120 px), pak [hlp]bez kreslení se přesuňte doprostřed[/hlp] (pero nahoru, dozadu 60 px, otočit vpravo 90°, dozadu 60 px) a nakreslete vodorovnou čáru (120 px).",
     "pozice_podkladu": {
       "x": 160,
       "y": 100,
@@ -27,7 +27,7 @@
       "y": 100,
       "uhel": 180
     },
-    "sketch_code": "turtle.forward(120);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.backward(60);turtle.PenDown();turtle.forward(120);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(120);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.backward(60);turtle.PenDown();turtle.forward(120);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

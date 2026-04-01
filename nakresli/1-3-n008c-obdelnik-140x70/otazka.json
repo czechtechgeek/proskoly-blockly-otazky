@@ -13,7 +13,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]obdélník 140 × 70 pixelů[/hlp]. Nakreslete dvě delší strany (140 px) a dvě kratší strany (70 px). Mezi každými dvěma stranami se otočte vpravo o 90°.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]obdélník 140 × 70 bodů[/hlp]. Nakreslete dvě delší strany (140 px) a dvě kratší strany (70 px). Mezi každými dvěma stranami se otočte vpravo o 90°.",
     "pozice_podkladu": {
       "x": 80,
       "y": 115,
@@ -24,7 +24,7 @@
       "y": 115,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(140);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(140);turtle.right(90);turtle.forward(70);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(140);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(140);turtle.right(90);turtle.forward(70);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

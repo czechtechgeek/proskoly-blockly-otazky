@@ -14,7 +14,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]červenou čáru 80 pixelů dopředu[/hlp], otočila se o 180°, a pak nakreslila [hlp]modrou čáru 80 pixelů dopředu[/hlp].",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]červenou čáru 80 bodů dopředu[/hlp], otočila se o 180°, a pak nakreslila [hlp]modrou čáru 80 bodů dopředu[/hlp].",
     "pozice_podkladu": {
       "x": 100,
       "y": 160,
@@ -25,7 +25,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.setPenColor('#FF0000');turtle.forward(80);turtle.right(180);turtle.setPenColor('#0000FF');turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(180);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

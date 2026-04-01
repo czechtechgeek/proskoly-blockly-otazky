@@ -15,7 +15,7 @@
     "poznamky": "Pilot 2.1 — typ doplň. Smyčka a forward jsou předpřipraveny, student musí doplnit turtle_right(90) dovnitř smyčky. Ověřit: zda student vidí, že blok musí jít DOVNITŘ smyčky (do DO), ne za ni."
   },
   "cms": {
-    "task_text": "Kód pro kreslení čtverce je skoro hotový, ale [hlp]chybí jeden blok[/hlp]. Doplňte ho tak, aby želva nakreslila čtverec o straně 80 pixelů.",
+    "task_text": "Kód pro kreslení čtverce je skoro hotový, ale [hlp]chybí jeden blok[/hlp]. Doplňte ho tak, aby želva nakreslila čtverec o straně 80 bodů.",
     "pozice_podkladu": {
       "x": 150,
       "y": 150,
@@ -26,7 +26,7 @@
       "y": 150,
       "uhel": 0
     },
-    "sketch_code": "for (var count = 0; count < 4; count++) { turtle.forward(80); }",
+    "sketch_code": "turtle.setPenWidth(5);for (var count = 0; count < 4; count++) { turtle.forward(80); }",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

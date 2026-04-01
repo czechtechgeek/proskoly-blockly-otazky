@@ -14,7 +14,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]pravidelný šestiúhelník se stranou 60 pixelů[/hlp] fialovou barvou (#9900CC). Pravidelný šestiúhelník má 6 stran stejné délky a každé otočení je o 60°.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]pravidelný šestiúhelník se stranou 60 bodů[/hlp] fialovou barvou (#9900CC). Pravidelný šestiúhelník má 6 stran stejné délky a každé otočení je o 60°.",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -25,7 +25,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.setPenColor('#9900CC');turtle.forward(60);turtle.right(60);turtle.forward(60);turtle.right(60);turtle.forward(60);turtle.right(60);turtle.forward(60);turtle.right(60);turtle.forward(60);turtle.right(60);turtle.forward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.right(60);turtle.forward(60);turtle.right(60);turtle.forward(60);turtle.right(60);turtle.forward(60);turtle.right(60);turtle.forward(60);turtle.right(60);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

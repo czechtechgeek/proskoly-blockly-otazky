@@ -26,7 +26,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<8;i++){turtle.forward(20+Math.floor(Math.random()*61));turtle.backward(20+Math.floor(Math.random()*61));turtle.right(45);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<8;i++){turtle.forward(20+Math.floor(Math.random()*61));turtle.backward(20+Math.floor(Math.random()*61));turtle.right(45);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

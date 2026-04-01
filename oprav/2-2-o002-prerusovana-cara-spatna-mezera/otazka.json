@@ -5,16 +5,29 @@
     "nazev": "Přerušovaná čára — špatná délka mezery",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 2,
-    "koncepty": ["controls_repeat_ext", "forward", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Chyba: mezera je 30px místo správných 10px. Celková délka s chybou: 5×20 + 5×30 = 250px (přesahuje canvas). Správně: 5×20 + 5×10 = 150px. Student změní hodnotu forward(30)→forward(10) v penUp bloku."
   },
   "cms": {
-    "task_text": "Program kreslí přerušovanou čáru, ale [hlp]mezery jsou příliš velké[/hlp] — želva přejíždí příliš daleko. Opravte program tak, aby mezera mezi úseky byla [hlp]10 pixelů[/hlp] (ne 30).",
-    "pozice_podkladu": { "x": 50, "y": 160, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 50, "y": 160, "uhel": 0 },
-    "sketch_code": "turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();",
+    "task_text": "Program kreslí přerušovanou čáru, ale [hlp]mezery jsou příliš velké[/hlp] — želva přejíždí příliš daleko. Opravte program tak, aby mezera mezi úseky byla [hlp]10 bodů[/hlp] (ne 30).",
+    "pozice_podkladu": {
+      "x": 50,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 50,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": []

@@ -15,7 +15,7 @@
     "poznamky": "Kód kreslí čtverec 80px, ale úhel otočení je 45° místo 90°. Výsledek je osmihvězdičkový vzor místo čtverce. Student musí opravit right(45) na right(90)."
   },
   "cms": {
-    "task_text": "Kód má nakreslit [hlp]čtverec o straně 80 pixelů[/hlp], ale otočení je špatně. Najděte chybu a opravte ji.",
+    "task_text": "Kód má nakreslit [hlp]čtverec o straně 80 bodů[/hlp], ale otočení je špatně. Najděte chybu a opravte ji.",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -26,7 +26,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": []

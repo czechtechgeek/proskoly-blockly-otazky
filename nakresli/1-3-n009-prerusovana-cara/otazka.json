@@ -5,21 +5,42 @@
     "nazev": "Přerušovaná čára",
     "tematicky_okruh": "pero",
     "difficulty": 2,
-    "koncepty": ["forward", "penUp", "penDown"],
+    "koncepty": [
+      "forward",
+      "penUp",
+      "penDown"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]přerušovanou čáru — 3 úseky po 40 pixelech s mezerami 20 pixelů[/hlp] mezi nimi. Mezi úseky zvedněte pero, přesuňte se dopředu bez kreslení a pero znovu spusťte.",
-    "pozice_podkladu": { "x": 60, "y": 160, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 60, "y": 160, "uhel": 0 },
-    "sketch_code": "turtle.forward(40);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(40);",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]přerušovanou čáru — 3 úseky po 40 pixelech s mezerami 20 bodů[/hlp] mezi nimi. Mezi úseky zvedněte pero, přesuňte se dopředu bez kreslení a pero znovu spusťte.",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(40);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(40);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_pen_up"},
-        {"kind": "block", "type": "turtle_pen_down"}
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
       ]
     },
     "start_blocks_xml": "",

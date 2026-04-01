@@ -13,7 +13,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Kód má nakreslit [hlp]přímou čáru 100 pixelů[/hlp], ale nenakreslí se. Najdi a oprav chybu!",
+    "task_text": "Kód má nakreslit [hlp]přímou čáru 100 bodů[/hlp], ale nenakreslí se. Najdi a oprav chybu!",
     "pozice_podkladu": {
       "x": 60,
       "y": 160,
@@ -24,7 +24,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(100);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(100);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

@@ -15,7 +15,7 @@
     "poznamky": "Mutace 2-1-002. Pozice x=125,y=75,uhel=0, strana=90px."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]rovnostranný trojúhelník o straně 90 pixelů[/hlp]. Smyčka, vnější úhel [hlp]120°[/hlp].",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]rovnostranný trojúhelník o straně 90 bodů[/hlp]. Smyčka, vnější úhel [hlp]120°[/hlp].",
     "pozice_podkladu": {
       "x": 125,
       "y": 75,
@@ -26,7 +26,7 @@
       "y": 75,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<3;i++){turtle.forward(90);turtle.right(120);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<3;i++){turtle.forward(90);turtle.right(120);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

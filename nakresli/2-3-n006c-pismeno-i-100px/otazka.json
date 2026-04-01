@@ -18,7 +18,7 @@
     "poznamky": "Mutace 2-3-n006. I: horní příčka 80px, svislá 100px, dolní příčka 80px. Start: (80,160) směr vpravo (0°). Opraveno z (160,260) — původní start by šel mimo canvas při svislici 100px."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno I[/hlp]. Svislá část je 100 pixelů, horní a dolní příčka jsou 80 pixelů.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno I[/hlp]. Svislá část je 100 bodů, horní a dolní příčka jsou 80 bodů.",
     "pozice_podkladu": {
       "x": 80,
       "y": 160,
@@ -29,7 +29,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(80);turtle.PenUp();turtle.backward(40);turtle.right(90);turtle.PenDown();turtle.forward(100);turtle.left(90);turtle.PenUp();turtle.backward(40);turtle.PenDown();turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.PenUp();turtle.backward(40);turtle.right(90);turtle.PenDown();turtle.forward(100);turtle.left(90);turtle.PenUp();turtle.backward(40);turtle.PenDown();turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

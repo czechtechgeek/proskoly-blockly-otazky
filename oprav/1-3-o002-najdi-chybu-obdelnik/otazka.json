@@ -13,7 +13,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Kód má nakreslit [hlp]obdélník 120 × 80 pixelů[/hlp], ale obsahuje chybu — delší strany mají špatnou délku. Najděte a opravte chybu tak, aby obdélník měl správné rozměry.",
+    "task_text": "Kód má nakreslit [hlp]obdélník 120 × 80 bodů[/hlp], ale obsahuje chybu — delší strany mají špatnou délku. Najděte a opravte chybu tak, aby obdélník měl správné rozměry.",
     "pozice_podkladu": {
       "x": 80,
       "y": 120,
@@ -24,7 +24,7 @@
       "y": 120,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(120);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(120);turtle.right(90);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(120);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(120);turtle.right(90);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

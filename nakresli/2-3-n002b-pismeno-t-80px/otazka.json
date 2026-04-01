@@ -17,7 +17,7 @@
     "poznamky": "Mutace 2-3-002. T: příčka 80px vpravo + svislá 60px dolů (ze středu příčky). Start: x=80, y=80, uhel=0 (vpravo). backward(40) na střed příčky."
   },
   "cms": {
-    "task_text": "Nakreslete [hlp]písmeno T[/hlp]. Horní příčka je 80 pixelů, svislá část 60 pixelů.",
+    "task_text": "Nakreslete [hlp]písmeno T[/hlp]. Horní příčka je 80 bodů, svislá část 60 bodů.",
     "pozice_podkladu": {
       "x": 80,
       "y": 80,
@@ -28,7 +28,7 @@
       "y": 80,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(80);turtle.PenUp();turtle.backward(40);turtle.right(90);turtle.PenDown();turtle.forward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.PenUp();turtle.backward(40);turtle.right(90);turtle.PenDown();turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

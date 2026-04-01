@@ -30,7 +30,7 @@
       "y": 200,
       "uhel": 90
     },
-    "sketch_code": "turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

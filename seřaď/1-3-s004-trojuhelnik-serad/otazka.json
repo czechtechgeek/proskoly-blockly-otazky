@@ -14,7 +14,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]rovnostranný trojúhelník o straně 70 pixelů[/hlp].",
+    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]rovnostranný trojúhelník o straně 70 bodů[/hlp].",
     "pozice_podkladu": {
       "x": 160,
       "y": 220,
@@ -25,7 +25,7 @@
       "y": 220,
       "uhel": 90
     },
-    "sketch_code": "turtle.forward(70);turtle.right(120);turtle.forward(70);turtle.right(120);turtle.forward(70);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(70);turtle.right(120);turtle.forward(70);turtle.right(120);turtle.forward(70);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": []

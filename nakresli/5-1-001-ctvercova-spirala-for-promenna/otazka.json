@@ -15,7 +15,7 @@
     "poznamky": "for(i=1 to 20 step 1){ forward(i*5), right(90) }. For smyčka kde i roste = spirála."
   },
   "cms": {
-    "task_text": "Naprogramujte [hlp]čtvercovou spirálu[/hlp] pomocí smyčky for. Proměnná i jde od 1 do 20, délka tahu = i × 5 pixelů.",
+    "task_text": "Naprogramujte [hlp]čtvercovou spirálu[/hlp] pomocí smyčky for. Proměnná i jde od 1 do 20, délka tahu = i × 5 bodů.",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -26,7 +26,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=1;i<=20;i++){turtle.forward(i*5);turtle.right(90);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=1;i<=20;i++){turtle.forward(i*5);turtle.right(90);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

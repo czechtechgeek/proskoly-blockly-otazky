@@ -15,7 +15,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]dvě strany rovnostranného trojúhelníku o délce 80 pixelů[/hlp] — tentokrát přeskočte druhou stranu (pero nahoru pro přesun přes prostřední část). Nakreslete první stranu, přesuňte se bez kreslení přes druhou stranu, a nakreslete třetí stranu. Každé otočení je o 120° vpravo.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]dvě strany rovnostranného trojúhelníku o délce 80 bodů[/hlp] — tentokrát přeskočte druhou stranu (pero nahoru pro přesun přes prostřední část). Nakreslete první stranu, přesuňte se bez kreslení přes druhou stranu, a nakreslete třetí stranu. Každé otočení je o 120° vpravo.",
     "pozice_podkladu": {
       "x": 140,
       "y": 230,
@@ -26,7 +26,7 @@
       "y": 230,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(80);turtle.right(120);turtle.PenUp();turtle.forward(80);turtle.PenDown();turtle.right(120);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(120);turtle.PenUp();turtle.forward(80);turtle.PenDown();turtle.right(120);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

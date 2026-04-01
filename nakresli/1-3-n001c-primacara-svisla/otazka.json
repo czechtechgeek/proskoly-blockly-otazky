@@ -13,7 +13,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]svislou čáru nahoru dlouhou 120 pixelů[/hlp]. Nezapomeňte pero spustit!",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]svislou čáru nahoru dlouhou 120 bodů[/hlp]. Nezapomeňte pero spustit!",
     "pozice_podkladu": {
       "x": 160,
       "y": 260,
@@ -24,7 +24,7 @@
       "y": 260,
       "uhel": 90
     },
-    "sketch_code": "turtle.forward(120);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(120);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

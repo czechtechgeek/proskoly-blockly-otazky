@@ -27,7 +27,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(30);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(55);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);turtle.forward(80);turtle.right(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

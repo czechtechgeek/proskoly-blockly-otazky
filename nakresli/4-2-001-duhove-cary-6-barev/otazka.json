@@ -28,7 +28,7 @@
       "y": 40,
       "uhel": 0
     },
-    "sketch_code": "const colors=['#ff0000','#ff7700','#ffff00','#00aa00','#0000ff','#8800aa'];colors.forEach(c=>{turtle.setPenColor(c);turtle.forward(150);turtle.PenUp();turtle.backward(150);turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();});",
+    "sketch_code": "turtle.setPenWidth(5);const colors=['#ff0000','#ff7700','#ffff00','#00aa00','#0000ff','#8800aa'];colors.forEach(c=>{turtle.forward(150);turtle.PenUp();turtle.backward(150);turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();});",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

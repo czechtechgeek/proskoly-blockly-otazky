@@ -18,7 +18,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]mřížku 2 řady × 3 sloupce čtverců o straně 50 pixelů[/hlp] s mezerami 10 px mezi čtverci. Použijte vnořené smyčky a pero pro přesuny.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]mřížku 2 řady × 3 sloupce čtverců o straně 50 bodů[/hlp] s mezerami 10 px mezi čtverci. Použijte vnořené smyčky a pero pro přesuny.",
     "pozice_podkladu": {
       "x": 40,
       "y": 60,
@@ -29,7 +29,7 @@
       "y": 60,
       "uhel": 0
     },
-    "sketch_code": "turtle.jumpTo(40,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(110,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(180,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(40,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(110,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(180,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.jumpTo(40,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(110,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(180,60);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(40,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(110,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.jumpTo(180,120);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

@@ -5,20 +5,37 @@
     "nazev": "Zpětný pohyb — dopředu a dozadu",
     "tematicky_okruh": "pero",
     "difficulty": 1,
-    "koncepty": ["forward", "backward"],
+    "koncepty": [
+      "forward",
+      "backward"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby se [hlp]pohybovala dopředu 80 pixelů[/hlp] a pak [hlp]dozadu 40 pixelů[/hlp]. Pero je stále spuštěné — výsledkem bude čára 80 px, přes kterou se želva vrátí o 40 px zpět.",
-    "pozice_podkladu": { "x": 100, "y": 160, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 100, "y": 160, "uhel": 0 },
-    "sketch_code": "turtle.forward(80);turtle.backward(40);",
+    "task_text": "Naprogramujte želvu tak, aby se [hlp]pohybovala dopředu 80 bodů[/hlp] a pak [hlp]dozadu 40 bodů[/hlp]. Pero je stále spuštěné — výsledkem bude čára 80 px, přes kterou se želva vrátí o 40 px zpět.",
+    "pozice_podkladu": {
+      "x": 100,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 100,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.backward(40);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_backward"}
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward"
+        }
       ]
     },
     "start_blocks_xml": "",

@@ -5,23 +5,52 @@
     "nazev": "Zpět a otočit — vlevo",
     "tematicky_okruh": "pero",
     "difficulty": 2,
-    "koncepty": ["forward", "backward", "left", "penUp", "penDown"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "penUp",
+      "penDown"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru 60 pixelů dopředu[/hlp], pak [hlp]bez kreslení se vrátila zpět na výchozí bod[/hlp] (pero nahoru, 60 pixelů dozadu, pero dolů), otočila se vlevo o 90° a nakreslila [hlp]další čáru 60 pixelů[/hlp]. Výsledek bude vypadat jako písmeno L otočené doleva.",
-    "pozice_podkladu": { "x": 80, "y": 200, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 80, "y": 200, "uhel": 0 },
-    "sketch_code": "turtle.forward(60);turtle.left(90);turtle.forward(60);",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru 60 bodů dopředu[/hlp], pak [hlp]bez kreslení se vrátila zpět na výchozí bod[/hlp] (pero nahoru, 60 bodů dozadu, pero dolů), otočila se vlevo o 90° a nakreslila [hlp]další čáru 60 bodů[/hlp]. Výsledek bude vypadat jako písmeno L otočené doleva.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.left(90);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_backward"},
-        {"kind": "block", "type": "turtle_left"},
-        {"kind": "block", "type": "turtle_pen_up"},
-        {"kind": "block", "type": "turtle_pen_down"}
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
       ]
     },
     "start_blocks_xml": "",

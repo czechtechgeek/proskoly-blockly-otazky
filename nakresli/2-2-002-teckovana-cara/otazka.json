@@ -16,7 +16,7 @@
     "poznamky": "opakuj(5){ penDown, forward(20), penUp, forward(15) }"
   },
   "cms": {
-    "task_text": "Naprogramujte [hlp]tečkovanou čáru[/hlp]: nakreslete 5 úseků po 20 pixelech s mezerami 15 pixelů. Použijte smyčku a pero.",
+    "task_text": "Naprogramujte [hlp]tečkovanou čáru[/hlp]: nakreslete 5 úseků po 20 pixelech s mezerami 15 bodů. Použijte smyčku a pero.",
     "pozice_podkladu": {
       "x": 30,
       "y": 160,
@@ -27,7 +27,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<5;i++){turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<5;i++){turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

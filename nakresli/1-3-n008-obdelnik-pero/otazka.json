@@ -14,7 +14,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]obdélník 120 × 60 pixelů[/hlp] oranžovou barvou (#FF6600). Nastavte barvu pera a pak nakreslete obdélník — dvě delší strany (120 px) a dvě kratší strany (60 px).",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]obdélník 120 × 60 bodů[/hlp] oranžovou barvou (#FF6600). Nastavte barvu pera a pak nakreslete obdélník — dvě delší strany (120 px) a dvě kratší strany (60 px).",
     "pozice_podkladu": {
       "x": 100,
       "y": 130,
@@ -25,7 +25,7 @@
       "y": 130,
       "uhel": 0
     },
-    "sketch_code": "turtle.setPenColor('#FF6600');turtle.forward(120);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(120);turtle.right(90);turtle.forward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(120);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(120);turtle.right(90);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

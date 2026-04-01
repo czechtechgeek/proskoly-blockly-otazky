@@ -27,7 +27,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.PenDown();turtle.forward(80);turtle.PenUp();turtle.backward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(80);turtle.PenUp();turtle.backward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

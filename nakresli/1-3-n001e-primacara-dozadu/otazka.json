@@ -13,7 +13,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru dozadu dlouhou 80 pixelů[/hlp]. Použijte blok pro pohyb dozadu. Nezapomeňte pero spustit!",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru dozadu dlouhou 80 bodů[/hlp]. Použijte blok pro pohyb dozadu. Nezapomeňte pero spustit!",
     "pozice_podkladu": {
       "x": 260,
       "y": 160,
@@ -24,7 +24,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.backward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.backward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

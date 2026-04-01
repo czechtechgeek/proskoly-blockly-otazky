@@ -16,7 +16,7 @@
     "poznamky": "Vstupní otázka do 2.2 bez smyčky (diff 2). Dva čtverce 50px s mezerou 20px kreslené sekvencí bez opakování. sketch_code používá PenUp/PenDown jako výjimku — bez nich by mezera mezi čtverci nebyla vidět v referenčním obrázku."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]dva čtverce o straně 50 pixelů[/hlp] s mezerou 20 pixelů mezi nimi. Použijte bloky pero nahoru a pero dolů pro přesun mezi čtverci.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]dva čtverce o straně 50 bodů[/hlp] s mezerou 20 bodů mezi nimi. Použijte bloky pero nahoru a pero dolů pro přesun mezi čtverci.",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -27,7 +27,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.PenUp();turtle.forward(70);turtle.PenDown();turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.PenUp();turtle.forward(70);turtle.PenDown();turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(50);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

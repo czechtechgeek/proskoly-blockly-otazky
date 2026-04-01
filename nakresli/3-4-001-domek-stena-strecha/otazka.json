@@ -33,7 +33,7 @@
       "y": 240,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<4;i++){turtle.forward(80);turtle.right(90);}turtle.left(90);turtle.forward(80);turtle.right(120);turtle.forward(80);turtle.right(120);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<4;i++){turtle.forward(80);turtle.right(90);}turtle.left(90);turtle.forward(80);turtle.right(120);turtle.forward(80);turtle.right(120);turtle.forward(80);",
     "toolbox_json": {
       "kind": "categoryToolbox",
       "contents": [

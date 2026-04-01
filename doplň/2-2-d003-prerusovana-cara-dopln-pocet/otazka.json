@@ -5,20 +5,36 @@
     "nazev": "Přerušovaná čára — doplň počet opakování",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 2,
-    "koncepty": ["controls_repeat_ext", "forward", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "start_blocks_xml obsahuje controls_repeat_ext bez připojeného math_number v hodnotě TIMES — student musí přidat math_number(5) do vstupu smyčky. Ostatní bloky uvnitř smyčky jsou hotové. Tato otázka cílí na pochopení, kolik opakování je potřeba pro správný výsledek."
   },
   "cms": {
-    "task_text": "Bloky pro přerušovanou čáru jsou připraveny, ale [hlp]chybí počet opakování[/hlp] smyčky. Správně nakreslete [hlp]5 úseků po 20 pixelech[/hlp] s mezerami [hlp]10 pixelů[/hlp]. Doplňte správné číslo do smyčky.",
-    "pozice_podkladu": { "x": 50, "y": 160, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 50, "y": 160, "uhel": 0 },
-    "sketch_code": "turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();",
+    "task_text": "Bloky pro přerušovanou čáru jsou připraveny, ale [hlp]chybí počet opakování[/hlp] smyčky. Správně nakreslete [hlp]5 úseků po 20 pixelech[/hlp] s mezerami [hlp]10 bodů[/hlp]. Doplňte správné číslo do smyčky.",
+    "pozice_podkladu": {
+      "x": 50,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 50,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        { "kind": "block", "type": "math_number" }
+        {
+          "kind": "block",
+          "type": "math_number"
+        }
       ]
     },
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><statement name=\"DO\"><block type=\"turtle_forward\" id=\"b1\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_pen_up\" id=\"b2\"><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">10</field><next><block type=\"turtle_pen_down\" id=\"b4\"></block></next></block></next></block></next></block></statement></block></xml>",

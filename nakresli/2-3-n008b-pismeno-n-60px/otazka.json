@@ -18,7 +18,7 @@
     "poznamky": "Mutace 2-3-n008. N (zjednodušené): všechny části 60px, tvar ⊓. Start: (50,230) směr dolů (270°)."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]zjednodušené písmeno N[/hlp]. Všechny části jsou 60 pixelů.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]zjednodušené písmeno N[/hlp]. Všechny části jsou 60 bodů.",
     "pozice_podkladu": {
       "x": 50,
       "y": 230,
@@ -29,7 +29,7 @@
       "y": 230,
       "uhel": 270
     },
-    "sketch_code": "turtle.forward(60);turtle.PenUp();turtle.backward(60);turtle.left(90);turtle.PenDown();turtle.forward(60);turtle.right(90);turtle.forward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.PenUp();turtle.backward(60);turtle.left(90);turtle.PenDown();turtle.forward(60);turtle.right(90);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

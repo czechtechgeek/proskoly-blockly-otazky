@@ -26,7 +26,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);turtle.forward(60);turtle.right(45);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

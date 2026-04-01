@@ -15,7 +15,7 @@
     "poznamky": "Pilot 2.1. Klíčový moment: student musí přijít na vnější úhel 120° (ne 60°). Záměrně nabízíme right(90) jako 'past' — student musí hodnotu změnit. Ověřit zda hint v zadání stačí nebo je potřeba tooltip."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]rovnostranný trojúhelník o straně 100 pixelů[/hlp]. Použijte smyčku. Tip: vnitřní úhel trojúhelníku je 60°, ale želva se musí otočit o [hlp]vnější úhel = 120°[/hlp].",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]rovnostranný trojúhelník o straně 100 bodů[/hlp]. Použijte smyčku. Tip: vnitřní úhel trojúhelníku je 60°, ale želva se musí otočit o [hlp]vnější úhel = 120°[/hlp].",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -26,7 +26,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<3;i++){turtle.forward(100);turtle.right(120);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<3;i++){turtle.forward(100);turtle.right(120);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

@@ -5,22 +5,43 @@
     "nazev": "Čárkovaná čára — bez smyčky",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 2,
-    "koncepty": ["forward", "pen_up", "pen_down"],
+    "koncepty": [
+      "forward",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Vstupní otázka do pera — čistá sekvence forward+penUp+penDown, 4 úseky po 30px s mezerami 15px. sketch_code záměrně používá PenUp/PenDown, protože pero je klíčový koncept tohoto okruhu."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]čárkovanou čáru ze 4 úseků[/hlp]. Každý úsek je [hlp]30 pixelů dlouhý[/hlp] a mezera mezi úseky je [hlp]15 pixelů[/hlp]. Nepoužívejte smyčku — zapište každý příkaz zvlášť.",
-    "pozice_podkladu": { "x": 50, "y": 160, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 50, "y": 160, "uhel": 0 },
-    "sketch_code": "turtle.forward(30);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(30);",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]čárkovanou čáru ze 4 úseků[/hlp]. Každý úsek je [hlp]30 bodů dlouhý[/hlp] a mezera mezi úseky je [hlp]15 bodů[/hlp]. Nepoužívejte smyčku — zapište každý příkaz zvlášť.",
+    "pozice_podkladu": {
+      "x": 50,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 50,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(30);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(30);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        { "kind": "block", "type": "turtle_forward" },
-        { "kind": "block", "type": "turtle_pen_up" },
-        { "kind": "block", "type": "turtle_pen_down" }
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
       ]
     },
     "start_blocks_xml": "",

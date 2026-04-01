@@ -29,7 +29,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<3;i++){const c=['#ff0000','#00aa00','#0000ff'][i];const w=[2,4,6][i];turtle.setPenColor(c);turtle.setPenWidth(w);for(let j=0;j<4;j++){turtle.forward(50);turtle.right(90);}turtle.PenUp();turtle.forward(70);turtle.PenDown();}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<3;i++){const c=['#ff0000','#00aa00','#0000ff'][i];const w=[2,4,6][i];turtle.setPenWidth(w);for(let j=0;j<4;j++){turtle.forward(50);turtle.right(90);}turtle.PenUp();turtle.forward(70);turtle.PenDown();}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

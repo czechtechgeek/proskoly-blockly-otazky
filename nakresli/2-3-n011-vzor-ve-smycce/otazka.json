@@ -30,7 +30,7 @@
       "y": 100,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<4;i++){turtle.forward(60);turtle.PenUp();turtle.backward(30);turtle.right(90);turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.backward(40);turtle.left(90);turtle.forward(50);turtle.PenDown();}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<4;i++){turtle.forward(60);turtle.PenUp();turtle.backward(30);turtle.right(90);turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.backward(40);turtle.left(90);turtle.forward(50);turtle.PenDown();}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

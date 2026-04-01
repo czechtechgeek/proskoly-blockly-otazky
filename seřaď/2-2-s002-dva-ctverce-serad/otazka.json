@@ -17,7 +17,7 @@
     "poznamky": "Rozhozené bloky pro: repeat(4){forward(60),right(90)}, penUp, forward(30), penDown, repeat(4){forward(60),right(90)}. Student skládá správné pořadí."
   },
   "cms": {
-    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]dva čtverce o straně 60 pixelů[/hlp] oddělené mezerou 30 pixelů.",
+    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]dva čtverce o straně 60 bodů[/hlp] oddělené mezerou 30 bodů.",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -28,7 +28,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.PenUp();turtle.forward(30);turtle.PenDown();turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.PenUp();turtle.forward(30);turtle.PenDown();turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": []

@@ -14,7 +14,7 @@
     "poznamky": "Jednoduchý L-tvar bez pera a bez smyčky. Start x=100, y=240, uhel=90 (mířit nahoru). forward(80) nahoru, right(90) = mířit vpravo, forward(40) vpravo. Výsledek: svislá čára 80px + vodorovná 40px = písmeno L."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]tvar písmene L[/hlp]. Svislá část L je [hlp]80 pixelů dlouhá[/hlp], vodorovná část je [hlp]40 pixelů dlouhá[/hlp].",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]tvar písmene L[/hlp]. Svislá část L je [hlp]80 bodů dlouhá[/hlp], vodorovná část je [hlp]40 bodů dlouhá[/hlp].",
     "pozice_podkladu": {
       "x": 100,
       "y": 240,
@@ -25,7 +25,7 @@
       "y": 240,
       "uhel": 90
     },
-    "sketch_code": "turtle.forward(80);turtle.right(90);turtle.forward(40);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(90);turtle.forward(40);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

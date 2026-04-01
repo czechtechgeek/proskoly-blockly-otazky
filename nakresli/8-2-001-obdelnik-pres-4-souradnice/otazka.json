@@ -26,7 +26,7 @@
       "y": 80,
       "uhel": 0
     },
-    "sketch_code": "turtle.PenDown();[[240,80],[240,200],[80,200],[80,80]].forEach(([x,y])=>turtle.jumpTo(x,y));",
+    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();[[240,80],[240,200],[80,200],[80,80]].forEach(([x,y])=>turtle.jumpTo(x,y));",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

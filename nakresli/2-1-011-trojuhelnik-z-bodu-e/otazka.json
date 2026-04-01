@@ -15,7 +15,7 @@
     "poznamky": "Mutace 2-1-002. E[125,275], uhel=0 (vpravo), strana 80px. Trace: (125,275)→(205,275)→(165,206.6)→(125,275)✓"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]rovnostranný trojúhelník o straně 80 pixelů[/hlp]. Použijte smyčku. Tip: vnější úhel trojúhelníku je [hlp]120°[/hlp].",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]rovnostranný trojúhelník o straně 80 bodů[/hlp]. Použijte smyčku. Tip: vnější úhel trojúhelníku je [hlp]120°[/hlp].",
     "pozice_podkladu": {
       "x": 125,
       "y": 275,
@@ -26,7 +26,7 @@
       "y": 275,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<3;i++){turtle.forward(80);turtle.right(120);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<3;i++){turtle.forward(80);turtle.right(120);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

@@ -14,7 +14,7 @@
     "poznamky": "C = jeden plynulý tah: horní příčka 80px vlevo, left(90) dolů, svislá 80px, left(90) vpravo, dolní příčka 80px. Start: (225,75) směr vlevo (180°). PenUp není potřeba — C se dá nakreslit jedním tahem."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno C[/hlp]. Všechny části jsou 80 pixelů.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno C[/hlp]. Všechny části jsou 80 bodů.",
     "pozice_podkladu": {
       "x": 225,
       "y": 75,
@@ -25,7 +25,7 @@
       "y": 75,
       "uhel": 180
     },
-    "sketch_code": "turtle.forward(80);turtle.left(90);turtle.forward(80);turtle.left(90);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.left(90);turtle.forward(80);turtle.left(90);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

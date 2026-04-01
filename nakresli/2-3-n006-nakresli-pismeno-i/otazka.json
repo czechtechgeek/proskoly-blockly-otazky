@@ -18,7 +18,7 @@
     "poznamky": "I = horní příčka 60px, svislá část 80px, dolní příčka 60px. Start: (130,75) směr vpravo (0°). Kreslíme horní serif, přesuneme PenUp na střed, PenDown svislici, PenUp na levý kraj spodního serifu, PenDown dolní serif."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno I[/hlp]. Svislá část je 80 pixelů, horní a dolní příčka jsou 60 pixelů.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno I[/hlp]. Svislá část je 80 bodů, horní a dolní příčka jsou 60 bodů.",
     "pozice_podkladu": {
       "x": 130,
       "y": 75,
@@ -29,7 +29,7 @@
       "y": 75,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(60);turtle.PenUp();turtle.backward(30);turtle.right(90);turtle.PenDown();turtle.forward(80);turtle.left(90);turtle.PenUp();turtle.backward(30);turtle.PenDown();turtle.forward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.PenUp();turtle.backward(30);turtle.right(90);turtle.PenDown();turtle.forward(80);turtle.left(90);turtle.PenUp();turtle.backward(30);turtle.PenDown();turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

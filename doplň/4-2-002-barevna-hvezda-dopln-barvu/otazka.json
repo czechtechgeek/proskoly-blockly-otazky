@@ -27,7 +27,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "const c=['#ff0000','#ff8800','#ffff00','#00cc00','#0000ff'];for(let i=0;i<5;i++){turtle.setPenColor(c[i]);turtle.forward(100);turtle.right(144);}",
+    "sketch_code": "turtle.setPenWidth(5);const c=['#ff0000','#ff8800','#ffff00','#00cc00','#0000ff'];for(let i=0;i<5;i++){turtle.forward(100);turtle.right(144);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

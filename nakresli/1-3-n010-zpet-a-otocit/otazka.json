@@ -16,7 +16,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru 80 pixelů dopředu[/hlp], pak [hlp]bez kreslení se vrátila zpět na výchozí bod[/hlp] (pero nahoru, 80 pixelů dozadu, pero dolů), otočila se vpravo o 90° a nakreslila [hlp]další čáru 80 pixelů[/hlp]. Výsledek bude vypadat jako písmeno L.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru 80 bodů dopředu[/hlp], pak [hlp]bez kreslení se vrátila zpět na výchozí bod[/hlp] (pero nahoru, 80 bodů dozadu, pero dolů), otočila se vpravo o 90° a nakreslila [hlp]další čáru 80 bodů[/hlp]. Výsledek bude vypadat jako písmeno L.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,
@@ -27,7 +27,7 @@
       "y": 200,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(80);turtle.right(90);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(90);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

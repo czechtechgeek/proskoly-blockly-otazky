@@ -13,7 +13,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Pero je spuštěné, ale pohyb chybí. Nakresli čáru [hlp]dozadu 60 pixelů[/hlp]. Doplňte správný blok pohybu.",
+    "task_text": "Pero je spuštěné, ale pohyb chybí. Nakresli čáru [hlp]dozadu 60 bodů[/hlp]. Doplňte správný blok pohybu.",
     "pozice_podkladu": {
       "x": 260,
       "y": 160,
@@ -24,7 +24,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.backward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.backward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

@@ -14,7 +14,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]cik-cak vzor ze 4 čar, každá 60 pixelů[/hlp], s plošším úhlem 100°. Želva se střídavě otáčí vpravo o 100° a vlevo o 100°. Výsledek je méně ostrý než klasický cik-cak.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]cik-cak vzor ze 4 čar, každá 60 bodů[/hlp], s plošším úhlem 100°. Želva se střídavě otáčí vpravo o 100° a vlevo o 100°. Výsledek je méně ostrý než klasický cik-cak.",
     "pozice_podkladu": {
       "x": 60,
       "y": 170,
@@ -25,7 +25,7 @@
       "y": 170,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(60);turtle.right(100);turtle.forward(60);turtle.left(100);turtle.forward(60);turtle.right(100);turtle.forward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.right(100);turtle.forward(60);turtle.left(100);turtle.forward(60);turtle.right(100);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

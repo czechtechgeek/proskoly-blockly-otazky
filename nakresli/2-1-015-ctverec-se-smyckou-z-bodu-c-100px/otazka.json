@@ -15,7 +15,7 @@
     "poznamky": "Mutace 2-1-001. Pozice x=125,y=175,uhel=0, strana=100px."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]čtverec o straně 100 pixelů[/hlp]. Použijte smyčku.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]čtverec o straně 100 bodů[/hlp]. Použijte smyčku.",
     "pozice_podkladu": {
       "x": 125,
       "y": 175,
@@ -26,7 +26,7 @@
       "y": 175,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<4;i++){turtle.forward(100);turtle.right(90);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<4;i++){turtle.forward(100);turtle.right(90);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

@@ -17,7 +17,7 @@
     "poznamky": "T = vodorovná čára 100px, vrátíme se na střed, svislá dolů 80px. Start: A[125,75] směr vpravo (0°)."
   },
   "cms": {
-    "task_text": "Nakreslete [hlp]písmeno T[/hlp]. Horní příčka je 100 pixelů, svislá část 80 pixelů.",
+    "task_text": "Nakreslete [hlp]písmeno T[/hlp]. Horní příčka je 100 bodů, svislá část 80 bodů.",
     "pozice_podkladu": {
       "x": 125,
       "y": 75,
@@ -28,7 +28,7 @@
       "y": 75,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(100);turtle.PenUp();turtle.backward(50);turtle.right(90);turtle.PenDown();turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(100);turtle.PenUp();turtle.backward(50);turtle.right(90);turtle.PenDown();turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

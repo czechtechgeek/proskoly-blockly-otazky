@@ -13,7 +13,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Kód má nakreslit [hlp]čtverec o straně 80 pixelů[/hlp], ale obsahuje chybu — úhel otočení je špatný. Najděte a opravte chybu tak, aby čtverec měl správné rohy (90°).",
+    "task_text": "Kód má nakreslit [hlp]čtverec o straně 80 bodů[/hlp], ale obsahuje chybu — úhel otočení je špatný. Najděte a opravte chybu tak, aby čtverec měl správné rohy (90°).",
     "pozice_podkladu": {
       "x": 110,
       "y": 110,
@@ -24,7 +24,7 @@
       "y": 110,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

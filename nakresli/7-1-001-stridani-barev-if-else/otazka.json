@@ -30,7 +30,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=1;i<=8;i++){turtle.setPenColor(i%2===0?'#ff0000':'#0000ff');turtle.forward(i*10);turtle.backward(i*10);turtle.right(45);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=1;i<=8;i++){turtle.forward(i*10);turtle.backward(i*10);turtle.right(45);}",
     "toolbox_json": {
       "kind": "categoryToolbox",
       "contents": [

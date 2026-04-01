@@ -15,7 +15,7 @@
     "poznamky": "Pilot otázka 2.1. Základní čtverec — student poprvé použije smyčku místo 4 opakování. Ověřit zda validace správně detekuje řešení přes smyčku."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čtverec o straně 80 pixelů[/hlp]. Použijte [hlp]blok opakuj[/hlp] — kód bude kratší než bez smyčky.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čtverec o straně 80 bodů[/hlp]. Použijte [hlp]blok opakuj[/hlp] — kód bude kratší než bez smyčky.",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -26,7 +26,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<4;i++){turtle.forward(80);turtle.right(90);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<4;i++){turtle.forward(80);turtle.right(90);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

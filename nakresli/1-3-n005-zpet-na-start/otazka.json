@@ -5,22 +5,47 @@
     "nazev": "Zpět na start — pero nahoru",
     "tematicky_okruh": "pero",
     "difficulty": 2,
-    "koncepty": ["forward", "backward", "penUp", "penDown"],
+    "koncepty": [
+      "forward",
+      "backward",
+      "penUp",
+      "penDown"
+    ],
     "verze": 1,
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru 100 pixelů dopředu[/hlp], potom [hlp]zvedla pero[/hlp] a vrátila se zpět na výchozí místo (100 pixelů dozadu) bez kreslení. Na konci pero opět spusťte.",
-    "pozice_podkladu": { "x": 160, "y": 160, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 160, "y": 160, "uhel": 0 },
-    "sketch_code": "turtle.forward(100);",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]čáru 100 bodů dopředu[/hlp], potom [hlp]zvedla pero[/hlp] a vrátila se zpět na výchozí místo (100 bodů dozadu) bez kreslení. Na konci pero opět spusťte.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(100);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {"kind": "block", "type": "turtle_forward"},
-        {"kind": "block", "type": "turtle_backward"},
-        {"kind": "block", "type": "turtle_pen_up"},
-        {"kind": "block", "type": "turtle_pen_down"}
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_backward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
       ]
     },
     "start_blocks_xml": "",

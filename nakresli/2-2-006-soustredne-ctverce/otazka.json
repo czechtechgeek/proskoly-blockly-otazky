@@ -17,7 +17,7 @@
     "poznamky": "3 čtverce 40/70/100px ze středu. Každý = smyčka, mezi nimi penUp a posun zpět."
   },
   "cms": {
-    "task_text": "Naprogramujte [hlp]tři soustředné čtverce[/hlp] o stranách 40, 70 a 100 pixelů. Všechny vycházejí ze středu.",
+    "task_text": "Naprogramujte [hlp]tři soustředné čtverce[/hlp] o stranách 40, 70 a 100 bodů. Všechny vycházejí ze středu.",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -28,7 +28,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);turtle.forward(100);turtle.right(90);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

@@ -16,7 +16,7 @@
     "poznamky": "forward(40+40) = forward(80). Propojení math_arithmetic do forward_number."
   },
   "cms": {
-    "task_text": "Nakreslete čtverec o straně [hlp]80 pixelů[/hlp], ale délku strany zadejte jako výpočet [hlp]40 + 40[/hlp].",
+    "task_text": "Nakreslete čtverec o straně [hlp]80 bodů[/hlp], ale délku strany zadejte jako výpočet [hlp]40 + 40[/hlp].",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -27,7 +27,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<4;i++){turtle.forward(80);turtle.right(90);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<4;i++){turtle.forward(80);turtle.right(90);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

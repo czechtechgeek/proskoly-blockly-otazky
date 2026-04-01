@@ -16,7 +16,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]přerušovaný čtverec o straně 80 pixelů[/hlp]. Každá strana se skládá z nakreslené části 20 px a mezery 20 px. Použijte smyčku.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]přerušovaný čtverec o straně 80 bodů[/hlp]. Každá strana se skládá z nakreslené části 20 px a mezery 20 px. Použijte smyčku.",
     "pozice_podkladu": {
       "x": 120,
       "y": 200,
@@ -27,7 +27,7 @@
       "y": 200,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

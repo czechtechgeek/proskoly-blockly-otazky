@@ -18,7 +18,7 @@
     "poznamky": "Seřaď bloky pro 3-zubý hřeben bez smyčky. Správné pořadí: [forward(40), backward(40), penUp, right(90), forward(20), left(90), penDown] × 3, ale poslední skupina bez penUp/přesunu (jen forward(40), backward(40) na konci). Bloky jsou rozházeny v workspace — student je musí správně seřadit a spojit."
   },
   "cms": {
-    "task_text": "Bloky pro kreslení [hlp]hřebene se 3 zuby[/hlp] jsou rozházeny v pracovní ploše. Seřaďte je do správného pořadí tak, aby želva nakreslila hřeben: každý zub je [hlp]40 pixelů vysoký[/hlp] a zuby jsou vzdáleny [hlp]20 pixelů[/hlp].",
+    "task_text": "Bloky pro kreslení [hlp]hřebene se 3 zuby[/hlp] jsou rozházeny v pracovní ploše. Seřaďte je do správného pořadí tak, aby želva nakreslila hřeben: každý zub je [hlp]40 bodů vysoký[/hlp] a zuby jsou vzdáleny [hlp]20 bodů[/hlp].",
     "pozice_podkladu": {
       "x": 60,
       "y": 200,
@@ -29,7 +29,7 @@
       "y": 200,
       "uhel": 90
     },
-    "sketch_code": "turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.forward(20);turtle.left(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": []

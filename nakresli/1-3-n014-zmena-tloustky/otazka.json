@@ -15,7 +15,7 @@
     "poznamky": "sketch_code používá PenDown/PenUp protože mezery jsou součástí referenčního obrázku"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]tři oddělené vodorovné čáry délky 50 pixelů[/hlp] s mezerami 20 pixelů mezi nimi. Mezi čárami zvedněte pero.",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]tři oddělené vodorovné čáry délky 50 bodů[/hlp] s mezerami 20 bodů mezi nimi. Mezi čárami zvedněte pero.",
     "pozice_podkladu": {
       "x": 60,
       "y": 130,
@@ -26,7 +26,7 @@
       "y": 130,
       "uhel": 0
     },
-    "sketch_code": "turtle.PenDown();turtle.forward(50);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(50);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(50);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(50);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(50);turtle.PenUp();turtle.forward(20);turtle.PenDown();turtle.forward(50);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

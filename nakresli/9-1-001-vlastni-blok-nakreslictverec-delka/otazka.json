@@ -33,7 +33,7 @@
       "y": 80,
       "uhel": 0
     },
-    "sketch_code": "function ctv(d){for(let i=0;i<4;i++){turtle.forward(d);turtle.right(90);}} ctv(50);turtle.PenUp();turtle.forward(60);turtle.PenDown();ctv(100);",
+    "sketch_code": "turtle.setPenWidth(5);function ctv(d){for(let i=0;i<4;i++){turtle.forward(d);turtle.right(90);}} ctv(50);turtle.PenUp();turtle.forward(60);turtle.PenDown();ctv(100);",
     "toolbox_json": {
       "kind": "categoryToolbox",
       "contents": [

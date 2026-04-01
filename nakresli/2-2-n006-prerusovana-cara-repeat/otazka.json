@@ -5,24 +5,52 @@
     "nazev": "Přerušovaná čára — se smyčkou",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 3,
-    "koncepty": ["controls_repeat_ext", "forward", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Navazuje na 2-2-n002 (přerušovaná čára bez smyčky) — stejný princip ale s repeat. Start x=50, y=160, uhel=0. repeat(5){ forward(20), penUp, forward(10), penDown }. Po posledním PenDown není další čára — to je správně. Čáry: 5×20px. Celková délka: 5×20 + 5×10 = 150px, konec na x=50+150=200."
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]přerušovanou čáru z 5 úseků[/hlp] pomocí [hlp]smyčky opakuj 5×[/hlp]. Každý nakreslený úsek má [hlp]20 pixelů[/hlp] a mezera mezi úseky je [hlp]10 pixelů[/hlp].",
-    "pozice_podkladu": { "x": 50, "y": 160, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 50, "y": 160, "uhel": 0 },
-    "sketch_code": "turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]přerušovanou čáru z 5 úseků[/hlp] pomocí [hlp]smyčky opakuj 5×[/hlp]. Každý nakreslený úsek má [hlp]20 bodů[/hlp] a mezera mezi úseky je [hlp]10 bodů[/hlp].",
+    "pozice_podkladu": {
+      "x": 50,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 50,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(10);turtle.PenDown();",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        { "kind": "block", "type": "controls_repeat_ext" },
-        { "kind": "block", "type": "math_number" },
-        { "kind": "block", "type": "turtle_forward" },
-        { "kind": "block", "type": "turtle_pen_up" },
-        { "kind": "block", "type": "turtle_pen_down" }
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext"
+        },
+        {
+          "kind": "block",
+          "type": "math_number"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        }
       ]
     },
     "start_blocks_xml": "",

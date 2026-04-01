@@ -17,7 +17,7 @@
     "poznamky": "Student musí nakreslit 2 čtverce 60px s 40px mezerou. penUp při přesunu."
   },
   "cms": {
-    "task_text": "Nakreslete [hlp]dva čtverce o straně 60 pixelů[/hlp] vedle sebe s mezerou 40 pixelů. Mezera = pero nekreslí.",
+    "task_text": "Nakreslete [hlp]dva čtverce o straně 60 bodů[/hlp] vedle sebe s mezerou 40 bodů. Mezera = pero nekreslí.",
     "pozice_podkladu": {
       "x": 60,
       "y": 160,
@@ -28,7 +28,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<4;i++){turtle.forward(60);turtle.right(90);}turtle.PenUp();turtle.forward(100);turtle.PenDown();for(let i=0;i<4;i++){turtle.forward(60);turtle.right(90);}",
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<4;i++){turtle.forward(60);turtle.right(90);}turtle.PenUp();turtle.forward(100);turtle.PenDown();for(let i=0;i<4;i++){turtle.forward(60);turtle.right(90);}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

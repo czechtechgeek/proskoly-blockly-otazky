@@ -18,7 +18,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]modré písmeno L[/hlp]: nejprve 100 pixelů dopředu, pak odbočte vpravo o 90° a 60 pixelů dopředu. Poté [hlp]bez kreslení se vraťte zpět na výchozí bod[/hlp] (pero nahoru, dozadu, otočit, dozadu, pero dolů). Barva pera: modrá (#0000FF).",
+    "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]modré písmeno L[/hlp]: nejprve 100 bodů dopředu, pak odbočte vpravo o 90° a 60 bodů dopředu. Poté [hlp]bez kreslení se vraťte zpět na výchozí bod[/hlp] (pero nahoru, dozadu, otočit, dozadu, pero dolů). Barva pera: modrá (#0000FF).",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,
@@ -29,7 +29,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.setPenColor('#0000FF');turtle.forward(100);turtle.right(90);turtle.forward(60);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(100);turtle.right(90);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

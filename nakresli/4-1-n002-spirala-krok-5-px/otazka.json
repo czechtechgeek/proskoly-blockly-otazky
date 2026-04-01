@@ -27,7 +27,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "let l=10;while(l<=80){turtle.forward(l);turtle.right(90);l+=5;}",
+    "sketch_code": "turtle.setPenWidth(5);let l=10;while(l<=80){turtle.forward(l);turtle.right(90);l+=5;}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [

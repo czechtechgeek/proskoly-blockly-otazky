@@ -13,7 +13,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]přímou čáru dlouhou 100 pixelů[/hlp]. Pero musí být spuštěno před pohybem.",
+    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]přímou čáru dlouhou 100 bodů[/hlp]. Pero musí být spuštěno před pohybem.",
     "pozice_podkladu": {
       "x": 60,
       "y": 160,
@@ -24,7 +24,7 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(100);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(100);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": []

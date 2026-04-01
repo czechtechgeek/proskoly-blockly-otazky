@@ -27,7 +27,7 @@
       "y": 30,
       "uhel": 0
     },
-    "sketch_code": "const c=['#ff0000','#ff7700','#ffff00','#00aa00','#0099ff','#0000ff','#8800aa'];for(let i=0;i<7;i++){turtle.setPenColor(c[i]);turtle.forward(150);turtle.PenUp();turtle.backward(150);turtle.right(90);turtle.forward(25);turtle.left(90);turtle.PenDown();}",
+    "sketch_code": "turtle.setPenWidth(5);const c=['#ff0000','#ff7700','#ffff00','#00aa00','#0099ff','#0000ff','#8800aa'];for(let i=0;i<7;i++){turtle.forward(150);turtle.PenUp();turtle.backward(150);turtle.right(90);turtle.forward(25);turtle.left(90);turtle.PenDown();}",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
