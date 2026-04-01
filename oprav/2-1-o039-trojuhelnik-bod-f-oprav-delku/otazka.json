@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "2-1-o039",
+    "typ": "oprav",
+    "nazev": "Trojúhelník (bod F) — oprav délku strany",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Start: opakuj(3){forward(120), right(120)} — délka příliš velká, přesahuje canvas. Správně: forward(80). Výchozí pozice bod F (225,275), uhel=90 (nahoru)."
+  },
+  "cms": {
+    "task_text": "Kód kreslí trojúhelník z pravého dolního rohu, ale [hlp]délka strany je příliš velká[/hlp]. Opravte ji na [hlp]80 bodů[/hlp], aby se trojúhelník vešel na plátno.",
+    "pozice_podkladu": {
+      "x": 225,
+      "y": 275,
+      "uhel": 90
+    },
+    "pozice_kurzoru": {
+      "x": 225,
+      "y": 275,
+      "uhel": 90
+    },
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<3;i++){turtle.forward(80);turtle.right(120);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 3
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 80
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 80
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 120
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">120</field></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "80,80,80",
+      "cary_tolerance": 4,
+      "uhly": "120,120",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">120</field></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

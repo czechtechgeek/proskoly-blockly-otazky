@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "2-1-o031",
+    "typ": "oprav",
+    "nazev": "Šestiúhelník — oprav úhel otočení",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Start: opakuj(6){forward(65), right(90)} — špatný úhel. Správně: right(60). Vnější úhel šestiúhelníku = 360/6 = 60°."
+  },
+  "cms": {
+    "task_text": "Kód má nakreslit šestiúhelník, ale [hlp]úhel otočení je příliš velký[/hlp]. Pro šestiúhelník je správný úhel [hlp]60°[/hlp].",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<6;i++){turtle.forward(65);turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 6
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 60
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 65
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 60
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">65</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "65,65,65,65,65,65",
+      "cary_tolerance": 3,
+      "uhly": "60,60,60,60,60",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">65</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">60</field></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

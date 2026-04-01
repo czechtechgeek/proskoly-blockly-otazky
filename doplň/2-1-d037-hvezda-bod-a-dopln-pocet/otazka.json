@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "2-1-d037",
+    "typ": "doplň",
+    "nazev": "Hvězda bod A — doplň počet opakování",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Smyčka opakuje 1× (špatně). Student musí změnit na 5. Startovní pozice: bod A (125,75)."
+  },
+  "cms": {
+    "task_text": "Kód kreslí pěticípou hvězdu o délce paprsku 80 bodů, ale smyčka [hlp]se provede jen jednou[/hlp]. Hvězda má [hlp]5 cípů[/hlp].",
+    "pozice_podkladu": {
+      "x": 125,
+      "y": 75,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 125,
+      "y": 75,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<5;i++){turtle.forward(80);turtle.right(144);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+          "inputs": {
+            "TIMES": {
+              "shadow": {
+                "type": "math_number",
+                "fields": {
+                  "NUM": 5
+                }
+              }
+            }
+          }
+        },
+        {
+          "kind": "block",
+          "type": "math_number",
+          "fields": {
+            "NUM": 5
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 80
+          }
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "fields": {
+            "ANGLE": 144
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">1</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">144</field></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "80,80,80,80,80",
+      "cary_tolerance": 4,
+      "uhly": "144,144,144,144",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">144</field></block></next></block></statement></block></xml>"
+  }
+}

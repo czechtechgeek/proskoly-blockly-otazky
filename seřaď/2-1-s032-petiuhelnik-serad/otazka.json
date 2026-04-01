@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "2-1-s032",
+    "typ": "seřaď",
+    "nazev": "Pětiúhelník — seřaď bloky",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Všechny bloky jsou v workspace rozhozeny. Student musí sestavit: opakuj(5) { forward(65), right(72) }. Startovní pozice: střed (160,160)."
+  },
+  "cms": {
+    "task_text": "Bloky pro kreslení pravidelného pětiúhelníku o straně 65 bodů jsou [hlp]rozhozeny po workspace[/hlp]. Sestavte je správně.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<5;i++){turtle.forward(65);turtle.right(72);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"30\" y=\"180\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value></block><block type=\"turtle_forward\" x=\"220\" y=\"30\"><field name=\"DISTANCE\">65</field></block><block type=\"turtle_right\" x=\"30\" y=\"50\"><field name=\"ANGLE\">72</field></block></xml>",
+    "validace": {
+      "cary_delky": "65,65,65,65,65",
+      "cary_tolerance": 3,
+      "uhly": "72,72,72,72",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">65</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">72</field></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

@@ -2252,6 +2252,146 @@
     ]
   },
   {
+    "path": "otazky/doplň/2-1-d030-trojuhelnik-dopln-delku-strany/otazka.json",
+    "id": "2-1-d030",
+    "nazev": "Trojúhelník — doplň délku strany",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d031-petiuhelnik-dopln-uhel/otazka.json",
+    "id": "2-1-d031",
+    "nazev": "Pětiúhelník — doplň úhel",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d032-osmiuhelnik-dopln-uhel/otazka.json",
+    "id": "2-1-d032",
+    "nazev": "Osmiúhelník — doplň úhel",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d033-hvezda-dopln-delku-strany/otazka.json",
+    "id": "2-1-d033",
+    "nazev": "Hvězda — doplň délku paprsku",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d034-ctverec-bod-b-dopln-pocet/otazka.json",
+    "id": "2-1-d034",
+    "nazev": "Čtverec bod B — doplň počet opakování",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d035-trojuhelnik-dopln-uhel/otazka.json",
+    "id": "2-1-d035",
+    "nazev": "Trojúhelník — doplň úhel",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d036-hexagon-dopln-pocet-opakovani/otazka.json",
+    "id": "2-1-d036",
+    "nazev": "Šestiúhelník — doplň počet opakování",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d037-hvezda-bod-a-dopln-pocet/otazka.json",
+    "id": "2-1-d037",
+    "nazev": "Hvězda bod A — doplň počet opakování",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d038-detiuhelnik-dopln-uhel/otazka.json",
+    "id": "2-1-d038",
+    "nazev": "Desetiúhelník — doplň úhel",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-1-d039-ctverec-bod-c-dopln-delku/otazka.json",
+    "id": "2-1-d039",
+    "nazev": "Čtverec bod C — doplň délku strany",
+    "typ": "doplň",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
     "path": "otazky/nakresli/2-1-n028-pravidelny-petiuhelnik-se-smyckou/otazka.json",
     "id": "2-1-n028",
     "nazev": "Pravidelný pětiúhelník se smyčkou",
@@ -2284,6 +2424,286 @@
     "id": "2-1-o028",
     "nazev": "Čtverec — right je za smyčkou místo uvnitř",
     "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o030-trojuhelnik-oprav-delku/otazka.json",
+    "id": "2-1-o030",
+    "nazev": "Trojúhelník — oprav délku strany",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o031-hexagon-oprav-uhel/otazka.json",
+    "id": "2-1-o031",
+    "nazev": "Šestiúhelník — oprav úhel otočení",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o032-petiuhelnik-oprav-pocet/otazka.json",
+    "id": "2-1-o032",
+    "nazev": "Pětiúhelník — oprav počet opakování",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o033-osmiuhelnik-oprav-uhel/otazka.json",
+    "id": "2-1-o033",
+    "nazev": "Osmiúhelník — oprav úhel otočení",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o034-hvezda-oprav-delku/otazka.json",
+    "id": "2-1-o034",
+    "nazev": "Hvězda — oprav délku paprsku",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o035-ctverec-bod-b-oprav-pocet/otazka.json",
+    "id": "2-1-o035",
+    "nazev": "Čtverec (bod B) — oprav počet opakování",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o036-hexagon-oprav-pocet/otazka.json",
+    "id": "2-1-o036",
+    "nazev": "Šestiúhelník — oprav počet opakování",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o037-petiuhelnik-oprav-uhel/otazka.json",
+    "id": "2-1-o037",
+    "nazev": "Pětiúhelník — oprav úhel otočení",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o038-hvezda-oprav-smer/otazka.json",
+    "id": "2-1-o038",
+    "nazev": "Hvězda — oprav směr otočení (vlevo)",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-1-o039-trojuhelnik-bod-f-oprav-delku/otazka.json",
+    "id": "2-1-o039",
+    "nazev": "Trojúhelník (bod F) — oprav délku strany",
+    "typ": "oprav",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s030-ctverec-bod-b-serad/otazka.json",
+    "id": "2-1-s030",
+    "nazev": "Čtverec — bod B — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s031-trojuhelnik-serad/otazka.json",
+    "id": "2-1-s031",
+    "nazev": "Trojúhelník — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s032-petiuhelnik-serad/otazka.json",
+    "id": "2-1-s032",
+    "nazev": "Pětiúhelník — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s033-hvezda-bod-a-vlevo-serad/otazka.json",
+    "id": "2-1-s033",
+    "nazev": "Pěticípá hvězda — bod A — vlevo — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s034-osmiuhelnik-bod-c-serad/otazka.json",
+    "id": "2-1-s034",
+    "nazev": "Osmiúhelník — bod C — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s035-hexagon-bod-d-serad/otazka.json",
+    "id": "2-1-s035",
+    "nazev": "Šestiúhelník — bod D — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s036-ctverec-bod-e-serad/otazka.json",
+    "id": "2-1-s036",
+    "nazev": "Čtverec 100 bodů — bod E — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s037-hvezda-bod-d-serad/otazka.json",
+    "id": "2-1-s037",
+    "nazev": "Pěticípá hvězda — bod D — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s038-trojuhelnik-bod-a-vlevo-serad/otazka.json",
+    "id": "2-1-s038",
+    "nazev": "Trojúhelník — bod A — vlevo — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.1-cyklus",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-1-s039-detiuhelnik-serad/otazka.json",
+    "id": "2-1-s039",
+    "nazev": "Desetiúhelník — seřaď bloky",
+    "typ": "seřaď",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
     "stav": "draft",

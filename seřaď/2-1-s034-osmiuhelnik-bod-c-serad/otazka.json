@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "2-1-s034",
+    "typ": "seřaď",
+    "nazev": "Osmiúhelník — bod C — seřaď bloky",
+    "tematicky_okruh": "2.1-cyklus",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Všechny bloky jsou v workspace rozhozeny. Student musí sestavit: opakuj(8) { forward(50), right(45) }. Startovní pozice: bod C (125,175)."
+  },
+  "cms": {
+    "task_text": "Bloky pro kreslení osmiúhelníku o straně 50 bodů jsou [hlp]rozhozeny po workspace[/hlp]. Sestavte je správně.",
+    "pozice_podkladu": {
+      "x": 125,
+      "y": 175,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 125,
+      "y": 175,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<8;i++){turtle.forward(50);turtle.right(45);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"200\" y=\"200\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">8</field></shadow></value></block><block type=\"turtle_forward\" x=\"30\" y=\"30\"><field name=\"DISTANCE\">50</field></block><block type=\"turtle_right\" x=\"200\" y=\"50\"><field name=\"ANGLE\">45</field></block></xml>",
+    "validace": {
+      "cary_delky": "50,50,50,50,50,50,50,50",
+      "cary_tolerance": 3,
+      "uhly": "45,45,45,45,45,45,45",
+      "uhly_tolerance": 10,
+      "max_bloku": 3,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">8</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">45</field></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}
