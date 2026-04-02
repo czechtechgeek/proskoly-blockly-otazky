@@ -11,7 +11,7 @@
       "right"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Pilot 2.1. Klíčový moment: student musí přijít na vnější úhel 120° (ne 60°). Záměrně nabízíme right(90) jako 'past' — student musí hodnotu změnit. Ověřit zda hint v zadání stačí nebo je potřeba tooltip."
   },
   "cms": {

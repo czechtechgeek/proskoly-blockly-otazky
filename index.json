@@ -1,12 +1,12 @@
 [
   {
-    "path": "otazky/nakresli/001-ctverec-zaklady/otazka.json",
-    "id": "001",
-    "nazev": "Čtverec — základy",
-    "typ": "nakresli",
-    "okruh": "1.1-zaklady",
-    "difficulty": 1,
-    "stav": "published",
+    "path": "otazky/oprav/1-3-o003-najdi-chybu-ctverec-spatny-uhel/otazka.json",
+    "id": "1-3-o003",
+    "nazev": "Najdi chybu — čtverec špatný úhel",
+    "typ": "oprav",
+    "okruh": "",
+    "difficulty": 2,
+    "stav": "review",
     "koncepty": [
       "forward",
       "right"
@@ -19,7 +19,7 @@
     "typ": "seřaď",
     "okruh": "1.1-zaklady",
     "difficulty": 1,
-    "stav": "draft",
+    "stav": "ready",
     "koncepty": [
       "forward",
       "right"
@@ -32,7 +32,7 @@
     "typ": "seřaď",
     "okruh": "1.1-zaklady",
     "difficulty": 1,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "forward",
       "right",
@@ -96,7 +96,7 @@
     "typ": "nakresli",
     "okruh": "1.1-zaklady",
     "difficulty": 1,
-    "stav": "published",
+    "stav": "ready",
     "koncepty": []
   },
   {
@@ -116,7 +116,7 @@
     "typ": "oprav",
     "okruh": "1.1-zaklady",
     "difficulty": 2,
-    "stav": "published",
+    "stav": "ready",
     "koncepty": []
   },
   {
@@ -126,7 +126,7 @@
     "typ": "nakresli",
     "okruh": "1.1-zaklady",
     "difficulty": 2,
-    "stav": "published",
+    "stav": "ready",
     "koncepty": []
   },
   {
@@ -1866,7 +1866,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -1880,21 +1880,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
-    "koncepty": [
-      "controls_repeat_ext",
-      "forward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/doplň/2-1-003-ctverec-dopln-chybejici-otoceni/otazka.json",
-    "id": "2-1-003",
-    "nazev": "Čtverec — doplň chybějící otočení",
-    "typ": "doplň",
-    "okruh": "2.1-cyklus",
-    "difficulty": 2,
-    "stav": "ready",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -1908,7 +1894,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -1922,7 +1908,7 @@
     "typ": "oprav",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -1936,7 +1922,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -1950,7 +1936,7 @@
     "typ": "oprav",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -1964,7 +1950,7 @@
     "typ": "oprav",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -1978,7 +1964,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -1992,7 +1978,7 @@
     "typ": "seřaď",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2006,7 +1992,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2020,7 +2006,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2034,7 +2020,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2048,7 +2034,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2062,7 +2048,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2076,7 +2062,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2090,7 +2076,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2104,7 +2090,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2118,7 +2104,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2132,7 +2118,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2146,7 +2132,7 @@
     "typ": "oprav",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2160,7 +2146,7 @@
     "typ": "seřaď",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2174,7 +2160,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2188,7 +2174,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2202,7 +2188,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2216,7 +2202,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2230,7 +2216,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2244,7 +2230,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2398,7 +2384,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2412,7 +2398,7 @@
     "typ": "nakresli",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",

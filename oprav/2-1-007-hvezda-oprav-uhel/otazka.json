@@ -11,7 +11,7 @@
       "right"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Start bloky: opakuj(5) { forward(100), right(90) } — špatný úhel. Správný úhel pro 5-cípou hvězdu = 144°. Student musí změnit 90 → 144."
   },
   "cms": {

@@ -11,7 +11,7 @@
       "right"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Pilot 2.1 — typ doplň. Smyčka a forward jsou předpřipraveny, student musí doplnit turtle_right(90) dovnitř smyčky. Ověřit: zda student vidí, že blok musí jít DOVNITŘ smyčky (do DO), ne za ni."
   },
   "cms": {

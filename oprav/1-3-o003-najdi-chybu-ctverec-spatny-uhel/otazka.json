@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id": "1-3-o003",
+    "typ": "oprav",
+    "nazev": "Najdi chybu — čtverec špatný úhel",
+    "tematicky_okruh": "",
+    "difficulty": 2,
+    "koncepty": [
+      "forward",
+      "right"
+    ],
+    "verze": 2,
+    "stav": "review"
+  },
+  "cms": {
+    "task_text": "Kód má nakreslit [hlp]čtverec o straně 80 bodů[/hlp], ale obsahuje chybu — úhel otočení je špatný. Najděte a opravte chybu tak, aby čtverec měl správné rohy (90°).",
+    "pozice_podkladu": {
+      "x": 150,
+      "y": 150,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 150,
+      "y": 150,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(80); turtle.right(45); turtle.forward(80); turtle.right(45); turtle.forward(80); turtle.right(45); turtle.forward(80);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "enabled": true
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right",
+          "enabled": true
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\">\n  <block type=\"turtle_forward\" x=\"20\" y=\"20\">\n    <field name=\"DISTANCE\">80</field>\n    <next>\n      <block type=\"turtle_right\">\n        <field name=\"ANGLE\">45</field>\n        <next>\n          <block type=\"turtle_forward\">\n            <field name=\"DISTANCE\">80</field>\n            <next>\n              <block type=\"turtle_right\">\n                <field name=\"ANGLE\">45</field>\n                <next>\n                  <block type=\"turtle_forward\">\n                    <field name=\"DISTANCE\">80</field>\n                    <next>\n                      <block type=\"turtle_right\">\n                        <field name=\"ANGLE\">45</field>\n                        <next>\n                          <block type=\"turtle_forward\">\n                            <field name=\"DISTANCE\">80</field>\n                          </block>\n                        </next>\n                      </block>\n                    </next>\n                  </block>\n                </next>\n              </block>\n            </next>\n          </block>\n        </next>\n      </block>\n    </next>\n  </block>\n</xml>",
+    "validace": {
+      "cary_delky": "80,80,80,80",
+      "cary_tolerance": 5,
+      "uhly": "45,45,45",
+      "uhly_tolerance": 10,
+      "max_bloku": 9,
+      "typy_bloku": "turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"eBy$22;Xa_WatPQ*Zb4p\" x=\"20\" y=\"20\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"B%D/$#83E)]ih8HJ!83_\"><field name=\"ANGLE\">45</field><next><block type=\"turtle_forward\" id=\"-}0~S_#0Ev3-OtTQfc{i\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"l$l3q2QvYxVfJ,`.5jF)\"><field name=\"ANGLE\">45</field><next><block type=\"turtle_forward\" id=\"[`irupM6MGOwXO}h#-FR\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"[XdNy+=)S=lR*/Voxn3F\"><field name=\"ANGLE\">45</field><next><block type=\"turtle_forward\" id=\"2ZB5yI!`G,bWO$U4P*3/\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}
