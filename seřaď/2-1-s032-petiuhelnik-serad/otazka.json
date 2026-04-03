@@ -35,7 +35,7 @@
     "validace": {
       "cary_delky": "65,65,65,65,65",
       "cary_tolerance": 3,
-      "uhly": "72,72,72,72",
+      "uhly": "-72,-72,-72,-72,-72",
       "uhly_tolerance": 10,
       "max_bloku": 3,
       "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right"

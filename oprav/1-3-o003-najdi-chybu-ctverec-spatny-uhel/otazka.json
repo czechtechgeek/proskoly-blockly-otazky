@@ -24,7 +24,7 @@
       "y": 150,
       "uhel": 0
     },
-    "sketch_code": "turtle.forward(80); turtle.right(45); turtle.forward(80); turtle.right(45); turtle.forward(80); turtle.right(45); turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80); turtle.right(45); turtle.forward(80); turtle.right(45); turtle.forward(80); turtle.right(45); turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
@@ -44,7 +44,7 @@
     "validace": {
       "cary_delky": "80,80,80,80",
       "cary_tolerance": 5,
-      "uhly": "45,45,45",
+      "uhly": "-45,-45,-45",
       "uhly_tolerance": 10,
       "max_bloku": 9,
       "typy_bloku": "turtle_forward,turtle_right"

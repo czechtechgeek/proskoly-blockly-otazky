@@ -58,7 +58,7 @@
     "validace": {
       "cary_delky": "10,20,30,40,50,60,70,80,90",
       "cary_tolerance": 5,
-      "uhly": "-90",
+      "uhly": "-90,-90,-90,-90,-90,-90,-90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 7,
       "typy_bloku": "controls_whileUntil,variables_set,math_change,turtle_forward_number,turtle_right"
