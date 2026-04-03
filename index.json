@@ -2893,6 +2893,248 @@
     ]
   },
   {
+    "path": "otazky/doplň/2-2-d005-teckovana-cara-dopln-pendown/otazka.json",
+    "id": "2-2-d005",
+    "nazev": "Tečkovaná čára — doplň penDown",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d006-teckovana-cara-dopln-penup/otazka.json",
+    "id": "2-2-d006",
+    "nazev": "Tečkovaná čára — doplň penUp",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d007-hreben-dopln-pendown-za-posun/otazka.json",
+    "id": "2-2-d007",
+    "nazev": "Hřeben — doplň penDown za posun",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d008-schody-dopln-left-90/otazka.json",
+    "id": "2-2-d008",
+    "nazev": "Schody — doplň left(90)",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d009-teckovana-cara-dopln-pocet-opakovani/otazka.json",
+    "id": "2-2-d009",
+    "nazev": "Tečkovaná čára — doplň počet opakování",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d010-hreben-dopln-penup-pred-posun/otazka.json",
+    "id": "2-2-d010",
+    "nazev": "Hřeben — doplň penUp před posun",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d011-zebrik-dopln-pricle-backward/otazka.json",
+    "id": "2-2-d011",
+    "nazev": "Žebřík — doplň příčle (backward)",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d012-prerusovany-trojuhelnik-dopln-penup/otazka.json",
+    "id": "2-2-d012",
+    "nazev": "Přerušovaný trojúhelník — doplň penUp",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d013-svisla-teckovana-cara-dopln-pendown/otazka.json",
+    "id": "2-2-d013",
+    "nazev": "Svislá tečkovaná čára — doplň penDown",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d014-schody-dopln-right-90/otazka.json",
+    "id": "2-2-d014",
+    "nazev": "Schody — doplň right(90)",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d015-hreben-svisly-dopln-pocet-zubu/otazka.json",
+    "id": "2-2-d015",
+    "nazev": "Hřeben svislý — doplň počet zubů",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d016-prerusovany-hexagon-dopln-right-60/otazka.json",
+    "id": "2-2-d016",
+    "nazev": "Přerušovaný hexagon — doplň right(60)",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d017-teckovana-cara-dopln-oba-prikazy-pera/otazka.json",
+    "id": "2-2-d017",
+    "nazev": "Tečkovaná čára — doplň oba příkazy pera",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d018-schody-dopln-forward-40-pro-schodistovy-stupen/otazka.json",
+    "id": "2-2-d018",
+    "nazev": "Schody — doplň forward(40) pro schodišťový stupeň",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-2-d019-hreben-dopln-backward-40-pro-vraceni-zubu/otazka.json",
+    "id": "2-2-d019",
+    "nazev": "Hřeben — doplň backward(40) pro vrácení zubu",
+    "typ": "doplň",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
     "path": "otazky/nakresli/2-2-n001-ctverce-s-mezerou-jednoduchy/otazka.json",
     "id": "2-2-n001",
     "nazev": "Dva čtverce s mezerou — bez smyčky",
@@ -3063,6 +3305,55 @@
     ]
   },
   {
+    "path": "otazky/nakresli/2-2-n010-teckovana-cara-svisla/otazka.json",
+    "id": "2-2-n010",
+    "nazev": "Tečkovaná čára svislá",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n011-hreben-5-zubu/otazka.json",
+    "id": "2-2-n011",
+    "nazev": "Hřeben — 5 zubů",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-2-n012-prerusovany-hexagon/otazka.json",
+    "id": "2-2-n012",
+    "nazev": "Přerušovaný hexagon",
+    "typ": "nakresli",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
     "path": "otazky/oprav/2-2-o001-soustredne-ctverce-spatny-uhel/otazka.json",
     "id": "2-2-o001",
     "nazev": "Čtverec — oprav špatný úhel",
@@ -3104,6 +3395,261 @@
       "forward",
       "right",
       "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o004-teckovana-cara-oprav-poradi-pera/otazka.json",
+    "id": "2-2-o004",
+    "nazev": "Tečkovaná čára — oprav pořadí pera",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o005-hreben-oprav-uhel-otoceni-45-90/otazka.json",
+    "id": "2-2-o005",
+    "nazev": "Hřeben — oprav úhel otočení (45° → 90°)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o006-schody-oprav-delku-kroku-20-40/otazka.json",
+    "id": "2-2-o006",
+    "nazev": "Schody — oprav délku kroku (20 → 40)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o007-teckovana-cara-oprav-delku-carky-10-20/otazka.json",
+    "id": "2-2-o007",
+    "nazev": "Tečkovaná čára — oprav délku čárky (10 → 20)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o008-hreben-oprav-vysku-zubu-20-40/otazka.json",
+    "id": "2-2-o008",
+    "nazev": "Hřeben — oprav výšku zubu (20 → 40)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o009-schody-oprav-pocet-kroku-2-4/otazka.json",
+    "id": "2-2-o009",
+    "nazev": "Schody — oprav počet kroků (2 → 4)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o010-teckovana-cara-oprav-delku-mezery-30-15/otazka.json",
+    "id": "2-2-o010",
+    "nazev": "Tečkovaná čára — oprav délku mezery (30 → 15)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o011-hreben-oprav-spacing-40-20/otazka.json",
+    "id": "2-2-o011",
+    "nazev": "Hřeben — oprav spacing (40 → 20)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o012-prerusovany-trojuhelnik-oprav-uhel-60-120/otazka.json",
+    "id": "2-2-o012",
+    "nazev": "Přerušovaný trojúhelník — oprav úhel (60 → 120)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o013-schody-oprav-delku-svisleho-dilu-20-40/otazka.json",
+    "id": "2-2-o013",
+    "nazev": "Schody — oprav délku svislého dílu (20 → 40)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o014-teckovana-svisla-cara-oprav-pocet-opakovani-3-5/otazka.json",
+    "id": "2-2-o014",
+    "nazev": "Tečkovaná svislá čára — oprav počet opakování (3 → 5)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o015-hreben-oprav-pocet-zubu-2-4/otazka.json",
+    "id": "2-2-o015",
+    "nazev": "Hřeben — oprav počet zubů (2 → 4)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o016-prerusovany-hexagon-oprav-pocet-stran-3-6/otazka.json",
+    "id": "2-2-o016",
+    "nazev": "Přerušovaný hexagon — oprav počet stran (3 → 6)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o017-schody-oprav-right-na-left-wrong-direction/otazka.json",
+    "id": "2-2-o017",
+    "nazev": "Schody — oprav right na left (wrong direction)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o018-teckovana-cara-oprav-delky-25-5-20-15/otazka.json",
+    "id": "2-2-o018",
+    "nazev": "Tečkovaná čára — oprav délky (25/5 → 20/15)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-2-o019-hreben-oprav-smer-right-left-ve-smycce/otazka.json",
+    "id": "2-2-o019",
+    "nazev": "Hřeben — oprav směr (right→left ve smyčce)",
+    "typ": "oprav",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
     ]
   },
   {
@@ -3152,6 +3698,276 @@
       "left",
       "pen_up",
       "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s004-schody-3-kroky-serad-bloky/otazka.json",
+    "id": "2-2-s004",
+    "nazev": "Schody 3 kroky — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s005-hreben-4-zuby-serad-bloky/otazka.json",
+    "id": "2-2-s005",
+    "nazev": "Hřeben 4 zuby — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s006-teckovana-cara-5-carek-serad-bloky/otazka.json",
+    "id": "2-2-s006",
+    "nazev": "Tečkovaná čára (5 čárek) — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s007-schody-4-kroky-serad-bloky/otazka.json",
+    "id": "2-2-s007",
+    "nazev": "Schody 4 kroky — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s008-teckovana-cara-svisla-serad-bloky/otazka.json",
+    "id": "2-2-s008",
+    "nazev": "Tečkovaná čára svislá — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s009-hreben-3-zuby-serad-bloky/otazka.json",
+    "id": "2-2-s009",
+    "nazev": "Hřeben 3 zuby — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s010-teckovana-cara-4-carky-serad-bloky/otazka.json",
+    "id": "2-2-s010",
+    "nazev": "Tečkovaná čára 4 čárky — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s011-schody-3-kroky-krok-50-serad-bloky/otazka.json",
+    "id": "2-2-s011",
+    "nazev": "Schody 3 kroky (krok 50) — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s012-hreben-5-zubu-serad-bloky/otazka.json",
+    "id": "2-2-s012",
+    "nazev": "Hřeben 5 zubů — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s013-teckovana-cara-kratka-25-5-serad-bloky/otazka.json",
+    "id": "2-2-s013",
+    "nazev": "Tečkovaná čára krátká (25/5) — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s014-schody-4-kroky-krok-30-serad-bloky/otazka.json",
+    "id": "2-2-s014",
+    "nazev": "Schody 4 kroky (krok 30) — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s015-teckovana-cara-6-carek-serad-bloky/otazka.json",
+    "id": "2-2-s015",
+    "nazev": "Tečkovaná čára 6 čárek — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s016-hreben-3-zuby-vyska-50-serad-bloky/otazka.json",
+    "id": "2-2-s016",
+    "nazev": "Hřeben 3 zuby (výška 50) — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s017-schody-5-kroku-serad-bloky/otazka.json",
+    "id": "2-2-s017",
+    "nazev": "Schody 5 kroků — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s018-teckovana-cara-3-carky-30-15-serad-bloky/otazka.json",
+    "id": "2-2-s018",
+    "nazev": "Tečkovaná čára 3 čárky (30/15) — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s019-hreben-4-zuby-vyska-30-serad-bloky/otazka.json",
+    "id": "2-2-s019",
+    "nazev": "Hřeben 4 zuby (výška 30) — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s020-schody-4-kroky-krok-40-serad-bloky/otazka.json",
+    "id": "2-2-s020",
+    "nazev": "Schody 4 kroky (krok 40) — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
     ]
   },
   {
@@ -3247,6 +4063,289 @@
       "backward",
       "right",
       "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d003-pismeno-t-dopln-penup-pred-presunem/otazka.json",
+    "id": "2-3-d003",
+    "nazev": "Písmeno T — doplň penUp před přesunem",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d004-pismeno-n-dopln-pendown/otazka.json",
+    "id": "2-3-d004",
+    "nazev": "Písmeno N — doplň penDown",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d005-pismeno-i-dopln-horni-serif/otazka.json",
+    "id": "2-3-d005",
+    "nazev": "Písmeno I — doplň horní serif",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d006-pismeno-c-dopln-dolni-tah/otazka.json",
+    "id": "2-3-d006",
+    "nazev": "Písmeno C — doplň dolní tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d007-pismeno-e-dopln-stredni-tah/otazka.json",
+    "id": "2-3-d007",
+    "nazev": "Písmeno E — doplň střední tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d008-pismeno-h-60px-dopln-pricku/otazka.json",
+    "id": "2-3-d008",
+    "nazev": "Písmeno H (60px) — doplň příčku",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d009-pismeno-u-dopln-pravy-svisly-tah/otazka.json",
+    "id": "2-3-d009",
+    "nazev": "Písmeno U — doplň pravý svislý tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d010-pismeno-t-dopln-svisly-tah/otazka.json",
+    "id": "2-3-d010",
+    "nazev": "Písmeno T — doplň svislý tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d011-pismeno-f-dopln-horni-vodorovny-tah/otazka.json",
+    "id": "2-3-d011",
+    "nazev": "Písmeno F — doplň horní vodorovný tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d012-pismeno-n-60px-dopln-pendown/otazka.json",
+    "id": "2-3-d012",
+    "nazev": "Písmeno N (60px) — doplň penDown",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d013-pismeno-i-dopln-dolni-serif/otazka.json",
+    "id": "2-3-d013",
+    "nazev": "Písmeno I — doplň dolní serif",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d014-pismeno-h-100px-dopln-pravy-svisly-tah/otazka.json",
+    "id": "2-3-d014",
+    "nazev": "Písmeno H (100px) — doplň pravý svislý tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d015-pismeno-e-dopln-dolni-tah/otazka.json",
+    "id": "2-3-d015",
+    "nazev": "Písmeno E — doplň dolní tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d016-pismeno-l-60px-dopln-otoceni-vlevo/otazka.json",
+    "id": "2-3-d016",
+    "nazev": "Písmeno L (60px) — doplň otočení vlevo",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d017-pismeno-c-60px-dopln-levy-svisly-tah/otazka.json",
+    "id": "2-3-d017",
+    "nazev": "Písmeno C (60px) — doplň levý svislý tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d018-pismeno-u-60px-dopln-dolni-tah/otazka.json",
+    "id": "2-3-d018",
+    "nazev": "Písmeno U (60px) — doplň dolní tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d019-pismeno-f-dopln-stredni-tah-forward/otazka.json",
+    "id": "2-3-d019",
+    "nazev": "Písmeno F — doplň střední tah (forward)",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d020-pismeno-t-80px-dopln-pendown-pred-svislym-tahem/otazka.json",
+    "id": "2-3-d020",
+    "nazev": "Písmeno T (80px) — doplň penDown před svislým tahem",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
       "pen_up",
       "pen_down"
     ]
@@ -3550,6 +4649,287 @@
     ]
   },
   {
+    "path": "otazky/oprav/2-3-o002-pismeno-l-oprav-delku-svisleho-tahu-100-80/otazka.json",
+    "id": "2-3-o002",
+    "nazev": "Písmeno L — oprav délku svislého tahu (100 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o003-pismeno-t-oprav-presun-na-stred-backward-80-50/otazka.json",
+    "id": "2-3-o003",
+    "nazev": "Písmeno T — oprav přesun na střed (backward 80 → 50)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o004-pismeno-h-oprav-delku-pricky-40-60/otazka.json",
+    "id": "2-3-o004",
+    "nazev": "Písmeno H — oprav délku příčky (40 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o005-pismeno-c-oprav-delku-svisleho-tahu-60-80/otazka.json",
+    "id": "2-3-o005",
+    "nazev": "Písmeno C — oprav délku svislého tahu (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o006-pismeno-n-oprav-delku-leveho-tahu-60-80/otazka.json",
+    "id": "2-3-o006",
+    "nazev": "Písmeno N — oprav délku levého tahu (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o007-pismeno-f-oprav-delku-horniho-tahu-40-60/otazka.json",
+    "id": "2-3-o007",
+    "nazev": "Písmeno F — oprav délku horního tahu (40 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o008-pismeno-i-oprav-delku-serifs-40-60/otazka.json",
+    "id": "2-3-o008",
+    "nazev": "Písmeno I — oprav délku serifs (40 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o009-pismeno-u-oprav-sirku-40-60/otazka.json",
+    "id": "2-3-o009",
+    "nazev": "Písmeno U — oprav šířku (40 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o010-pismeno-l-oprav-delku-vodorovneho-tahu-80-60/otazka.json",
+    "id": "2-3-o010",
+    "nazev": "Písmeno L — oprav délku vodorovného tahu (80 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o011-pismeno-h-oprav-umisteni-pricky-backward-30-40/otazka.json",
+    "id": "2-3-o011",
+    "nazev": "Písmeno H — oprav umístění příčky (backward 30 → 40)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o012-pismeno-e-oprav-delku-stredniho-tahu-60-50/otazka.json",
+    "id": "2-3-o012",
+    "nazev": "Písmeno E — oprav délku středního tahu (60 → 50)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o013-pismeno-c-60px-oprav-delku-horniho-tahu-80-60/otazka.json",
+    "id": "2-3-o013",
+    "nazev": "Písmeno C (60px) — oprav délku horního tahu (80 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o014-pismeno-n-oprav-delku-diagonalniho-tahu-60-80/otazka.json",
+    "id": "2-3-o014",
+    "nazev": "Písmeno N — oprav délku diagonálního tahu (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o015-pismeno-i-oprav-vysku-svisleho-tahu-60-80/otazka.json",
+    "id": "2-3-o015",
+    "nazev": "Písmeno I — oprav výšku svislého tahu (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o016-pismeno-u-80px-oprav-vysku-60-80/otazka.json",
+    "id": "2-3-o016",
+    "nazev": "Písmeno U (80px) — oprav výšku (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o017-pismeno-f-oprav-delku-svisleho-tahu-60-80/otazka.json",
+    "id": "2-3-o017",
+    "nazev": "Písmeno F — oprav délku svislého tahu (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o018-pismeno-h-oprav-backward-pri-navratu-40-80/otazka.json",
+    "id": "2-3-o018",
+    "nazev": "Písmeno H — oprav backward při návratu (40 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o019-pismeno-e-oprav-umisteni-stredniho-tahu-forward-60/otazka.json",
+    "id": "2-3-o019",
+    "nazev": "Písmeno E — oprav umístění středního tahu (forward 60 → 40)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
     "path": "otazky/seřaď/2-3-s001-pismeno-t-serad-bloky/otazka.json",
     "id": "2-3-s001",
     "nazev": "Písmeno T — seřaď bloky",
@@ -3580,6 +4960,269 @@
       "left",
       "pen_up",
       "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s003-pismeno-l-80px-serad-tahy/otazka.json",
+    "id": "2-3-s003",
+    "nazev": "Písmeno L (80px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s004-pismeno-t-100px-serad-tahy/otazka.json",
+    "id": "2-3-s004",
+    "nazev": "Písmeno T (100px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s005-pismeno-c-serad-tahy/otazka.json",
+    "id": "2-3-s005",
+    "nazev": "Písmeno C — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s006-pismeno-u-serad-tahy/otazka.json",
+    "id": "2-3-s006",
+    "nazev": "Písmeno U — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s007-pismeno-n-serad-tahy/otazka.json",
+    "id": "2-3-s007",
+    "nazev": "Písmeno N — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s008-pismeno-l-60px-serad-tahy/otazka.json",
+    "id": "2-3-s008",
+    "nazev": "Písmeno L (60px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s009-pismeno-c-60px-serad-tahy/otazka.json",
+    "id": "2-3-s009",
+    "nazev": "Písmeno C (60px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s010-pismeno-u-60px-serad-tahy/otazka.json",
+    "id": "2-3-s010",
+    "nazev": "Písmeno U (60px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s011-pismeno-t-80px-serad-tahy/otazka.json",
+    "id": "2-3-s011",
+    "nazev": "Písmeno T (80px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s012-pismeno-i-serad-tahy/otazka.json",
+    "id": "2-3-s012",
+    "nazev": "Písmeno I — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s013-pismeno-n-60px-serad-tahy/otazka.json",
+    "id": "2-3-s013",
+    "nazev": "Písmeno N (60px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s014-pismeno-l-100px-serad-tahy/otazka.json",
+    "id": "2-3-s014",
+    "nazev": "Písmeno L (100px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s015-pismeno-u-100px-serad-tahy/otazka.json",
+    "id": "2-3-s015",
+    "nazev": "Písmeno U (100px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s016-pismeno-c-100px-serad-tahy/otazka.json",
+    "id": "2-3-s016",
+    "nazev": "Písmeno C (100px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s017-pismeno-t-120px-serad-tahy/otazka.json",
+    "id": "2-3-s017",
+    "nazev": "Písmeno T (120px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s018-pismeno-n-100px-serad-tahy/otazka.json",
+    "id": "2-3-s018",
+    "nazev": "Písmeno N (100px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s019-pismeno-i-100px-serad-tahy/otazka.json",
+    "id": "2-3-s019",
+    "nazev": "Písmeno I (100px) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "left",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s020-pismeno-u-80-80-serad-tahy/otazka.json",
+    "id": "2-3-s020",
+    "nazev": "Písmeno U (80×80) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "left"
     ]
   },
   {

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "2-2-o007",
+    "typ": "oprav",
+    "nazev": "Tečkovaná čára — oprav délku čárky (10 → 20)",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 2,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Čárky tečkované čáry jsou příliš krátké — [hlp]délka čárky je 10 bodů místo 20[/hlp]. Opravte.",
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(20);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">10</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field></block></next></block></next></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "20,20,20,20,20",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field></block></next></block></next></block></next></block></statement></block></xml>"
+  }
+}

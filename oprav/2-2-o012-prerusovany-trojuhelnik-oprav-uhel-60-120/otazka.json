@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "2-2-o012",
+    "typ": "oprav",
+    "nazev": "Přerušovaný trojúhelník — oprav úhel (60 → 120)",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Trojúhelník s přerušenými stranami se neuzavírá — [hlp]vnější úhel je 60° místo 120°[/hlp]. Opravte.",
+    "pozice_podkladu": {
+      "x": 160,
+      "y": 100,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 160,
+      "y": 100,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.forward(20);turtle.right(120);turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.forward(20);turtle.right(120);turtle.PenDown();turtle.forward(40);turtle.PenUp();turtle.forward(20);turtle.right(120);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">60</field></block></next></block></next></block></next></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "40,40,40",
+      "cary_tolerance": 5,
+      "uhly": "-120,-120,-120",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">120</field></block></next></block></next></block></next></block></next></block></statement></block></xml>"
+  }
+}

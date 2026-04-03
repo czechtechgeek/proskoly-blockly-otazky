@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "2-2-o016",
+    "typ": "oprav",
+    "nazev": "Přerušovaný hexagon — oprav počet stran (3 → 6)",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Přerušovaný hexagon se neuzavírá — [hlp]smyčka se opakuje jen 3× místo 6×[/hlp]. Opravte.",
+    "pozice_podkladu": {
+      "x": 100,
+      "y": 160,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 100,
+      "y": 160,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(10);turtle.right(60);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(10);turtle.right(60);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(10);turtle.right(60);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(10);turtle.right(60);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(10);turtle.right(60);turtle.PenDown();turtle.forward(30);turtle.PenUp();turtle.forward(10);turtle.right(60);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">10</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">60</field></block></next></block></next></block></next></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "30,30,30,30,30,30",
+      "cary_tolerance": 5,
+      "uhly": "-60,-60,-60,-60,-60,-60",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">10</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">60</field></block></next></block></next></block></next></block></next></block></statement></block></xml>"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "2-3-d018",
+    "typ": "doplň",
+    "nazev": "Písmeno U (60px) — doplň dolní tah",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 2,
+    "koncepty": [
+      "forward",
+      "left"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Písmenu U (60px) [hlp]chybí dolní vodorovný tah[/hlp]. Přidejte forward(40) na správné místo.",
+    "pozice_podkladu": {
+      "x": 125,
+      "y": 75,
+      "uhel": 270
+    },
+    "pozice_kurzoru": {
+      "x": 125,
+      "y": 75,
+      "uhel": 270
+    },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.left(90);turtle.forward(40);turtle.left(90);turtle.forward(60);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_forward",
+          "fields": {
+            "DISTANCE": 40
+          }
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "60,40,60",
+      "cary_tolerance": 5,
+      "uhly": "90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "turtle_forward,turtle_left"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}
