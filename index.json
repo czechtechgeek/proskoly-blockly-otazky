@@ -2244,7 +2244,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2258,7 +2258,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2272,7 +2272,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2286,7 +2286,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2300,7 +2300,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2314,7 +2314,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2328,7 +2328,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2342,7 +2342,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2356,7 +2356,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2370,7 +2370,7 @@
     "typ": "doplň",
     "okruh": "2.1-cyklus",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
