@@ -12,7 +12,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft"
+    "stav": "published"
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]svislou tečkovanou čáru — 5 čárek dolů[/hlp]. Každá čárka je 15 bodů, mezera 10 bodů.",

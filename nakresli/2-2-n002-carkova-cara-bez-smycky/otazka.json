@@ -11,7 +11,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Vstupní otázka do pera — čistá sekvence forward+penUp+penDown, 4 úseky po 30px s mezerami 15px. sketch_code záměrně používá PenUp/PenDown, protože pero je klíčový koncept tohoto okruhu."
   },
   "cms": {

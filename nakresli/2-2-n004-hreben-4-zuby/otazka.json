@@ -15,7 +15,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Geometrie: start x=60, y=200, uhel=90 (mířit nahoru). Každý zub: forward(40) nahoru, backward(40) zpět dolů, PenUp, right(90)=mířit vpravo, forward(20)=posun vpravo, left(90)=zpět nahoru, PenDown. 4 zuby. Čáry: 8× 40px (4 nahoru + 4 dolů jako backward). Úhly: right(90), left(90) × 4 = 8 úhlů."
   },
   "cms": {

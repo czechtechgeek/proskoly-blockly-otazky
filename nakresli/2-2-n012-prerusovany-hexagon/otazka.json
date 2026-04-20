@@ -13,7 +13,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft"
+    "stav": "published"
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]hexagon s přerušenými stranami[/hlp]. Každá strana: 30 bodů čára, 10 bodů mezera. Vnější úhel 60°.",

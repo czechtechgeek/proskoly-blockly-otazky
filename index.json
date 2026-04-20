@@ -2706,7 +2706,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2722,7 +2722,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2767,7 +2767,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 4,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2783,7 +2783,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 4,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2799,7 +2799,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -2815,7 +2815,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 4,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3141,7 +3141,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "forward",
       "right",
@@ -3156,7 +3156,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "forward",
       "pen_up",
@@ -3170,7 +3170,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3185,7 +3185,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3200,7 +3200,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3215,7 +3215,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3233,7 +3233,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 2,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "forward",
       "right"
@@ -3246,7 +3246,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3261,7 +3261,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 4,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3277,7 +3277,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 4,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3295,7 +3295,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 4,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3311,7 +3311,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3326,7 +3326,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",
@@ -3344,7 +3344,7 @@
     "typ": "nakresli",
     "okruh": "2.2-obrazce",
     "difficulty": 4,
-    "stav": "draft",
+    "stav": "published",
     "koncepty": [
       "controls_repeat_ext",
       "forward",

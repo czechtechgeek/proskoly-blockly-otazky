@@ -13,7 +13,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft"
+    "stav": "published"
   },
   "cms": {
     "task_text": "Naprogramujte želvu, aby nakreslila [hlp]přerušovaný čtverec o straně 80 bodů[/hlp]. Každá strana se skládá z nakreslené části 20 px a mezery 20 px. Použijte smyčku.",

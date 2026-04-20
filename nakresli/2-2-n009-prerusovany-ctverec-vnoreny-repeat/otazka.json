@@ -13,7 +13,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Vnořené smyčky: vnější repeat(4) pro 4 strany čtverce, vnitřní repeat(2) pro 2 přerušené úseky každé strany. Každý úsek: forward(20) nakresleno + penUp + forward(20) mezera + penDown. Strana = 2×(20+20)=80px. Start x=120, y=200, uhel=0. Čtverec: (120,200)→(200,200)→(200,120)→(120,120)→zpět. Čáry: 8×20px. Úhly: 4× right(90)."
   },
   "cms": {

@@ -12,7 +12,7 @@
       "left"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Mutace 2-2-n003: větší schody 50px, start x=50, y=250. 3 schody → výsledek x=50+3×50=200, y=250+3×50=400 (pod canvasem — ok, schody vedou dolů mimo canvas což je akceptovatelné pro tento tvar). Geometrie shodná s n003, jen jiná délka a startovní pozice."
   },
   "cms": {

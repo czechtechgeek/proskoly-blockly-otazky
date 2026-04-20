@@ -12,7 +12,7 @@
       "left"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Geometrie: start x=60, y=200, uhel=0 (vpravo). Každý schod = forward(40) vpravo + right(90) = mířit dolů + forward(40) dolů + left(90) = zpět na 0° (vpravo). 3 opakování → schody jdou doprava a dolů. Výsledná pozice: x=60+3×40=180, y=200+3×40=320 — na dolní hraně canvasu."
   },
   "cms": {

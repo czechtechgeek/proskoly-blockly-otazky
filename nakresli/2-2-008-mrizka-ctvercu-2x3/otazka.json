@@ -15,7 +15,7 @@
       "left"
     ],
     "verze": 1,
-    "stav": "draft"
+    "stav": "published"
   },
   "cms": {
     "task_text": "Naprogramujte želvu, aby nakreslila [hlp]mřížku 2 řady × 3 sloupce čtverců o straně 50 bodů[/hlp] s mezerami 10 px mezi čtverci. Použijte vnořené smyčky a pero pro přesuny.",

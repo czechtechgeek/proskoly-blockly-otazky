@@ -36,15 +36,17 @@
       "contents": [
         {
           "kind": "block",
-          "type": "turtle_pen_up"
+          "type": "turtle_pen_up",
+          "enabled": true
         },
         {
           "kind": "block",
-          "type": "turtle_pen_down"
+          "type": "turtle_pen_down",
+          "enabled": true
         }
       ]
     },
-    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"n1\"><field name=\"NUM\">4</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"b1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_backward\" id=\"b2\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"b3\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b4\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_left\" id=\"b5\"><field name=\"ANGLE\">90</field></block></next></block></next></block></next></block></next></block></statement></block></xml>",
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"n1\"><field name=\"NUM\">4</field></block></value><statement name=\"DO\"><block type=\"turtle_pen_down\" id=\",25(S+PMF/OhU^AlLa-9\"><next><block type=\"turtle_forward\" id=\"b1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_backward\" id=\"b2\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"b3\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\" id=\"d]4(p@Zkl,,+JQ(%fa`o\"><next><block type=\"turtle_forward\" id=\"b4\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_left\" id=\"b5\"><field name=\"ANGLE\">90</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>",
     "validace": {
       "cary_delky": "40,40,40,40,40,40,40,40",
       "cary_tolerance": 5,
@@ -57,5 +59,6 @@
   },
   "testing_js": {
     "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
-  }
+  },
+  "_loadedPath": "otazky/doplň/2-2-d001-hreben-dopln-penup/otazka.json"
 }

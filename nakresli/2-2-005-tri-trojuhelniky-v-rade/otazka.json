@@ -13,7 +13,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "opakuj(3){ nakresli trojúhelník 60px, penUp, forward(70), penDown }. Vnořená logika."
   },
   "cms": {

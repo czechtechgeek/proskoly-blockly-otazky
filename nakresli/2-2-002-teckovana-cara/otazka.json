@@ -12,7 +12,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "opakuj(5){ penDown, forward(20), penUp, forward(15) }"
   },
   "cms": {

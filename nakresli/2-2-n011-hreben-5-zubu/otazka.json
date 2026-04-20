@@ -15,7 +15,7 @@
       "pen_down"
     ],
     "verze": 1,
-    "stav": "draft"
+    "stav": "published"
   },
   "cms": {
     "task_text": "Naprogramujte želvu tak, aby nakreslila [hlp]hřeben s 5 zuby[/hlp]. Každý zub je 40 bodů vysoký, mezera mezi zuby 20 bodů.",

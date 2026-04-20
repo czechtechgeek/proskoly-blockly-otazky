@@ -10,7 +10,7 @@
       "right"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Jednoduchý L-tvar bez pera a bez smyčky. Start x=100, y=240, uhel=90 (mířit nahoru). forward(80) nahoru, right(90) = mířit vpravo, forward(40) vpravo. Výsledek: svislá čára 80px + vodorovná 40px = písmeno L."
   },
   "cms": {

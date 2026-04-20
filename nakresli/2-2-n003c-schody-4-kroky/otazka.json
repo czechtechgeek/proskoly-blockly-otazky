@@ -12,7 +12,7 @@
       "left"
     ],
     "verze": 1,
-    "stav": "draft",
+    "stav": "published",
     "poznamky": "Mutace 2-2-n003: 4 schody místo 3, délka 35px, start x=60, y=180. 4 schody × 35px = výsledek x=60+4×35=200, y=180+4×35=320 — přesně na dolní hraně canvasu. Smyčka se opakuje 4× místo 3×."
   },
   "cms": {
