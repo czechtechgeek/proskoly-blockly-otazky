@@ -2,7 +2,7 @@
   "meta": {
     "id": "2-2-o008",
     "typ": "oprav",
-    "nazev": "Hřeben — oprav výšku zubu (20 → 40)",
+    "nazev": "Sloupy — oprav výšku sloupu (20 → 40)",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 2,
     "koncepty": [
@@ -16,7 +16,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Zuby hřebene jsou příliš nízké — [hlp]výška zubu je 20 bodů místo 40[/hlp]. Opravte.",
+    "task_text": "Sloupy jsou příliš nízké. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 200,

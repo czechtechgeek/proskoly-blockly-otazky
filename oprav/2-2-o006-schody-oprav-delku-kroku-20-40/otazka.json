@@ -15,7 +15,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Schody jsou příliš malé — [hlp]délka kroku je 20 bodů místo 40[/hlp]. Opravte ji.",
+    "task_text": "Schody jsou příliš malé. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 80,

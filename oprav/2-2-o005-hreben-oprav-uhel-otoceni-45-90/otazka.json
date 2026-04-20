@@ -2,7 +2,7 @@
   "meta": {
     "id": "2-2-o005",
     "typ": "oprav",
-    "nazev": "Hřeben — oprav úhel otočení (45° → 90°)",
+    "nazev": "Sloupy — oprav úhel otočení (45° → 90°)",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 2,
     "koncepty": [
@@ -18,7 +18,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Hřeben se kreslí šikmo — [hlp]úhel otočení je 45° místo 90°[/hlp]. Opravte ho.",
+    "task_text": "Sloupy se kreslí šikmo. Opravte kód tak, aby sloupy stály rovně.",
     "pozice_podkladu": {
       "x": 60,
       "y": 200,

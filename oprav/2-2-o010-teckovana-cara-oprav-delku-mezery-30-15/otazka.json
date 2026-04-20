@@ -15,7 +15,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Mezery v tečkované čáře jsou příliš velké — [hlp]délka mezery je 30 bodů místo 15[/hlp]. Opravte.",
+    "task_text": "Mezery v [hlp]tečkované čáře[/hlp] jsou příliš velké. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 160,
@@ -26,14 +26,14 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(20);turtle.PenUp();turtle.forward(15);turtle.PenDown();turtle.forward(20);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(5);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(5);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(5);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(5);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(5);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": []
     },
-    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field></block></next></block></next></block></next></block></statement></block></xml>",
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">5</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">5</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">25</field></block></next></block></next></block></next></block></statement></block></xml>",
     "validace": {
-      "cary_delky": "20,20,20,20,20",
+      "cary_delky": "5,5,5,5,5",
       "cary_tolerance": 5,
       "uhly": "",
       "uhly_tolerance": 10,

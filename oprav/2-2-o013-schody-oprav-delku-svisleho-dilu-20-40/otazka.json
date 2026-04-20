@@ -15,7 +15,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Schody jsou asymetrické — [hlp]svislý díl je 20 bodů místo 40[/hlp]. Opravte druhý forward.",
+    "task_text": "Schody jsou asymetrické — jeden díl je příliš krátký. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 80,

@@ -3415,7 +3415,7 @@
   {
     "path": "otazky/oprav/2-2-o005-hreben-oprav-uhel-otoceni-45-90/otazka.json",
     "id": "2-2-o005",
-    "nazev": "Hřeben — oprav úhel otočení (45° → 90°)",
+    "nazev": "Sloupy — oprav úhel otočení (45° → 90°)",
     "typ": "oprav",
     "okruh": "2.2-obrazce",
     "difficulty": 2,
@@ -3463,7 +3463,7 @@
   {
     "path": "otazky/oprav/2-2-o008-hreben-oprav-vysku-zubu-20-40/otazka.json",
     "id": "2-2-o008",
-    "nazev": "Hřeben — oprav výšku zubu (20 → 40)",
+    "nazev": "Sloupy — oprav výšku sloupu (20 → 40)",
     "typ": "oprav",
     "okruh": "2.2-obrazce",
     "difficulty": 2,
@@ -3509,7 +3509,7 @@
   {
     "path": "otazky/oprav/2-2-o011-hreben-oprav-spacing-40-20/otazka.json",
     "id": "2-2-o011",
-    "nazev": "Hřeben — oprav spacing (40 → 20)",
+    "nazev": "Sloupy — oprav vzdálenost sloupů (40 → 20)",
     "typ": "oprav",
     "okruh": "2.2-obrazce",
     "difficulty": 2,
@@ -3573,7 +3573,7 @@
   {
     "path": "otazky/oprav/2-2-o015-hreben-oprav-pocet-zubu-2-4/otazka.json",
     "id": "2-2-o015",
-    "nazev": "Hřeben — oprav počet zubů (2 → 4)",
+    "nazev": "Sloupy — oprav počet sloupů (2 → 4)",
     "typ": "oprav",
     "okruh": "2.2-obrazce",
     "difficulty": 2,
@@ -3637,7 +3637,7 @@
   {
     "path": "otazky/oprav/2-2-o019-hreben-oprav-smer-right-left-ve-smycce/otazka.json",
     "id": "2-2-o019",
-    "nazev": "Hřeben — oprav směr (right→left ve smyčce)",
+    "nazev": "Sloupy — oprav směr přesunu (right→left)",
     "typ": "oprav",
     "okruh": "2.2-obrazce",
     "difficulty": 3,

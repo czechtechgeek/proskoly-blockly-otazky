@@ -16,7 +16,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Přerušovaný hexagon se neuzavírá — [hlp]smyčka se opakuje jen 3× místo 6×[/hlp]. Opravte.",
+    "task_text": "[hlp]Přerušovaný šestiúhelník[/hlp] se neuzavírá. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 100,
       "y": 160,

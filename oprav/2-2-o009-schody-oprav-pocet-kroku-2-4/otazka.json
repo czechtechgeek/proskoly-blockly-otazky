@@ -15,7 +15,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Schody mají nakreslit [hlp]4 stupně, ale smyčka se opakuje jen 2×[/hlp]. Opravte počet.",
+    "task_text": "Schody mají nakreslit více stupňů, ale nakreslí jich příliš málo. Opravte kód.",
     "pozice_podkladu": {
       "x": 60,
       "y": 60,

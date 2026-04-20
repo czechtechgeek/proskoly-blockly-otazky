@@ -16,7 +16,7 @@
     "poznamky": "Chyba: mezera je 30px místo správných 10px. Celková délka s chybou: 5×20 + 5×30 = 250px (přesahuje canvas). Správně: 5×20 + 5×10 = 150px. Student změní hodnotu forward(30)→forward(10) v penUp bloku."
   },
   "cms": {
-    "task_text": "Program kreslí přerušovanou čáru, ale [hlp]mezery jsou příliš velké[/hlp] — želva přejíždí příliš daleko. Opravte program tak, aby mezera mezi úseky byla [hlp]10 bodů[/hlp] (ne 30).",
+    "task_text": "Program kreslí [hlp]přerušovanou čáru[/hlp], ale mezery jsou příliš velké. Opravte program tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 50,
       "y": 160,

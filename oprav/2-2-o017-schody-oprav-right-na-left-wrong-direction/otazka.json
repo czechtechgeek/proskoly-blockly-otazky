@@ -16,15 +16,15 @@
     "poznamky": "Schody jdoucí dolů: first turn right(90), second turn left(90). Chyba: first je left, second je right."
   },
   "cms": {
-    "task_text": "Schody se kreslí špatným směrem — [hlp]první otočení je right místo left[/hlp] (schody jdou nahoru místo dolů). Opravte.",
+    "task_text": "Schody se kreslí špatným směrem. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
-      "y": 220,
+      "y": 160,
       "uhel": 0
     },
     "pozice_kurzoru": {
       "x": 60,
-      "y": 220,
+      "y": 160,
       "uhel": 0
     },
     "sketch_code": "turtle.setPenWidth(5);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);",

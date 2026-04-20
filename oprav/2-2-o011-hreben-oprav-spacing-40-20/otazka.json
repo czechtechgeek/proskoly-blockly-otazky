@@ -2,7 +2,7 @@
   "meta": {
     "id": "2-2-o011",
     "typ": "oprav",
-    "nazev": "Hřeben — oprav spacing (40 → 20)",
+    "nazev": "Sloupy — oprav vzdálenost sloupů (40 → 20)",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 2,
     "koncepty": [
@@ -18,7 +18,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Zuby hřebene jsou od sebe příliš daleko — [hlp]vzdálenost mezi zuby je 40 bodů místo 20[/hlp]. Opravte.",
+    "task_text": "Sloupy jsou od sebe příliš daleko. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 200,

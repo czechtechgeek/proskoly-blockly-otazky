@@ -2,7 +2,7 @@
   "meta": {
     "id": "2-2-o015",
     "typ": "oprav",
-    "nazev": "Hřeben — oprav počet zubů (2 → 4)",
+    "nazev": "Sloupy — oprav počet sloupů (2 → 4)",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 2,
     "koncepty": [
@@ -18,7 +18,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Hřeben má mít [hlp]4 zuby, ale smyčka se opakuje jen 2×[/hlp]. Opravte počet.",
+    "task_text": "Je nakreslen příliš málo sloupů. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 200,

@@ -15,7 +15,7 @@
     "poznamky": "Kód kreslí čtverec 80px, ale úhel otočení je 45° místo 90°. Výsledek je osmihvězdičkový vzor místo čtverce. Student musí opravit right(45) na right(90)."
   },
   "cms": {
-    "task_text": "Kód má nakreslit [hlp]čtverec o straně 80 bodů[/hlp], ale otočení je špatně. Najděte chybu a opravte ji.",
+    "task_text": "Kód má nakreslit [hlp]čtverec o straně 80 bodů[/hlp], ale nakreslí špatný tvar. Najděte chybu a opravte ji.",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,

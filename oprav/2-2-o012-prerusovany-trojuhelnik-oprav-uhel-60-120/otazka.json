@@ -16,7 +16,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Trojúhelník s přerušenými stranami se neuzavírá — [hlp]vnější úhel je 60° místo 120°[/hlp]. Opravte.",
+    "task_text": "[hlp]Přerušovaný trojúhelník[/hlp] se neuzavírá. Opravte kód tak, aby odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 160,
       "y": 100,

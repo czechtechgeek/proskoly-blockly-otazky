@@ -16,15 +16,15 @@
     "poznamky": "Chyba: right(90) a left(90) jsou prohozeny. Se špatným kódem (left → right): forward(40), left(90)=nahoru, forward(40)nahoru, right(90)=vpravo → schody jdou doprava a NAHORU místo dolů. Opravený kód: forward(40), right(90)=dolů, forward(40), left(90)=vpravo → schody jdou doprava dolů."
   },
   "cms": {
-    "task_text": "Program má nakreslit schody jdoucí [hlp]doprava dolů[/hlp], ale kvůli chybě jdou špatným směrem. Opravte [hlp]směr otáčení[/hlp] (zaměňte vpravo a vlevo) tak, aby schody klesaly dolů.",
+    "task_text": "Program má nakreslit [hlp]schody jdoucí doprava dolů[/hlp], ale jdou špatným směrem. Opravte kód.",
     "pozice_podkladu": {
       "x": 60,
-      "y": 200,
+      "y": 160,
       "uhel": 0
     },
     "pozice_kurzoru": {
       "x": 60,
-      "y": 200,
+      "y": 160,
       "uhel": 0
     },
     "sketch_code": "turtle.setPenWidth(5);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.left(90);",
