@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "2-2-s030",
+    "typ": "seřaď",
+    "nazev": "Třípaprskový vzor s perem — seřaď",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "koncepty": ["controls_repeat_ext", "forward", "backward", "right", "pen_up", "pen_down"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Seřaď 5 bloků UVNITŘ smyčky: forward(80) + penUp + backward(80) + penDown + right(120). Výsledek: 3 paprsky vycházející ze středu, želva se vrací do středu bez stopy. Kombinuje backward + pen control."
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky uvnitř smyčky tak, aby želva nakreslila [hlp]tři paprsky vycházející ze středu[/hlp] — jako trojcípá hvězdice. Po každém paprsku se pero zvedne a želva se vrátí do středu.",
+    "pozice_podkladu": { "x": 160, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 160, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.PenUp();turtle.backward(80);turtle.PenDown();turtle.right(120);turtle.forward(80);turtle.PenUp();turtle.backward(80);turtle.PenDown();turtle.right(120);turtle.forward(80);turtle.PenUp();turtle.backward(80);turtle.PenDown();turtle.right(120);",
+    "toolbox_json": { "kind": "flyoutToolbox", "contents": [] },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn1\"><field name=\"NUM\">3</field></block></value></block><block type=\"turtle_pen_up\" id=\"pu1\" x=\"300\" y=\"20\"></block><block type=\"turtle_forward\" id=\"f1\" x=\"20\" y=\"200\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_right\" id=\"rg1\" x=\"300\" y=\"200\"><field name=\"ANGLE\">120</field></block><block type=\"turtle_backward\" id=\"b1\" x=\"20\" y=\"360\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_pen_down\" id=\"pd1\" x=\"300\" y=\"360\"></block></xml>",
+    "validace": {
+      "cary_delky": "80,80,80",
+      "cary_tolerance": 5,
+      "uhly": "-120,-120,-120",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right,turtle_pen_up,turtle_pen_down,math_number"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn1\"><field name=\"NUM\">3</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_pen_up\" id=\"pu1\"><next><block type=\"turtle_backward\" id=\"b1\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_pen_down\" id=\"pd1\"><next><block type=\"turtle_right\" id=\"rg1\"><field name=\"ANGLE\">120</field></block></next></block></next></block></next></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

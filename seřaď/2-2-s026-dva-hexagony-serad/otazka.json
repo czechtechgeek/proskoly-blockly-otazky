@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "2-2-s026",
+    "typ": "seřaď",
+    "nazev": "Dva šestiúhelníky — seřaď bloky",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "koncepty": ["controls_repeat_ext", "forward", "right", "pen_up", "pen_down"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Seřaď 5 bloků: repeat(6){f40,r60} + penUp + forward(80) + penDown + repeat(6){f40,r60}. Dva pravidelné šestiúhelníky vedle sebe. Start: (100,160) uhel 0."
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]dva pravidelné šestiúhelníky[/hlp] se stranou 40 bodů vedle sebe.",
+    "pozice_podkladu": { "x": 100, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 100, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.PenUp();turtle.forward(80);turtle.PenDown();turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);turtle.forward(40);turtle.right(60);",
+    "toolbox_json": { "kind": "flyoutToolbox", "contents": [] },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn1\"><field name=\"NUM\">6</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"rg1\"><field name=\"ANGLE\">60</field></block></next></block></statement></block><block type=\"turtle_forward\" id=\"f2\" x=\"300\" y=\"20\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_pen_down\" id=\"pd1\" x=\"300\" y=\"150\"></block><block type=\"turtle_pen_up\" id=\"pu1\" x=\"20\" y=\"280\"></block><block type=\"controls_repeat_ext\" id=\"r2\" x=\"300\" y=\"280\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn2\"><field name=\"NUM\">6</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f3\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"rg2\"><field name=\"ANGLE\">60</field></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "40,40,40,40,40,40,40,40,40,40,40,40",
+      "cary_tolerance": 5,
+      "uhly": "-60,-60,-60,-60,-60,-60,-60,-60,-60,-60,-60,-60",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down,math_number"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn1\"><field name=\"NUM\">6</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"rg1\"><field name=\"ANGLE\">60</field></block></next></block></statement><next><block type=\"turtle_pen_up\" id=\"pu1\"><next><block type=\"turtle_forward\" id=\"f2\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_pen_down\" id=\"pd1\"><next><block type=\"controls_repeat_ext\" id=\"r2\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn2\"><field name=\"NUM\">6</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f3\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"rg2\"><field name=\"ANGLE\">60</field></block></next></block></statement></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "2-2-s023",
+    "typ": "seřaď",
+    "nazev": "Hvězdice — 8 paprsků",
+    "tematicky_okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "koncepty": ["controls_repeat_ext", "forward", "backward", "right"],
+    "verze": 1,
+    "stav": "draft",
+    "poznamky": "Seřaď 3 bloky uvnitř smyčky. 8 paprsků × 45° = 360°. Výsledek = osmicípá hvězdice podobná kompasové růžici."
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky uvnitř smyčky tak, aby želva nakreslila [hlp]osmipaprskovitou hvězdici[/hlp] — osm paprsků jako kompasová růžice.",
+    "pozice_podkladu": { "x": 160, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 160, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(50);turtle.backward(50);turtle.right(45);turtle.forward(50);turtle.backward(50);turtle.right(45);turtle.forward(50);turtle.backward(50);turtle.right(45);turtle.forward(50);turtle.backward(50);turtle.right(45);turtle.forward(50);turtle.backward(50);turtle.right(45);turtle.forward(50);turtle.backward(50);turtle.right(45);turtle.forward(50);turtle.backward(50);turtle.right(45);turtle.forward(50);turtle.backward(50);turtle.right(45);",
+    "toolbox_json": { "kind": "flyoutToolbox", "contents": [] },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_right\" id=\"rg1\" x=\"20\" y=\"20\"><field name=\"ANGLE\">45</field></block><block type=\"controls_repeat_ext\" id=\"r1\" x=\"300\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn1\"><field name=\"NUM\">8</field></block></value></block><block type=\"turtle_forward\" id=\"f1\" x=\"20\" y=\"160\"><field name=\"DISTANCE\">50</field></block><block type=\"turtle_backward\" id=\"b1\" x=\"300\" y=\"180\"><field name=\"DISTANCE\">50</field></block></xml>",
+    "validace": {
+      "cary_delky": "50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "-45,-45,-45,-45,-45,-45,-45,-45",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right,math_number"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn1\"><field name=\"NUM\">8</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_backward\" id=\"b1\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"rg1\"><field name=\"ANGLE\">45</field></block></next></block></next></block></statement></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

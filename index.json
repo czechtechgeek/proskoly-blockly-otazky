@@ -3686,7 +3686,7 @@
   {
     "path": "otazky/seřaď/2-2-s003-hreben-serad/otazka.json",
     "id": "2-2-s003",
-    "nazev": "Hřeben — seřaď bloky",
+    "nazev": "Sloupy — seřaď bloky",
     "typ": "seřaď",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
@@ -3718,7 +3718,7 @@
   {
     "path": "otazky/seřaď/2-2-s005-hreben-4-zuby-serad-bloky/otazka.json",
     "id": "2-2-s005",
-    "nazev": "Hřeben 4 zuby — seřaď bloky",
+    "nazev": "Sloupy (4) — seřaď bloky",
     "typ": "seřaď",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
@@ -3781,7 +3781,7 @@
   {
     "path": "otazky/seřaď/2-2-s009-hreben-3-zuby-serad-bloky/otazka.json",
     "id": "2-2-s009",
-    "nazev": "Hřeben 3 zuby — seřaď bloky",
+    "nazev": "Sloupy (3) — seřaď bloky",
     "typ": "seřaď",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
@@ -3829,7 +3829,7 @@
   {
     "path": "otazky/seřaď/2-2-s012-hreben-5-zubu-serad-bloky/otazka.json",
     "id": "2-2-s012",
-    "nazev": "Hřeben 5 zubů — seřaď bloky",
+    "nazev": "Sloupy (5) — seřaď bloky",
     "typ": "seřaď",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
@@ -3892,7 +3892,7 @@
   {
     "path": "otazky/seřaď/2-2-s016-hreben-3-zuby-vyska-50-serad-bloky/otazka.json",
     "id": "2-2-s016",
-    "nazev": "Hřeben 3 zuby (výška 50) — seřaď bloky",
+    "nazev": "Sloupy (3, výška 50) — seřaď bloky",
     "typ": "seřaď",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
@@ -3940,7 +3940,7 @@
   {
     "path": "otazky/seřaď/2-2-s019-hreben-4-zuby-vyska-30-serad-bloky/otazka.json",
     "id": "2-2-s019",
-    "nazev": "Hřeben 4 zuby (výška 30) — seřaď bloky",
+    "nazev": "Sloupy (4, výška 30) — seřaď bloky",
     "typ": "seřaď",
     "okruh": "2.2-obrazce",
     "difficulty": 3,
@@ -3968,6 +3968,180 @@
       "forward",
       "right",
       "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s021-vlocka-4-paprsky-serad/otazka.json",
+    "id": "2-2-s021",
+    "nazev": "Vločka — 4 paprsky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s022-hvezdice-5-paprsku-serad/otazka.json",
+    "id": "2-2-s022",
+    "nazev": "Hvězdice — 5 paprsků",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s023-hvezdice-8-paprsku-serad/otazka.json",
+    "id": "2-2-s023",
+    "nazev": "Hvězdice — 8 paprsků",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s024-domecek-serad/otazka.json",
+    "id": "2-2-s024",
+    "nazev": "Domeček — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s025-dva-trojuhelniky-serad/otazka.json",
+    "id": "2-2-s025",
+    "nazev": "Dva trojúhelníky — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s026-dva-hexagony-serad/otazka.json",
+    "id": "2-2-s026",
+    "nazev": "Dva šestiúhelníky — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s027-prerusovany-ctverec-serad/otazka.json",
+    "id": "2-2-s027",
+    "nazev": "Přerušovaný čtverec — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s028-soustredne-ctverce-serad/otazka.json",
+    "id": "2-2-s028",
+    "nazev": "Soustředné čtverce — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s029-tri-trojuhelniky-serad/otazka.json",
+    "id": "2-2-s029",
+    "nazev": "Tři trojúhelníky — vnořené smyčky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "left",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s030-paprsek-s-perem-serad/otazka.json",
+    "id": "2-2-s030",
+    "nazev": "Třípaprskový vzor s perem — seřaď",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-2-s031-ctverec-s-hvezdou-serad/otazka.json",
+    "id": "2-2-s031",
+    "nazev": "Čtverec s hvězdou uvnitř — seřaď bloky",
+    "typ": "seřaď",
+    "okruh": "2.2-obrazce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
     ]
   },
   {
