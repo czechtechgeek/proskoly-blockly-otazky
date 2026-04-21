@@ -2,7 +2,7 @@
   "meta": {
     "id": "2-2-s016",
     "typ": "seřaď",
-    "nazev": "Hřeben 3 zuby (výška 50) — seřaď bloky",
+    "nazev": "Sloupy (3, výška 50) — seřaď bloky",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 3,
     "koncepty": [
@@ -18,7 +18,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Bloky hřebene (3 zuby, výška 50) jsou [hlp]rozhozeny[/hlp]. Sestavte správně.",
+    "task_text": "Bloky pro [hlp]sloupy (3)[/hlp] jsou rozhozeny. Seřaďte je tak, aby kód odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 220,

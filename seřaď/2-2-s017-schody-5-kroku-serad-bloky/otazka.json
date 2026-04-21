@@ -15,7 +15,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Bloky pro schody (5 stupňů, 30 bodů) jsou [hlp]rozhozeny[/hlp]. Sestavte správně.",
+    "task_text": "Bloky pro [hlp]schody (5 stupňů)[/hlp] jsou rozhozeny. Seřaďte je tak, aby kód odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 60,

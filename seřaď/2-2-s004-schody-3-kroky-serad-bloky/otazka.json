@@ -15,7 +15,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Bloky pro schody (3 stupně) jsou [hlp]rozhozeny[/hlp]. Sestavte je správně: opakuj 3× { dopředu, vpravo, dopředu, vlevo }.",
+    "task_text": "Bloky pro [hlp]schody (3 stupně)[/hlp] jsou rozhozeny. Seřaďte je tak, aby kód odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 80,

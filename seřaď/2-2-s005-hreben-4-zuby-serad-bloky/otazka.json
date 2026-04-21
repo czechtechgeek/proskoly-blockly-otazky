@@ -2,7 +2,7 @@
   "meta": {
     "id": "2-2-s005",
     "typ": "seřaď",
-    "nazev": "Hřeben 4 zuby — seřaď bloky",
+    "nazev": "Sloupy (4) — seřaď bloky",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 3,
     "koncepty": [
@@ -18,7 +18,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Bloky hřebene se 4 zuby jsou [hlp]rozhozeny[/hlp]. Sestavte je správně: opakuj 4× { dopředu, dozadu, penUp, vpravo, dopředu, vlevo, penDown }.",
+    "task_text": "Bloky pro [hlp]sloupy (4)[/hlp] jsou rozhozeny. Seřaďte je tak, aby kód odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 200,

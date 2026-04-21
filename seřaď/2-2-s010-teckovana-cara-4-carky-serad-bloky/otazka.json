@@ -15,7 +15,7 @@
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Bloky pro tečkovanou čáru (4 čárky) jsou [hlp]rozhozeny[/hlp]. Sestavte správně.",
+    "task_text": "Bloky pro [hlp]tečkovanou čáru (4 čárky)[/hlp] jsou rozhozeny. Seřaďte je tak, aby kód odpovídal vzoru.",
     "pozice_podkladu": {
       "x": 60,
       "y": 160,
@@ -26,20 +26,20 @@
       "y": 160,
       "uhel": 0
     },
-    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(25);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(25);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(25);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(25);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.PenDown();turtle.forward(5);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(5);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(5);turtle.PenUp();turtle.forward(10);turtle.PenDown();turtle.forward(5);turtle.PenUp();turtle.forward(10);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": []
     },
-    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"20\" y=\"20\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value></block><block type=\"turtle_pen_down\" x=\"220\" y=\"20\"></block><block type=\"turtle_forward\" x=\"20\" y=\"160\"><field name=\"DISTANCE\">25</field></block><block type=\"turtle_pen_up\" x=\"220\" y=\"160\"></block><block type=\"turtle_forward\" x=\"20\" y=\"280\"><field name=\"DISTANCE\">10</field></block></xml>",
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"20\" y=\"20\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value></block><block type=\"turtle_pen_down\" x=\"220\" y=\"20\"></block><block type=\"turtle_forward\" x=\"20\" y=\"160\"><field name=\"DISTANCE\">5</field></block><block type=\"turtle_pen_up\" x=\"220\" y=\"160\"></block><block type=\"turtle_forward\" x=\"20\" y=\"280\"><field name=\"DISTANCE\">10</field></block></xml>",
     "validace": {
-      "cary_delky": "25,25,25,25",
+      "cary_delky": "5,5,5,5",
       "cary_tolerance": 5,
       "uhly": "",
       "uhly_tolerance": 10,
       "max_bloku": 5,
       "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_pen_up,turtle_pen_down"
     },
-    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">25</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">10</field></block></next></block></next></block></next></block></statement></block></xml>"
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">5</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">10</field></block></next></block></next></block></next></block></statement></block></xml>"
   }
 }
