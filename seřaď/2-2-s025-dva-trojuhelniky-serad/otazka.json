@@ -5,21 +5,38 @@
     "nazev": "Dva trojúhelníky — seřaď bloky",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 3,
-    "koncepty": ["controls_repeat_ext", "forward", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Seřaď 5 bloků: repeat(3){f90,l120} + penUp + forward(110) + penDown + repeat(3){f90,l120}. Oba trojúhelníky jsou rovnostranné, 90px strana, orientace nahoru. Start: (80,220) uhel 0."
   },
   "cms": {
     "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]dva rovnostranné trojúhelníky[/hlp] vedle sebe s mezerou mezi nimi.",
-    "pozice_podkladu": { "x": 80, "y": 220, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 80, "y": 220, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 220,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 220,
+      "uhel": 0
+    },
     "sketch_code": "turtle.setPenWidth(5);turtle.forward(90);turtle.left(120);turtle.forward(90);turtle.left(120);turtle.forward(90);turtle.left(120);turtle.PenUp();turtle.forward(110);turtle.PenDown();turtle.forward(90);turtle.left(120);turtle.forward(90);turtle.left(120);turtle.forward(90);turtle.left(120);",
-    "toolbox_json": { "kind": "flyoutToolbox", "contents": [] },
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_up\" id=\"pu1\" x=\"20\" y=\"20\"></block><block type=\"controls_repeat_ext\" id=\"r1\" x=\"300\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn1\"><field name=\"NUM\">3</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">90</field><next><block type=\"turtle_left\" id=\"lt1\"><field name=\"ANGLE\">120</field></block></next></block></statement></block><block type=\"turtle_forward\" id=\"f2\" x=\"20\" y=\"180\"><field name=\"DISTANCE\">110</field></block><block type=\"turtle_pen_down\" id=\"pd1\" x=\"300\" y=\"200\"></block><block type=\"controls_repeat_ext\" id=\"r2\" x=\"20\" y=\"320\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn2\"><field name=\"NUM\">3</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f3\"><field name=\"DISTANCE\">90</field><next><block type=\"turtle_left\" id=\"lt2\"><field name=\"ANGLE\">120</field></block></next></block></statement></block></xml>",
     "validace": {
       "cary_delky": "90,90,90,90,90,90",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "120,120,120,120,120,120",
       "uhly_tolerance": 10,
       "max_bloku": 8,

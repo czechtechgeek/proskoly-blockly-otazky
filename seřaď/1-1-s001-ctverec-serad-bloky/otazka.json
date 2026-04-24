@@ -32,7 +32,7 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"22\" y=\"26\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_right\" x=\"200\" y=\"26\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" x=\"22\" y=\"120\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_right\" x=\"200\" y=\"120\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" x=\"22\" y=\"210\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_right\" x=\"200\" y=\"210\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" x=\"22\" y=\"300\"><field name=\"DISTANCE\">80</field></block></xml>",
     "validace": {
       "cary_delky": "80,80,80,80",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "-90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 9,

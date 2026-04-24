@@ -35,7 +35,7 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"math_change\" x=\"200\" y=\"26\"><field name=\"VAR\"><variable>delka</variable></field><value name=\"DELTA\"><shadow type=\"math_number\"><field name=\"NUM\">10</field></shadow></value></block><block type=\"turtle_right\" x=\"22\" y=\"26\"><field name=\"ANGLE\">90</field></block><block type=\"variables_set\" x=\"22\" y=\"130\"><field name=\"VAR\"><variable>delka</variable></field><value name=\"VALUE\"><shadow type=\"math_number\"><field name=\"NUM\">10</field></shadow></value></block><block type=\"turtle_forward_number\" x=\"200\" y=\"130\"></block><block type=\"controls_whileUntil\" x=\"22\" y=\"250\"></block></xml>",
     "validace": {
       "cary_delky": "10,20,30,40,50,60,70,80",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "-90,-90,-90,-90,-90,-90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 6,

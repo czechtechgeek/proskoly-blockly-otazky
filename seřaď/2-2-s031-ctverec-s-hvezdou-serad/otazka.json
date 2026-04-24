@@ -5,21 +5,38 @@
     "nazev": "Čtverec s hvězdou uvnitř — seřaď bloky",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 4,
-    "koncepty": ["controls_repeat_ext", "forward", "right", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Bonus. Seřaď 7 top-level bloků: repeat4{f80,r90} + penUp + f40 + r90 + f40 + penDown + repeat4{f40,b40,r90}. Čtverec 80px od (110,110), přesun do středu (150,150), pak 4paprsková hvězdice 40px uvnitř čtverce."
   },
   "cms": {
     "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]čtverec s čtyřpaprskovitou hvězdou uprostřed[/hlp]. Nejprve smyčka nakreslí čtverec, pak pero přeskočí do středu a druhá smyčka nakreslí hvězdu.",
-    "pozice_podkladu": { "x": 110, "y": 110, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 110, "y": 110, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 110,
+      "y": 110,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 110,
+      "y": 110,
+      "uhel": 0
+    },
     "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.PenUp();turtle.forward(40);turtle.right(90);turtle.forward(40);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.right(90);turtle.forward(40);turtle.backward(40);turtle.right(90);turtle.forward(40);turtle.backward(40);turtle.right(90);turtle.forward(40);turtle.backward(40);turtle.right(90);",
-    "toolbox_json": { "kind": "flyoutToolbox", "contents": [] },
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"r1\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn1\"><field name=\"NUM\">4</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"rg1\"><field name=\"ANGLE\">90</field></block></next></block></statement></block><block type=\"turtle_pen_up\" id=\"pu1\" x=\"300\" y=\"20\"></block><block type=\"turtle_right\" id=\"rg2\" x=\"20\" y=\"280\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" id=\"f2\" x=\"300\" y=\"200\"><field name=\"DISTANCE\">40</field></block><block type=\"turtle_pen_down\" id=\"pd1\" x=\"20\" y=\"420\"></block><block type=\"turtle_forward\" id=\"f3\" x=\"300\" y=\"380\"><field name=\"DISTANCE\">40</field></block><block type=\"controls_repeat_ext\" id=\"r2\" x=\"160\" y=\"540\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn2\"><field name=\"NUM\">4</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f4\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_backward\" id=\"b1\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"rg3\"><field name=\"ANGLE\">90</field></block></next></block></next></block></statement></block></xml>",
     "validace": {
       "cary_delky": "80,80,80,80,40,40,40,40,40,40,40,40",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "-90,-90,-90,-90,-90,-90,-90,-90,-90",
       "uhly_tolerance": 10,
       "max_bloku": 12,

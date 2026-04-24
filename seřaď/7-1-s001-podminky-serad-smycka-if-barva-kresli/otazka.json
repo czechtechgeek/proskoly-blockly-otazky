@@ -35,7 +35,7 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_right\" x=\"22\" y=\"26\"><field name=\"ANGLE\">60</field></block><block type=\"controls_if\" x=\"200\" y=\"26\"></block><block type=\"turtle_set_pen_color_fixed\" x=\"22\" y=\"130\"><field name=\"COLOUR\">#ff0000</field></block><block type=\"turtle_forward_number\" x=\"200\" y=\"130\"></block><block type=\"controls_for\" x=\"22\" y=\"260\"><value name=\"FROM\"><shadow type=\"math_number\"><field name=\"NUM\">1</field></shadow></value><value name=\"TO\"><shadow type=\"math_number\"><field name=\"NUM\">6</field></shadow></value><value name=\"BY\"><shadow type=\"math_number\"><field name=\"NUM\">1</field></shadow></value></block></xml>",
     "validace": {
       "cary_delky": "50,50,50,50,50,50",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "-60,-60,-60,-60,-60,-60",
       "uhly_tolerance": 10,
       "max_bloku": 8,

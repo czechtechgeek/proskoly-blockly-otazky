@@ -64,8 +64,8 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">8</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field></block></statement></block></xml>",
     "validace": {
       "cary_delky": "50,50,50,50,50,50,50,50",
-      "cary_tolerance": 5,
-      "uhly": "-49,-54,-65,-66,-83,-44,-86,-28",
+      "cary_tolerance": 0,
+      "uhly": "-54,-78,-36,-86,-67,-77,0,-51",
       "uhly_tolerance": 10,
       "max_bloku": 5,
       "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,math_random_int"

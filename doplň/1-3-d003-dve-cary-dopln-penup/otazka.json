@@ -39,7 +39,7 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" x=\"50\" y=\"50\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></next></block></xml>",
     "validace": {
       "cary_delky": "60,60",
-      "cary_tolerance": 3,
+      "cary_tolerance": 0,
       "uhly": "",
       "uhly_tolerance": 10,
       "max_bloku": 6,

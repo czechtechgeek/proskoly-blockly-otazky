@@ -1,85 +1,60 @@
 {
   "meta": {
-    "id": "2-3-n008",
+    "id": "2-3-n008-nakresli-pismeno-n",
     "typ": "nakresli",
     "nazev": "Nakresli písmeno N",
     "tematicky_okruh": "2.3-pismena",
-    "difficulty": 2,
+    "difficulty": 3,
     "koncepty": [
       "forward",
-      "backward",
       "right",
-      "left",
-      "pen_up",
-      "pen_down"
+      "left"
     ],
-    "verze": 2,
-    "stav": "draft",
-    "poznamky": "N (zjednodušené) = levá svislice 80px dolů, PenUp zpět nahoru, left(90), PenDown, horní příčka 80px vpravo, right(90), pravá svislice 80px dolů. Tvar ⊓. Start: (125,75) směr dolů (270°)."
+    "verze": 3,
+    "stav": "draft"
   },
   "cms": {
-    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]zjednodušené písmeno N[/hlp] — dvě svislé části jsou 80 px, horní příčka je také 80 px.",
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]písmeno N[/hlp]. Oba svislé tahy mají [hlp]80 bodů[/hlp], diagonála má [hlp]113 bodů[/hlp]. K otočení na diagonálu použijte úhel [hlp]135°[/hlp].",
     "pozice_podkladu": {
-      "x": 125,
-      "y": 75,
+      "x": 100,
+      "y": 240,
       "uhel": 270
     },
     "pozice_kurzoru": {
-      "x": 125,
-      "y": 75,
+      "x": 100,
+      "y": 240,
       "uhel": 270
     },
-    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.PenUp();turtle.backward(80);turtle.left(90);turtle.PenDown();turtle.forward(80);turtle.right(90);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(135);turtle.forward(113);turtle.left(135);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
         {
           "kind": "block",
-          "type": "turtle_forward",
-          "fields": {
-            "DISTANCE": 80
-          }
+          "type": "turtle_forward"
         },
         {
           "kind": "block",
-          "type": "turtle_backward",
-          "fields": {
-            "DISTANCE": 80
-          }
+          "type": "turtle_right"
         },
         {
           "kind": "block",
-          "type": "turtle_right",
-          "fields": {
-            "ANGLE": 90
-          }
-        },
-        {
-          "kind": "block",
-          "type": "turtle_left",
-          "fields": {
-            "ANGLE": 90
-          }
-        },
-        {
-          "kind": "block",
-          "type": "turtle_pen_up"
-        },
-        {
-          "kind": "block",
-          "type": "turtle_pen_down"
+          "type": "turtle_left"
         }
       ]
     },
     "start_blocks_xml": "",
     "validace": {
-      "cary_delky": "80,80,80",
+      "cary_delky": "80,113,80",
       "cary_tolerance": 5,
-      "uhly": "90,-90",
+      "uhly": "-135,135",
       "uhly_tolerance": 10,
-      "max_bloku": 8,
-      "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+      "max_bloku": 5,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left"
     },
-    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"20\" y=\"20\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"b2\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">113</field><next><block type=\"turtle_left\" id=\"b4\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b5\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
   }
 }

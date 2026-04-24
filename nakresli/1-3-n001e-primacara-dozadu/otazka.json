@@ -45,7 +45,7 @@
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "80",
-      "cary_tolerance": 4,
+      "cary_tolerance": 0,
       "uhly": "",
       "uhly_tolerance": 10,
       "max_bloku": 2,

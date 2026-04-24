@@ -5,21 +5,38 @@
     "nazev": "Tři trojúhelníky — vnořené smyčky",
     "tematicky_okruh": "2.2-obrazce",
     "difficulty": 4,
-    "koncepty": ["controls_repeat_ext", "forward", "left", "pen_up", "pen_down"],
+    "koncepty": [
+      "controls_repeat_ext",
+      "forward",
+      "left",
+      "pen_up",
+      "pen_down"
+    ],
     "verze": 1,
     "stav": "draft",
     "poznamky": "Vnější repeat(3) opakuje: vnitřní trojúhelník + penUp + forward(80) + penDown. Seřaď 4 bloky UVNITŘ vnější smyčky (vnitřní smyčka, penUp, forward, penDown). Start: (60,220) uhel 0. Výsledek: 3 rovnostranné trojúhelníky (60px) v řadě."
   },
   "cms": {
     "task_text": "Seřaďte bloky uvnitř vnější smyčky tak, aby želva nakreslila [hlp]tři trojúhelníky v řadě[/hlp]. Vnitřní smyčka nakreslí jeden trojúhelník, zbývající bloky posunují pero na pozici dalšího.",
-    "pozice_podkladu": { "x": 60, "y": 220, "uhel": 0 },
-    "pozice_kurzoru":  { "x": 60, "y": 220, "uhel": 0 },
+    "pozice_podkladu": {
+      "x": 60,
+      "y": 220,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 60,
+      "y": 220,
+      "uhel": 0
+    },
     "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.left(120);turtle.forward(60);turtle.left(120);turtle.forward(60);turtle.left(120);turtle.PenUp();turtle.forward(80);turtle.PenDown();turtle.forward(60);turtle.left(120);turtle.forward(60);turtle.left(120);turtle.forward(60);turtle.left(120);turtle.PenUp();turtle.forward(80);turtle.PenDown();turtle.forward(60);turtle.left(120);turtle.forward(60);turtle.left(120);turtle.forward(60);turtle.left(120);turtle.PenUp();turtle.forward(80);turtle.PenDown();",
-    "toolbox_json": { "kind": "flyoutToolbox", "contents": [] },
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" id=\"outer\" x=\"20\" y=\"20\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn_out\"><field name=\"NUM\">3</field></block></value></block><block type=\"turtle_pen_up\" id=\"pu1\" x=\"300\" y=\"20\"></block><block type=\"controls_repeat_ext\" id=\"inner\" x=\"20\" y=\"200\"><value name=\"TIMES\"><block type=\"math_number\" id=\"mn_in\"><field name=\"NUM\">3</field></block></value><statement name=\"DO\"><block type=\"turtle_forward\" id=\"f1\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\" id=\"lt1\"><field name=\"ANGLE\">120</field></block></next></block></statement></block><block type=\"turtle_forward\" id=\"f2\" x=\"300\" y=\"220\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_pen_down\" id=\"pd1\" x=\"20\" y=\"420\"></block></xml>",
     "validace": {
       "cary_delky": "60,60,60,60,60,60,60,60,60",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "120,120,120,120,120,120,120,120,120",
       "uhly_tolerance": 10,
       "max_bloku": 10,

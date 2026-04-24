@@ -33,7 +33,7 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_jump_to\" x=\"22\" y=\"26\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">240</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">200</field></shadow></value></block><block type=\"turtle_pen_down\" x=\"200\" y=\"26\"></block><block type=\"turtle_jump_to\" x=\"22\" y=\"120\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">80</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">200</field></shadow></value></block><block type=\"turtle_jump_to\" x=\"200\" y=\"120\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">240</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">80</field></shadow></value></block><block type=\"turtle_jump_to\" x=\"22\" y=\"230\"><value name=\"X\"><shadow type=\"math_number\"><field name=\"NUM\">80</field></shadow></value><value name=\"Y\"><shadow type=\"math_number\"><field name=\"NUM\">80</field></shadow></value></block></xml>",
     "validace": {
       "cary_delky": "160,120,160,120",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "",
       "uhly_tolerance": 10,
       "max_bloku": 5,

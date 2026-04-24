@@ -70,7 +70,7 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"50\" y=\"50\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">60</field></block></next></block></statement></block></xml>",
     "validace": {
       "cary_delky": "70,70,70,70,70,70",
-      "cary_tolerance": 4,
+      "cary_tolerance": 0,
       "uhly": "-60,-60,-60,-60,-60,-60",
       "uhly_tolerance": 10,
       "max_bloku": 3,

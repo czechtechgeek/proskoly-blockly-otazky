@@ -65,8 +65,8 @@
     },
     "start_blocks_xml": "",
     "validace": {
-      "cary_delky": "43,43,38,38,61,61,56,56,58,58,33,33,58,58,47,47",
-      "cary_tolerance": 5,
+      "cary_delky": "53,53,22,22,61,61,57,57,65,65,55,55,47,47,21,21",
+      "cary_tolerance": 0,
       "uhly": "-45,-45,-45,-45,-45,-45,-45,-45",
       "uhly_tolerance": 10,
       "max_bloku": 6,

@@ -82,9 +82,9 @@
     },
     "start_blocks_xml": "",
     "validace": {
-      "cary_delky": "69,78,38,43,58,25,29,78,74,56",
-      "cary_tolerance": 5,
-      "uhly": "-53,-65,-57,-23,-68,-54,-63,-37,-21,-87",
+      "cary_delky": "55,51,32,69,29,41,62,30,72,33",
+      "cary_tolerance": 0,
+      "uhly": "-68,-22,-17,-43,-45,-82,-60,-24,-76,-68",
       "uhly_tolerance": 10,
       "max_bloku": 5,
       "typy_bloku": "controls_repeat_ext,turtle_forward_number,turtle_right,math_random_int"

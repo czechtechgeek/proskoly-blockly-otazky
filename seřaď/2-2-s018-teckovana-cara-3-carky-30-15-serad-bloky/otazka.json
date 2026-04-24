@@ -34,7 +34,7 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"controls_repeat_ext\" x=\"20\" y=\"20\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value></block><block type=\"turtle_pen_down\" x=\"220\" y=\"20\"></block><block type=\"turtle_forward\" x=\"20\" y=\"160\"><field name=\"DISTANCE\">5</field></block><block type=\"turtle_pen_up\" x=\"220\" y=\"160\"></block><block type=\"turtle_forward\" x=\"20\" y=\"280\"><field name=\"DISTANCE\">10</field></block></xml>",
     "validace": {
       "cary_delky": "5,5,5",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "",
       "uhly_tolerance": 10,
       "max_bloku": 5,

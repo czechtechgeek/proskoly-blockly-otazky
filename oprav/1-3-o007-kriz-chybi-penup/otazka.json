@@ -57,7 +57,7 @@
     "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" id=\"1\" x=\"50\" y=\"50\"><next><block type=\"turtle_forward\" id=\"2\"><field name=\"DISTANCE\">100</field><next><block type=\"turtle_backward\" id=\"3\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\" id=\"4\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"5\"><next><block type=\"turtle_forward\" id=\"6\"><field name=\"DISTANCE\">50</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "validace": {
       "cary_delky": "100,50",
-      "cary_tolerance": 4,
+      "cary_tolerance": 0,
       "uhly": "-90",
       "uhly_tolerance": 10,
       "max_bloku": 7,

@@ -70,7 +70,7 @@
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "70,70,70,70,70,70",
-      "cary_tolerance": 5,
+      "cary_tolerance": 0,
       "uhly": "-60,-60,-60,-60,-60,-60",
       "uhly_tolerance": 10,
       "max_bloku": 3,
