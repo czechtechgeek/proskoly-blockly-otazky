@@ -10,7 +10,7 @@
       "right",
       "left"
     ],
-    "verze": 3,
+    "verze": 4,
     "stav": "draft"
   },
   "cms": {
@@ -25,7 +25,7 @@
       "y": 240,
       "uhel": 270
     },
-    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(135);turtle.forward(113);turtle.left(135);turtle.forward(80);",
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.left(135);turtle.forward(113);turtle.right(135);turtle.forward(80);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
@@ -46,13 +46,13 @@
     "start_blocks_xml": "",
     "validace": {
       "cary_delky": "80,113,80",
-      "cary_tolerance": 5,
-      "uhly": "-135,135",
+      "cary_tolerance": 0,
+      "uhly": "135,-135",
       "uhly_tolerance": 10,
       "max_bloku": 5,
       "typy_bloku": "turtle_forward,turtle_right,turtle_left"
     },
-    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"20\" y=\"20\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"b2\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">113</field><next><block type=\"turtle_left\" id=\"b4\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b5\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></next></block></xml>"
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"20\" y=\"20\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_left\" id=\"b2\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">113</field><next><block type=\"turtle_right\" id=\"b4\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b5\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></next></block></xml>"
   },
   "testing_js": {
     "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"

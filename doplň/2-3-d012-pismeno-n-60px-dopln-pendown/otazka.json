@@ -1,56 +1,37 @@
 {
   "meta": {
-    "id": "2-3-d012",
+    "id": "2-3-d012-pismeno-n-60px-dopln-zpetne-otoceni",
     "typ": "doplň",
-    "nazev": "Písmeno N (60px) — doplň penDown",
+    "nazev": "Písmeno N (60 bodů) — doplň zpětné otočení",
     "tematicky_okruh": "2.3-pismena",
-    "difficulty": 2,
-    "koncepty": [
-      "forward",
-      "backward",
-      "left",
-      "right",
-      "pen_up",
-      "pen_down"
-    ],
-    "verze": 1,
+    "difficulty": 3,
+    "koncepty": ["forward", "right", "left"],
+    "verze": 3,
     "stav": "draft"
   },
   "cms": {
-    "task_text": "Malé písmeno N [hlp]chybí penDown[/hlp] — diagonální tah se nekreslí. Přidejte penDown.",
-    "pozice_podkladu": {
-      "x": 125,
-      "y": 75,
-      "uhel": 270
-    },
-    "pozice_kurzoru": {
-      "x": 125,
-      "y": 75,
-      "uhel": 270
-    },
-    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.PenUp();turtle.backward(60);turtle.left(90);turtle.PenDown();turtle.forward(60);turtle.right(90);turtle.forward(60);",
+    "task_text": "Doplňte chybějící blok — po diagonálním tahu se želva musí otočit zpět o [hlp]135°[/hlp] vpravo.",
+    "pozice_podkladu": { "x": 110, "y": 220, "uhel": 270 },
+    "pozice_kurzoru":  { "x": 110, "y": 220, "uhel": 270 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.left(135);turtle.forward(85);turtle.right(135);turtle.forward(60);",
     "toolbox_json": {
       "kind": "flyoutToolbox",
       "contents": [
-        {
-          "kind": "block",
-          "type": "turtle_pen_up"
-        },
-        {
-          "kind": "block",
-          "type": "turtle_pen_down"
-        }
+        { "kind": "block", "type": "turtle_right" }
       ]
     },
-    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\" id=\"b2\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">85</field><next><block type=\"turtle_forward\" id=\"b4\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></xml>",
     "validace": {
-      "cary_delky": "60,60,60",
+      "cary_delky": "60,85,60",
       "cary_tolerance": 0,
-      "uhly": "90,-90",
+      "uhly": "135,-135",
       "uhly_tolerance": 10,
-      "max_bloku": 8,
-      "typy_bloku": "turtle_forward,turtle_backward,turtle_left,turtle_right,turtle_pen_up,turtle_pen_down"
+      "max_bloku": 5,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left"
     },
-    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_backward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\" id=\"b2\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">85</field><next><block type=\"turtle_right\" id=\"b4\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b5\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
   }
 }

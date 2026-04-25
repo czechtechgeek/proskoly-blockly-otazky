@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "2-3-n017-nakresli-cifra-2",
+    "typ": "nakresli",
+    "nazev": "Nakresli číslici 2",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 3,
+    "koncepty": ["forward", "right", "left"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]číslici 2[/hlp] ve stylu digitálního displeje. Vodorovné tahy mají [hlp]60 bodů[/hlp], svislé tahy [hlp]40 bodů[/hlp].",
+    "pozice_podkladu": { "x": 130, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 130, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(60);turtle.left(90);turtle.forward(40);turtle.left(90);turtle.forward(60);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        { "kind": "block", "type": "turtle_forward" },
+        { "kind": "block", "type": "turtle_right" },
+        { "kind": "block", "type": "turtle_left" }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "60,40,60,40,60",
+      "cary_tolerance": 0,
+      "uhly": "-90,-90,90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 9,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"20\" y=\"20\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\" id=\"b2\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"b4\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b5\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_left\" id=\"b6\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b7\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_left\" id=\"b8\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b9\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

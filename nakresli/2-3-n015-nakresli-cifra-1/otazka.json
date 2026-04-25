@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "id": "2-3-n015-nakresli-cifra-1",
+    "typ": "nakresli",
+    "nazev": "Nakresli číslici 1",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 1,
+    "koncepty": ["forward"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]číslici 1[/hlp]. Svislý tah má [hlp]80 bodů[/hlp].",
+    "pozice_podkladu": { "x": 190, "y": 160, "uhel": 90 },
+    "pozice_kurzoru":  { "x": 190, "y": 160, "uhel": 90 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        { "kind": "block", "type": "turtle_forward" }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "80",
+      "cary_tolerance": 0,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 1,
+      "typy_bloku": "turtle_forward"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"20\" y=\"20\"><field name=\"DISTANCE\">80</field></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "id": "2-3-s021-pismeno-z-serad-tahy",
+    "typ": "seřaď",
+    "nazev": "Písmeno Z — seřaď tahy (80 bodů)",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 3,
+    "koncepty": ["forward", "right", "left"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]písmeno Z[/hlp] (vodorovné tahy 80 bodů, diagonála 113 bodů, úhel 135°).",
+    "pozice_podkladu": { "x": 100, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 100, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(135);turtle.forward(113);turtle.left(135);turtle.forward(80);",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": []
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_right\" id=\"b1\" x=\"20\" y=\"20\"><field name=\"ANGLE\">135</field></block><block type=\"turtle_forward\" id=\"b2\" x=\"180\" y=\"20\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_left\" id=\"b3\" x=\"20\" y=\"150\"><field name=\"ANGLE\">135</field></block><block type=\"turtle_forward\" id=\"b4\" x=\"180\" y=\"150\"><field name=\"DISTANCE\">113</field></block><block type=\"turtle_forward\" id=\"b5\" x=\"100\" y=\"280\"><field name=\"DISTANCE\">80</field></block></xml>",
+    "validace": {
+      "cary_delky": "80,113,80",
+      "cary_tolerance": 0,
+      "uhly": "-135,135",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b2\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"b1\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b4\"><field name=\"DISTANCE\">113</field><next><block type=\"turtle_left\" id=\"b3\"><field name=\"ANGLE\">135</field><next><block type=\"turtle_forward\" id=\"b5\"><field name=\"DISTANCE\">80</field></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": {
+    "poznamka": "Paste do testing.js pro lokální otestování v sandboxu"
+  }
+}

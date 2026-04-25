@@ -4259,19 +4259,16 @@
   },
   {
     "path": "otazky/doplň/2-3-d004-pismeno-n-dopln-pendown/otazka.json",
-    "id": "2-3-d004",
-    "nazev": "Písmeno N — doplň penDown",
+    "id": "2-3-d004-pismeno-n-dopln-otoceni-na-diagonalu",
+    "nazev": "Písmeno N — doplň otočení na diagonálu",
     "typ": "doplň",
     "okruh": "2.3-pismena",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
-      "left",
       "right",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
@@ -4386,19 +4383,16 @@
   },
   {
     "path": "otazky/doplň/2-3-d012-pismeno-n-60px-dopln-pendown/otazka.json",
-    "id": "2-3-d012",
-    "nazev": "Písmeno N (60px) — doplň penDown",
+    "id": "2-3-d012-pismeno-n-60px-dopln-zpetne-otoceni",
+    "nazev": "Písmeno N (60 bodů) — doplň zpětné otočení",
     "typ": "doplň",
     "okruh": "2.3-pismena",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
-      "left",
       "right",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
@@ -4522,6 +4516,34 @@
       "right",
       "pen_up",
       "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d021-pismeno-z-dopln-diagonalu/otazka.json",
+    "id": "2-3-d021-pismeno-z-dopln-diagonalu",
+    "nazev": "Písmeno Z — doplň diagonální tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d022-pismeno-z-dopln-otoceni/otazka.json",
+    "id": "2-3-d022-pismeno-z-dopln-otoceni",
+    "nazev": "Písmeno Z — doplň otočení na diagonálu",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
     ]
   },
   {
@@ -4708,53 +4730,44 @@
   },
   {
     "path": "otazky/nakresli/2-3-n008-nakresli-pismeno-n/otazka.json",
-    "id": "2-3-n008",
+    "id": "2-3-n008-nakresli-pismeno-n",
     "nazev": "Nakresli písmeno N",
     "typ": "nakresli",
     "okruh": "2.3-pismena",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
       "right",
-      "left",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
     "path": "otazky/nakresli/2-3-n008b-pismeno-n-60px/otazka.json",
-    "id": "2-3-n008b",
-    "nazev": "Nakresli písmeno N — 60 px",
+    "id": "2-3-n008b-pismeno-n-60px",
+    "nazev": "Nakresli písmeno N — 60 bodů",
     "typ": "nakresli",
     "okruh": "2.3-pismena",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
       "right",
-      "left",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
     "path": "otazky/nakresli/2-3-n008c-pismeno-n-100px/otazka.json",
-    "id": "2-3-n008c",
-    "nazev": "Nakresli písmeno N — 100 px",
+    "id": "2-3-n008c-pismeno-n-100px",
+    "nazev": "Nakresli písmeno N — 100 bodů",
     "typ": "nakresli",
     "okruh": "2.3-pismena",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
       "right",
-      "left",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
@@ -4807,6 +4820,200 @@
       "left",
       "pen_up",
       "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n012-nakresli-pismeno-z/otazka.json",
+    "id": "2-3-n012-nakresli-pismeno-z",
+    "nazev": "Nakresli písmeno Z",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n012b-pismeno-z-60px/otazka.json",
+    "id": "2-3-n012b-pismeno-z-60px",
+    "nazev": "Nakresli písmeno Z — 60 bodů",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n012c-pismeno-z-100px/otazka.json",
+    "id": "2-3-n012c-pismeno-z-100px",
+    "nazev": "Nakresli písmeno Z — 100 bodů",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n013-nakresli-pismeno-f/otazka.json",
+    "id": "2-3-n013-nakresli-pismeno-f",
+    "nazev": "Nakresli písmeno F",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n013b-pismeno-f-60px/otazka.json",
+    "id": "2-3-n013b-pismeno-f-60px",
+    "nazev": "Nakresli písmeno F — 60 bodů",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n014-nakresli-pismeno-e/otazka.json",
+    "id": "2-3-n014-nakresli-pismeno-e",
+    "nazev": "Nakresli písmeno E",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n014b-pismeno-e-60px/otazka.json",
+    "id": "2-3-n014b-pismeno-e-60px",
+    "nazev": "Nakresli písmeno E — 60 bodů",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n015-nakresli-cifra-1/otazka.json",
+    "id": "2-3-n015-nakresli-cifra-1",
+    "nazev": "Nakresli číslici 1",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n016-nakresli-cifra-7/otazka.json",
+    "id": "2-3-n016-nakresli-cifra-7",
+    "nazev": "Nakresli číslici 7",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n017-nakresli-cifra-2/otazka.json",
+    "id": "2-3-n017-nakresli-cifra-2",
+    "nazev": "Nakresli číslici 2",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n018-nakresli-cifra-5/otazka.json",
+    "id": "2-3-n018-nakresli-cifra-5",
+    "nazev": "Nakresli číslici 5",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n019-nakresli-cifra-4/otazka.json",
+    "id": "2-3-n019-nakresli-cifra-4",
+    "nazev": "Nakresli číslici 4",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/2-3-n020-nakresli-cifra-3/otazka.json",
+    "id": "2-3-n020-nakresli-cifra-3",
+    "nazev": "Nakresli číslici 3",
+    "typ": "nakresli",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "PenUp",
+      "PenDown"
     ]
   },
   {
@@ -4883,19 +5090,16 @@
   },
   {
     "path": "otazky/oprav/2-3-o006-pismeno-n-oprav-delku-leveho-tahu-60-80/otazka.json",
-    "id": "2-3-o006",
-    "nazev": "Písmeno N — oprav délku levého tahu (60 → 80)",
+    "id": "2-3-o006-pismeno-n-oprav-delku-leveho-tahu-60-80",
+    "nazev": "Písmeno N — oprav délku levého svislého tahu (60 → 80)",
     "typ": "oprav",
     "okruh": "2.3-pismena",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
-      "left",
       "right",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
@@ -5007,19 +5211,16 @@
   },
   {
     "path": "otazky/oprav/2-3-o014-pismeno-n-oprav-delku-diagonalniho-tahu-60-80/otazka.json",
-    "id": "2-3-o014",
-    "nazev": "Písmeno N — oprav délku diagonálního tahu (60 → 80)",
+    "id": "2-3-o014-pismeno-n-oprav-delku-diagonalniho-tahu",
+    "nazev": "Písmeno N — oprav délku diagonály (80 → 113)",
     "typ": "oprav",
     "okruh": "2.3-pismena",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
-      "left",
       "right",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
@@ -5101,6 +5302,20 @@
       "right",
       "pen_up",
       "pen_down"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o020-pismeno-z-oprav-delku-diagonaly/otazka.json",
+    "id": "2-3-o020-pismeno-z-oprav-delku-diagonaly",
+    "nazev": "Písmeno Z — oprav délku diagonály (80 → 113)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
     ]
   },
   {
@@ -5209,6 +5424,20 @@
     ]
   },
   {
+    "path": "otazky/seřaď/2-3-s007-pismeno-n-serad-bloky/otazka.json",
+    "id": "2-3-s007-pismeno-n-serad-bloky",
+    "nazev": "Písmeno N — seřaď tahy (80 bodů)",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
     "path": "otazky/seřaď/2-3-s008-pismeno-l-60px-serad-tahy/otazka.json",
     "id": "2-3-s008",
     "nazev": "Písmeno L (60px) — seřaď tahy",
@@ -5282,19 +5511,16 @@
   },
   {
     "path": "otazky/seřaď/2-3-s013-pismeno-n-60px-serad-tahy/otazka.json",
-    "id": "2-3-s013",
-    "nazev": "Písmeno N (60px) — seřaď tahy",
+    "id": "2-3-s013-pismeno-n-60px-serad-tahy",
+    "nazev": "Písmeno N (60 bodů) — seřaď tahy",
     "typ": "seřaď",
     "okruh": "2.3-pismena",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
-      "left",
       "right",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
@@ -5354,19 +5580,16 @@
   },
   {
     "path": "otazky/seřaď/2-3-s018-pismeno-n-100px-serad-tahy/otazka.json",
-    "id": "2-3-s018",
-    "nazev": "Písmeno N (100px) — seřaď tahy",
+    "id": "2-3-s018-pismeno-n-100px-serad-tahy",
+    "nazev": "Písmeno N (100 bodů) — seřaď tahy",
     "typ": "seřaď",
     "okruh": "2.3-pismena",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "forward",
-      "backward",
-      "left",
       "right",
-      "pen_up",
-      "pen_down"
+      "left"
     ]
   },
   {
@@ -5396,6 +5619,20 @@
     "stav": "draft",
     "koncepty": [
       "forward",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s021-pismeno-z-serad-tahy/otazka.json",
+    "id": "2-3-s021-pismeno-z-serad-tahy",
+    "nazev": "Písmeno Z — seřaď tahy (80 bodů)",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
       "left"
     ]
   },
