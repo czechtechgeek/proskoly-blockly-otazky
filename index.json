@@ -4547,6 +4547,143 @@
     ]
   },
   {
+    "path": "otazky/doplň/2-3-d023-pismeno-z-60px-dopln-zpetne-otoceni/otazka.json",
+    "id": "2-3-d023-pismeno-z-60px-dopln-zpetne-otoceni",
+    "nazev": "Písmeno Z (60 bodů) — doplň zpětné otočení",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d024-pismeno-f-dopln-penup/otazka.json",
+    "id": "2-3-d024-pismeno-f-dopln-penup",
+    "nazev": "Písmeno F — doplň zvednutí pera",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d025-pismeno-f-dopln-stredni-tah/otazka.json",
+    "id": "2-3-d025-pismeno-f-dopln-stredni-tah",
+    "nazev": "Písmeno F — doplň střední vodorovný tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d026-pismeno-e-dopln-pendown-stredni/otazka.json",
+    "id": "2-3-d026-pismeno-e-dopln-pendown-stredni",
+    "nazev": "Písmeno E — doplň spuštění pera před středním tahem",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d027-cifra-7-dopln-svisly-tah/otazka.json",
+    "id": "2-3-d027-cifra-7-dopln-svisly-tah",
+    "nazev": "Číslice 7 — doplň svislý tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d028-cifra-2-dopln-dolni-tah/otazka.json",
+    "id": "2-3-d028-cifra-2-dopln-dolni-tah",
+    "nazev": "Číslice 2 — doplň dolní tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d029-cifra-5-dopln-dolni-tah/otazka.json",
+    "id": "2-3-d029-cifra-5-dopln-dolni-tah",
+    "nazev": "Číslice 5 — doplň dolní tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d030-cifra-4-dopln-penup/otazka.json",
+    "id": "2-3-d030-cifra-4-dopln-penup",
+    "nazev": "Číslice 4 — doplň PenUp",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/2-3-d031-cifra-3-dopln-stredni-tah/otazka.json",
+    "id": "2-3-d031-cifra-3-dopln-stredni-tah",
+    "nazev": "Číslice 3 — doplň střední tah",
+    "typ": "doplň",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
     "path": "otazky/nakresli/2-3-n001b-pismeno-l-50px/otazka.json",
     "id": "2-3-n001b",
     "nazev": "Nakresli písmeno L — 50 px",
@@ -5319,6 +5456,126 @@
     ]
   },
   {
+    "path": "otazky/oprav/2-3-o021-pismeno-z-oprav-delku-spodniho-tahu/otazka.json",
+    "id": "2-3-o021-pismeno-z-oprav-delku-spodniho-tahu",
+    "nazev": "Písmeno Z — oprav délku spodního tahu (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o022-pismeno-f-oprav-delku-svisleho-tahu/otazka.json",
+    "id": "2-3-o022-pismeno-f-oprav-delku-svisleho-tahu",
+    "nazev": "Písmeno F — oprav délku svislého tahu (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o023-pismeno-e-oprav-delku-stredniho-tahu/otazka.json",
+    "id": "2-3-o023-pismeno-e-oprav-delku-stredniho-tahu",
+    "nazev": "Písmeno E — oprav délku středního tahu (60 → 40)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o024-cifra-7-oprav-delku-horniho-tahu/otazka.json",
+    "id": "2-3-o024-cifra-7-oprav-delku-horniho-tahu",
+    "nazev": "Číslice 7 — oprav délku horního tahu (40 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o025-cifra-2-oprav-delku-horniho-tahu/otazka.json",
+    "id": "2-3-o025-cifra-2-oprav-delku-horniho-tahu",
+    "nazev": "Číslice 2 — oprav délku horního tahu (40 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o026-cifra-5-oprav-delku-horniho-tahu/otazka.json",
+    "id": "2-3-o026-cifra-5-oprav-delku-horniho-tahu",
+    "nazev": "Číslice 5 — oprav délku horního tahu (40 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o027-cifra-4-oprav-delku-svisleho-tahu/otazka.json",
+    "id": "2-3-o027-cifra-4-oprav-delku-svisleho-tahu",
+    "nazev": "Číslice 4 — oprav délku svislého tahu (60 → 80)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/2-3-o028-cifra-3-oprav-delku-horniho-tahu/otazka.json",
+    "id": "2-3-o028-cifra-3-oprav-delku-horniho-tahu",
+    "nazev": "Číslice 3 — oprav délku horního tahu (40 → 60)",
+    "typ": "oprav",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
     "path": "otazky/seřaď/2-3-s001-pismeno-t-serad-bloky/otazka.json",
     "id": "2-3-s001",
     "nazev": "Písmeno T — seřaď bloky",
@@ -5634,6 +5891,109 @@
       "forward",
       "right",
       "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s022-pismeno-z-60px-serad-tahy/otazka.json",
+    "id": "2-3-s022-pismeno-z-60px-serad-tahy",
+    "nazev": "Písmeno Z (60 bodů) — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s023-pismeno-f-serad-tahy/otazka.json",
+    "id": "2-3-s023-pismeno-f-serad-tahy",
+    "nazev": "Písmeno F — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s024-cifra-7-serad-tahy/otazka.json",
+    "id": "2-3-s024-cifra-7-serad-tahy",
+    "nazev": "Číslice 7 — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s025-cifra-2-serad-tahy/otazka.json",
+    "id": "2-3-s025-cifra-2-serad-tahy",
+    "nazev": "Číslice 2 — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s026-cifra-5-serad-tahy/otazka.json",
+    "id": "2-3-s026-cifra-5-serad-tahy",
+    "nazev": "Číslice 5 — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s027-cifra-4-serad-tahy/otazka.json",
+    "id": "2-3-s027-cifra-4-serad-tahy",
+    "nazev": "Číslice 4 — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "backward",
+      "right",
+      "PenUp",
+      "PenDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/2-3-s028-cifra-3-serad-tahy/otazka.json",
+    "id": "2-3-s028-cifra-3-serad-tahy",
+    "nazev": "Číslice 3 — seřaď tahy",
+    "typ": "seřaď",
+    "okruh": "2.3-pismena",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "forward",
+      "right",
+      "PenUp",
+      "PenDown"
     ]
   },
   {

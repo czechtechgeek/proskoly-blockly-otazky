@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "id": "2-3-s028-cifra-3-serad-tahy",
+    "typ": "seřaď",
+    "nazev": "Číslice 3 — seřaď tahy",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 4,
+    "koncepty": ["forward", "right", "PenUp", "PenDown"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Seřaďte bloky tak, aby želva nakreslila [hlp]číslici 3[/hlp] ve stylu digitálního displeje (vodorovné tahy 60 bodů, svislý tah 80 bodů). Střední tah se kreslí zvlášť po zvednutí pera.",
+    "pozice_podkladu": { "x": 130, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 130, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.right(90);turtle.forward(80);turtle.right(90);turtle.forward(60);turtle.PenUp();turtle.right(90);turtle.forward(40);turtle.right(90);turtle.PenDown();turtle.forward(60);",
+    "toolbox_json": { "kind": "flyoutToolbox", "contents": [] },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_right\" id=\"b1\" x=\"20\" y=\"20\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" id=\"b2\" x=\"160\" y=\"20\"><field name=\"DISTANCE\">60</field></block><block type=\"turtle_right\" id=\"b3\" x=\"300\" y=\"20\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" id=\"b4\" x=\"20\" y=\"120\"><field name=\"DISTANCE\">80</field></block><block type=\"turtle_right\" id=\"b5\" x=\"160\" y=\"120\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" id=\"b6\" x=\"300\" y=\"120\"><field name=\"DISTANCE\">60</field></block><block type=\"turtle_pen_up\" id=\"b7\" x=\"20\" y=\"220\"></block><block type=\"turtle_right\" id=\"b8\" x=\"160\" y=\"220\"><field name=\"ANGLE\">90</field></block><block type=\"turtle_forward\" id=\"b9\" x=\"300\" y=\"220\"><field name=\"DISTANCE\">40</field></block><block type=\"turtle_pen_down\" id=\"b10\" x=\"20\" y=\"320\"></block><block type=\"turtle_forward\" id=\"b11\" x=\"160\" y=\"320\"><field name=\"DISTANCE\">60</field></block></xml>",
+    "validace": {
+      "cary_delky": "60,80,60,60",
+      "cary_tolerance": 0,
+      "uhly": "-90,-90,-90,-90",
+      "uhly_tolerance": 10,
+      "max_bloku": 11,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b2\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\" id=\"b1\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b4\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"b3\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b6\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_up\" id=\"b7\"><next><block type=\"turtle_right\" id=\"b5\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b9\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_right\" id=\"b8\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"b10\"><next><block type=\"turtle_forward\" id=\"b11\"><field name=\"DISTANCE\">60</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": { "poznamka": "Paste do testing.js pro lokální otestování v sandboxu" }
+}

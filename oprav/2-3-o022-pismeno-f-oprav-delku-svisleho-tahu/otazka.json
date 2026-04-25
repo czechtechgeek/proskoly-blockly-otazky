@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "id": "2-3-o022-pismeno-f-oprav-delku-svisleho-tahu",
+    "typ": "oprav",
+    "nazev": "Písmeno F — oprav délku svislého tahu (60 → 80)",
+    "tematicky_okruh": "2.3-pismena",
+    "difficulty": 4,
+    "koncepty": ["forward", "backward", "right", "left", "PenUp", "PenDown"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Svislý tah písmene F má mít [hlp]80 bodů[/hlp], ale v kódu je špatná hodnota. Opravte ji.",
+    "pozice_podkladu": { "x": 100, "y": 235, "uhel": 270 },
+    "pozice_kurzoru":  { "x": 100, "y": 235, "uhel": 270 },
+    "sketch_code": "turtle.setPenWidth(5);turtle.forward(80);turtle.right(90);turtle.forward(60);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.forward(40);turtle.left(90);turtle.PenDown();turtle.forward(40);",
+    "toolbox_json": { "kind": "flyoutToolbox", "contents": [] },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\" id=\"b2\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_up\" id=\"b4\"><next><block type=\"turtle_backward\" id=\"b5\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\" id=\"b6\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b7\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_left\" id=\"b8\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"b9\"><next><block type=\"turtle_forward\" id=\"b10\"><field name=\"DISTANCE\">40</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "80,60,40",
+      "cary_tolerance": 0,
+      "uhly": "-90,-90,90",
+      "uhly_tolerance": 10,
+      "max_bloku": 10,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_forward\" id=\"b1\" x=\"50\" y=\"50\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\" id=\"b2\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b3\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_pen_up\" id=\"b4\"><next><block type=\"turtle_backward\" id=\"b5\"><field name=\"DISTANCE\">60</field><next><block type=\"turtle_right\" id=\"b6\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\" id=\"b7\"><field name=\"DISTANCE\">40</field><next><block type=\"turtle_left\" id=\"b8\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\" id=\"b9\"><next><block type=\"turtle_forward\" id=\"b10\"><field name=\"DISTANCE\">40</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  },
+  "testing_js": { "poznamka": "Paste do testing.js pro lokální otestování v sandboxu" }
+}
