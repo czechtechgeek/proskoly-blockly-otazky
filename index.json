@@ -1,18 +1,5 @@
 [
   {
-    "path": "otazky/oprav/1-3-o003-najdi-chybu-ctverec-spatny-uhel/otazka.json",
-    "id": "1-3-o003",
-    "nazev": "Najdi chybu — čtverec špatný úhel",
-    "typ": "oprav",
-    "okruh": "",
-    "difficulty": 2,
-    "stav": "review",
-    "koncepty": [
-      "forward",
-      "right"
-    ]
-  },
-  {
     "path": "otazky/seřaď/1-1-s001-ctverec-serad-bloky/otazka.json",
     "id": "1-1-s001",
     "nazev": "Čtverec — seřaď bloky",
@@ -1306,164 +1293,222 @@
     "koncepty": []
   },
   {
-    "path": "otazky/doplň/1-3-d001-ctverec-dopln-nastaveni-barvy/otazka.json",
+    "path": "otazky/doplň/1-3-d001-tri-cary-tri-tloustky-dopln/otazka.json",
     "id": "1-3-d001",
-    "nazev": "Čtverec — doplň penDown",
+    "nazev": "Tři čáry — tři tloušťky — doplň",
     "typ": "doplň",
     "okruh": "1.3-pero",
-    "difficulty": 1,
+    "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
+      "setPenWidth",
+      "penUp",
+      "penDown",
       "forward",
       "right",
-      "repeat"
+      "left"
     ]
   },
   {
-    "path": "otazky/doplň/1-3-d002-primacara-dopln-pendown/otazka.json",
+    "path": "otazky/doplň/1-3-d002-tlusty-ctverec-dopln/otazka.json",
     "id": "1-3-d002",
-    "nazev": "Přímá čára — doplň penDown",
+    "nazev": "Tlustý čtverec — doplň",
     "typ": "doplň",
     "okruh": "1.3-pero",
-    "difficulty": 1,
+    "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "forward"
+      "setPenWidth",
+      "forward",
+      "right"
     ]
   },
   {
-    "path": "otazky/doplň/1-3-d003-dve-cary-dopln-penup/otazka.json",
+    "path": "otazky/doplň/1-3-d003-dve-rovnobezne-cary-dopln/otazka.json",
     "id": "1-3-d003",
-    "nazev": "Dvě čáry — doplň penUp",
+    "nazev": "Dvě rovnoběžné čáry — doplň",
     "typ": "doplň",
     "okruh": "1.3-pero",
-    "difficulty": 1,
+    "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "pen_up",
-      "forward"
-    ]
-  },
-  {
-    "path": "otazky/doplň/1-3-d004-trojuhelnik-dopln-pendown/otazka.json",
-    "id": "1-3-d004",
-    "nazev": "Trojúhelník — doplň penDown",
-    "typ": "doplň",
-    "okruh": "1.3-pero",
-    "difficulty": 1,
-    "stav": "draft",
-    "koncepty": [
-      "pen_down",
+      "penUp",
+      "penDown",
       "forward",
       "right",
-      "repeat"
+      "left"
     ]
   },
   {
-    "path": "otazky/doplň/1-3-d005-prerusovana-dopln-pendown/otazka.json",
+    "path": "otazky/doplň/1-3-d004-obdelnik-s-prerusenim-dopln/otazka.json",
+    "id": "1-3-d004",
+    "nazev": "Obdélník s přerušením — doplň",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d005-kriz-ruzna-tloustka-dopln/otazka.json",
     "id": "1-3-d005",
-    "nazev": "Přerušovaná čára — doplň penDown",
+    "nazev": "Kříž — různá tloušťka — doplň",
     "typ": "doplň",
     "okruh": "1.3-pero",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "pen_up",
-      "forward"
-    ]
-  },
-  {
-    "path": "otazky/doplň/1-3-d006-kriz-dopln-penup/otazka.json",
-    "id": "1-3-d006",
-    "nazev": "Kříž — doplň penUp",
-    "typ": "doplň",
-    "okruh": "1.3-pero",
-    "difficulty": 2,
-    "stav": "draft",
-    "koncepty": [
-      "pen_down",
-      "pen_up",
+      "setPenWidth",
+      "penUp",
+      "penDown",
       "forward",
       "backward",
       "right"
     ]
   },
   {
-    "path": "otazky/doplň/1-3-d007-zpet-na-start-dopln-penup/otazka.json",
-    "id": "1-3-d007",
-    "nazev": "Zpět na start — doplň penUp",
+    "path": "otazky/doplň/1-3-d006-zalomena-cara-s-mezerou-dopln/otazka.json",
+    "id": "1-3-d006",
+    "nazev": "Zalomená čára s mezerou — doplň",
     "typ": "doplň",
     "okruh": "1.3-pero",
-    "difficulty": 1,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "pen_up",
-      "forward",
-      "backward"
-    ]
-  },
-  {
-    "path": "otazky/doplň/1-3-d008-osmiuhelnik-dopln-pendown/otazka.json",
-    "id": "1-3-d008",
-    "nazev": "Osmiúhelník — doplň penDown",
-    "typ": "doplň",
-    "okruh": "1.3-pero",
-    "difficulty": 1,
-    "stav": "draft",
-    "koncepty": [
-      "pen_down",
+      "penUp",
+      "penDown",
       "forward",
       "right",
-      "repeat"
+      "left"
     ]
   },
   {
-    "path": "otazky/doplň/1-3-d009-trojuhelnik-mezera-dopln-penup/otazka.json",
-    "id": "1-3-d009",
-    "nazev": "Dva trojúhelníky — doplň penUp",
+    "path": "otazky/doplň/1-3-d007-trojuhelnik-tlusty-obrys-dopln/otazka.json",
+    "id": "1-3-d007",
+    "nazev": "Trojúhelník — tlustý obrys — doplň",
     "typ": "doplň",
     "okruh": "1.3-pero",
     "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "pen_up",
+      "setPenWidth",
       "forward",
-      "right",
-      "repeat"
+      "right"
     ]
   },
   {
-    "path": "otazky/doplň/1-3-d010-zpetny-pohyb-dopln-backward/otazka.json",
+    "path": "otazky/doplň/1-3-d008-zmena-tloustky-v-primce-dopln/otazka.json",
+    "id": "1-3-d008",
+    "nazev": "Změna tloušťky v přímce — doplň",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d009-ram-tlusty-okraj-dopln/otazka.json",
+    "id": "1-3-d009",
+    "nazev": "Rám — tlustý okraj — doplň",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d010-ram-dve-tloustky-dopln/otazka.json",
     "id": "1-3-d010",
-    "nazev": "Zpětný pohyb — doplň backward",
+    "nazev": "Rám — dvě tloušťky — doplň",
     "typ": "doplň",
     "okruh": "1.3-pero",
-    "difficulty": 1,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "backward"
+      "setPenWidth",
+      "forward",
+      "right"
     ]
   },
   {
-    "path": "otazky/doplň/1-3-d011-obdelnik-dopln-pendown/otazka.json",
+    "path": "otazky/doplň/1-3-d011-cik-cak-s-prerusenim-dopln/otazka.json",
     "id": "1-3-d011",
-    "nazev": "Obdélník — doplň penDown",
+    "nazev": "Cik-cak s přerušením — doplň",
     "typ": "doplň",
     "okruh": "1.3-pero",
-    "difficulty": 1,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
       "forward",
       "right",
-      "repeat"
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d012-vejir-s-tloustkou-dopln/otazka.json",
+    "id": "1-3-d012",
+    "nazev": "Vějíř s tloušťkou — doplň",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d013-dvojity-ram-dopln/otazka.json",
+    "id": "1-3-d013",
+    "nazev": "Dvojitý rám — doplň",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/1-3-d014-ram-s-prerusenim-dopln/otazka.json",
+    "id": "1-3-d014",
+    "nazev": "Rám s přerušením — doplň",
+    "typ": "doplň",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
     ]
   },
   {
@@ -1791,74 +1836,221 @@
     ]
   },
   {
-    "path": "otazky/oprav/1-3-o001-ctverec-oprav-barvu-pera/otazka.json",
+    "path": "otazky/oprav/1-3-o001-tri-cary-tri-tloustky-oprav/otazka.json",
     "id": "1-3-o001",
-    "nazev": "Přímá čára — oprav chybějící penDown",
-    "typ": "oprav",
-    "okruh": "1.3-pero",
-    "difficulty": 1,
-    "stav": "draft",
-    "koncepty": [
-      "pen_down",
-      "forward"
-    ]
-  },
-  {
-    "path": "otazky/oprav/1-3-o004-dve-cary-spatny-penup/otazka.json",
-    "id": "1-3-o004",
-    "nazev": "Dvě čáry — penUp na špatném místě",
+    "nazev": "Tři čáry — tři tloušťky — oprav",
     "typ": "oprav",
     "okruh": "1.3-pero",
     "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "pen_up",
-      "forward"
-    ]
-  },
-  {
-    "path": "otazky/oprav/1-3-o005-trojuhelnik-chybi-pendown/otazka.json",
-    "id": "1-3-o005",
-    "nazev": "Trojúhelník — chybí penDown",
-    "typ": "oprav",
-    "okruh": "1.3-pero",
-    "difficulty": 1,
-    "stav": "draft",
-    "koncepty": [
-      "pen_down",
+      "setPenWidth",
+      "penUp",
+      "penDown",
       "forward",
       "right",
-      "repeat"
+      "left"
     ]
   },
   {
-    "path": "otazky/oprav/1-3-o006-prerusovana-spatna-mezera/otazka.json",
-    "id": "1-3-o006",
-    "nazev": "Přerušovaná — špatná délka mezery",
+    "path": "otazky/oprav/1-3-o002-tlusty-ctverec-oprav/otazka.json",
+    "id": "1-3-o002",
+    "nazev": "Tlustý čtverec — oprav",
     "typ": "oprav",
     "okruh": "1.3-pero",
     "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "pen_up",
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o003-dve-rovnobezne-cary-oprav/otazka.json",
+    "id": "1-3-o003",
+    "nazev": "Dvě rovnoběžné čáry — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o004-obdelnik-s-prerusenim-oprav/otazka.json",
+    "id": "1-3-o004",
+    "nazev": "Obdélník s přerušením — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o005-kriz-ruzna-tloustka-oprav/otazka.json",
+    "id": "1-3-o005",
+    "nazev": "Kříž — různá tloušťka — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o006-zalomena-cara-s-mezerou-oprav/otazka.json",
+    "id": "1-3-o006",
+    "nazev": "Zalomená čára s mezerou — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o007-trojuhelnik-tlusty-obrys-oprav/otazka.json",
+    "id": "1-3-o007",
+    "nazev": "Trojúhelník — tlustý obrys — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o008-zmena-tloustky-v-primce-oprav/otazka.json",
+    "id": "1-3-o008",
+    "nazev": "Změna tloušťky v přímce — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
       "forward"
     ]
   },
   {
-    "path": "otazky/oprav/1-3-o007-kriz-chybi-penup/otazka.json",
-    "id": "1-3-o007",
-    "nazev": "Kříž — chybí penUp při přesunu",
+    "path": "otazky/oprav/1-3-o009-ram-tlusty-okraj-oprav/otazka.json",
+    "id": "1-3-o009",
+    "nazev": "Rám — tlustý okraj — oprav",
     "typ": "oprav",
     "okruh": "1.3-pero",
     "difficulty": 2,
     "stav": "draft",
     "koncepty": [
-      "pen_down",
-      "pen_up",
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o010-ram-dve-tloustky-oprav/otazka.json",
+    "id": "1-3-o010",
+    "nazev": "Rám — dvě tloušťky — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o011-cik-cak-s-prerusenim-oprav/otazka.json",
+    "id": "1-3-o011",
+    "nazev": "Cik-cak s přerušením — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o012-vejir-s-tloustkou-oprav/otazka.json",
+    "id": "1-3-o012",
+    "nazev": "Vějíř s tloušťkou — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
       "forward",
       "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o013-dvojity-ram-oprav/otazka.json",
+    "id": "1-3-o013",
+    "nazev": "Dvojitý rám — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/1-3-o014-ram-s-prerusenim-oprav/otazka.json",
+    "id": "1-3-o014",
+    "nazev": "Rám s přerušením — oprav",
+    "typ": "oprav",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
+      "forward",
       "right"
     ]
   },
@@ -1944,6 +2136,444 @@
       "pen_up",
       "forward",
       "backward"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s007-tri-cary-tri-tloustky-serad/otazka.json",
+    "id": "1-3-s007",
+    "nazev": "Tři čáry — tři tloušťky — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s008-tlusty-ctverec-serad/otazka.json",
+    "id": "1-3-s008",
+    "nazev": "Tlustý čtverec — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s009-dve-rovnobezne-cary-serad/otazka.json",
+    "id": "1-3-s009",
+    "nazev": "Dvě rovnoběžné čáry — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s010-obdelnik-s-prerusenim-serad/otazka.json",
+    "id": "1-3-s010",
+    "nazev": "Obdélník s přerušením — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s011-kriz-ruzna-tloustka-serad/otazka.json",
+    "id": "1-3-s011",
+    "nazev": "Kříž — různá tloušťka — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s012-zalomena-cara-s-mezerou-serad/otazka.json",
+    "id": "1-3-s012",
+    "nazev": "Zalomená čára s mezerou — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s013-trojuhelnik-tlusty-obrys-serad/otazka.json",
+    "id": "1-3-s013",
+    "nazev": "Trojúhelník — tlustý obrys — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s014-zmena-tloustky-v-primce-serad/otazka.json",
+    "id": "1-3-s014",
+    "nazev": "Změna tloušťky v přímce — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s015-ram-tlusty-okraj-serad/otazka.json",
+    "id": "1-3-s015",
+    "nazev": "Rám — tlustý okraj — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s016-ram-dve-tloustky-serad/otazka.json",
+    "id": "1-3-s016",
+    "nazev": "Rám — dvě tloušťky — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s017-cik-cak-s-prerusenim-serad/otazka.json",
+    "id": "1-3-s017",
+    "nazev": "Cik-cak s přerušením — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s018-vejir-s-tloustkou-serad/otazka.json",
+    "id": "1-3-s018",
+    "nazev": "Vějíř s tloušťkou — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s019-dvojity-ram-serad/otazka.json",
+    "id": "1-3-s019",
+    "nazev": "Dvojitý rám — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s020-ram-s-prerusenim-serad/otazka.json",
+    "id": "1-3-s020",
+    "nazev": "Rám s přerušením — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s021-tri-cary-tri-tloustky-serad/otazka.json",
+    "id": "1-3-s021",
+    "nazev": "Tři čáry — tři tloušťky — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s022-tlusty-ctverec-serad/otazka.json",
+    "id": "1-3-s022",
+    "nazev": "Tlustý čtverec — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s023-dve-rovnobezne-cary-serad/otazka.json",
+    "id": "1-3-s023",
+    "nazev": "Dvě rovnoběžné čáry — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s024-obdelnik-s-prerusenim-serad/otazka.json",
+    "id": "1-3-s024",
+    "nazev": "Obdélník s přerušením — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s025-kriz-ruzna-tloustka-serad/otazka.json",
+    "id": "1-3-s025",
+    "nazev": "Kříž — různá tloušťka — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s026-zalomena-cara-s-mezerou-serad/otazka.json",
+    "id": "1-3-s026",
+    "nazev": "Zalomená čára s mezerou — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s027-trojuhelnik-tlusty-obrys-serad/otazka.json",
+    "id": "1-3-s027",
+    "nazev": "Trojúhelník — tlustý obrys — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s028-zmena-tloustky-v-primce-serad/otazka.json",
+    "id": "1-3-s028",
+    "nazev": "Změna tloušťky v přímce — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s029-ram-tlusty-okraj-serad/otazka.json",
+    "id": "1-3-s029",
+    "nazev": "Rám — tlustý okraj — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s030-ram-dve-tloustky-serad/otazka.json",
+    "id": "1-3-s030",
+    "nazev": "Rám — dvě tloušťky — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s031-cik-cak-s-prerusenim-serad/otazka.json",
+    "id": "1-3-s031",
+    "nazev": "Cik-cak s přerušením — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s032-vejir-s-tloustkou-serad/otazka.json",
+    "id": "1-3-s032",
+    "nazev": "Vějíř s tloušťkou — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s033-dvojity-ram-serad/otazka.json",
+    "id": "1-3-s033",
+    "nazev": "Dvojitý rám — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/1-3-s034-ram-s-prerusenim-serad/otazka.json",
+    "id": "1-3-s034",
+    "nazev": "Rám s přerušením — seřaď",
+    "typ": "seřaď",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
     ]
   },
   {
@@ -7652,32 +8282,6 @@
     "stav": "draft",
     "koncepty": [
       "setPenColor",
-      "forward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/oprav/1-3-o002-najdi-chybu-obdelnik/otazka.json",
-    "id": "1-3-o002",
-    "nazev": "Najdi chybu — obdélník špatné rozměry",
-    "typ": "oprav",
-    "okruh": "pero",
-    "difficulty": 2,
-    "stav": "draft",
-    "koncepty": [
-      "forward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/oprav/1-3-o003-najdi-chybu-ctverec/otazka.json",
-    "id": "1-3-o003",
-    "nazev": "Najdi chybu — čtverec špatný úhel",
-    "typ": "oprav",
-    "okruh": "pero",
-    "difficulty": 2,
-    "stav": "draft",
-    "koncepty": [
       "forward",
       "right"
     ]

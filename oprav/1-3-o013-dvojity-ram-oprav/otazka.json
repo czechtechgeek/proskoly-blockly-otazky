@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "1-3-o013",
+    "typ": "oprav",
+    "nazev": "Dvojitý rám — oprav",
+    "tematicky_okruh": "1.3-pero",
+    "difficulty": 4,
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby nakreslila [hlp]dvojitý rám obrazu[/hlp]. Nejdříve smyčkou nakreslete [hlp]vnější čtverec 80×80 pixelů[/hlp] s [hlp]tloušťkou 3[/hlp]. Pak [hlp]zvedněte pero[/hlp], přesuňte se o 15 pixelů dolů a doprava, [hlp]spusťte pero[/hlp], nastavte [hlp]tloušťku 1[/hlp] a smyčkou nakreslete [hlp]vnitřní čtverec 50×50 pixelů[/hlp].",
+    "pozice_podkladu": {
+      "x": 95,
+      "y": 95,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 95,
+      "y": 95,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(3);for(let i=0;i<4;i++){turtle.forward(80);turtle.right(90);}turtle.PenUp();turtle.right(90);turtle.forward(15);turtle.left(90);turtle.forward(15);turtle.PenDown();turtle.setPenWidth(1);for(let i=0;i<4;i++){turtle.forward(50);turtle.right(90);}",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type": "turtle_forward"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_right"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_left"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_up"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_pen_down"
+        },
+        {
+          "kind": "block",
+          "type": "turtle_set_pen_width"
+        },
+        {
+          "kind": "block",
+          "type": "controls_repeat_ext"
+        },
+        {
+          "kind": "block",
+          "type": "math_number"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_set_pen_width\" x=\"50\" y=\"50\"><field name=\"WIDTH\">3</field><next><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></statement><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_set_pen_width\"><field name=\"WIDTH\">1</field><next><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "80,80,80,80,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down,turtle_set_pen_width"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_set_pen_width\" x=\"50\" y=\"50\"><field name=\"WIDTH\">3</field><next><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">80</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></statement><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_set_pen_width\"><field name=\"WIDTH\">1</field><next><block type=\"controls_repeat_ext\"><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">4</field></shadow></value><statement name=\"DO\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}
