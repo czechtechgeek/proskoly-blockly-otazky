@@ -1729,6 +1729,68 @@
     ]
   },
   {
+    "path": "otazky/nakresli/1-3-n028-ram-tlusty-okraj/otazka.json",
+    "id": "1-3-n028",
+    "nazev": "Rám — tlustý okraj",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n029-ram-dve-tloustky/otazka.json",
+    "id": "1-3-n029",
+    "nazev": "Rám — dvě tloušťky",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n030-dvojity-ram/otazka.json",
+    "id": "1-3-n030",
+    "nazev": "Dvojitý rám",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n031-ram-s-prerusenim/otazka.json",
+    "id": "1-3-n031",
+    "nazev": "Rám s přerušením",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
     "path": "otazky/oprav/1-3-o001-ctverec-oprav-barvu-pera/otazka.json",
     "id": "1-3-o001",
     "nazev": "Přímá čára — oprav chybějící penDown",
