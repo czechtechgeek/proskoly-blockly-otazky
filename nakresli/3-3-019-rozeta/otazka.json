@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "id": "3-3-019",
+    "typ": "nakresli",
+    "nazev": "Rozeta",
+    "tematicky_okruh": "3.3-slunce",
+    "difficulty": 5,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Rozeta"
+    },
+    "poznamky": "rozeta 36 paprsku"
+  },
+  "cms": {
+    "task_text": "Definujte blok 'okvětí' (setPenWidth 2, forward 20, backward 20, right 20°). Zavolejte ho [hlp]6×[/hlp], pak [hlp]right 60°[/hlp], opakujte [hlp]6×[/hlp] — celkem 36 paprsků.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "for(let j=0;j<6;j++){for(let i=0;i<6;i++){turtle.setPenWidth(2);turtle.forward(20);turtle.backward(20);turtle.right(20);}turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "20"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "20"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "20"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "60"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_set_pen_width",
+              "fields": {
+                "WIDTH": "2"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right,turtle_set_pen_width"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "id": "3-3-011",
+    "typ": "nakresli",
+    "nazev": "Jednoduchá mandala",
+    "tematicky_okruh": "3.3-slunce",
+    "difficulty": 5,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Jednoduchá mandala"
+    },
+    "poznamky": "mandala 6x6 paprsku, refaktor z 10.2-001"
+  },
+  "cms": {
+    "task_text": "Definujte blok 'vzor' (setPenWidth 2, forward 30, backward 30, right 10°). Zavolejte ho [hlp]6× smyčkou[/hlp] pro jednu skupinu. Pak [hlp]otočte o 60°[/hlp] a opakujte [hlp]6×[/hlp] (celkem 36 paprsků).",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "for(let j=0;j<6;j++){for(let i=0;i<6;i++){turtle.setPenWidth(2);turtle.forward(30);turtle.backward(30);turtle.right(10);}turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "30"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "30"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "10"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "60"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_set_pen_width",
+              "fields": {
+                "WIDTH": "2"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 7,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right,turtle_set_pen_width"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "id": "3-1-014",
+    "typ": "nakresli",
+    "nazev": "Traktor",
+    "tematicky_okruh": "3.1-vagony",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Traktor"
+    },
+    "poznamky": "traktor s karoseri a 2 koly"
+  },
+  "cms": {
+    "task_text": "Definujte vlastní blok 'traktor' (obdélník 70×30 px). Přesuňte se na [hlp]zadní kolo[/hlp] (čtverec 20×20 px) a pak na [hlp]přední kolo[/hlp] (čtverec 12×12 px).",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(70);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.PenUp();turtle.forward(10);turtle.right(90);turtle.forward(30);turtle.left(90);turtle.PenDown();turtle.forward(20);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.PenUp();turtle.forward(38);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "70"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "20"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "12"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_left",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_down",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "70,30,70,30,20,20,20,20,12,12,12,12",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 10,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

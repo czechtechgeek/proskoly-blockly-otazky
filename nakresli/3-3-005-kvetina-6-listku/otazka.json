@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "3-3-005",
+    "typ": "nakresli",
+    "nazev": "Květina — 6 lístků",
+    "tematicky_okruh": "3.3-slunce",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Květina — 6 lístků"
+    },
+    "poznamky": "kvetina s 6 listky"
+  },
+  "cms": {
+    "task_text": "Definujte blok 'lístek' (forward 40, backward 40, right 60°). Zavolejte ho [hlp]6× smyčkou[/hlp]. Vznikne květina se 6 okvětními lístky.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<6;i++){turtle.forward(40);turtle.backward(40);turtle.right(60);}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "40"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "40"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "60"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "40,40,40,40,40,40,40,40,40,40,40,40",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

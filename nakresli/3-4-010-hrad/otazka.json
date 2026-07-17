@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "id": "3-4-010",
+    "typ": "nakresli",
+    "nazev": "Hrad",
+    "tematicky_okruh": "3.4-domek",
+    "difficulty": 5,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Hrad"
+    },
+    "poznamky": "hrad - vez + cimburi"
+  },
+  "cms": {
+    "task_text": "Definujte blok 'věž' (obdélník 30×60 px). Zavolejte ho. [hlp]Přesuňte se na střechu[/hlp] a nakreslete [hlp]cimbuří[/hlp] (3 zuby: forward 10, right 90°, forward 10, left 90°, forward 10, left 90°, forward 10, right 90°).",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(30);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.PenUp();turtle.forward(10);turtle.left(90);turtle.forward(10);turtle.right(90);turtle.PenDown();turtle.forward(10);turtle.right(90);turtle.forward(10);turtle.left(90);turtle.forward(10);turtle.left(90);turtle.forward(10);turtle.right(90);turtle.forward(10);turtle.right(90);turtle.forward(10);turtle.left(90);turtle.forward(10);turtle.left(90);turtle.forward(10);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "30"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "10"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_left",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_down",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "0"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "30,60,30,60,10,10,10,10,10,10,10,10,10,10,10,10",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 10,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

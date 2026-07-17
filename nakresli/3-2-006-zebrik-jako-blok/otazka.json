@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "3-2-006",
+    "typ": "nakresli",
+    "nazev": "Žebřík jako blok",
+    "tematicky_okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Žebřík jako blok"
+    },
+    "poznamky": "zebrik refaktor z 2.2"
+  },
+  "cms": {
+    "task_text": "Definujte blok 'příčka' (forward 40 px, vpravo 90°, forward 15 px, vlevo 90°). Zavolejte ho [hlp]4× smyčkou[/hlp]. Pak [hlp]levou stranu[/hlp] žebříku: spusť pero, jdi 75 px.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<4;i++){turtle.forward(40);turtle.right(90);turtle.forward(15);turtle.left(90);}turtle.PenUp();turtle.right(90);turtle.forward(60);turtle.left(90);turtle.PenDown();turtle.forward(75);turtle.PenUp();turtle.forward(15);turtle.right(90);turtle.forward(60);turtle.PenDown();turtle.forward(75);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "40"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "75"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "15"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_left",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_down",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "40,15,40,15,40,15,40,15,75,75",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

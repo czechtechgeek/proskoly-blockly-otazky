@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "id": "3-2-005",
+    "typ": "nakresli",
+    "nazev": "Hřeben jako blok",
+    "tematicky_okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Hřeben jako blok"
+    },
+    "poznamky": "hreben refaktor z 2.2-003"
+  },
+  "cms": {
+    "task_text": "Definujte vlastní blok 'zub' (forward 30 px, vpravo 90°, forward 15 px, vlevo 90°). Zavolejte ho [hlp]5× smyčkou[/hlp]. Vznikne hřeben.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<5;i++){turtle.forward(30);turtle.right(90);turtle.forward(15);turtle.left(90);}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "30"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "15"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_left",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "30,15,30,15,30,15,30,15,30,15",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 6,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_left"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}
