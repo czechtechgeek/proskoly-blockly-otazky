@@ -1,17 +1,18 @@
 {
   "meta": {
-    "id": "3-1-002",
+    "id": "3-3-004",
     "typ": "nakresli",
-    "nazev": "Vlak ze 3 vagónů",
-    "tematicky_okruh": "3.1-vlastni-bloky",
-    "difficulty": 3,
+    "nazev": "Slunce s tloušťkou",
+    "tematicky_okruh": "3.3-vlastni-bloky",
+    "difficulty": 4,
     "koncepty": [
       "procedures_defnoreturn",
       "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "setPenWidth",
       "forward",
-      "right",
-      "penUp",
-      "penDown"
+      "backward",
+      "right"
     ],
     "verze": 1,
     "stav": "draft",
@@ -19,11 +20,11 @@
       "typ": "procedures_defnoreturn + procedures_callnoreturn",
       "popis": "Vlastní blok bez parametrů",
       "priorita": "vysoka",
-      "poznamka": "Kapitola 3. Otázka: Vlak ze 3 vagónů"
+      "poznamka": "Kapitola 3. Otázka: Slunce s tloušťkou"
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] (obdélník 50×30 px). Pak ho [hlp]zavolejte 3×[/hlp] — mezi vagóny zvedněte pero, přesuňte se o 20 px a spusťte pero.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp]: nastav tloušťku 3, jdi 50 px, vrať se 50 px, otoč se o 60°. Zavolejte ho [hlp]6×[/hlp] smyčkou. Vznikne slunce s tlustými paprsky.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,
@@ -34,7 +35,7 @@
       "y": 200,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<3;i++){turtle.forward(50);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.PenUp();turtle.forward(70);turtle.PenDown();}",
+    "sketch_code": "for(let i=0;i<6;i++){turtle.setPenWidth(3);turtle.forward(50);turtle.backward(50);turtle.right(60);}",
     "toolbox_json": {
       "kind": "categoryToolbox",
       "contents": [
@@ -52,19 +53,28 @@
             },
             {
               "kind": "block",
-              "type": "turtle_right",
+              "type": "turtle_backward",
               "fields": {
-                "ANGLE": "90"
+                "DISTANCE": "50"
               }
             },
             {
               "kind": "block",
-              "type": "turtle_pen_up",
-              "fields": {}
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "60"
+              }
             },
             {
               "kind": "block",
-              "type": "turtle_pen_down",
+              "type": "turtle_set_pen_width",
+              "fields": {
+                "WIDTH": "3"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
               "fields": {}
             }
           ]
@@ -79,12 +89,12 @@
     },
     "start_blocks_xml": "",
     "validace": {
-      "cary_delky": "50,30,50,30,50,30,50,30,50,30,50,30",
+      "cary_delky": "50,50,50,50,50,50,50,50,50,50,50,50",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90,90,90,90,90,90",
+      "uhly": "",
       "uhly_tolerance": 10,
-      "max_bloku": 10,
-      "typy_bloku": "turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+      "max_bloku": 6,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right,turtle_set_pen_width"
     },
     "spravna_odpoved_xml": ""
   }

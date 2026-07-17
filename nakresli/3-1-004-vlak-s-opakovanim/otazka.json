@@ -1,13 +1,14 @@
 {
   "meta": {
-    "id": "3-1-002",
+    "id": "3-1-004",
     "typ": "nakresli",
-    "nazev": "Vlak ze 3 vagónů",
+    "nazev": "Vlak s opakováním",
     "tematicky_okruh": "3.1-vlastni-bloky",
-    "difficulty": 3,
+    "difficulty": 4,
     "koncepty": [
       "procedures_defnoreturn",
       "procedures_callnoreturn",
+      "controls_repeat_ext",
       "forward",
       "right",
       "penUp",
@@ -19,11 +20,11 @@
       "typ": "procedures_defnoreturn + procedures_callnoreturn",
       "popis": "Vlastní blok bez parametrů",
       "priorita": "vysoka",
-      "poznamka": "Kapitola 3. Otázka: Vlak ze 3 vagónů"
+      "poznamka": "Kapitola 3. Otázka: Vlak s opakováním"
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] (obdélník 50×30 px). Pak ho [hlp]zavolejte 3×[/hlp] — mezi vagóny zvedněte pero, přesuňte se o 20 px a spusťte pero.",
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] (obdélník 40×30 px). Pomocí [hlp]smyčky opakuj 4×[/hlp] zavolejte vagón, mezi voláními zvedněte pero, přesuňte se o 50 px a spusťte pero.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,
@@ -34,7 +35,7 @@
       "y": 200,
       "uhel": 0
     },
-    "sketch_code": "for(let i=0;i<3;i++){turtle.forward(50);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.PenUp();turtle.forward(70);turtle.PenDown();}",
+    "sketch_code": "for(let j=0;j<4;j++){turtle.forward(40);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.PenUp();turtle.forward(50);turtle.PenDown();}",
     "toolbox_json": {
       "kind": "categoryToolbox",
       "contents": [
@@ -47,7 +48,7 @@
               "kind": "block",
               "type": "turtle_forward",
               "fields": {
-                "DISTANCE": "50"
+                "DISTANCE": "40"
               }
             },
             {
@@ -66,6 +67,11 @@
               "kind": "block",
               "type": "turtle_pen_down",
               "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
+              "fields": {}
             }
           ]
         },
@@ -79,12 +85,12 @@
     },
     "start_blocks_xml": "",
     "validace": {
-      "cary_delky": "50,30,50,30,50,30,50,30,50,30,50,30",
+      "cary_delky": "40,30,40,30,40,30,40,30,40,30,40,30,40,30,40,30",
       "cary_tolerance": 5,
-      "uhly": "90,90,90,90,90,90,90,90,90",
+      "uhly": "90,90,90,90,90,90,90,90,90,90,90,90",
       "uhly_tolerance": 10,
-      "max_bloku": 10,
-      "typy_bloku": "turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+      "max_bloku": 8,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
     },
     "spravna_odpoved_xml": ""
   }

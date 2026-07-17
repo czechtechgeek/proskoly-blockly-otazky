@@ -1,14 +1,18 @@
 {
   "meta": {
-    "id": "3-1-001",
+    "id": "3-1-006",
     "typ": "nakresli",
-    "nazev": "Vagón jako vlastní blok",
+    "nazev": "Nákladní vlak",
     "tematicky_okruh": "3.1-vlastni-bloky",
-    "difficulty": 3,
+    "difficulty": 4,
     "koncepty": [
       "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
       "forward",
-      "right"
+      "right",
+      "penUp",
+      "penDown"
     ],
     "verze": 1,
     "stav": "draft",
@@ -16,11 +20,11 @@
       "typ": "procedures_defnoreturn + procedures_callnoreturn",
       "popis": "Vlastní blok bez parametrů",
       "priorita": "vysoka",
-      "poznamka": "Kapitola 3. Otázka: Vagón jako vlastní blok"
+      "poznamka": "Kapitola 3. Otázka: Nákladní vlak"
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok nazvaný 'vagón'[/hlp] který nakreslí obdélník 60×40 px. Pak ho jednou zavolejte.",
+    "task_text": "Definujte vlastní blok 'vagón' (obdélník 70×40 px). Pomocí [hlp]smyčky opakuj 3×[/hlp] nakreslete 3 vagóny za sebou. Mezi vagóny [hlp]zvedněte pero[/hlp], posuňte se o 20 px a spusťte pero.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,
@@ -31,7 +35,7 @@
       "y": 200,
       "uhel": 0
     },
-    "sketch_code": "turtle.setPenWidth(5);turtle.forward(60);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(40);",
+    "sketch_code": "for(let j=0;j<3;j++){turtle.forward(70);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(40);turtle.right(90);turtle.PenUp();turtle.forward(90);turtle.PenDown();}",
     "toolbox_json": {
       "kind": "categoryToolbox",
       "contents": [
@@ -44,7 +48,7 @@
               "kind": "block",
               "type": "turtle_forward",
               "fields": {
-                "DISTANCE": "60"
+                "DISTANCE": "70"
               }
             },
             {
@@ -53,6 +57,16 @@
               "fields": {
                 "ANGLE": "90"
               }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_down",
+              "fields": {}
             }
           ]
         },
@@ -66,12 +80,12 @@
     },
     "start_blocks_xml": "",
     "validace": {
-      "cary_delky": "60,40,60,40",
+      "cary_delky": "70,40,70,40,70,40,70,40,70,40,70,40",
       "cary_tolerance": 5,
-      "uhly": "90,90,90",
+      "uhly": "90,90,90,90,90,90,90,90,90",
       "uhly_tolerance": 10,
-      "max_bloku": 6,
-      "typy_bloku": "turtle_forward,turtle_right"
+      "max_bloku": 8,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
     },
     "spravna_odpoved_xml": ""
   }

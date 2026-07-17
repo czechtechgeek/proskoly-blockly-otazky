@@ -1,12 +1,13 @@
 {
   "meta": {
-    "id": "3-3-001",
+    "id": "3-3-002",
     "typ": "nakresli",
-    "nazev": "Slunce — paprsek jako vlastní blok",
-    "tematicky_okruh": "3.3-slunce",
+    "nazev": "Slunce 8 paprsků",
+    "tematicky_okruh": "3.3-vlastni-bloky",
     "difficulty": 4,
     "koncepty": [
       "procedures_defnoreturn",
+      "procedures_callnoreturn",
       "controls_repeat_ext",
       "forward",
       "backward",
@@ -16,25 +17,24 @@
     "stav": "draft",
     "potrebuje_novy_blok": {
       "typ": "procedures_defnoreturn + procedures_callnoreturn",
-      "popis": "Vlastní blok bez parametrů (definice + volání) — standardní Blockly procedures",
+      "popis": "Vlastní blok bez parametrů",
       "priorita": "vysoka",
-      "poznamka": "Nutné pro kapitolu 3. Otázka: Slunce"
-    },
-    "poznamky": "Definuj paprsek(forward 60, backward 60), zavolej 8× v repeat se right(45)."
+      "poznamka": "Kapitola 3. Otázka: Slunce 8 paprsků"
+    }
   },
   "cms": {
-    "task_text": "Nakreslete [hlp]slunce s 8 paprsky[/hlp]. Definujte vlastní blok 'paprsek' (dopředu 60, dozadu 60) a zavolejte ho 8× se smyčkou.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp]: jdi 50 px, vrať se 50 px, otoč se o 45°. Zavolejte ho [hlp]8×[/hlp] smyčkou. Vznikne slunce s 8 paprsky.",
     "pozice_podkladu": {
-      "x": 160,
-      "y": 160,
-      "uhel": 90
+      "x": 80,
+      "y": 200,
+      "uhel": 0
     },
     "pozice_kurzoru": {
-      "x": 160,
-      "y": 160,
-      "uhel": 90
+      "x": 80,
+      "y": 200,
+      "uhel": 0
     },
-    "sketch_code": "turtle.setPenWidth(5);for(let i=0;i<8;i++){turtle.forward(60);turtle.backward(60);turtle.right(45);}",
+    "sketch_code": "for(let i=0;i<8;i++){turtle.forward(50);turtle.backward(50);turtle.right(45);}",
     "toolbox_json": {
       "kind": "categoryToolbox",
       "contents": [
@@ -47,43 +47,27 @@
               "kind": "block",
               "type": "turtle_forward",
               "fields": {
-                "DISTANCE": 60
+                "DISTANCE": "50"
               }
             },
             {
               "kind": "block",
               "type": "turtle_backward",
               "fields": {
-                "DISTANCE": 60
+                "DISTANCE": "50"
               }
             },
             {
               "kind": "block",
               "type": "turtle_right",
               "fields": {
-                "ANGLE": 45
+                "ANGLE": "45"
               }
-            }
-          ]
-        },
-        {
-          "kind": "category",
-          "name": "Smyčky",
-          "colour": 120,
-          "contents": [
+            },
             {
               "kind": "block",
               "type": "controls_repeat_ext",
-              "inputs": {
-                "TIMES": {
-                  "shadow": {
-                    "type": "math_number",
-                    "fields": {
-                      "NUM": 8
-                    }
-                  }
-                }
-              }
+              "fields": {}
             }
           ]
         },
@@ -97,9 +81,9 @@
     },
     "start_blocks_xml": "",
     "validace": {
-      "cary_delky": "60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60",
-      "cary_tolerance": 0,
-      "uhly": "-45,-45,-45,-45,-45,-45,-45,-45",
+      "cary_delky": "50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "",
       "uhly_tolerance": 10,
       "max_bloku": 5,
       "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right"
