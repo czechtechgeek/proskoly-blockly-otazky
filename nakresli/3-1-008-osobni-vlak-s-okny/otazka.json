@@ -3,7 +3,7 @@
     "id": "3-1-008",
     "typ": "nakresli",
     "nazev": "Osobní vlak s okny",
-    "tematicky_okruh": "3.1-vlastni-bloky",
+    "tematicky_okruh": "3.1-vagony",
     "difficulty": 4,
     "koncepty": [
       "procedures_defnoreturn",

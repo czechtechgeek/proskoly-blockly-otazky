@@ -6848,7 +6848,7 @@
     "id": "3-1-001",
     "nazev": "Vagón jako vlastní blok",
     "typ": "nakresli",
-    "okruh": "3.1-vlastni-bloky",
+    "okruh": "3.1-vagony",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -6862,7 +6862,7 @@
     "id": "3-1-002",
     "nazev": "Vlak ze 3 vagónů",
     "typ": "nakresli",
-    "okruh": "3.1-vlastni-bloky",
+    "okruh": "3.1-vagony",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -6879,7 +6879,7 @@
     "id": "3-1-003",
     "nazev": "Dva vagóny vedle sebe",
     "typ": "nakresli",
-    "okruh": "3.1-vlastni-bloky",
+    "okruh": "3.1-vagony",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -6896,7 +6896,7 @@
     "id": "3-1-004",
     "nazev": "Vlak s opakováním",
     "typ": "nakresli",
-    "okruh": "3.1-vlastni-bloky",
+    "okruh": "3.1-vagony",
     "difficulty": 4,
     "stav": "draft",
     "koncepty": [
@@ -6914,7 +6914,7 @@
     "id": "3-1-005",
     "nazev": "Vagón s kolem",
     "typ": "nakresli",
-    "okruh": "3.1-vlastni-bloky",
+    "okruh": "3.1-vagony",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -6931,7 +6931,7 @@
     "id": "3-1-006",
     "nazev": "Nákladní vlak",
     "typ": "nakresli",
-    "okruh": "3.1-vlastni-bloky",
+    "okruh": "3.1-vagony",
     "difficulty": 4,
     "stav": "draft",
     "koncepty": [
@@ -6949,7 +6949,7 @@
     "id": "3-1-007",
     "nazev": "Lokomotiva",
     "typ": "nakresli",
-    "okruh": "3.1-vlastni-bloky",
+    "okruh": "3.1-vagony",
     "difficulty": 4,
     "stav": "draft",
     "koncepty": [
@@ -6967,7 +6967,7 @@
     "id": "3-1-008",
     "nazev": "Osobní vlak s okny",
     "typ": "nakresli",
-    "okruh": "3.1-vlastni-bloky",
+    "okruh": "3.1-vagony",
     "difficulty": 4,
     "stav": "draft",
     "koncepty": [
@@ -6984,7 +6984,7 @@
     "id": "3-2-001",
     "nazev": "Tečkovaná čára jako blok",
     "typ": "nakresli",
-    "okruh": "3.2-vlastni-bloky",
+    "okruh": "3.2-prerusovane-cary",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -7001,7 +7001,7 @@
     "id": "3-2-002",
     "nazev": "Cik-cak jako blok",
     "typ": "nakresli",
-    "okruh": "3.2-vlastni-bloky",
+    "okruh": "3.2-prerusovane-cary",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -7018,7 +7018,7 @@
     "id": "3-2-003",
     "nazev": "Schod jako blok",
     "typ": "nakresli",
-    "okruh": "3.2-vlastni-bloky",
+    "okruh": "3.2-prerusovane-cary",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -7035,7 +7035,7 @@
     "id": "3-2-004",
     "nazev": "Pilový vzor",
     "typ": "nakresli",
-    "okruh": "3.2-vlastni-bloky",
+    "okruh": "3.2-prerusovane-cary",
     "difficulty": 4,
     "stav": "draft",
     "koncepty": [
@@ -7047,6 +7047,76 @@
       "left",
       "penUp",
       "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-3-001-paprsek-jako-blok/otazka.json",
+    "id": "3-3-001",
+    "nazev": "Paprsek jako blok",
+    "typ": "nakresli",
+    "okruh": "3.3-slunce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-3-002-slunce-8-paprsku/otazka.json",
+    "id": "3-3-002",
+    "nazev": "Slunce 8 paprsků",
+    "typ": "nakresli",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-3-003-slunce-12-paprsku/otazka.json",
+    "id": "3-3-003",
+    "nazev": "Slunce 12 paprsků",
+    "typ": "nakresli",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-3-004-slunce-s-tloustkou/otazka.json",
+    "id": "3-3-004",
+    "nazev": "Slunce s tloušťkou",
+    "typ": "nakresli",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "setPenWidth",
+      "forward",
+      "backward",
+      "right"
     ]
   },
   {
@@ -7066,96 +7136,11 @@
     ]
   },
   {
-    "path": "otazky/nakresli/3-3-001-paprsek-jako-blok/otazka.json",
-    "id": "3-3-001",
-    "nazev": "Paprsek jako blok",
-    "typ": "nakresli",
-    "okruh": "3.3-vlastni-bloky",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "backward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-3-002-slunce-8-paprsku/otazka.json",
-    "id": "3-3-002",
-    "nazev": "Slunce 8 paprsků",
-    "typ": "nakresli",
-    "okruh": "3.3-vlastni-bloky",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "backward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-3-003-slunce-12-paprsku/otazka.json",
-    "id": "3-3-003",
-    "nazev": "Slunce 12 paprsků",
-    "typ": "nakresli",
-    "okruh": "3.3-vlastni-bloky",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "backward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-3-004-slunce-s-tloustkou/otazka.json",
-    "id": "3-3-004",
-    "nazev": "Slunce s tloušťkou",
-    "typ": "nakresli",
-    "okruh": "3.3-vlastni-bloky",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "setPenWidth",
-      "forward",
-      "backward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-4-005-domek-stena-strecha/otazka.json",
-    "id": "3-4-005",
-    "nazev": "Domek — stěna + střecha",
-    "typ": "nakresli",
-    "okruh": "3.4-domek",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "left"
-    ]
-  },
-  {
     "path": "otazky/nakresli/3-4-001-stena-jako-blok/otazka.json",
     "id": "3-4-001",
     "nazev": "Stěna jako blok",
     "typ": "nakresli",
-    "okruh": "3.4-vlastni-bloky",
+    "okruh": "3.4-domek",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -7170,7 +7155,7 @@
     "id": "3-4-002",
     "nazev": "Střecha jako blok",
     "typ": "nakresli",
-    "okruh": "3.4-vlastni-bloky",
+    "okruh": "3.4-domek",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
@@ -7186,7 +7171,7 @@
     "id": "3-4-003",
     "nazev": "Domek — stěna + střecha",
     "typ": "nakresli",
-    "okruh": "3.4-vlastni-bloky",
+    "okruh": "3.4-domek",
     "difficulty": 4,
     "stav": "draft",
     "koncepty": [
@@ -7202,7 +7187,7 @@
     "id": "3-4-004",
     "nazev": "Vesnice 3 domků",
     "typ": "nakresli",
-    "okruh": "3.4-vlastni-bloky",
+    "okruh": "3.4-domek",
     "difficulty": 5,
     "stav": "draft",
     "koncepty": [
@@ -7214,6 +7199,21 @@
       "left",
       "penUp",
       "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/3-4-005-domek-stena-strecha/otazka.json",
+    "id": "3-4-005",
+    "nazev": "Domek — stěna + střecha",
+    "typ": "nakresli",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left"
     ]
   },
   {

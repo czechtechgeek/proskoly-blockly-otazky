@@ -3,7 +3,7 @@
     "id": "3-1-005",
     "typ": "nakresli",
     "nazev": "Vagón s kolem",
-    "tematicky_okruh": "3.1-vlastni-bloky",
+    "tematicky_okruh": "3.1-vagony",
     "difficulty": 3,
     "koncepty": [
       "procedures_defnoreturn",

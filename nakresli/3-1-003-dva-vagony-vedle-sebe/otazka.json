@@ -3,7 +3,7 @@
     "id": "3-1-003",
     "typ": "nakresli",
     "nazev": "Dva vagóny vedle sebe",
-    "tematicky_okruh": "3.1-vlastni-bloky",
+    "tematicky_okruh": "3.1-vagony",
     "difficulty": 3,
     "koncepty": [
       "procedures_defnoreturn",
