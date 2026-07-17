@@ -27,7 +27,7 @@
     "poznamky": "mrizka 4x4 cary"
   },
   "cms": {
-    "task_text": "Definujte blok 'svislá' (forward 80, backward 80). Zavolejte ji 4× s posunem o 25 px. Pak [hlp]definujte blok 'vodorovná'[/hlp] a zavolejte 4× s posunem.",
+    "task_text": "Definujte blok [hlp]'svislá'[/hlp] který jde [hlp]80 px[/hlp] a vrátí se [hlp]80 px[/hlp] zpět. Zavolejte ho [hlp]4×[/hlp] s [hlp]posunem o 25 px[/hlp]. Pak definujte blok [hlp]'vodorovná'[/hlp] a zavolejte ho také [hlp]4×[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

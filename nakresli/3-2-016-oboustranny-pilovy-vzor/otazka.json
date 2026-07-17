@@ -26,7 +26,7 @@
     "poznamky": "oboustranny pilovy vzor, refaktor z 2.2"
   },
   "cms": {
-    "task_text": "Definujte blok 'zub' (penDown, forward 30, vpravo 90°, penUp, forward 10, penDown, vlevo 90°, forward 30). Zavolejte [hlp]4× smyčkou[/hlp].",
+    "task_text": "Definujte [hlp]vlastní blok 'zub'[/hlp] který [hlp]spustí pero[/hlp], jde [hlp]30 px[/hlp], vpravo [hlp]90°[/hlp], [hlp]zvedne pero[/hlp], jde [hlp]10 px[/hlp], [hlp]spustí pero[/hlp], vlevo [hlp]90°[/hlp] a jde [hlp]30 px[/hlp]. Zavolejte ho [hlp]4× smyčkou[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

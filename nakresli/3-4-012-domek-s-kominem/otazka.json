@@ -25,7 +25,7 @@
     "poznamky": "domek s kominem"
   },
   "cms": {
-    "task_text": "Definujte blok 'stěna' (čtverec 60×60) a blok 'střecha' (trojúhelník 60). Zavolejte stěnu, [hlp]přesuňte se na vrchol stěny[/hlp], zavolejte střechu. Pak [hlp]přesuňte se na střechu[/hlp] a nakreslete [hlp]komín[/hlp] (obdélník 10×20 px).",
+    "task_text": "Definujte blok [hlp]'stěna'[/hlp] jako čtverec [hlp]60×60 px[/hlp] a blok [hlp]'střecha'[/hlp] jako trojúhelník [hlp]60 px[/hlp]. Zavolejte stěnu, střechu a [hlp]dokreslete komín[/hlp] [hlp]10×20 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

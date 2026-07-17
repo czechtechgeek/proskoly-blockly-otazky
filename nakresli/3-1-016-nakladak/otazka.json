@@ -23,7 +23,7 @@
     "poznamky": "nakladak s kabinou"
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'náklaďák' (obdélník 90×40 px). Zvedněte pero, přesuňte se do [hlp]pravé horní části[/hlp] a nakreslete [hlp]kabinu[/hlp] (čtverec 25×25 px).",
+    "task_text": "Definujte [hlp]vlastní blok 'náklaďák'[/hlp] který nakreslí obdélník [hlp]90×40 px[/hlp]. Pak [hlp]přesuňte se[/hlp] do pravé horní části a nakreslete [hlp]kabinu[/hlp] jako čtverec [hlp]25×25 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

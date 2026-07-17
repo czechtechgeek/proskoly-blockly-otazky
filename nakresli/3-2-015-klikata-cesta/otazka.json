@@ -26,7 +26,7 @@
     "poznamky": "klikata cesta s mezerami"
   },
   "cms": {
-    "task_text": "Definujte blok 'zatáčka' (forward 30, vpravo 45°, forward 10 (penUp), vlevo 45°). Zavolejte ho [hlp]6× smyčkou[/hlp]. Vznikne klikatá cesta s mezerami.",
+    "task_text": "Definujte [hlp]vlastní blok 'zatáčka'[/hlp] který jde [hlp]30 px[/hlp], vpravo [hlp]45°[/hlp], [hlp]zvedne pero[/hlp], jde [hlp]10 px[/hlp], [hlp]spustí pero[/hlp] a vlevo [hlp]45°[/hlp]. Zavolejte ho [hlp]6× smyčkou[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -26,7 +26,7 @@
     "poznamky": "parni lokomotiva s 2 koly"
   },
   "cms": {
-    "task_text": "Definujte blok 'lokomotiva' (obdélník 80×50 px, tloušťka 4) a blok 'kolo' (čtverec 25×25 px). Zavolejte lokomotivu, [hlp]přesuňte se na přední kolo[/hlp] a zavolejte kolo. Pak [hlp]přesuňte se na zadní kolo[/hlp] a zavolejte kolo znovu.",
+    "task_text": "Definujte blok [hlp]'lokomotiva'[/hlp] jako obdélník [hlp]80×50 px[/hlp] s [hlp]tloušťkou 4[/hlp] a blok [hlp]'kolo'[/hlp] jako čtverec [hlp]25×25 px[/hlp]. Zavolejte lokomotivu a [hlp]2 kola[/hlp] na přední a zadní straně.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -24,7 +24,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'lokomotiva' (obdélník 80×50 px, tloušťka 3). Zavolejte ho. Pak [hlp]přesuňte se[/hlp] na střechu a nakreslete [hlp]komín[/hlp] (obdélník 15×20 px, tloušťka 3).",
+    "task_text": "Definujte [hlp]vlastní blok 'lokomotiva'[/hlp] který nakreslí obdélník [hlp]80×50 px[/hlp] s [hlp]tloušťkou 3[/hlp]. Pak [hlp]přesuňte se[/hlp] na střechu a nakreslete [hlp]komín[/hlp] jako obdélník [hlp]15×20 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

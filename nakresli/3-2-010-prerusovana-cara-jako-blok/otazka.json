@@ -24,7 +24,7 @@
     "poznamky": "prerusovana cara refaktor z 1.3-n009"
   },
   "cms": {
-    "task_text": "Definujte blok 'úsek' (spusť pero, jdi 30 px, zvedni pero, jdi 15 px). Zavolejte ho [hlp]5× smyčkou[/hlp]. Vznikne přerušovaná čára.",
+    "task_text": "Definujte [hlp]vlastní blok 'úsek'[/hlp] který [hlp]spustí pero[/hlp], jde [hlp]30 px[/hlp], [hlp]zvedne pero[/hlp] a jde [hlp]15 px[/hlp]. Zavolejte ho [hlp]5× smyčkou[/hlp] a vznikne [hlp]přerušovaná čára[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

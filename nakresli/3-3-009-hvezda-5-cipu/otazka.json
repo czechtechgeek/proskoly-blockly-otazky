@@ -23,7 +23,7 @@
     "poznamky": "hvezda 5cipa refaktor z 2.1"
   },
   "cms": {
-    "task_text": "Definujte blok 'cip' (forward 60, right 144°). Zavolejte ho [hlp]5× smyčkou[/hlp]. Vznikne pěticípá hvězda.",
+    "task_text": "Definujte [hlp]vlastní blok 'cip'[/hlp] který jde [hlp]60 px[/hlp] a otočí se o [hlp]144°[/hlp]. Zavolejte ho [hlp]5× smyčkou[/hlp] a vznikne [hlp]pěticípá hvězda[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

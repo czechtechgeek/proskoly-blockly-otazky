@@ -24,7 +24,7 @@
     "poznamky": "auto refaktor z 1.3-n005"
   },
   "cms": {
-    "task_text": "Definujte blok 'karoserie' (obdélník 70×30 px) a blok 'kolo' (čtverec 15×15 px). Zavolejte karoserii, [hlp]přesuňte se k přednímu kolu[/hlp] a zavolejte kolo. Pak [hlp]k zadnímu kolu[/hlp] a znovu kolo.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]60 px[/hlp] a vrátí se [hlp]60 px[/hlp] zpět. Zavolejte ho [hlp]8× smyčkou[/hlp] s [hlp]otočením 45°[/hlp] a vznikne [hlp]slunce s 8 paprsky[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

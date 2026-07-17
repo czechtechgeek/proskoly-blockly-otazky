@@ -25,7 +25,7 @@
     "poznamky": "teckovany ctverec, refaktor z 2.2-002"
   },
   "cms": {
-    "task_text": "Definujte blok 'tečka' (spusť pero, jdi 20 px, zvedni pero, jdi 10 px). Pak definujte [hlp]blok 'strana'[/hlp] (4× zavolej tečku, pak otoč o 90°). Zavolejte stranu [hlp]4× smyčkou[/hlp].",
+    "task_text": "Definujte blok [hlp]'tečka'[/hlp] který [hlp]spustí pero[/hlp], jde [hlp]20 px[/hlp], [hlp]zvedne pero[/hlp] a jde [hlp]10 px[/hlp]. Pak definujte [hlp]blok 'strana'[/hlp] který [hlp]4× zavolá tečku[/hlp] a otočí se o [hlp]90°[/hlp]. Zavolejte stranu [hlp]4× smyčkou[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -25,7 +25,7 @@
     "poznamky": "rozhledna 3 patra"
   },
   "cms": {
-    "task_text": "Definujte blok 'patro' (čtverec 30×30 px). Zavolejte ho [hlp]3×[/hlp], pokaždé [hlp]posuňte se o 30 px nahoru[/hlp]. Vznikne rozhledna se 3 patry.",
+    "task_text": "Definujte [hlp]vlastní blok 'patro'[/hlp] jako čtverec [hlp]30×30 px[/hlp]. Zavolejte ho [hlp]3×[/hlp] a pokaždé se [hlp]posuňte o 30 px[/hlp] nahoru.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -22,7 +22,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'střecha'[/hlp] který nakreslí rovnostranný trojúhelník o straně 80 px. Pak ho jednou zavolejte.",
+    "task_text": "Definujte [hlp]vlastní blok 'střecha'[/hlp] který nakreslí rovnostranný trojúhelník o straně [hlp]80 px[/hlp]. Pak ho [hlp]jednou zavolejte[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

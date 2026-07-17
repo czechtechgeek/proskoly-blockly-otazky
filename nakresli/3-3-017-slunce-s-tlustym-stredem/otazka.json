@@ -25,7 +25,7 @@
     "poznamky": "slunce s tlustym stredem"
   },
   "cms": {
-    "task_text": "Definujte blok 'paprsek' (setPenWidth 5, forward 25, setPenWidth 1, forward 25, backward 50, right 30°). Zavolejte ho [hlp]12× smyčkou[/hlp]. Každý paprsek má tlustou vnitřní polovinu.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který nastaví [hlp]tloušťku 5[/hlp], jde [hlp]25 px[/hlp], nastaví [hlp]tloušťku 1[/hlp], jde [hlp]25 px[/hlp], vrátí se [hlp]50 px[/hlp] a otočí se o [hlp]30°[/hlp]. Zavolejte ho [hlp]12× smyčkou[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

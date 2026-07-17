@@ -23,7 +23,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp]: jdi 50 px, vrať se 50 px, otoč se o 45°. Zavolejte ho [hlp]8×[/hlp] smyčkou. Vznikne slunce s 8 paprsky.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]50 px[/hlp], vrátí se [hlp]50 px[/hlp] a otočí se o [hlp]45°[/hlp]. Zavolejte ho [hlp]8× smyčkou[/hlp] a vznikne [hlp]slunce s 8 paprsky[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

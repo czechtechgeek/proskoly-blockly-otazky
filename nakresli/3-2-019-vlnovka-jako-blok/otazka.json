@@ -26,7 +26,7 @@
     "poznamky": "vlnovka refaktor z 1.3"
   },
   "cms": {
-    "task_text": "Definujte blok 'vlna' (forward 20, vpravo 30°, forward 20 (penUp), vlevo 30°, forward 20 (penUp)). Zavolejte ho [hlp]4× smyčkou[/hlp]. Vznikne vlnovka.",
+    "task_text": "Definujte [hlp]vlastní blok 'vlna'[/hlp] který jde [hlp]20 px[/hlp], vpravo [hlp]30°[/hlp], [hlp]zvedne pero[/hlp], jde [hlp]20 px[/hlp], [hlp]spustí pero[/hlp], vlevo [hlp]30°[/hlp] a jde [hlp]20 px[/hlp]. Zavolejte ho [hlp]4× smyčkou[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

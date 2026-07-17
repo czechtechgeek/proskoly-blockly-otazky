@@ -23,7 +23,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] (obdélník 50×30 px). Pak ho [hlp]zavolejte 3×[/hlp] — mezi vagóny zvedněte pero, přesuňte se o 20 px a spusťte pero.",
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] který nakreslí obdélník [hlp]50×30 px[/hlp]. Pak ho [hlp]zavolejte 3×[/hlp] a mezi vagóny [hlp]zvedněte pero[/hlp], posuňte se o [hlp]20 px[/hlp] a [hlp]spusťte pero[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

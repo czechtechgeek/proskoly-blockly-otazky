@@ -25,7 +25,7 @@
     "poznamky": "nakladni auto - korba + kabina"
   },
   "cms": {
-    "task_text": "Definujte blok 'kabina' (čtverec 25×25 px) a blok 'korba' (obdélník 60×25 px). Zavolejte korbu, [hlp]přesuňte se vedle[/hlp] a zavolejte kabinu.",
+    "task_text": "Definujte blok [hlp]'kabina'[/hlp] jako čtverec [hlp]25×25 px[/hlp] a blok [hlp]'korba'[/hlp] jako obdélník [hlp]60×25 px[/hlp]. Zavolejte korbu, [hlp]přesuňte se vedle[/hlp] a zavolejte kabinu.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

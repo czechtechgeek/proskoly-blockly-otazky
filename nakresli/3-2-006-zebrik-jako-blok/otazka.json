@@ -26,7 +26,7 @@
     "poznamky": "zebrik refaktor z 2.2"
   },
   "cms": {
-    "task_text": "Definujte blok 'příčka' (forward 40 px, vpravo 90°, forward 15 px, vlevo 90°). Zavolejte ho [hlp]4× smyčkou[/hlp]. Pak [hlp]levou stranu[/hlp] žebříku: spusť pero, jdi 75 px.",
+    "task_text": "Definujte [hlp]vlastní blok 'příčka'[/hlp] který jde [hlp]40 px[/hlp], vpravo [hlp]90°[/hlp], jde [hlp]15 px[/hlp] a vlevo [hlp]90°[/hlp]. Zavolejte ho [hlp]4× smyčkou[/hlp] a pak [hlp]dokreslete[/hlp] levou a pravou stranu [hlp]žebříku[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

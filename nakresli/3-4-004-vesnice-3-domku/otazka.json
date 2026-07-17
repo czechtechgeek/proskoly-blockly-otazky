@@ -25,7 +25,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte blok 'domek' (stěna 60×60 + střecha). Zavolejte ho [hlp]3×[/hlp] smyčkou. Mezi domky [hlp]zvedněte pero[/hlp], přesuňte se o 80 px, [hlp]spusťte pero[/hlp].",
+    "task_text": "Definujte blok [hlp]'domek'[/hlp] který obsahuje stěnu [hlp]60×60 px[/hlp] a střechu [hlp]60 px[/hlp]. Zavolejte ho [hlp]3× smyčkou[/hlp] a mezi domky [hlp]posun o 80 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

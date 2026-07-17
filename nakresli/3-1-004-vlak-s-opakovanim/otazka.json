@@ -24,7 +24,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] (obdélník 40×30 px). Pomocí [hlp]smyčky opakuj 4×[/hlp] zavolejte vagón, mezi voláními zvedněte pero, přesuňte se o 50 px a spusťte pero.",
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] který nakreslí obdélník [hlp]40×30 px[/hlp]. Pomocí [hlp]smyčky opakuj 4×[/hlp] zavolejte vagón, mezi voláními [hlp]zvedněte pero[/hlp], posuňte se o [hlp]50 px[/hlp] a [hlp]spusťte pero[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

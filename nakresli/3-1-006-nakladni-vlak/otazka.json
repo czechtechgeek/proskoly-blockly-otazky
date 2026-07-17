@@ -24,7 +24,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'vagón' (obdélník 70×40 px). Pomocí [hlp]smyčky opakuj 3×[/hlp] nakreslete 3 vagóny za sebou. Mezi vagóny [hlp]zvedněte pero[/hlp], posuňte se o 20 px a spusťte pero.",
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] který nakreslí obdélník [hlp]70×40 px[/hlp]. Pomocí [hlp]smyčky opakuj 3×[/hlp] nakreslete [hlp]3 vagóny[/hlp] za sebou a mezi nimi [hlp]zvedněte pero[/hlp], posuňte se o [hlp]20 px[/hlp] a [hlp]spusťte pero[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

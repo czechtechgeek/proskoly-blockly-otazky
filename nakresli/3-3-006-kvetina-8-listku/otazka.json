@@ -24,7 +24,7 @@
     "poznamky": "kvetina s 8 listky"
   },
   "cms": {
-    "task_text": "Definujte blok 'lístek' (forward 35, backward 35, right 45°). Zavolejte ho [hlp]8× smyčkou[/hlp]. Vznikne květina s 8 lístky.",
+    "task_text": "Definujte [hlp]vlastní blok 'lístek'[/hlp] který jde [hlp]35 px[/hlp], vrátí se [hlp]35 px[/hlp] a otočí se o [hlp]45°[/hlp]. Zavolejte ho [hlp]8× smyčkou[/hlp] a vznikne [hlp]květina s 8 lístky[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

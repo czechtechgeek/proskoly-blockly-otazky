@@ -25,7 +25,7 @@
     "poznamky": "duhove slunce stridani tloustky"
   },
   "cms": {
-    "task_text": "Definujte blok 'paprsek' (forward 45, backward 45, right 30°). Zavolejte ho [hlp]12× smyčkou[/hlp]. Každý 2. paprsek [hlp]tloušťka 5[/hlp], ostatní tloušťka 1.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]45 px[/hlp], vrátí se [hlp]45 px[/hlp] a otočí se o [hlp]30°[/hlp]. Zavolejte ho [hlp]12× smyčkou[/hlp] a [hlp]střídejte tloušťku[/hlp] [hlp]5[/hlp] a [hlp]1[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

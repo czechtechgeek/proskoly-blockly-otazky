@@ -25,7 +25,7 @@
     "poznamky": "mestecko - dum + garaz + strom"
   },
   "cms": {
-    "task_text": "Definujte blok 'domek' (stěna 40×40 + střecha 40), blok 'garáž' (30×20 + střecha 30) a blok 'strom' (kmen 10×20 + koruna 25×25). Zavolejte domek, [hlp]posuňte se[/hlp], zavolejte garáž, [hlp]posuňte se[/hlp], zavolejte strom.",
+    "task_text": "Definujte blok [hlp]'domek'[/hlp] se stěnou [hlp]40×40 px[/hlp] a střechou [hlp]40 px[/hlp], blok [hlp]'garáž'[/hlp] [hlp]30×20 px[/hlp] a blok [hlp]'strom'[/hlp] s kmenem [hlp]10×20 px[/hlp] a korunou [hlp]25×25 px[/hlp]. Zavolejte je za sebou.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

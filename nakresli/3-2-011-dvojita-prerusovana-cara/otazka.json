@@ -26,7 +26,7 @@
     "poznamky": "dvojita prerusovana cara"
   },
   "cms": {
-    "task_text": "Definujte blok 'úsek' (penDown, forward 25, penUp, forward 10). Zavolejte ho 5× smyčkou. Pak [hlp]zvedněte pero[/hlp], vraťte se na začátek, posuňte se o 20 px dolů a [hlp]opakujte[/hlp] stejnou čáru.",
+    "task_text": "Definujte [hlp]vlastní blok 'úsek'[/hlp] který [hlp]spustí pero[/hlp], jde [hlp]25 px[/hlp], [hlp]zvedne pero[/hlp] a jde [hlp]10 px[/hlp]. Zavolejte ho [hlp]5× smyčkou[/hlp], pak [hlp]posuňte se o 20 px dolů[/hlp] a [hlp]opakujte[/hlp] stejnou čáru.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

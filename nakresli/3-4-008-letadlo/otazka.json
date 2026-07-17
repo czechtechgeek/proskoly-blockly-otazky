@@ -25,7 +25,7 @@
     "poznamky": "letadlo - trup + kridla"
   },
   "cms": {
-    "task_text": "Definujte blok 'trup' (obdélník 60×15 px) a blok 'křídlo' (čtverec 20×20 px). Zavolejte trup, [hlp]přesuňte se na levé křídlo[/hlp], zavolejte křídlo. Pak [hlp]na pravé křídlo[/hlp] a znovu křídlo.",
+    "task_text": "Definujte blok [hlp]'trup'[/hlp] jako obdélník [hlp]60×15 px[/hlp] a blok [hlp]'křídlo'[/hlp] jako čtverec [hlp]20×20 px[/hlp]. Zavolejte trup, [hlp]přesuňte se[/hlp] na levé a pravé křídlo.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

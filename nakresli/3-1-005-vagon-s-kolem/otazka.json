@@ -23,7 +23,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'vagón' (obdélník 60×30 px). Pak definujte blok 'kolo' (čtverec 15×15 px). Zavolejte vagón, [hlp]přesuňte se[/hlp] na pozici kola a zavolejte kolo.",
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] který nakreslí obdélník [hlp]60×30 px[/hlp]. Pak definujte blok [hlp]'kolo'[/hlp] jako čtverec [hlp]15×15 px[/hlp]. Zavolejte vagón, [hlp]přesuňte se[/hlp] na pozici kola a zavolejte kolo.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

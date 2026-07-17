@@ -24,7 +24,7 @@
     "poznamky": "cisterna s poklopem"
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'cisterna' (obdélník 60×40 px, tloušťka 3). Na střeše [hlp]dokreslete poklop[/hlp] (čtverec 10×10 px) pomocí penUp přesunu.",
+    "task_text": "Definujte [hlp]vlastní blok 'cisterna'[/hlp] který nakreslí obdélník [hlp]60×40 px[/hlp] s [hlp]tloušťkou 3[/hlp]. Pak [hlp]přesuňte se[/hlp] na střechu a nakreslete [hlp]poklop[/hlp] jako čtverec [hlp]10×10 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

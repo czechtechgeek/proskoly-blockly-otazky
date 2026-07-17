@@ -24,7 +24,7 @@
     "poznamky": "schodiste refaktor z 2.2"
   },
   "cms": {
-    "task_text": "Definujte blok 'schod' (forward 25, vpravo 90°, forward 25, vlevo 90°). Zavolejte ho [hlp]5× smyčkou[/hlp]. Vznikne stoupající schodiště.",
+    "task_text": "Definujte [hlp]vlastní blok 'schod'[/hlp] který jde [hlp]25 px[/hlp], vpravo [hlp]90°[/hlp], jde [hlp]25 px[/hlp] a vlevo [hlp]90°[/hlp]. Zavolejte ho [hlp]5× smyčkou[/hlp] a vznikne [hlp]schodiště[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

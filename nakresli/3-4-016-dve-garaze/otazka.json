@@ -25,7 +25,7 @@
     "poznamky": "dve garaze vedle sebe"
   },
   "cms": {
-    "task_text": "Definujte blok 'garáž' (obdélník 40×30 px + střecha 40). Zavolejte ho, [hlp]přesuňte se o 60 px[/hlp] a zavolejte ho znovu.",
+    "task_text": "Definujte [hlp]vlastní blok 'garáž'[/hlp] který obsahuje obdélník [hlp]40×30 px[/hlp] a střechu [hlp]40 px[/hlp]. Zavolejte ho, [hlp]přesuňte se o 60 px[/hlp] a zavolejte ho znovu.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

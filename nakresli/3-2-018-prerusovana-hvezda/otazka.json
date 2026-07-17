@@ -25,7 +25,7 @@
     "poznamky": "prerusovana hvezda, refaktor z 2.1"
   },
   "cms": {
-    "task_text": "Definujte blok 'cip' (forward 50, backward 50). Zavolejte ho 5× s [hlp]otočením 144°[/hlp] mezi. Mezi cipy [hlp]penUp[/hlp] pro přerušení.",
+    "task_text": "Definujte [hlp]vlastní blok 'cip'[/hlp] který jde [hlp]50 px[/hlp] a vrátí se [hlp]50 px[/hlp] zpět. Zavolejte ho [hlp]5×[/hlp] s [hlp]otočením 144°[/hlp] a mezi cipy [hlp]zvedněte pero[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -24,7 +24,7 @@
     "poznamky": "hasici vuz s zebrikem"
   },
   "cms": {
-    "task_text": "Definujte blok 'vůz' (obdélník 70×30 px, tloušťka 3). Zvedněte pero, přesuňte se na [hlp]střechu[/hlp] a nakreslete [hlp]žebřík[/hlp] (3 příčky: vodorovná 20 px, svislá 15 px, opakovat).",
+    "task_text": "Definujte [hlp]vlastní blok 'vůz'[/hlp] který nakreslí obdélník [hlp]70×30 px[/hlp] s [hlp]tloušťkou 3[/hlp]. Pak [hlp]přesuňte se[/hlp] na střechu a nakreslete [hlp]žebřík[/hlp] ze [hlp]3 příček[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

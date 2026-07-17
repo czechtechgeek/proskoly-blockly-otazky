@@ -25,7 +25,7 @@
     "poznamky": "slunce s kruhem"
   },
   "cms": {
-    "task_text": "Definujte blok 'paprsek' (forward 50, backward 50, right 45°). Zavolejte ho [hlp]8× smyčkou[/hlp]. Pak dokreslete [hlp]kruh[/hlp] — 36× forward(3), right(10°).",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]50 px[/hlp], vrátí se [hlp]50 px[/hlp] a otočí se o [hlp]45°[/hlp]. Zavolejte ho [hlp]8× smyčkou[/hlp] a pak [hlp]dokreslete kruh[/hlp] pomocí [hlp]36 kroků[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -25,7 +25,7 @@
     "poznamky": "5 vagonu za sebou, refaktor z 2.1-ctverec se smyckou"
   },
   "cms": {
-    "task_text": "Definujte blok 'vagón' (obdélník 50×30 px). Pomocí [hlp]smyčky opakuj 5×[/hlp] nakreslete 5 vagónů za sebou jako [hlp]nákladní vlak[/hlp]. Mezi vagóny penUp posun o 15 px.",
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] který nakreslí obdélník [hlp]50×30 px[/hlp]. Pomocí [hlp]smyčky opakuj 5×[/hlp] nakreslete [hlp]5 vagónů[/hlp] za sebou a mezi nimi [hlp]posun o 15 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

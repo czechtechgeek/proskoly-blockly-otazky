@@ -26,7 +26,7 @@
     "poznamky": "slunce s mezerami mezi paprsky"
   },
   "cms": {
-    "task_text": "Definujte blok 'paprsek' (forward 40, backward 40, penUp, right 20°, penDown). Zavolejte ho [hlp]6× smyčkou[/hlp] s otočením 20°. Pak totéž s otočením 20° na druhou stranu.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]40 px[/hlp], vrátí se [hlp]40 px[/hlp], [hlp]zvedne pero[/hlp], otočí se o [hlp]20°[/hlp] a [hlp]spustí pero[/hlp]. Zavolejte ho [hlp]6×[/hlp] na každou stranu.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

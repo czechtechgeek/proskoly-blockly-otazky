@@ -26,7 +26,7 @@
     "poznamky": "stridavy cik-cak, horni a dolni rada"
   },
   "cms": {
-    "task_text": "Definujte blok 'zub' (forward 30, vpravo 90°, forward 20 (penUp), vlevo 90°). Zavolejte ho [hlp]4× smyčkou[/hlp]. Pak [hlp]zvedněte pero[/hlp], vraťte se na začátek, posuňte se o 15 px dolů a [hlp]opakujte[/hlp] zrcadlově (left místo right).",
+    "task_text": "Definujte [hlp]vlastní blok 'zub'[/hlp] který jde [hlp]30 px[/hlp], vpravo [hlp]90°[/hlp], [hlp]zvedne pero[/hlp], jde [hlp]20 px[/hlp], [hlp]spustí pero[/hlp] a vlevo [hlp]90°[/hlp]. Zavolejte ho [hlp]4× smyčkou[/hlp] a pak [hlp]zrcadlově[/hlp] dolní řadu.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

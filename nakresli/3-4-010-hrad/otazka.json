@@ -25,7 +25,7 @@
     "poznamky": "hrad - vez + cimburi"
   },
   "cms": {
-    "task_text": "Definujte blok 'věž' (obdélník 30×60 px). Zavolejte ho. [hlp]Přesuňte se na střechu[/hlp] a nakreslete [hlp]cimbuří[/hlp] (3 zuby: forward 10, right 90°, forward 10, left 90°, forward 10, left 90°, forward 10, right 90°).",
+    "task_text": "Definujte [hlp]vlastní blok 'věž'[/hlp] jako obdélník [hlp]30×60 px[/hlp]. Zavolejte ho, [hlp]přesuňte se[/hlp] na střechu a nakreslete [hlp]cimbuří[/hlp] ze [hlp]3 zubů[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

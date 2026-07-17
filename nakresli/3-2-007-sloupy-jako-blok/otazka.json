@@ -25,7 +25,7 @@
     "poznamky": "sloupy refaktor z 2.2"
   },
   "cms": {
-    "task_text": "Definujte blok 'sloup' (forward 50 px, vpravo 90°, forward 10 px, vlevo 90°). Zavolejte ho [hlp]3× smyčkou[/hlp]. Mezi sloupy [hlp]posun o 20 px[/hlp] penUp.",
+    "task_text": "Definujte [hlp]vlastní blok 'sloup'[/hlp] který jde [hlp]50 px[/hlp], vpravo [hlp]90°[/hlp], jde [hlp]10 px[/hlp] a vlevo [hlp]90°[/hlp]. Zavolejte ho [hlp]3× smyčkou[/hlp] a mezi sloupy [hlp]posun o 20 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

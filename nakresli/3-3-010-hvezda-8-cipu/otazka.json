@@ -23,7 +23,7 @@
     "poznamky": "hvezda 8cipa"
   },
   "cms": {
-    "task_text": "Definujte blok 'cip' (forward 50, right 135°). Zavolejte ho [hlp]8× smyčkou[/hlp]. Vznikne osmicípá hvězda.",
+    "task_text": "Definujte [hlp]vlastní blok 'cip'[/hlp] který jde [hlp]50 px[/hlp] a otočí se o [hlp]135°[/hlp]. Zavolejte ho [hlp]8× smyčkou[/hlp] a vznikne [hlp]osmicípá hvězda[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -26,7 +26,7 @@
     "poznamky": "cik-cak s mezerami refaktor z 1.3-n020"
   },
   "cms": {
-    "task_text": "Definujte blok 'zub' (forward 25 px, vpravo 90°, forward 10 px (penUp), vlevo 90°). Zavolejte ho [hlp]6× smyčkou[/hlp]. Vznikne cik-cak s mezerami.",
+    "task_text": "Definujte [hlp]vlastní blok 'zub'[/hlp] který jde [hlp]25 px[/hlp], vpravo [hlp]90°[/hlp], [hlp]zvedne pero[/hlp], jde [hlp]10 px[/hlp], [hlp]spustí pero[/hlp] a vlevo [hlp]90°[/hlp]. Zavolejte ho [hlp]6× smyčkou[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

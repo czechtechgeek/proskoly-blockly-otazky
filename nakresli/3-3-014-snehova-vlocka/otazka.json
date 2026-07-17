@@ -25,7 +25,7 @@
     "poznamky": "snehova vlucka refaktor z 10.1-001, zjednodusena"
   },
   "cms": {
-    "task_text": "Definujte blok 'rameno' (forward 30, forward 10, backward 10, forward 10, backward 10, forward 10, backward 40). Zavolejte ho [hlp]6×[/hlp] s otočením 60°.",
+    "task_text": "Definujte [hlp]vlastní blok 'rameno'[/hlp] který jde [hlp]30 px[/hlp], vlevo [hlp]45°[/hlp], jde [hlp]10 px[/hlp], vrátí se [hlp]10 px[/hlp], vpravo [hlp]90°[/hlp], jde [hlp]10 px[/hlp], vrátí se [hlp]10 px[/hlp], vlevo [hlp]45°[/hlp] a vrátí se [hlp]30 px[/hlp]. Zavolejte [hlp]6×[/hlp] s otočením [hlp]60°[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -25,7 +25,7 @@
     "poznamky": "stavebni jerab, refaktor z 1.3-n015"
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'jeřáb' (základna 40×20 px, tloušťka 3). Zvedněte pero, přesuňte se na [hlp]stojan[/hlp] a nakreslete svislou čáru 50 px jako rameno.",
+    "task_text": "Definujte [hlp]vlastní blok 'jeřáb'[/hlp] který nakreslí základnu [hlp]40×20 px[/hlp] s [hlp]tloušťkou 3[/hlp]. Pak [hlp]přesuňte se[/hlp] na stojan a nakreslete [hlp]rameno[/hlp] dlouhé [hlp]50 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

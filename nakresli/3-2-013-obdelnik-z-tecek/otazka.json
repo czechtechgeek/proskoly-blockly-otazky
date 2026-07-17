@@ -25,7 +25,7 @@
     "poznamky": "obdelnik z tecek"
   },
   "cms": {
-    "task_text": "Definujte blok 'tečka' (penDown, forward 15, penUp, forward 8). Pak definujte [hlp]blok 'strana'[/hlp] (zavolej tečku 4× smyčkou, otoč 90°). Zavolejte [hlp]stranu 4×[/hlp]. Vznikne obdélník z teček.",
+    "task_text": "Definujte blok [hlp]'tečka'[/hlp] který [hlp]spustí pero[/hlp], jde [hlp]15 px[/hlp], [hlp]zvedne pero[/hlp] a jde [hlp]8 px[/hlp]. Pak definujte [hlp]blok 'strana'[/hlp] který [hlp]4× zavolá tečku[/hlp] a otočí se o [hlp]90°[/hlp]. Zavolejte stranu [hlp]4×[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

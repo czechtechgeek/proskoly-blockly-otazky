@@ -24,7 +24,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp]: jdi 40 px, vrať se 40 px. Pak [hlp]zvedněte pero[/hlp], otočte se o 45°, [hlp]spusťte pero[/hlp] a zavolejte paprsek znovu. Celkem [hlp]8 paprsků[/hlp] (ručně, bez smyčky).",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]40 px[/hlp] a vrátí se [hlp]40 px[/hlp] zpět. Pak [hlp]zvedněte pero[/hlp], otočte se o [hlp]45°[/hlp], [hlp]spusťte pero[/hlp] a zavolejte paprsek znovu. Celkem [hlp]8 paprsků[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

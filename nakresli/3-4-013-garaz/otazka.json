@@ -25,7 +25,7 @@
     "poznamky": "garaz se strechou a vraty"
   },
   "cms": {
-    "task_text": "Definujte blok 'garáž' (obdélník 80×50 px). Zavolejte ho. [hlp]Přesuňte se na střechu[/hlp] a nakreslete [hlp]střechu[/hlp] (trojúhelník 80). Pak [hlp]vrata[/hlp] (čtverec 20×20 px) uprostřed garáže.",
+    "task_text": "Definujte [hlp]vlastní blok 'garáž'[/hlp] jako obdélník [hlp]80×50 px[/hlp]. Zavolejte ho, [hlp]přesuňte se[/hlp] na střechu, nakreslete [hlp]střechu[/hlp] [hlp]80 px[/hlp] a [hlp]vrata[/hlp] [hlp]20×20 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

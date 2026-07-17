@@ -26,7 +26,7 @@
     "poznamky": "5 domku ve smycce"
   },
   "cms": {
-    "task_text": "Definujte blok 'domek' (stěna 40×40 + střecha 40). Zavolejte ho [hlp]5× smyčkou[/hlp]. Mezi domky posun o 60 px.",
+    "task_text": "Definujte [hlp]vlastní blok 'domek'[/hlp] který obsahuje stěnu [hlp]40×40 px[/hlp] a střechu [hlp]40 px[/hlp]. Zavolejte ho [hlp]5× smyčkou[/hlp] a mezi domky [hlp]posun o 60 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

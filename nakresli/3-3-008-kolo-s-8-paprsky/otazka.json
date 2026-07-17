@@ -25,7 +25,7 @@
     "poznamky": "kolo s 8 paprsky"
   },
   "cms": {
-    "task_text": "Definujte blok 'paprsek' (setPenWidth 3, forward 40, backward 40). Zavolejte ho [hlp]8× smyčkou[/hlp] s otočením o 45°. Vznikne kolo s 8 paprsky.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který nastaví [hlp]tloušťku 3[/hlp], jde [hlp]40 px[/hlp], vrátí se [hlp]40 px[/hlp] a otočí se o [hlp]45°[/hlp]. Zavolejte ho [hlp]8× smyčkou[/hlp] a vznikne [hlp]kolo s 8 paprsky[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

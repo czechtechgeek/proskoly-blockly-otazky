@@ -24,7 +24,7 @@
     "poznamky": "kvetina s 6 listky"
   },
   "cms": {
-    "task_text": "Definujte blok 'lístek' (forward 40, backward 40, right 60°). Zavolejte ho [hlp]6× smyčkou[/hlp]. Vznikne květina se 6 okvětními lístky.",
+    "task_text": "Definujte [hlp]vlastní blok 'lístek'[/hlp] který jde [hlp]40 px[/hlp], vrátí se [hlp]40 px[/hlp] a otočí se o [hlp]60°[/hlp]. Zavolejte ho [hlp]6× smyčkou[/hlp] a vznikne [hlp]květina s 6 lístky[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

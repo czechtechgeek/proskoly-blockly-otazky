@@ -24,7 +24,7 @@
     "poznamky": "strom - kmen + koruna"
   },
   "cms": {
-    "task_text": "Definujte blok 'kmen' (obdélník 15×40 px) a blok 'koruna' (čtverec 40×40 px). Zavolejte kmen, [hlp]přesuňte se na vrchol[/hlp] a zavolejte korunu.",
+    "task_text": "Definujte blok [hlp]'kmen'[/hlp] jako obdélník [hlp]15×40 px[/hlp] a blok [hlp]'koruna'[/hlp] jako čtverec [hlp]40×40 px[/hlp]. Zavolejte kmen, [hlp]přesuňte se[/hlp] na vrchol a zavolejte korunu.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -23,7 +23,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'tečka'[/hlp]: spusť pero, jdi 20 px, zvedni pero, jdi 15 px. Pak ho [hlp]zavolejte 5×[/hlp] pomocí smyčky.",
+    "task_text": "Definujte [hlp]vlastní blok 'tečka'[/hlp] který [hlp]spustí pero[/hlp], jde [hlp]20 px[/hlp], [hlp]zvedne pero[/hlp] a jde [hlp]15 px[/hlp]. Pak ho [hlp]zavolejte 5×[/hlp] pomocí [hlp]smyčky[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

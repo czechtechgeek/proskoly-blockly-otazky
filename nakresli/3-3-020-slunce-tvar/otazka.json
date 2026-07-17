@@ -26,7 +26,7 @@
     "poznamky": "slunce s oblicejem"
   },
   "cms": {
-    "task_text": "Definujte [hlp]blok 'paprsek'[/hlp] (forward 40, backward 40, right 45°). Zavolejte ho [hlp]8× smyčkou[/hlp] pro paprsky. Pak [hlp]dokreslete oči a ústa[/hlp] pomocí penUp a forward.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]40 px[/hlp], vrátí se [hlp]40 px[/hlp] a otočí se o [hlp]45°[/hlp]. Zavolejte ho [hlp]8× smyčkou[/hlp] a pak [hlp]dokreslete oči a ústa[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

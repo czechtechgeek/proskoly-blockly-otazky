@@ -24,7 +24,7 @@
     "poznamky": "3 bloky: lokomotiva + 2× vagon, refaktor z 1.3-n005"
   },
   "cms": {
-    "task_text": "Definujte blok 'lokomotiva' (obdélník 80×40 px) a blok 'vagón' (obdélník 60×40 px). Zavolejte [hlp]lokomotivu[/hlp], [hlp]přesuňte se[/hlp] o 20 px, zavolejte [hlp]vagón[/hlp], přesuňte se o 20 px a zavolejte [hlp]druhý vagón[/hlp].",
+    "task_text": "Definujte blok [hlp]'lokomotiva'[/hlp] jako obdélník [hlp]80×40 px[/hlp] a blok [hlp]'vagón'[/hlp] jako obdélník [hlp]60×40 px[/hlp]. Zavolejte lokomotivu, [hlp]přesuňte se o 20 px[/hlp], zavolejte vagón, [hlp]přesuňte se o 20 px[/hlp] a zavolejte druhý vagón.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

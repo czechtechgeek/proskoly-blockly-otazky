@@ -23,7 +23,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] (čtverec 40×40 px). Zavolejte ho, [hlp]zvedněte pero[/hlp], přesuňte se o 60 px, [hlp]spusťte pero[/hlp] a zavolejte ho znovu.",
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] který nakreslí čtverec [hlp]40×40 px[/hlp]. Zavolejte ho, [hlp]zvedněte pero[/hlp], přesuňte se o [hlp]60 px[/hlp], [hlp]spusťte pero[/hlp] a zavolejte ho znovu.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -26,7 +26,7 @@
     "poznamky": "prerusovany kriz, refaktor z 1.3-n023"
   },
   "cms": {
-    "task_text": "Definujte blok 'paprsek' (setPenWidth 3, forward 40, backward 40). Zavolejte paprsek, [hlp]otočte 90°[/hlp], zavolejte znovu. Celkem [hlp]4 paprsky[/hlp] (kříž). Mezi paprsky penUp.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který nastaví [hlp]tloušťku 3[/hlp], jde [hlp]40 px[/hlp] a vrátí se [hlp]40 px[/hlp] zpět. Zavolejte ho [hlp]4×[/hlp] a mezi paprsky [hlp]zvedněte pero[/hlp] a otočte se o [hlp]90°[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

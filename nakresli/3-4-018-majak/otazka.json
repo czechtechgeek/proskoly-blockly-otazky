@@ -26,7 +26,7 @@
     "poznamky": "majak - vez + svetlo"
   },
   "cms": {
-    "task_text": "Definujte blok 'věž' (obdélník 20×60 px, tloušťka 3) a blok 'světlo' (čtverec 15×15 px). Zavolejte věž, [hlp]přesuňte se na vrchol[/hlp] a zavolejte světlo.",
+    "task_text": "Definujte blok [hlp]'věž'[/hlp] jako obdélník [hlp]20×60 px[/hlp] s [hlp]tloušťkou 3[/hlp] a blok [hlp]'světlo'[/hlp] jako čtverec [hlp]15×15 px[/hlp]. Zavolejte věž a [hlp]přesuňte se[/hlp] na vrchol pro světlo.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

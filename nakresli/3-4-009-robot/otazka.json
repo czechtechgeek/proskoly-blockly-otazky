@@ -24,7 +24,7 @@
     "poznamky": "robot - hlava + telo"
   },
   "cms": {
-    "task_text": "Definujte blok 'hlava' (čtverec 30×30 px) a blok 'tělo' (obdélník 40×50 px). Zavolejte hlavu, [hlp]přesuňte se dolů[/hlp] a zavolejte tělo.",
+    "task_text": "Definujte blok [hlp]'hlava'[/hlp] jako čtverec [hlp]30×30 px[/hlp] a blok [hlp]'tělo'[/hlp] jako obdélník [hlp]40×50 px[/hlp]. Zavolejte hlavu, [hlp]přesuňte se dolů[/hlp] a zavolejte tělo.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

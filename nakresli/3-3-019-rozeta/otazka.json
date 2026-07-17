@@ -25,7 +25,7 @@
     "poznamky": "rozeta 36 paprsku"
   },
   "cms": {
-    "task_text": "Definujte blok 'okvětí' (setPenWidth 2, forward 20, backward 20, right 20°). Zavolejte ho [hlp]6×[/hlp], pak [hlp]right 60°[/hlp], opakujte [hlp]6×[/hlp] — celkem 36 paprsků.",
+    "task_text": "Definujte [hlp]vlastní blok 'okvětí'[/hlp] který nastaví [hlp]tloušťku 2[/hlp], jde [hlp]20 px[/hlp], vrátí se [hlp]20 px[/hlp] a otočí se o [hlp]20°[/hlp]. Zavolejte ho [hlp]6×[/hlp], otočte se o [hlp]60°[/hlp] a opakujte [hlp]6×[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -25,7 +25,7 @@
     "poznamky": "lod - trup + plachta"
   },
   "cms": {
-    "task_text": "Definujte blok 'trup' (lichoběžník: forward 60, right 120°, forward 20, right 60°, forward 40, right 60°, forward 20). Pak blok 'stěžeň' (svislá čára 30 px). Zavolejte oba.",
+    "task_text": "Definujte blok [hlp]'trup'[/hlp] který nakreslí lichoběžník a blok [hlp]'stěžeň'[/hlp] jako svislou čáru [hlp]30 px[/hlp]. Zavolejte oba a vznikne [hlp]loď[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

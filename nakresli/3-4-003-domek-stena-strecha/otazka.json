@@ -22,7 +22,7 @@
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'stěna'[/hlp] (čtverec 80×80 px) a [hlp]'střecha'[/hlp] (trojúhelník 80 px). Zavolejte stěnu, pak [hlp]přesuňte se[/hlp] na vrchol stěny a zavolejte střechu.",
+    "task_text": "Definujte blok [hlp]'stěna'[/hlp] jako čtverec [hlp]80×80 px[/hlp] a blok [hlp]'střecha'[/hlp] jako trojúhelník [hlp]80 px[/hlp]. Zavolejte stěnu, [hlp]přesuňte se[/hlp] na vrchol a zavolejte střechu.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

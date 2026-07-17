@@ -26,7 +26,7 @@
     "poznamky": "domek se zahradou a plotem"
   },
   "cms": {
-    "task_text": "Definujte blok 'domek' (stěna 50×50 + střecha 50). Zavolejte ho. Pak [hlp]definujte blok 'plot'[/hlp] (svislá 20 px, mezera 15 px) a [hlp]opakujte 5×[/hlp] pro celý plot.",
+    "task_text": "Definujte [hlp]vlastní blok 'domek'[/hlp] který obsahuje stěnu [hlp]50×50 px[/hlp] a střechu [hlp]50 px[/hlp]. Zavolejte ho, pak [hlp]definujte blok 'plot'[/hlp] a nakreslete [hlp]5 plotových tyčí[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

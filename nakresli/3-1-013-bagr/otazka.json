@@ -23,7 +23,7 @@
     "poznamky": "bagr s kabinou, refaktor z 1.3-n013"
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'bagr' (obdélník 80×40 px). Pak pomocí [hlp]penUp[/hlp] přesuňte na střechu a nakreslete [hlp]kabinu[/hlp] (čtverec 20×20 px).",
+    "task_text": "Definujte [hlp]vlastní blok 'bagr'[/hlp] který nakreslí obdélník [hlp]80×40 px[/hlp]. Pak [hlp]přesuňte se[/hlp] na střechu a nakreslete [hlp]kabinu[/hlp] jako čtverec [hlp]20×20 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -23,7 +23,7 @@
     "poznamky": "Definuj paprsek(forward 60, backward 60), zavolej 8× v repeat se right(45)."
   },
   "cms": {
-    "task_text": "Nakreslete [hlp]slunce s 8 paprsky[/hlp]. Definujte vlastní blok 'paprsek' (dopředu 60, dozadu 60) a zavolejte ho 8× se smyčkou.",
+    "task_text": "Definujte [hlp]vlastní blok 'lístek'[/hlp] který jde [hlp]40 px[/hlp], vrátí se [hlp]40 px[/hlp] a otočí se o [hlp]60°[/hlp]. Zavolejte ho [hlp]6× smyčkou[/hlp] a vznikne [hlp]květina s 6 lístky[/hlp].",
     "pozice_podkladu": {
       "x": 160,
       "y": 160,

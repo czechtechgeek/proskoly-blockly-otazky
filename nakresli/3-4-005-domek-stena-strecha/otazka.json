@@ -22,7 +22,7 @@
     "poznamky": "Dva vlastní bloky: stena (čtverec 80px), strecha (trojúhelník). Volej stena + strecha."
   },
   "cms": {
-    "task_text": "Nakreslete [hlp]domeček[/hlp] pomocí dvou vlastních bloků: 'stěna' (čtverec 80 px) a 'střecha' (trojúhelník na vrchu). Zavolejte oba.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]60 px[/hlp] a vrátí se [hlp]60 px[/hlp] zpět. Zavolejte ho [hlp]8× smyčkou[/hlp] s [hlp]otočením 45°[/hlp] a vznikne [hlp]slunce s 8 paprsky[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 240,

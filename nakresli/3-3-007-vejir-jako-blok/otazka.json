@@ -26,7 +26,7 @@
     "poznamky": "vejir 6 paprsku po 15 stupnich, refaktor z 1.3-n026"
   },
   "cms": {
-    "task_text": "Definujte blok 'paprsek' (forward 60, backward 60, right 15°). Zavolejte ho [hlp]6× smyčkou[/hlp]. Vznikne vějíř (180°). Mezi paprsky [hlp]penUp[/hlp] na střed.",
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který jde [hlp]60 px[/hlp], vrátí se [hlp]60 px[/hlp] a otočí se o [hlp]15°[/hlp]. Zavolejte ho [hlp]6× smyčkou[/hlp] a vznikne [hlp]vějíř[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

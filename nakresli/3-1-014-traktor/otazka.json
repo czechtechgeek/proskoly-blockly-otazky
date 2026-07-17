@@ -24,7 +24,7 @@
     "poznamky": "traktor s karoseri a 2 koly"
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'traktor' (obdélník 70×30 px). Přesuňte se na [hlp]zadní kolo[/hlp] (čtverec 20×20 px) a pak na [hlp]přední kolo[/hlp] (čtverec 12×12 px).",
+    "task_text": "Definujte [hlp]vlastní blok 'traktor'[/hlp] který nakreslí obdélník [hlp]70×30 px[/hlp]. Pak [hlp]přesuňte se[/hlp] na zadní kolo [hlp]20×20 px[/hlp] a pak na přední kolo [hlp]12×12 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

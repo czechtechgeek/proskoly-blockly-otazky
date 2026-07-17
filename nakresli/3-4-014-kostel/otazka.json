@@ -25,7 +25,7 @@
     "poznamky": "kostel - lod + vez"
   },
   "cms": {
-    "task_text": "Definujte blok 'loď' (obdélník 60×40 px) a blok 'věž' (obdélník 20×50 px). Zavolejte loď, [hlp]přesuňte se na levou stranu[/hlp] a zavolejte věž. Pak [hlp]střechu věže[/hlp] (trojúhelník 20).",
+    "task_text": "Definujte blok [hlp]'loď'[/hlp] jako obdélník [hlp]60×40 px[/hlp] a blok [hlp]'věž'[/hlp] jako obdélník [hlp]20×50 px[/hlp]. Zavolejte loď, [hlp]přesuňte se[/hlp] na levou stranu a zavolejte věž se střechou.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

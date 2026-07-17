@@ -25,7 +25,7 @@
     "poznamky": "ozubene kolo"
   },
   "cms": {
-    "task_text": "Definujte blok 'zub' (forward 30, forward 10, backward 10, forward 30, right 45°). Zavolejte ho [hlp]8× smyčkou[/hlp]. Vznikne ozubené kolo.",
+    "task_text": "Definujte [hlp]vlastní blok 'zub'[/hlp] který jde [hlp]30 px[/hlp], jde [hlp]10 px[/hlp], vrátí se [hlp]10 px[/hlp], jde [hlp]30 px[/hlp] a otočí se o [hlp]45°[/hlp]. Zavolejte ho [hlp]8× smyčkou[/hlp] a vznikne [hlp]ozubené kolo[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

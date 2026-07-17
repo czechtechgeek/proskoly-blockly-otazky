@@ -23,7 +23,7 @@
     "poznamky": "původně 1.3-n005, refaktor na vlastní blok auto+kolecko"
   },
   "cms": {
-    "task_text": "Definujte vlastní blok 'auto' (obdélník 70×30 px). Pak [hlp]doplňte kola[/hlp]: zvedněte pero, přesuňte se na pozici kola a nakreslete čtverec 10×10 px. [hlp]Dvě kola[/hlp] — druhé na opačné straně.",
+    "task_text": "Definujte [hlp]vlastní blok 'auto'[/hlp] který nakreslí obdélník [hlp]70×30 px[/hlp]. Pak [hlp]doplňte kola[/hlp] jako čtverce [hlp]10×10 px[/hlp] na přední a zadní straně.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,

@@ -26,7 +26,7 @@
     "poznamky": "vlak do kopce, kazdy vagon vyse"
   },
   "cms": {
-    "task_text": "Definujte blok 'vagón' (čtverec 30×30 px). Zavolejte ho [hlp]4× smyčkou[/hlp], ale mezi vagóny se [hlp]otočte o 10° doprava[/hlp] (stoupání do kopce). Mezi vagóny penUp posun o 10 px.",
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] který nakreslí čtverec [hlp]30×30 px[/hlp]. Zavolejte ho [hlp]4× smyčkou[/hlp] a mezi vagóny se [hlp]otočte o 10°[/hlp] pro stoupání do kopce.",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,
