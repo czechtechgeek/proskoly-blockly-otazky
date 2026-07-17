@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "3-2-d015",
+    "typ": "doplň",
+    "nazev": "Přerušovaná hvězda — doplň",
+    "tematicky_okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Přerušovaná hvězda"
+    }
+  },
+  "cms": {
+    "task_text": "Definujte [hlp]vlastní blok 'cip'[/hlp] který jde [hlp]50 px[/hlp] a vrátí se [hlp]50 px[/hlp] zpět. Zavolejte ho [hlp]5×[/hlp] s [hlp]otočením 144°[/hlp] a mezi cipy [hlp]zvedněte pero[/hlp].",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(50);turtle.backward(50);turtle.PenUp();turtle.right(144);turtle.PenDown();turtle.forward(50);turtle.backward(50);turtle.PenUp();turtle.right(144);turtle.PenDown();turtle.forward(50);turtle.backward(50);turtle.PenUp();turtle.right(144);turtle.PenDown();turtle.forward(50);turtle.backward(50);turtle.PenUp();turtle.right(144);turtle.PenDown();turtle.forward(50);turtle.backward(50);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "50"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "50"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "144"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "50,50,50,50,50,50,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

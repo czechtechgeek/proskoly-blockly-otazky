@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "3-3-d005",
+    "typ": "doplň",
+    "nazev": "Dvojité slunce — doplň",
+    "tematicky_okruh": "3.3-slunce",
+    "difficulty": 5,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Dvojité slunce"
+    }
+  },
+  "cms": {
+    "task_text": "Definujte blok [hlp]'krátký'[/hlp] který jde [hlp]30 px[/hlp], vrátí se [hlp]30 px[/hlp] a otočí se o [hlp]45°[/hlp] s [hlp]tloušťkou 3[/hlp]. Zavolejte ho [hlp]8×[/hlp]. Pak definujte blok [hlp]'dlouhý'[/hlp] který jde [hlp]50 px[/hlp], vrátí se [hlp]50 px[/hlp] a otočí se o [hlp]30°[/hlp] s [hlp]tloušťkou 1[/hlp]. Zavolejte [hlp]12×[/hlp].",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<8;i++){turtle.setPenWidth(3);turtle.forward(30);turtle.backward(30);turtle.right(45);}for(let i=0;i<12;i++){turtle.setPenWidth(1);turtle.forward(50);turtle.backward(50);turtle.right(30);}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "30"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "50"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "30"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "50"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "45"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "30"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_set_pen_width",
+              "fields": {
+                "WIDTH": "3"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_set_pen_width",
+              "fields": {
+                "WIDTH": "1"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 10,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right,turtle_set_pen_width"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

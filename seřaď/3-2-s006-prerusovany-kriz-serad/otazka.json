@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "id": "3-2-s006",
+    "typ": "seřaď",
+    "nazev": "Přerušovaný kříž — seřaď",
+    "tematicky_okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Přerušovaný kříž"
+    }
+  },
+  "cms": {
+    "task_text": "Definujte [hlp]vlastní blok 'paprsek'[/hlp] který nastaví [hlp]tloušťku 3[/hlp], jde [hlp]40 px[/hlp] a vrátí se [hlp]40 px[/hlp] zpět. Zavolejte ho [hlp]4×[/hlp] a mezi paprsky [hlp]zvedněte pero[/hlp] a otočte se o [hlp]90°[/hlp].",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(3);turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);turtle.PenUp();turtle.right(90);turtle.PenDown();turtle.forward(40);turtle.backward(40);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "40"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "40"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_down",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_set_pen_width",
+              "fields": {
+                "WIDTH": "3"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "40,40,40,40,40,40,40,40",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "turtle_forward,turtle_backward,turtle_right,turtle_pen_up,turtle_pen_down,turtle_set_pen_width"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

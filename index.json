@@ -7188,6 +7188,1038 @@
     ]
   },
   {
+    "path": "otazky/doplň/3-1-d001-osobni-vlak-s-okny-dopln/otazka.json",
+    "id": "3-1-d001",
+    "nazev": "Osobní vlak s okny — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d002-cisterna-dopln/otazka.json",
+    "id": "3-1-d002",
+    "nazev": "Cisterna — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d003-vlak-do-kopce-dopln/otazka.json",
+    "id": "3-1-d003",
+    "nazev": "Vlak do kopce — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d004-vagon-jako-vlastni-blok-dopln/otazka.json",
+    "id": "3-1-d004",
+    "nazev": "Vagón jako vlastní blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d005-traktor-dopln/otazka.json",
+    "id": "3-1-d005",
+    "nazev": "Traktor — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d006-auto-karoserie-dopln/otazka.json",
+    "id": "3-1-d006",
+    "nazev": "Auto — karoserie — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d007-naklad-s-privesem-dopln/otazka.json",
+    "id": "3-1-d007",
+    "nazev": "Náklad s přívěsem — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d008-bagr-dopln/otazka.json",
+    "id": "3-1-d008",
+    "nazev": "Bagr — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d009-jerab-dopln/otazka.json",
+    "id": "3-1-d009",
+    "nazev": "Jeřáb — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d010-lokomotiva-dopln/otazka.json",
+    "id": "3-1-d010",
+    "nazev": "Lokomotiva — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d011-hasici-vuz-dopln/otazka.json",
+    "id": "3-1-d011",
+    "nazev": "Hasící vůz — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d012-vagon-s-kolem-dopln/otazka.json",
+    "id": "3-1-d012",
+    "nazev": "Vagón s kolem — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d013-dva-vagony-vedle-sebe-dopln/otazka.json",
+    "id": "3-1-d013",
+    "nazev": "Dva vagóny vedle sebe — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d014-vlak-s-opakovanim-dopln/otazka.json",
+    "id": "3-1-d014",
+    "nazev": "Vlak s opakováním — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d015-nakladni-vlak-dopln/otazka.json",
+    "id": "3-1-d015",
+    "nazev": "Nákladní vlak — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d016-vlak-lokomotiva-2-vagony-dopln/otazka.json",
+    "id": "3-1-d016",
+    "nazev": "Vlak — lokomotiva + 2 vagony — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d017-nakladak-dopln/otazka.json",
+    "id": "3-1-d017",
+    "nazev": "Náklaďák — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d018-historicky-vlak-dopln/otazka.json",
+    "id": "3-1-d018",
+    "nazev": "Historický vlak — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d019-vlak-ze-3-vagonu-dopln/otazka.json",
+    "id": "3-1-d019",
+    "nazev": "Vlak ze 3 vagónů — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-1-d020-metrovlak-dopln/otazka.json",
+    "id": "3-1-d020",
+    "nazev": "Metrovlak — doplň",
+    "typ": "doplň",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o001-osobni-vlak-s-okny-oprav/otazka.json",
+    "id": "3-1-o001",
+    "nazev": "Osobní vlak s okny — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o002-cisterna-oprav/otazka.json",
+    "id": "3-1-o002",
+    "nazev": "Cisterna — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o003-vlak-do-kopce-oprav/otazka.json",
+    "id": "3-1-o003",
+    "nazev": "Vlak do kopce — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o004-vagon-jako-vlastni-blok-oprav/otazka.json",
+    "id": "3-1-o004",
+    "nazev": "Vagón jako vlastní blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o005-traktor-oprav/otazka.json",
+    "id": "3-1-o005",
+    "nazev": "Traktor — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o006-auto-karoserie-oprav/otazka.json",
+    "id": "3-1-o006",
+    "nazev": "Auto — karoserie — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o007-naklad-s-privesem-oprav/otazka.json",
+    "id": "3-1-o007",
+    "nazev": "Náklad s přívěsem — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o008-bagr-oprav/otazka.json",
+    "id": "3-1-o008",
+    "nazev": "Bagr — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o009-jerab-oprav/otazka.json",
+    "id": "3-1-o009",
+    "nazev": "Jeřáb — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o010-lokomotiva-oprav/otazka.json",
+    "id": "3-1-o010",
+    "nazev": "Lokomotiva — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o011-hasici-vuz-oprav/otazka.json",
+    "id": "3-1-o011",
+    "nazev": "Hasící vůz — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o012-vagon-s-kolem-oprav/otazka.json",
+    "id": "3-1-o012",
+    "nazev": "Vagón s kolem — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o013-dva-vagony-vedle-sebe-oprav/otazka.json",
+    "id": "3-1-o013",
+    "nazev": "Dva vagóny vedle sebe — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o014-vlak-s-opakovanim-oprav/otazka.json",
+    "id": "3-1-o014",
+    "nazev": "Vlak s opakováním — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o015-nakladni-vlak-oprav/otazka.json",
+    "id": "3-1-o015",
+    "nazev": "Nákladní vlak — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o016-vlak-lokomotiva-2-vagony-oprav/otazka.json",
+    "id": "3-1-o016",
+    "nazev": "Vlak — lokomotiva + 2 vagony — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o017-nakladak-oprav/otazka.json",
+    "id": "3-1-o017",
+    "nazev": "Náklaďák — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o018-historicky-vlak-oprav/otazka.json",
+    "id": "3-1-o018",
+    "nazev": "Historický vlak — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o019-vlak-ze-3-vagonu-oprav/otazka.json",
+    "id": "3-1-o019",
+    "nazev": "Vlak ze 3 vagónů — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-1-o020-metrovlak-oprav/otazka.json",
+    "id": "3-1-o020",
+    "nazev": "Metrovlak — oprav",
+    "typ": "oprav",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s001-osobni-vlak-s-okny-serad/otazka.json",
+    "id": "3-1-s001",
+    "nazev": "Osobní vlak s okny — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s002-cisterna-serad/otazka.json",
+    "id": "3-1-s002",
+    "nazev": "Cisterna — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s003-vlak-do-kopce-serad/otazka.json",
+    "id": "3-1-s003",
+    "nazev": "Vlak do kopce — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s004-vagon-jako-vlastni-blok-serad/otazka.json",
+    "id": "3-1-s004",
+    "nazev": "Vagón jako vlastní blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s005-traktor-serad/otazka.json",
+    "id": "3-1-s005",
+    "nazev": "Traktor — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s006-auto-karoserie-serad/otazka.json",
+    "id": "3-1-s006",
+    "nazev": "Auto — karoserie — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s007-naklad-s-privesem-serad/otazka.json",
+    "id": "3-1-s007",
+    "nazev": "Náklad s přívěsem — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s008-bagr-serad/otazka.json",
+    "id": "3-1-s008",
+    "nazev": "Bagr — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s009-jerab-serad/otazka.json",
+    "id": "3-1-s009",
+    "nazev": "Jeřáb — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s010-lokomotiva-serad/otazka.json",
+    "id": "3-1-s010",
+    "nazev": "Lokomotiva — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s011-hasici-vuz-serad/otazka.json",
+    "id": "3-1-s011",
+    "nazev": "Hasící vůz — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s012-vagon-s-kolem-serad/otazka.json",
+    "id": "3-1-s012",
+    "nazev": "Vagón s kolem — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s013-dva-vagony-vedle-sebe-serad/otazka.json",
+    "id": "3-1-s013",
+    "nazev": "Dva vagóny vedle sebe — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s014-vlak-s-opakovanim-serad/otazka.json",
+    "id": "3-1-s014",
+    "nazev": "Vlak s opakováním — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s015-nakladni-vlak-serad/otazka.json",
+    "id": "3-1-s015",
+    "nazev": "Nákladní vlak — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s016-vlak-lokomotiva-2-vagony-serad/otazka.json",
+    "id": "3-1-s016",
+    "nazev": "Vlak — lokomotiva + 2 vagony — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s017-nakladak-serad/otazka.json",
+    "id": "3-1-s017",
+    "nazev": "Náklaďák — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s018-historicky-vlak-serad/otazka.json",
+    "id": "3-1-s018",
+    "nazev": "Historický vlak — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s019-vlak-ze-3-vagonu-serad/otazka.json",
+    "id": "3-1-s019",
+    "nazev": "Vlak ze 3 vagónů — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-1-s020-metrovlak-serad/otazka.json",
+    "id": "3-1-s020",
+    "nazev": "Metrovlak — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.1-vagony",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
     "path": "otazky/nakresli/3-2-001-teckovana-cara-jako-blok/otazka.json",
     "id": "3-2-001",
     "nazev": "Tečkovaná čára jako blok",
@@ -7552,6 +8584,1107 @@
       "left",
       "penUp",
       "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d001-cik-cak-s-mezerami-dopln/otazka.json",
+    "id": "3-2-d001",
+    "nazev": "Cik-cak s mezerami — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d002-teckovany-ctverec-dopln/otazka.json",
+    "id": "3-2-d002",
+    "nazev": "Tečkovaný čtverec — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d003-vlnovka-jako-blok-dopln/otazka.json",
+    "id": "3-2-d003",
+    "nazev": "Vlnovka jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d004-oboustranny-pilovy-vzor-dopln/otazka.json",
+    "id": "3-2-d004",
+    "nazev": "Oboustranný pilový vzor — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d005-teckovana-cara-jako-blok-dopln/otazka.json",
+    "id": "3-2-d005",
+    "nazev": "Tečkovaná čára jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d006-prerusovany-kriz-dopln/otazka.json",
+    "id": "3-2-d006",
+    "nazev": "Přerušovaný kříž — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d007-schodiste-jako-blok-dopln/otazka.json",
+    "id": "3-2-d007",
+    "nazev": "Schodiště jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d008-cik-cak-jako-blok-dopln/otazka.json",
+    "id": "3-2-d008",
+    "nazev": "Cik-cak jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d009-mrizka-jako-blok-dopln/otazka.json",
+    "id": "3-2-d009",
+    "nazev": "Mřížka jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d010-stridavy-cik-cak-dopln/otazka.json",
+    "id": "3-2-d010",
+    "nazev": "Střídavý cik-cak — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d011-pilovy-vzor-dopln/otazka.json",
+    "id": "3-2-d011",
+    "nazev": "Pilový vzor — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d012-schod-jako-blok-dopln/otazka.json",
+    "id": "3-2-d012",
+    "nazev": "Schod jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d013-sloupy-jako-blok-dopln/otazka.json",
+    "id": "3-2-d013",
+    "nazev": "Sloupy jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d014-zebrik-jako-blok-dopln/otazka.json",
+    "id": "3-2-d014",
+    "nazev": "Žebřík jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d015-prerusovana-hvezda-dopln/otazka.json",
+    "id": "3-2-d015",
+    "nazev": "Přerušovaná hvězda — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d016-klikata-cesta-dopln/otazka.json",
+    "id": "3-2-d016",
+    "nazev": "Klikatá cesta — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d017-prerusovana-cara-jako-blok-dopln/otazka.json",
+    "id": "3-2-d017",
+    "nazev": "Přerušovaná čára jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d018-obdelnik-z-tecek-dopln/otazka.json",
+    "id": "3-2-d018",
+    "nazev": "Obdélník z teček — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d019-hreben-jako-blok-dopln/otazka.json",
+    "id": "3-2-d019",
+    "nazev": "Hřeben jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-2-d020-dvojita-prerusovana-cara-dopln/otazka.json",
+    "id": "3-2-d020",
+    "nazev": "Dvojitá přerušovaná čára — doplň",
+    "typ": "doplň",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o001-cik-cak-s-mezerami-oprav/otazka.json",
+    "id": "3-2-o001",
+    "nazev": "Cik-cak s mezerami — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o002-teckovany-ctverec-oprav/otazka.json",
+    "id": "3-2-o002",
+    "nazev": "Tečkovaný čtverec — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o003-vlnovka-jako-blok-oprav/otazka.json",
+    "id": "3-2-o003",
+    "nazev": "Vlnovka jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o004-oboustranny-pilovy-vzor-oprav/otazka.json",
+    "id": "3-2-o004",
+    "nazev": "Oboustranný pilový vzor — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o005-teckovana-cara-jako-blok-oprav/otazka.json",
+    "id": "3-2-o005",
+    "nazev": "Tečkovaná čára jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o006-prerusovany-kriz-oprav/otazka.json",
+    "id": "3-2-o006",
+    "nazev": "Přerušovaný kříž — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o007-schodiste-jako-blok-oprav/otazka.json",
+    "id": "3-2-o007",
+    "nazev": "Schodiště jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o008-cik-cak-jako-blok-oprav/otazka.json",
+    "id": "3-2-o008",
+    "nazev": "Cik-cak jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o009-mrizka-jako-blok-oprav/otazka.json",
+    "id": "3-2-o009",
+    "nazev": "Mřížka jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o010-stridavy-cik-cak-oprav/otazka.json",
+    "id": "3-2-o010",
+    "nazev": "Střídavý cik-cak — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o011-pilovy-vzor-oprav/otazka.json",
+    "id": "3-2-o011",
+    "nazev": "Pilový vzor — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o012-schod-jako-blok-oprav/otazka.json",
+    "id": "3-2-o012",
+    "nazev": "Schod jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o013-sloupy-jako-blok-oprav/otazka.json",
+    "id": "3-2-o013",
+    "nazev": "Sloupy jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o014-zebrik-jako-blok-oprav/otazka.json",
+    "id": "3-2-o014",
+    "nazev": "Žebřík jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o015-prerusovana-hvezda-oprav/otazka.json",
+    "id": "3-2-o015",
+    "nazev": "Přerušovaná hvězda — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o016-klikata-cesta-oprav/otazka.json",
+    "id": "3-2-o016",
+    "nazev": "Klikatá cesta — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o017-prerusovana-cara-jako-blok-oprav/otazka.json",
+    "id": "3-2-o017",
+    "nazev": "Přerušovaná čára jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o018-obdelnik-z-tecek-oprav/otazka.json",
+    "id": "3-2-o018",
+    "nazev": "Obdélník z teček — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o019-hreben-jako-blok-oprav/otazka.json",
+    "id": "3-2-o019",
+    "nazev": "Hřeben jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-2-o020-dvojita-prerusovana-cara-oprav/otazka.json",
+    "id": "3-2-o020",
+    "nazev": "Dvojitá přerušovaná čára — oprav",
+    "typ": "oprav",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s001-cik-cak-s-mezerami-serad/otazka.json",
+    "id": "3-2-s001",
+    "nazev": "Cik-cak s mezerami — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s002-teckovany-ctverec-serad/otazka.json",
+    "id": "3-2-s002",
+    "nazev": "Tečkovaný čtverec — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s003-vlnovka-jako-blok-serad/otazka.json",
+    "id": "3-2-s003",
+    "nazev": "Vlnovka jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s004-oboustranny-pilovy-vzor-serad/otazka.json",
+    "id": "3-2-s004",
+    "nazev": "Oboustranný pilový vzor — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s005-teckovana-cara-jako-blok-serad/otazka.json",
+    "id": "3-2-s005",
+    "nazev": "Tečkovaná čára jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s006-prerusovany-kriz-serad/otazka.json",
+    "id": "3-2-s006",
+    "nazev": "Přerušovaný kříž — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s007-schodiste-jako-blok-serad/otazka.json",
+    "id": "3-2-s007",
+    "nazev": "Schodiště jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s008-cik-cak-jako-blok-serad/otazka.json",
+    "id": "3-2-s008",
+    "nazev": "Cik-cak jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s009-mrizka-jako-blok-serad/otazka.json",
+    "id": "3-2-s009",
+    "nazev": "Mřížka jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s010-stridavy-cik-cak-serad/otazka.json",
+    "id": "3-2-s010",
+    "nazev": "Střídavý cik-cak — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s011-pilovy-vzor-serad/otazka.json",
+    "id": "3-2-s011",
+    "nazev": "Pilový vzor — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s012-schod-jako-blok-serad/otazka.json",
+    "id": "3-2-s012",
+    "nazev": "Schod jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s013-sloupy-jako-blok-serad/otazka.json",
+    "id": "3-2-s013",
+    "nazev": "Sloupy jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s014-zebrik-jako-blok-serad/otazka.json",
+    "id": "3-2-s014",
+    "nazev": "Žebřík jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s015-prerusovana-hvezda-serad/otazka.json",
+    "id": "3-2-s015",
+    "nazev": "Přerušovaná hvězda — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s016-klikata-cesta-serad/otazka.json",
+    "id": "3-2-s016",
+    "nazev": "Klikatá cesta — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s017-prerusovana-cara-jako-blok-serad/otazka.json",
+    "id": "3-2-s017",
+    "nazev": "Přerušovaná čára jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s018-obdelnik-z-tecek-serad/otazka.json",
+    "id": "3-2-s018",
+    "nazev": "Obdélník z teček — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s019-hreben-jako-blok-serad/otazka.json",
+    "id": "3-2-s019",
+    "nazev": "Hřeben jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-2-s020-dvojita-prerusovana-cara-serad/otazka.json",
+    "id": "3-2-s020",
+    "nazev": "Dvojitá přerušovaná čára — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown",
+      "right",
+      "left"
     ]
   },
   {
@@ -7926,6 +10059,1119 @@
     ]
   },
   {
+    "path": "otazky/doplň/3-3-d001-rozeta-dopln/otazka.json",
+    "id": "3-3-d001",
+    "nazev": "Rozeta — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d002-vejir-jako-blok-dopln/otazka.json",
+    "id": "3-3-d002",
+    "nazev": "Vějíř jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d003-kvetina-6-listku-dopln/otazka.json",
+    "id": "3-3-d003",
+    "nazev": "Květina — 6 lístků — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d004-kvetina-8-listku-dopln/otazka.json",
+    "id": "3-3-d004",
+    "nazev": "Květina — 8 lístků — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d005-dvojite-slunce-dopln/otazka.json",
+    "id": "3-3-d005",
+    "nazev": "Dvojité slunce — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d006-hvezda-5-cipu-dopln/otazka.json",
+    "id": "3-3-d006",
+    "nazev": "Hvězda — 5 cípů — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d007-slunce-12-paprsku-dopln/otazka.json",
+    "id": "3-3-d007",
+    "nazev": "Slunce 12 paprsků — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d008-jednoducha-mandala-dopln/otazka.json",
+    "id": "3-3-d008",
+    "nazev": "Jednoduchá mandala — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d009-snehova-vlocka-dopln/otazka.json",
+    "id": "3-3-d009",
+    "nazev": "Sněhová vločka — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d010-slunce-8-paprsku-dopln/otazka.json",
+    "id": "3-3-d010",
+    "nazev": "Slunce 8 paprsků — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d011-hvezda-8-cipu-dopln/otazka.json",
+    "id": "3-3-d011",
+    "nazev": "Hvězda — 8 cípů — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d012-duhove-slunce-dopln/otazka.json",
+    "id": "3-3-d012",
+    "nazev": "Duhové slunce — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d013-paprsek-jako-blok-dopln/otazka.json",
+    "id": "3-3-d013",
+    "nazev": "Paprsek jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d014-slunce-s-mezerami-dopln/otazka.json",
+    "id": "3-3-d014",
+    "nazev": "Slunce s mezerami — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d015-ozubene-kolo-dopln/otazka.json",
+    "id": "3-3-d015",
+    "nazev": "Ozubené kolo — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d016-slunce-s-kruhem-dopln/otazka.json",
+    "id": "3-3-d016",
+    "nazev": "Slunce s kruhem — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d017-slunce-tvar-dopln/otazka.json",
+    "id": "3-3-d017",
+    "nazev": "Slunce — tvář — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d018-kolo-s-8-paprsky-dopln/otazka.json",
+    "id": "3-3-d018",
+    "nazev": "Kolo s 8 paprsky — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d019-slunce-s-tlustym-stredem-dopln/otazka.json",
+    "id": "3-3-d019",
+    "nazev": "Slunce s tlustým středem — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d020-slunce-s-tloustkou-dopln/otazka.json",
+    "id": "3-3-d020",
+    "nazev": "Slunce s tloušťkou — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "setPenWidth",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-3-d021-slunce-paprsek-jako-vlastni-blok-dopln/otazka.json",
+    "id": "3-3-d021",
+    "nazev": "Slunce — paprsek jako vlastní blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o001-rozeta-oprav/otazka.json",
+    "id": "3-3-o001",
+    "nazev": "Rozeta — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o002-vejir-jako-blok-oprav/otazka.json",
+    "id": "3-3-o002",
+    "nazev": "Vějíř jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o003-kvetina-6-listku-oprav/otazka.json",
+    "id": "3-3-o003",
+    "nazev": "Květina — 6 lístků — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o004-kvetina-8-listku-oprav/otazka.json",
+    "id": "3-3-o004",
+    "nazev": "Květina — 8 lístků — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o005-dvojite-slunce-oprav/otazka.json",
+    "id": "3-3-o005",
+    "nazev": "Dvojité slunce — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o006-hvezda-5-cipu-oprav/otazka.json",
+    "id": "3-3-o006",
+    "nazev": "Hvězda — 5 cípů — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o007-slunce-12-paprsku-oprav/otazka.json",
+    "id": "3-3-o007",
+    "nazev": "Slunce 12 paprsků — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o008-jednoducha-mandala-oprav/otazka.json",
+    "id": "3-3-o008",
+    "nazev": "Jednoduchá mandala — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o009-snehova-vlocka-oprav/otazka.json",
+    "id": "3-3-o009",
+    "nazev": "Sněhová vločka — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o010-slunce-8-paprsku-oprav/otazka.json",
+    "id": "3-3-o010",
+    "nazev": "Slunce 8 paprsků — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o011-hvezda-8-cipu-oprav/otazka.json",
+    "id": "3-3-o011",
+    "nazev": "Hvězda — 8 cípů — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o012-duhove-slunce-oprav/otazka.json",
+    "id": "3-3-o012",
+    "nazev": "Duhové slunce — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o013-paprsek-jako-blok-oprav/otazka.json",
+    "id": "3-3-o013",
+    "nazev": "Paprsek jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o014-slunce-s-mezerami-oprav/otazka.json",
+    "id": "3-3-o014",
+    "nazev": "Slunce s mezerami — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o015-ozubene-kolo-oprav/otazka.json",
+    "id": "3-3-o015",
+    "nazev": "Ozubené kolo — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o016-slunce-s-kruhem-oprav/otazka.json",
+    "id": "3-3-o016",
+    "nazev": "Slunce s kruhem — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o017-slunce-tvar-oprav/otazka.json",
+    "id": "3-3-o017",
+    "nazev": "Slunce — tvář — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o018-kolo-s-8-paprsky-oprav/otazka.json",
+    "id": "3-3-o018",
+    "nazev": "Kolo s 8 paprsky — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o019-slunce-s-tlustym-stredem-oprav/otazka.json",
+    "id": "3-3-o019",
+    "nazev": "Slunce s tlustým středem — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o020-slunce-s-tloustkou-oprav/otazka.json",
+    "id": "3-3-o020",
+    "nazev": "Slunce s tloušťkou — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "setPenWidth",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-3-o021-slunce-paprsek-jako-vlastni-blok-oprav/otazka.json",
+    "id": "3-3-o021",
+    "nazev": "Slunce — paprsek jako vlastní blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s001-rozeta-serad/otazka.json",
+    "id": "3-3-s001",
+    "nazev": "Rozeta — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s002-vejir-jako-blok-serad/otazka.json",
+    "id": "3-3-s002",
+    "nazev": "Vějíř jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s003-kvetina-6-listku-serad/otazka.json",
+    "id": "3-3-s003",
+    "nazev": "Květina — 6 lístků — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s004-kvetina-8-listku-serad/otazka.json",
+    "id": "3-3-s004",
+    "nazev": "Květina — 8 lístků — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s005-dvojite-slunce-serad/otazka.json",
+    "id": "3-3-s005",
+    "nazev": "Dvojité slunce — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s006-hvezda-5-cipu-serad/otazka.json",
+    "id": "3-3-s006",
+    "nazev": "Hvězda — 5 cípů — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s007-slunce-12-paprsku-serad/otazka.json",
+    "id": "3-3-s007",
+    "nazev": "Slunce 12 paprsků — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s008-jednoducha-mandala-serad/otazka.json",
+    "id": "3-3-s008",
+    "nazev": "Jednoduchá mandala — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s009-snehova-vlocka-serad/otazka.json",
+    "id": "3-3-s009",
+    "nazev": "Sněhová vločka — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s010-slunce-8-paprsku-serad/otazka.json",
+    "id": "3-3-s010",
+    "nazev": "Slunce 8 paprsků — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s011-hvezda-8-cipu-serad/otazka.json",
+    "id": "3-3-s011",
+    "nazev": "Hvězda — 8 cípů — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s012-duhove-slunce-serad/otazka.json",
+    "id": "3-3-s012",
+    "nazev": "Duhové slunce — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s013-paprsek-jako-blok-serad/otazka.json",
+    "id": "3-3-s013",
+    "nazev": "Paprsek jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s014-slunce-s-mezerami-serad/otazka.json",
+    "id": "3-3-s014",
+    "nazev": "Slunce s mezerami — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s015-ozubene-kolo-serad/otazka.json",
+    "id": "3-3-s015",
+    "nazev": "Ozubené kolo — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s016-slunce-s-kruhem-serad/otazka.json",
+    "id": "3-3-s016",
+    "nazev": "Slunce s kruhem — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s017-slunce-tvar-serad/otazka.json",
+    "id": "3-3-s017",
+    "nazev": "Slunce — tvář — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s018-kolo-s-8-paprsky-serad/otazka.json",
+    "id": "3-3-s018",
+    "nazev": "Kolo s 8 paprsky — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s019-slunce-s-tlustym-stredem-serad/otazka.json",
+    "id": "3-3-s019",
+    "nazev": "Slunce s tlustým středem — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s020-slunce-s-tloustkou-serad/otazka.json",
+    "id": "3-3-s020",
+    "nazev": "Slunce s tloušťkou — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "setPenWidth",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-3-s021-slunce-paprsek-jako-vlastni-blok-serad/otazka.json",
+    "id": "3-3-s021",
+    "nazev": "Slunce — paprsek jako vlastní blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.3-slunce",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
     "path": "otazky/nakresli/3-4-001-stena-jako-blok/otazka.json",
     "id": "3-4-001",
     "nazev": "Stěna jako blok",
@@ -8292,6 +11538,1113 @@
       "left",
       "penUp",
       "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d001-mestecko-dopln/otazka.json",
+    "id": "3-4-d001",
+    "nazev": "Městečko — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d002-domek-stena-strecha-dopln/otazka.json",
+    "id": "3-4-d002",
+    "nazev": "Domek — stěna + střecha — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d003-strom-dopln/otazka.json",
+    "id": "3-4-d003",
+    "nazev": "Strom — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d004-kostel-dopln/otazka.json",
+    "id": "3-4-d004",
+    "nazev": "Kostel — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d005-domek-s-kominem-dopln/otazka.json",
+    "id": "3-4-d005",
+    "nazev": "Domek s komínem — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d006-hrad-dopln/otazka.json",
+    "id": "3-4-d006",
+    "nazev": "Hrad — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d007-auto-jako-bloky-dopln/otazka.json",
+    "id": "3-4-d007",
+    "nazev": "Auto jako bloky — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d008-garaz-dopln/otazka.json",
+    "id": "3-4-d008",
+    "nazev": "Garáž — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d009-majak-dopln/otazka.json",
+    "id": "3-4-d009",
+    "nazev": "Maják — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d010-dve-garaze-dopln/otazka.json",
+    "id": "3-4-d010",
+    "nazev": "Dvě garáže — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d011-robot-dopln/otazka.json",
+    "id": "3-4-d011",
+    "nazev": "Robot — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d012-vesnice-3-domku-dopln/otazka.json",
+    "id": "3-4-d012",
+    "nazev": "Vesnice 3 domků — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d013-rozhledna-dopln/otazka.json",
+    "id": "3-4-d013",
+    "nazev": "Rozhledna — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d014-letadlo-dopln/otazka.json",
+    "id": "3-4-d014",
+    "nazev": "Letadlo — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d015-vesnice-5-domku-dopln/otazka.json",
+    "id": "3-4-d015",
+    "nazev": "Vesnice 5 domků — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d016-domek-se-zahradou-dopln/otazka.json",
+    "id": "3-4-d016",
+    "nazev": "Domek se zahradou — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d017-lod-dopln/otazka.json",
+    "id": "3-4-d017",
+    "nazev": "Loď — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d018-strecha-jako-blok-dopln/otazka.json",
+    "id": "3-4-d018",
+    "nazev": "Střecha jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d019-nakladni-auto-dopln/otazka.json",
+    "id": "3-4-d019",
+    "nazev": "Nákladní auto — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d020-stena-jako-blok-dopln/otazka.json",
+    "id": "3-4-d020",
+    "nazev": "Stěna jako blok — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/doplň/3-4-d021-domek-stena-strecha-dopln/otazka.json",
+    "id": "3-4-d021",
+    "nazev": "Domek — stěna + střecha — doplň",
+    "typ": "doplň",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o001-mestecko-oprav/otazka.json",
+    "id": "3-4-o001",
+    "nazev": "Městečko — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o002-domek-stena-strecha-oprav/otazka.json",
+    "id": "3-4-o002",
+    "nazev": "Domek — stěna + střecha — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o003-strom-oprav/otazka.json",
+    "id": "3-4-o003",
+    "nazev": "Strom — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o004-kostel-oprav/otazka.json",
+    "id": "3-4-o004",
+    "nazev": "Kostel — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o005-domek-s-kominem-oprav/otazka.json",
+    "id": "3-4-o005",
+    "nazev": "Domek s komínem — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o006-hrad-oprav/otazka.json",
+    "id": "3-4-o006",
+    "nazev": "Hrad — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o007-auto-jako-bloky-oprav/otazka.json",
+    "id": "3-4-o007",
+    "nazev": "Auto jako bloky — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o008-garaz-oprav/otazka.json",
+    "id": "3-4-o008",
+    "nazev": "Garáž — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o009-majak-oprav/otazka.json",
+    "id": "3-4-o009",
+    "nazev": "Maják — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o010-dve-garaze-oprav/otazka.json",
+    "id": "3-4-o010",
+    "nazev": "Dvě garáže — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o011-robot-oprav/otazka.json",
+    "id": "3-4-o011",
+    "nazev": "Robot — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o012-vesnice-3-domku-oprav/otazka.json",
+    "id": "3-4-o012",
+    "nazev": "Vesnice 3 domků — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o013-rozhledna-oprav/otazka.json",
+    "id": "3-4-o013",
+    "nazev": "Rozhledna — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o014-letadlo-oprav/otazka.json",
+    "id": "3-4-o014",
+    "nazev": "Letadlo — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o015-vesnice-5-domku-oprav/otazka.json",
+    "id": "3-4-o015",
+    "nazev": "Vesnice 5 domků — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o016-domek-se-zahradou-oprav/otazka.json",
+    "id": "3-4-o016",
+    "nazev": "Domek se zahradou — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o017-lod-oprav/otazka.json",
+    "id": "3-4-o017",
+    "nazev": "Loď — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o018-strecha-jako-blok-oprav/otazka.json",
+    "id": "3-4-o018",
+    "nazev": "Střecha jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o019-nakladni-auto-oprav/otazka.json",
+    "id": "3-4-o019",
+    "nazev": "Nákladní auto — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o020-stena-jako-blok-oprav/otazka.json",
+    "id": "3-4-o020",
+    "nazev": "Stěna jako blok — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/oprav/3-4-o021-domek-stena-strecha-oprav/otazka.json",
+    "id": "3-4-o021",
+    "nazev": "Domek — stěna + střecha — oprav",
+    "typ": "oprav",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s001-mestecko-serad/otazka.json",
+    "id": "3-4-s001",
+    "nazev": "Městečko — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s002-domek-stena-strecha-serad/otazka.json",
+    "id": "3-4-s002",
+    "nazev": "Domek — stěna + střecha — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s003-strom-serad/otazka.json",
+    "id": "3-4-s003",
+    "nazev": "Strom — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s004-kostel-serad/otazka.json",
+    "id": "3-4-s004",
+    "nazev": "Kostel — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s005-domek-s-kominem-serad/otazka.json",
+    "id": "3-4-s005",
+    "nazev": "Domek s komínem — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s006-hrad-serad/otazka.json",
+    "id": "3-4-s006",
+    "nazev": "Hrad — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s007-auto-jako-bloky-serad/otazka.json",
+    "id": "3-4-s007",
+    "nazev": "Auto jako bloky — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s008-garaz-serad/otazka.json",
+    "id": "3-4-s008",
+    "nazev": "Garáž — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s009-majak-serad/otazka.json",
+    "id": "3-4-s009",
+    "nazev": "Maják — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s010-dve-garaze-serad/otazka.json",
+    "id": "3-4-s010",
+    "nazev": "Dvě garáže — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s011-robot-serad/otazka.json",
+    "id": "3-4-s011",
+    "nazev": "Robot — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s012-vesnice-3-domku-serad/otazka.json",
+    "id": "3-4-s012",
+    "nazev": "Vesnice 3 domků — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s013-rozhledna-serad/otazka.json",
+    "id": "3-4-s013",
+    "nazev": "Rozhledna — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s014-letadlo-serad/otazka.json",
+    "id": "3-4-s014",
+    "nazev": "Letadlo — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s015-vesnice-5-domku-serad/otazka.json",
+    "id": "3-4-s015",
+    "nazev": "Vesnice 5 domků — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s016-domek-se-zahradou-serad/otazka.json",
+    "id": "3-4-s016",
+    "nazev": "Domek se zahradou — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 5,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s017-lod-serad/otazka.json",
+    "id": "3-4-s017",
+    "nazev": "Loď — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s018-strecha-jako-blok-serad/otazka.json",
+    "id": "3-4-s018",
+    "nazev": "Střecha jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s019-nakladni-auto-serad/otazka.json",
+    "id": "3-4-s019",
+    "nazev": "Nákladní auto — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s020-stena-jako-blok-serad/otazka.json",
+    "id": "3-4-s020",
+    "nazev": "Stěna jako blok — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/seřaď/3-4-s021-domek-stena-strecha-serad/otazka.json",
+    "id": "3-4-s021",
+    "nazev": "Domek — stěna + střecha — seřaď",
+    "typ": "seřaď",
+    "okruh": "3.4-domek",
+    "difficulty": 4,
+    "stav": "draft",
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left"
     ]
   },
   {

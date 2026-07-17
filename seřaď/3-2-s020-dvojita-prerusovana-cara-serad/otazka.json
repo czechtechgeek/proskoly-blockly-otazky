@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "3-2-s020",
+    "typ": "seřaď",
+    "nazev": "Dvojitá přerušovaná čára — seřaď",
+    "tematicky_okruh": "3.2-prerusovane-cary",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "penUp",
+      "penDown",
+      "right",
+      "left"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Dvojitá přerušovaná čára"
+    }
+  },
+  "cms": {
+    "task_text": "Definujte [hlp]vlastní blok 'úsek'[/hlp] který [hlp]spustí pero[/hlp], jde [hlp]25 px[/hlp], [hlp]zvedne pero[/hlp] a jde [hlp]10 px[/hlp]. Zavolejte ho [hlp]5× smyčkou[/hlp], pak [hlp]posuňte se o 20 px dolů[/hlp] a [hlp]opakujte[/hlp] stejnou čáru.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<5;i++){turtle.PenDown();turtle.forward(25);turtle.PenUp();turtle.forward(10);}turtle.PenUp();turtle.backward(175);turtle.right(90);turtle.forward(20);turtle.left(90);for(let i=0;i<5;i++){turtle.PenDown();turtle.forward(25);turtle.PenUp();turtle.forward(10);}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "25"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_backward",
+              "fields": {
+                "DISTANCE": "175"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "20"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_down",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_left",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "controls_repeat_ext",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "25,25,25,25,25,25,25,25,25,25",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_backward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

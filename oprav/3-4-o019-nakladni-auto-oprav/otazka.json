@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "id": "3-4-o019",
+    "typ": "oprav",
+    "nazev": "Nákladní auto — oprav",
+    "tematicky_okruh": "3.4-domek",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3. Otázka: Nákladní auto"
+    }
+  },
+  "cms": {
+    "task_text": "Definujte blok [hlp]'kabina'[/hlp] jako čtverec [hlp]25×25 px[/hlp] a blok [hlp]'korba'[/hlp] jako obdélník [hlp]60×25 px[/hlp]. Zavolejte korbu, [hlp]přesuňte se vedle[/hlp] a zavolejte kabinu.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(60);turtle.right(90);turtle.forward(25);turtle.right(90);turtle.forward(60);turtle.right(90);turtle.forward(25);turtle.right(90);turtle.PenUp();turtle.forward(60);turtle.PenDown();turtle.forward(25);turtle.right(90);turtle.forward(25);turtle.right(90);turtle.forward(25);turtle.right(90);turtle.forward(25);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "30"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "25"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_left",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_down",
+              "fields": {}
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "60,25,60,25,25,25,25,25",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}
