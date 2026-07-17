@@ -1603,17 +1603,20 @@
     ]
   },
   {
-    "path": "otazky/nakresli/1-3-n020-teckovany-spoj/otazka.json",
+    "path": "otazky/nakresli/1-3-n020-cik-cak-s-prerusenim/otazka.json",
     "id": "1-3-n020",
-    "nazev": "Tečkovaný spoj",
+    "nazev": "Cik-cak s přerušením",
     "typ": "nakresli",
     "okruh": "1.3-pero",
-    "difficulty": 1,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
-      "dot",
+      "controls_repeat_ext",
+      "penUp",
+      "penDown",
       "forward",
-      "penDown"
+      "right",
+      "left"
     ]
   },
   {
@@ -1695,18 +1698,21 @@
     ]
   },
   {
-    "path": "otazky/nakresli/1-3-n026-dve-tecky-na-plose/otazka.json",
+    "path": "otazky/nakresli/1-3-n026-vejir-s-tloustkou/otazka.json",
     "id": "1-3-n026",
-    "nazev": "Dvě tečky na ploše",
+    "nazev": "Vějíř s tloušťkou",
     "typ": "nakresli",
     "okruh": "1.3-pero",
-    "difficulty": 2,
+    "difficulty": 3,
     "stav": "draft",
     "koncepty": [
-      "dot",
-      "penDown",
+      "controls_repeat_ext",
+      "setPenWidth",
       "penUp",
-      "forward"
+      "penDown",
+      "forward",
+      "backward",
+      "right"
     ]
   },
   {
