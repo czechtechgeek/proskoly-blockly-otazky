@@ -1574,6 +1574,155 @@
     ]
   },
   {
+    "path": "otazky/nakresli/1-3-n018-tri-cary-tri-tlustky/otazka.json",
+    "id": "1-3-n018",
+    "nazev": "Tři čáry — tři tloušťky",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n019-tlusty-ctverec/otazka.json",
+    "id": "1-3-n019",
+    "nazev": "Tlustý čtverec",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n020-teckovany-spoj/otazka.json",
+    "id": "1-3-n020",
+    "nazev": "Tečkovaný spoj",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 1,
+    "stav": "draft",
+    "koncepty": [
+      "dot",
+      "forward",
+      "penDown"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n021-dve-rovnobezne-cary/otazka.json",
+    "id": "1-3-n021",
+    "nazev": "Dvě rovnoběžné čáry",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n022-obdelnik-s-prerusenim/otazka.json",
+    "id": "1-3-n022",
+    "nazev": "Obdélník s přerušením",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n023-kriz-rusna-tloustka/otazka.json",
+    "id": "1-3-n023",
+    "nazev": "Kříž — různá tloušťka",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "penUp",
+      "penDown",
+      "forward",
+      "backward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n024-zalomena-cara-s-mezerou/otazka.json",
+    "id": "1-3-n024",
+    "nazev": "Zalomená čára s mezerou",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 3,
+    "stav": "draft",
+    "koncepty": [
+      "penUp",
+      "penDown",
+      "forward",
+      "right",
+      "left"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n025-trojuhelnik-tlusty-obrys/otazka.json",
+    "id": "1-3-n025",
+    "nazev": "Trojúhelník — tlustý obrys",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward",
+      "right"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n026-dve-tecky-na-plose/otazka.json",
+    "id": "1-3-n026",
+    "nazev": "Dvě tečky na ploše",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "dot",
+      "penDown",
+      "penUp",
+      "forward"
+    ]
+  },
+  {
+    "path": "otazky/nakresli/1-3-n027-zmena-tloustky-v-primce/otazka.json",
+    "id": "1-3-n027",
+    "nazev": "Změna tloušťky v přímce",
+    "typ": "nakresli",
+    "okruh": "1.3-pero",
+    "difficulty": 2,
+    "stav": "draft",
+    "koncepty": [
+      "setPenWidth",
+      "forward"
+    ]
+  },
+  {
     "path": "otazky/oprav/1-3-o001-ctverec-oprav-barvu-pera/otazka.json",
     "id": "1-3-o001",
     "nazev": "Přímá čára — oprav chybějící penDown",

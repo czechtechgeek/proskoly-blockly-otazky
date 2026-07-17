@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "id": "1-3-n026",
+    "typ": "nakresli",
+    "nazev": "Dvě tečky na ploše",
+    "tematicky_okruh": "1.3-pero",
+    "difficulty": 2,
+    "koncepty": ["dot", "penDown", "penUp", "forward"],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Naprogramujte želvu, aby [hlp]nakreslila tečku[/hlp], pak [hlp]zvedla pero[/hlp], [hlp]posunula se dopředu o 120 pixelů[/hlp], [hlp]spustila pero[/hlp] a [hlp]nakreslila druhou tečku[/hlp].",
+    "pozice_podkladu": { "x": 100, "y": 160, "uhel": 0 },
+    "pozice_kurzoru":  { "x": 100, "y": 160, "uhel": 0 },
+    "sketch_code": "turtle.PenDown();turtle.dot();turtle.PenUp();turtle.forward(120);turtle.PenDown();turtle.dot();",
+    "toolbox_json": {
+      "kind": "flyoutToolbox",
+      "contents": [
+        { "kind": "block", "type": "turtle_pen_down" },
+        { "kind": "block", "type": "turtle_pen_up" },
+        { "kind": "block", "type": "turtle_dot" },
+        { "kind": "block", "type": "turtle_forward" }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 5,
+      "typy_bloku": "turtle_pen_down,turtle_pen_up,turtle_dot,turtle_forward"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"turtle_pen_down\" x=\"50\" y=\"50\"><next><block type=\"turtle_dot\"><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">120</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_dot\"></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}
