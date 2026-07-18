@@ -6844,12 +6844,12 @@
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-001-vagon-jako-vlastni-blok/otazka.json",
+    "path": "otazky/nakresli/3-1-001-kolo/otazka.json",
     "id": "3-1-001",
-    "nazev": "Vagón jako vlastní blok",
+    "nazev": "Kolo",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
-    "difficulty": 3,
+    "difficulty": 2,
     "stav": "draft",
     "koncepty": [
       "procedures_defnoreturn",
@@ -6858,9 +6858,9 @@
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-002-vlak-ze-3-vagonu/otazka.json",
+    "path": "otazky/nakresli/3-1-002-dve-kola/otazka.json",
     "id": "3-1-002",
-    "nazev": "Vlak ze 3 vagónů",
+    "nazev": "Dvě kola",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
     "difficulty": 3,
@@ -6875,16 +6875,15 @@
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-003-dva-vagony-vedle-sebe/otazka.json",
+    "path": "otazky/nakresli/3-1-003-podvozek/otazka.json",
     "id": "3-1-003",
-    "nazev": "Dva vagóny vedle sebe",
+    "nazev": "Podvozek",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
     "difficulty": 3,
     "stav": "draft",
     "koncepty": [
       "procedures_defnoreturn",
-      "procedures_callnoreturn",
       "forward",
       "right",
       "penUp",
@@ -6892,9 +6891,9 @@
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-004-vlak-s-opakovanim/otazka.json",
+    "path": "otazky/nakresli/3-1-004-vagon/otazka.json",
     "id": "3-1-004",
-    "nazev": "Vlak s opakováním",
+    "nazev": "Vagón",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
     "difficulty": 4,
@@ -6902,7 +6901,6 @@
     "koncepty": [
       "procedures_defnoreturn",
       "procedures_callnoreturn",
-      "controls_repeat_ext",
       "forward",
       "right",
       "penUp",
@@ -6910,34 +6908,30 @@
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-005-vagon-s-kolem/otazka.json",
+    "path": "otazky/nakresli/3-1-005-naklad/otazka.json",
     "id": "3-1-005",
-    "nazev": "Vagón s kolem",
+    "nazev": "Náklad",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
-    "difficulty": 3,
+    "difficulty": 2,
     "stav": "draft",
     "koncepty": [
       "procedures_defnoreturn",
-      "procedures_callnoreturn",
       "forward",
-      "right",
-      "penUp",
-      "penDown"
+      "right"
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-006-nakladni-vlak/otazka.json",
+    "path": "otazky/nakresli/3-1-006-nakladni-vagon/otazka.json",
     "id": "3-1-006",
-    "nazev": "Nákladní vlak",
+    "nazev": "Nákladní vagón",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
-    "difficulty": 4,
+    "difficulty": 5,
     "stav": "draft",
     "koncepty": [
       "procedures_defnoreturn",
       "procedures_callnoreturn",
-      "controls_repeat_ext",
       "forward",
       "right",
       "penUp",
@@ -6954,18 +6948,18 @@
     "stav": "draft",
     "koncepty": [
       "procedures_defnoreturn",
-      "procedures_callnoreturn",
       "forward",
       "right",
+      "left",
       "penUp",
       "penDown",
       "setPenWidth"
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-008-osobni-vlak-s-okny/otazka.json",
+    "path": "otazky/nakresli/3-1-008-vagon-s-okny/otazka.json",
     "id": "3-1-008",
-    "nazev": "Osobní vlak s okny",
+    "nazev": "Vagón s okny",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
     "difficulty": 4,
@@ -6975,47 +6969,15 @@
       "procedures_callnoreturn",
       "forward",
       "right",
+      "left",
       "penUp",
       "penDown"
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-009-auto-karoserie/otazka.json",
+    "path": "otazky/nakresli/3-1-009-vlak-ze-3-vagonu/otazka.json",
     "id": "3-1-009",
-    "nazev": "Auto — karoserie",
-    "typ": "nakresli",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-1-010-vlak-lokomotiva-2-vagony/otazka.json",
-    "id": "3-1-010",
-    "nazev": "Vlak — lokomotiva + 2 vagony",
-    "typ": "nakresli",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-1-011-naklad-s-privesem/otazka.json",
-    "id": "3-1-011",
-    "nazev": "Náklad s přívěsem",
+    "nazev": "Vlak ze 3 vagónů",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
     "difficulty": 4,
@@ -7031,65 +6993,16 @@
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-012-cisterna/otazka.json",
-    "id": "3-1-012",
-    "nazev": "Cisterna",
+    "path": "otazky/nakresli/3-1-010-lokomotiva-plus-vagony/otazka.json",
+    "id": "3-1-010",
+    "nazev": "Lokomotiva + 2 vagóny",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
-    "difficulty": 3,
+    "difficulty": 5,
     "stav": "draft",
     "koncepty": [
       "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-1-013-bagr/otazka.json",
-    "id": "3-1-013",
-    "nazev": "Bagr",
-    "typ": "nakresli",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-1-014-traktor/otazka.json",
-    "id": "3-1-014",
-    "nazev": "Traktor",
-    "typ": "nakresli",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-1-015-jerab/otazka.json",
-    "id": "3-1-015",
-    "nazev": "Jeřáb",
-    "typ": "nakresli",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
+      "procedures_callnoreturn",
       "forward",
       "right",
       "left",
@@ -7099,41 +7012,8 @@
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-016-nakladak/otazka.json",
-    "id": "3-1-016",
-    "nazev": "Náklaďák",
-    "typ": "nakresli",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-1-017-hasici-vuz/otazka.json",
-    "id": "3-1-017",
-    "nazev": "Hasící vůz",
-    "typ": "nakresli",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-1-018-vlak-do-kopce/otazka.json",
-    "id": "3-1-018",
+    "path": "otazky/nakresli/3-1-011-vlak-do-kopce/otazka.json",
+    "id": "3-1-011",
     "nazev": "Vlak do kopce",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
@@ -7145,33 +7025,14 @@
       "controls_repeat_ext",
       "forward",
       "right",
-      "left",
       "penUp",
       "penDown"
     ]
   },
   {
-    "path": "otazky/nakresli/3-1-019-metrovlak/otazka.json",
-    "id": "3-1-019",
-    "nazev": "Metrovlak",
-    "typ": "nakresli",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/nakresli/3-1-020-historicky-vlak/otazka.json",
-    "id": "3-1-020",
-    "nazev": "Historický vlak",
+    "path": "otazky/nakresli/3-1-012-nakladni-souprava/otazka.json",
+    "id": "3-1-012",
+    "nazev": "Nákladní souprava",
     "typ": "nakresli",
     "okruh": "3.1-vagony",
     "difficulty": 5,
@@ -7179,1042 +7040,10 @@
     "koncepty": [
       "procedures_defnoreturn",
       "procedures_callnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d001-osobni-vlak-s-okny-dopln/otazka.json",
-    "id": "3-1-d001",
-    "nazev": "Osobní vlak s okny — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d002-cisterna-dopln/otazka.json",
-    "id": "3-1-d002",
-    "nazev": "Cisterna — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d003-vlak-do-kopce-dopln/otazka.json",
-    "id": "3-1-d003",
-    "nazev": "Vlak do kopce — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
       "controls_repeat_ext",
       "forward",
       "right",
       "left",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d004-vagon-jako-vlastni-blok-dopln/otazka.json",
-    "id": "3-1-d004",
-    "nazev": "Vagón jako vlastní blok — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d005-traktor-dopln/otazka.json",
-    "id": "3-1-d005",
-    "nazev": "Traktor — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d006-auto-karoserie-dopln/otazka.json",
-    "id": "3-1-d006",
-    "nazev": "Auto — karoserie — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d007-naklad-s-privesem-dopln/otazka.json",
-    "id": "3-1-d007",
-    "nazev": "Náklad s přívěsem — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d008-bagr-dopln/otazka.json",
-    "id": "3-1-d008",
-    "nazev": "Bagr — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d009-jerab-dopln/otazka.json",
-    "id": "3-1-d009",
-    "nazev": "Jeřáb — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d010-lokomotiva-dopln/otazka.json",
-    "id": "3-1-d010",
-    "nazev": "Lokomotiva — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d011-hasici-vuz-dopln/otazka.json",
-    "id": "3-1-d011",
-    "nazev": "Hasící vůz — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d012-vagon-s-kolem-dopln/otazka.json",
-    "id": "3-1-d012",
-    "nazev": "Vagón s kolem — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d013-dva-vagony-vedle-sebe-dopln/otazka.json",
-    "id": "3-1-d013",
-    "nazev": "Dva vagóny vedle sebe — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d014-vlak-s-opakovanim-dopln/otazka.json",
-    "id": "3-1-d014",
-    "nazev": "Vlak s opakováním — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d015-nakladni-vlak-dopln/otazka.json",
-    "id": "3-1-d015",
-    "nazev": "Nákladní vlak — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d016-vlak-lokomotiva-2-vagony-dopln/otazka.json",
-    "id": "3-1-d016",
-    "nazev": "Vlak — lokomotiva + 2 vagony — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d017-nakladak-dopln/otazka.json",
-    "id": "3-1-d017",
-    "nazev": "Náklaďák — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d018-historicky-vlak-dopln/otazka.json",
-    "id": "3-1-d018",
-    "nazev": "Historický vlak — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 5,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d019-vlak-ze-3-vagonu-dopln/otazka.json",
-    "id": "3-1-d019",
-    "nazev": "Vlak ze 3 vagónů — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/doplň/3-1-d020-metrovlak-dopln/otazka.json",
-    "id": "3-1-d020",
-    "nazev": "Metrovlak — doplň",
-    "typ": "doplň",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o001-osobni-vlak-s-okny-oprav/otazka.json",
-    "id": "3-1-o001",
-    "nazev": "Osobní vlak s okny — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o002-cisterna-oprav/otazka.json",
-    "id": "3-1-o002",
-    "nazev": "Cisterna — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o003-vlak-do-kopce-oprav/otazka.json",
-    "id": "3-1-o003",
-    "nazev": "Vlak do kopce — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o004-vagon-jako-vlastni-blok-oprav/otazka.json",
-    "id": "3-1-o004",
-    "nazev": "Vagón jako vlastní blok — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o005-traktor-oprav/otazka.json",
-    "id": "3-1-o005",
-    "nazev": "Traktor — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o006-auto-karoserie-oprav/otazka.json",
-    "id": "3-1-o006",
-    "nazev": "Auto — karoserie — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o007-naklad-s-privesem-oprav/otazka.json",
-    "id": "3-1-o007",
-    "nazev": "Náklad s přívěsem — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o008-bagr-oprav/otazka.json",
-    "id": "3-1-o008",
-    "nazev": "Bagr — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o009-jerab-oprav/otazka.json",
-    "id": "3-1-o009",
-    "nazev": "Jeřáb — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o010-lokomotiva-oprav/otazka.json",
-    "id": "3-1-o010",
-    "nazev": "Lokomotiva — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o011-hasici-vuz-oprav/otazka.json",
-    "id": "3-1-o011",
-    "nazev": "Hasící vůz — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o012-vagon-s-kolem-oprav/otazka.json",
-    "id": "3-1-o012",
-    "nazev": "Vagón s kolem — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o013-dva-vagony-vedle-sebe-oprav/otazka.json",
-    "id": "3-1-o013",
-    "nazev": "Dva vagóny vedle sebe — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o014-vlak-s-opakovanim-oprav/otazka.json",
-    "id": "3-1-o014",
-    "nazev": "Vlak s opakováním — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o015-nakladni-vlak-oprav/otazka.json",
-    "id": "3-1-o015",
-    "nazev": "Nákladní vlak — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o016-vlak-lokomotiva-2-vagony-oprav/otazka.json",
-    "id": "3-1-o016",
-    "nazev": "Vlak — lokomotiva + 2 vagony — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o017-nakladak-oprav/otazka.json",
-    "id": "3-1-o017",
-    "nazev": "Náklaďák — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o018-historicky-vlak-oprav/otazka.json",
-    "id": "3-1-o018",
-    "nazev": "Historický vlak — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 5,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o019-vlak-ze-3-vagonu-oprav/otazka.json",
-    "id": "3-1-o019",
-    "nazev": "Vlak ze 3 vagónů — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/oprav/3-1-o020-metrovlak-oprav/otazka.json",
-    "id": "3-1-o020",
-    "nazev": "Metrovlak — oprav",
-    "typ": "oprav",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s001-osobni-vlak-s-okny-serad/otazka.json",
-    "id": "3-1-s001",
-    "nazev": "Osobní vlak s okny — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s002-cisterna-serad/otazka.json",
-    "id": "3-1-s002",
-    "nazev": "Cisterna — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s003-vlak-do-kopce-serad/otazka.json",
-    "id": "3-1-s003",
-    "nazev": "Vlak do kopce — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s004-vagon-jako-vlastni-blok-serad/otazka.json",
-    "id": "3-1-s004",
-    "nazev": "Vagón jako vlastní blok — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s005-traktor-serad/otazka.json",
-    "id": "3-1-s005",
-    "nazev": "Traktor — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s006-auto-karoserie-serad/otazka.json",
-    "id": "3-1-s006",
-    "nazev": "Auto — karoserie — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s007-naklad-s-privesem-serad/otazka.json",
-    "id": "3-1-s007",
-    "nazev": "Náklad s přívěsem — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s008-bagr-serad/otazka.json",
-    "id": "3-1-s008",
-    "nazev": "Bagr — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s009-jerab-serad/otazka.json",
-    "id": "3-1-s009",
-    "nazev": "Jeřáb — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s010-lokomotiva-serad/otazka.json",
-    "id": "3-1-s010",
-    "nazev": "Lokomotiva — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s011-hasici-vuz-serad/otazka.json",
-    "id": "3-1-s011",
-    "nazev": "Hasící vůz — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s012-vagon-s-kolem-serad/otazka.json",
-    "id": "3-1-s012",
-    "nazev": "Vagón s kolem — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s013-dva-vagony-vedle-sebe-serad/otazka.json",
-    "id": "3-1-s013",
-    "nazev": "Dva vagóny vedle sebe — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s014-vlak-s-opakovanim-serad/otazka.json",
-    "id": "3-1-s014",
-    "nazev": "Vlak s opakováním — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s015-nakladni-vlak-serad/otazka.json",
-    "id": "3-1-s015",
-    "nazev": "Nákladní vlak — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s016-vlak-lokomotiva-2-vagony-serad/otazka.json",
-    "id": "3-1-s016",
-    "nazev": "Vlak — lokomotiva + 2 vagony — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s017-nakladak-serad/otazka.json",
-    "id": "3-1-s017",
-    "nazev": "Náklaďák — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s018-historicky-vlak-serad/otazka.json",
-    "id": "3-1-s018",
-    "nazev": "Historický vlak — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 5,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "left",
-      "penUp",
-      "penDown",
-      "setPenWidth"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s019-vlak-ze-3-vagonu-serad/otazka.json",
-    "id": "3-1-s019",
-    "nazev": "Vlak ze 3 vagónů — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 3,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "forward",
-      "right",
-      "penUp",
-      "penDown"
-    ]
-  },
-  {
-    "path": "otazky/seřaď/3-1-s020-metrovlak-serad/otazka.json",
-    "id": "3-1-s020",
-    "nazev": "Metrovlak — seřaď",
-    "typ": "seřaď",
-    "okruh": "3.1-vagony",
-    "difficulty": 4,
-    "stav": "draft",
-    "koncepty": [
-      "procedures_defnoreturn",
-      "procedures_callnoreturn",
-      "controls_repeat_ext",
-      "forward",
-      "right",
       "penUp",
       "penDown"
     ]

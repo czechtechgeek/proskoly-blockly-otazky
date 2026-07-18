@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "id": "3-1-005",
+    "typ": "nakresli",
+    "nazev": "Náklad",
+    "tematicky_okruh": "3.1-vagony",
+    "difficulty": 2,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3.1. Otázka: Náklad"
+    }
+  },
+  "cms": {
+    "task_text": "Definujte [hlp]vlastní blok 'náklad'[/hlp] který nakreslí obdélník [hlp]50×20 px[/hlp].",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(50);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(20);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "50"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "50,20,50,20",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

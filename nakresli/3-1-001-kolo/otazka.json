@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "id": "3-1-001",
+    "typ": "nakresli",
+    "nazev": "Kolo",
+    "tematicky_okruh": "3.1-vagony",
+    "difficulty": 2,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right"
+    ],
+    "verze": 1,
+    "stav": "draft",
+    "potrebuje_novy_blok": {
+      "typ": "procedures_defnoreturn + procedures_callnoreturn",
+      "popis": "Vlastní blok bez parametrů",
+      "priorita": "vysoka",
+      "poznamka": "Kapitola 3.1. Otázka: Kolo"
+    }
+  },
+  "cms": {
+    "task_text": "Definujte [hlp]vlastní blok 'kolo'[/hlp] který nakreslí čtverec [hlp]12×12 px[/hlp]. Pak ho [hlp]jednou zavolejte[/hlp].",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "12"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "",
+    "validace": {
+      "cary_delky": "12,12,12,12",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 8,
+      "typy_bloku": "turtle_forward,turtle_right"
+    },
+    "spravna_odpoved_xml": ""
+  }
+}

@@ -1,18 +1,16 @@
 {
   "meta": {
-    "id": "3-1-007",
+    "id": "3-1-003",
     "typ": "nakresli",
-    "nazev": "Lokomotiva",
+    "nazev": "Podvozek",
     "tematicky_okruh": "3.1-vagony",
-    "difficulty": 4,
+    "difficulty": 3,
     "koncepty": [
       "procedures_defnoreturn",
       "forward",
       "right",
-      "left",
       "penUp",
-      "penDown",
-      "setPenWidth"
+      "penDown"
     ],
     "verze": 1,
     "stav": "draft",
@@ -20,11 +18,11 @@
       "typ": "procedures_defnoreturn + procedures_callnoreturn",
       "popis": "Vlastní blok bez parametrů",
       "priorita": "vysoka",
-      "poznamka": "Kapitola 3.1. Otázka: Lokomotiva"
+      "poznamka": "Kapitola 3.1. Otázka: Podvozek"
     }
   },
   "cms": {
-    "task_text": "Definujte [hlp]vlastní blok 'lokomotiva'[/hlp] který nakreslí obdélník [hlp]50×35 px[/hlp] s [hlp]tloušťkou 3[/hlp] a [hlp]komín 15×20 px[/hlp] na střeše.",
+    "task_text": "Definujte [hlp]vlastní blok 'podvozek'[/hlp] který nakreslí [hlp]vodorovnou čáru 70 px[/hlp] a pod ní [hlp]2 kola 12×12 px[/hlp].",
     "pozice_podkladu": {
       "x": 80,
       "y": 200,
@@ -35,7 +33,7 @@
       "y": 200,
       "uhel": 0
     },
-    "sketch_code": "turtle.setPenWidth(3);turtle.forward(50);turtle.right(90);turtle.forward(35);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(35);turtle.right(90);turtle.PenUp();turtle.forward(15);turtle.left(90);turtle.forward(35);turtle.right(90);turtle.PenDown();turtle.forward(15);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.forward(15);turtle.right(90);turtle.forward(20);",
+    "sketch_code": "turtle.forward(70);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.forward(12);turtle.left(90);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.PenUp();turtle.forward(40);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.PenUp();turtle.backward(50);turtle.left(90);turtle.forward(12);turtle.right(90);turtle.PenDown();",
     "toolbox_json": {
       "kind": "categoryToolbox",
       "contents": [
@@ -48,26 +46,19 @@
               "kind": "block",
               "type": "turtle_forward",
               "fields": {
-                "DISTANCE": "50"
+                "DISTANCE": "70"
               }
             },
             {
               "kind": "block",
               "type": "turtle_forward",
               "fields": {
-                "DISTANCE": "15"
+                "DISTANCE": "12"
               }
             },
             {
               "kind": "block",
               "type": "turtle_right",
-              "fields": {
-                "ANGLE": "90"
-              }
-            },
-            {
-              "kind": "block",
-              "type": "turtle_left",
               "fields": {
                 "ANGLE": "90"
               }
@@ -81,13 +72,6 @@
               "kind": "block",
               "type": "turtle_pen_down",
               "fields": {}
-            },
-            {
-              "kind": "block",
-              "type": "turtle_set_pen_width",
-              "fields": {
-                "WIDTH": "3"
-              }
             }
           ]
         },
@@ -101,12 +85,12 @@
     },
     "start_blocks_xml": "",
     "validace": {
-      "cary_delky": "50,35,50,35,15,20,15,20",
+      "cary_delky": "70,12,12,12,12,12,12,12,12",
       "cary_tolerance": 5,
       "uhly": "",
       "uhly_tolerance": 10,
-      "max_bloku": 22,
-      "typy_bloku": "turtle_forward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down,turtle_set_pen_width"
+      "max_bloku": 24,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
     },
     "spravna_odpoved_xml": ""
   }
