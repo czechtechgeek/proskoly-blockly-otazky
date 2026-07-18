@@ -35,22 +35,21 @@
       "contents": [
         {
           "kind": "category",
-          "name": "Pohyb",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        },
+        {
+          "kind": "category",
+          "name": "Doplň",
           "colour": 160,
           "contents": [
             {
               "kind": "block",
               "type": "procedures_callnoreturn",
-              "fields": {},
               "mutation_name": "vagón"
             }
           ]
-        },
-        {
-          "kind": "category",
-          "name": "Funkce",
-          "colour": 290,
-          "custom": "PROCEDURE"
         }
       ]
     },

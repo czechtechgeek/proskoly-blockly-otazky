@@ -7049,7 +7049,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d001-kolo-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d001-kolo--dopl-doplň/otazka.json",
     "id": "3-1-d001",
     "nazev": "Kolo — doplň",
     "typ": "doplň",
@@ -7063,7 +7063,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d002-dvě-kola-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d002-dv-kola--dopl-doplň/otazka.json",
     "id": "3-1-d002",
     "nazev": "Dvě kola — doplň",
     "typ": "doplň",
@@ -7080,7 +7080,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d003-podvozek-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d003-podvozek--dopl-doplň/otazka.json",
     "id": "3-1-d003",
     "nazev": "Podvozek — doplň",
     "typ": "doplň",
@@ -7096,7 +7096,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d004-vagón-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d004-vagn--dopl-doplň/otazka.json",
     "id": "3-1-d004",
     "nazev": "Vagón — doplň",
     "typ": "doplň",
@@ -7113,7 +7113,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d005-náklad-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d005-nklad--dopl-doplň/otazka.json",
     "id": "3-1-d005",
     "nazev": "Náklad — doplň",
     "typ": "doplň",
@@ -7127,7 +7127,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d006-nákladní-vagón-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d006-nkladn-vagn--dopl-doplň/otazka.json",
     "id": "3-1-d006",
     "nazev": "Nákladní vagón — doplň",
     "typ": "doplň",
@@ -7144,7 +7144,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d007-lokomotiva-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d007-lokomotiva--dopl-doplň/otazka.json",
     "id": "3-1-d007",
     "nazev": "Lokomotiva — doplň",
     "typ": "doplň",
@@ -7162,7 +7162,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d008-vagón-s-okny-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d008-vagn-s-okny--dopl-doplň/otazka.json",
     "id": "3-1-d008",
     "nazev": "Vagón s okny — doplň",
     "typ": "doplň",
@@ -7180,7 +7180,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d009-vlak-ze-3-vagónů-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d009-vlak-ze-3-vagn--dopl-doplň/otazka.json",
     "id": "3-1-d009",
     "nazev": "Vlak ze 3 vagónů — doplň",
     "typ": "doplň",
@@ -7198,7 +7198,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d010-lokomotiva-2-vagóny-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d010-lokomotiva--2-vagny--dopl-doplň/otazka.json",
     "id": "3-1-d010",
     "nazev": "Lokomotiva + 2 vagóny — doplň",
     "typ": "doplň",
@@ -7217,7 +7217,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d011-vlak-do-kopce-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d011-vlak-do-kopce--dopl-doplň/otazka.json",
     "id": "3-1-d011",
     "nazev": "Vlak do kopce — doplň",
     "typ": "doplň",
@@ -7235,7 +7235,7 @@
     ]
   },
   {
-    "path": "otazky/doplň/3-1-d012-nákladní-souprava-doplň-doplň/otazka.json",
+    "path": "otazky/doplň/3-1-d012-nkladn-souprava--dopl-doplň/otazka.json",
     "id": "3-1-d012",
     "nazev": "Nákladní souprava — doplň",
     "typ": "doplň",
@@ -7254,7 +7254,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o001-kolo-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o001-kolo--oprav-oprav/otazka.json",
     "id": "3-1-o001",
     "nazev": "Kolo — oprav",
     "typ": "oprav",
@@ -7268,7 +7268,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o002-dvě-kola-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o002-dv-kola--oprav-oprav/otazka.json",
     "id": "3-1-o002",
     "nazev": "Dvě kola — oprav",
     "typ": "oprav",
@@ -7285,7 +7285,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o003-podvozek-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o003-podvozek--oprav-oprav/otazka.json",
     "id": "3-1-o003",
     "nazev": "Podvozek — oprav",
     "typ": "oprav",
@@ -7301,7 +7301,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o004-vagón-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o004-vagn--oprav-oprav/otazka.json",
     "id": "3-1-o004",
     "nazev": "Vagón — oprav",
     "typ": "oprav",
@@ -7318,7 +7318,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o005-náklad-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o005-nklad--oprav-oprav/otazka.json",
     "id": "3-1-o005",
     "nazev": "Náklad — oprav",
     "typ": "oprav",
@@ -7332,7 +7332,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o006-nákladní-vagón-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o006-nkladn-vagn--oprav-oprav/otazka.json",
     "id": "3-1-o006",
     "nazev": "Nákladní vagón — oprav",
     "typ": "oprav",
@@ -7349,7 +7349,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o007-lokomotiva-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o007-lokomotiva--oprav-oprav/otazka.json",
     "id": "3-1-o007",
     "nazev": "Lokomotiva — oprav",
     "typ": "oprav",
@@ -7367,7 +7367,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o008-vagón-s-okny-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o008-vagn-s-okny--oprav-oprav/otazka.json",
     "id": "3-1-o008",
     "nazev": "Vagón s okny — oprav",
     "typ": "oprav",
@@ -7385,7 +7385,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o009-vlak-ze-3-vagónů-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o009-vlak-ze-3-vagn--oprav-oprav/otazka.json",
     "id": "3-1-o009",
     "nazev": "Vlak ze 3 vagónů — oprav",
     "typ": "oprav",
@@ -7403,7 +7403,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o010-lokomotiva-2-vagóny-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o010-lokomotiva--2-vagny--opra-oprav/otazka.json",
     "id": "3-1-o010",
     "nazev": "Lokomotiva + 2 vagóny — oprav",
     "typ": "oprav",
@@ -7422,7 +7422,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o011-vlak-do-kopce-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o011-vlak-do-kopce--oprav-oprav/otazka.json",
     "id": "3-1-o011",
     "nazev": "Vlak do kopce — oprav",
     "typ": "oprav",
@@ -7440,7 +7440,7 @@
     ]
   },
   {
-    "path": "otazky/oprav/3-1-o012-nákladní-souprava-oprav-oprav/otazka.json",
+    "path": "otazky/oprav/3-1-o012-nkladn-souprava--oprav-oprav/otazka.json",
     "id": "3-1-o012",
     "nazev": "Nákladní souprava — oprav",
     "typ": "oprav",
@@ -7459,7 +7459,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s001-kolo-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s001-kolo--sea-seřaď/otazka.json",
     "id": "3-1-s001",
     "nazev": "Kolo — seřaď",
     "typ": "seřaď",
@@ -7473,7 +7473,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s002-dvě-kola-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s002-dv-kola--sea-seřaď/otazka.json",
     "id": "3-1-s002",
     "nazev": "Dvě kola — seřaď",
     "typ": "seřaď",
@@ -7490,7 +7490,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s003-podvozek-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s003-podvozek--sea-seřaď/otazka.json",
     "id": "3-1-s003",
     "nazev": "Podvozek — seřaď",
     "typ": "seřaď",
@@ -7506,7 +7506,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s004-vagón-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s004-vagn--sea-seřaď/otazka.json",
     "id": "3-1-s004",
     "nazev": "Vagón — seřaď",
     "typ": "seřaď",
@@ -7523,7 +7523,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s005-náklad-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s005-nklad--sea-seřaď/otazka.json",
     "id": "3-1-s005",
     "nazev": "Náklad — seřaď",
     "typ": "seřaď",
@@ -7537,7 +7537,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s006-nákladní-vagón-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s006-nkladn-vagn--sea-seřaď/otazka.json",
     "id": "3-1-s006",
     "nazev": "Nákladní vagón — seřaď",
     "typ": "seřaď",
@@ -7554,7 +7554,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s007-lokomotiva-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s007-lokomotiva--sea-seřaď/otazka.json",
     "id": "3-1-s007",
     "nazev": "Lokomotiva — seřaď",
     "typ": "seřaď",
@@ -7572,7 +7572,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s008-vagón-s-okny-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s008-vagn-s-okny--sea-seřaď/otazka.json",
     "id": "3-1-s008",
     "nazev": "Vagón s okny — seřaď",
     "typ": "seřaď",
@@ -7590,7 +7590,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s009-vlak-ze-3-vagónů-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s009-vlak-ze-3-vagn--sea-seřaď/otazka.json",
     "id": "3-1-s009",
     "nazev": "Vlak ze 3 vagónů — seřaď",
     "typ": "seřaď",
@@ -7608,7 +7608,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s010-lokomotiva-2-vagóny-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s010-lokomotiva--2-vagny--sea-seřaď/otazka.json",
     "id": "3-1-s010",
     "nazev": "Lokomotiva + 2 vagóny — seřaď",
     "typ": "seřaď",
@@ -7627,7 +7627,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s011-vlak-do-kopce-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s011-vlak-do-kopce--sea-seřaď/otazka.json",
     "id": "3-1-s011",
     "nazev": "Vlak do kopce — seřaď",
     "typ": "seřaď",
@@ -7645,7 +7645,7 @@
     ]
   },
   {
-    "path": "otazky/seřaď/3-1-s012-nákladní-souprava-seřaď-seřaď/otazka.json",
+    "path": "otazky/seřaď/3-1-s012-nkladn-souprava--sea-seřaď/otazka.json",
     "id": "3-1-s012",
     "nazev": "Nákladní souprava — seřaď",
     "typ": "seřaď",
