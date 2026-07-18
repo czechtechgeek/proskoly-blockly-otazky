@@ -73,6 +73,6 @@
       "max_bloku": 8,
       "typy_bloku": "turtle_forward,turtle_right"
     },
-    "spravna_odpoved_xml": ""
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"procedures_defnoreturn\"><field name=\"NAME\">náklad</field><statement name=\"STACK\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field></block></next><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field></block></next><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field></block></next><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></statement></block><block type=\"procedures_callnoreturn\"><mutation name=\"náklad\"/></block></xml>"
   }
 }
