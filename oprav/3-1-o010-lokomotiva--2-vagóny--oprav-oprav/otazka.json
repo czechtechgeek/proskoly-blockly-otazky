@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "id": "3-1-o010",
+    "typ": "oprav",
+    "nazev": "Lokomotiva + 2 vagóny — oprav",
+    "tematicky_okruh": "3.1-vagony",
+    "difficulty": 5,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Definujte blok [hlp]'lokomotiva'[/hlp] (obdélník [hlp]50×35 px[/hlp] s komínem) a blok [hlp]'vagón'[/hlp] ([hlp]70×30 px[/hlp] s podvozkem). Sestavte vlak: lokomotiva, [hlp]spojka[/hlp] a [hlp]2 vagóny[/hlp] za sebou.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(3);turtle.forward(50);turtle.right(90);turtle.forward(35);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(35);turtle.right(90);turtle.PenUp();turtle.forward(15);turtle.left(90);turtle.forward(35);turtle.right(90);turtle.PenDown();turtle.forward(15);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.forward(15);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.PenUp();turtle.forward(15);turtle.left(90);turtle.forward(35);turtle.right(90);turtle.forward(50);turtle.PenDown();turtle.forward(70);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.PenUp();turtle.right(90);turtle.forward(30);turtle.left(90);turtle.PenDown();turtle.forward(70);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.forward(12);turtle.left(90);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.PenUp();turtle.forward(40);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.PenUp();turtle.backward(50);turtle.left(90);turtle.forward(12);turtle.right(90);turtle.left(90);turtle.forward(30);turtle.right(90);turtle.forward(85);turtle.PenDown();turtle.forward(70);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.PenUp();turtle.right(90);turtle.forward(30);turtle.left(90);turtle.PenDown();turtle.forward(70);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.forward(12);turtle.left(90);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.PenUp();turtle.forward(40);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "50"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "70"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "15"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_forward",
+              "fields": {
+                "DISTANCE": "12"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_right",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_left",
+              "fields": {
+                "ANGLE": "90"
+              }
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_up",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_pen_down",
+              "fields": {}
+            },
+            {
+              "kind": "block",
+              "type": "turtle_set_pen_width",
+              "fields": {
+                "WIDTH": "3"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"procedures_defnoreturn\" x=\"20\" y=\"20\"><field name=\"NAME\">lokomotiva</field><statement name=\"STACK\"><block type=\"turtle_set_pen_width\"><field name=\"WIDTH\">3</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">53</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type=\"procedures_defnoreturn\" x=\"20\" y=\"170\"><field name=\"NAME\">vagón</field><statement name=\"STACK\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"procedures_callnoreturn\"><mutation name=\"podvozek\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type=\"procedures_callnoreturn\" x=\"20\" y=\"320\"><mutation name=\"lokomotiva\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">65</field><next><block type=\"turtle_pen_down\"><next><block type=\"procedures_callnoreturn\"><mutation name=\"vagón\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">85</field><next><block type=\"turtle_pen_down\"><next><block type=\"procedures_callnoreturn\"><mutation name=\"vagón\"/></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "validace": {
+      "cary_delky": "50,35,50,35,15,20,15,20,70,30,70,30,70,12,12,12,12,12,12,12,12,70,30,70,30,70,12,12,12,12,12,12,12,12",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 32,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down,turtle_set_pen_width"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"procedures_defnoreturn\" x=\"20\" y=\"20\"><field name=\"NAME\">lokomotiva</field><statement name=\"STACK\"><block type=\"turtle_set_pen_width\"><field name=\"WIDTH\">3</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type=\"procedures_defnoreturn\" x=\"20\" y=\"170\"><field name=\"NAME\">vagón</field><statement name=\"STACK\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"procedures_callnoreturn\"><mutation name=\"podvozek\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type=\"procedures_callnoreturn\" x=\"20\" y=\"320\"><mutation name=\"lokomotiva\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">65</field><next><block type=\"turtle_pen_down\"><next><block type=\"procedures_callnoreturn\"><mutation name=\"vagón\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">85</field><next><block type=\"turtle_pen_down\"><next><block type=\"procedures_callnoreturn\"><mutation name=\"vagón\"/></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "id": "3-1-d009",
+    "typ": "doplň",
+    "nazev": "Vlak ze 3 vagónů — doplň",
+    "tematicky_okruh": "3.1-vagony",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "procedures_callnoreturn",
+      "controls_repeat_ext",
+      "forward",
+      "right",
+      "penUp",
+      "penDown"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Definujte [hlp]vlastní blok 'vagón'[/hlp] (obdélník [hlp]70×30 px[/hlp] s podvozkem). Pomocí [hlp]smyčky opakuj 3×[/hlp] nakreslete [hlp]3 vagóny[/hlp] za sebou s mezerou [hlp]15 px[/hlp].",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "for(let i=0;i<3;i++){turtle.forward(70);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.forward(70);turtle.right(90);turtle.forward(30);turtle.right(90);turtle.PenUp();turtle.right(90);turtle.forward(30);turtle.left(90);turtle.PenDown();turtle.forward(70);turtle.PenUp();turtle.backward(60);turtle.right(90);turtle.forward(12);turtle.left(90);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.PenUp();turtle.forward(40);turtle.PenDown();turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.forward(12);turtle.right(90);turtle.PenUp();turtle.backward(50);turtle.left(90);turtle.forward(12);turtle.right(90);turtle.left(90);turtle.forward(30);turtle.right(90);turtle.forward(85);turtle.PenDown();}",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Pohyb",
+          "colour": 160,
+          "contents": [
+            {
+              "kind": "block",
+              "type": "procedures_callnoreturn",
+              "fields": {},
+              "mutation_name": "vagón"
+            }
+          ]
+        },
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"procedures_defnoreturn\" x=\"20\" y=\"20\"><field name=\"NAME\">vagón</field><statement name=\"STACK\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"procedures_callnoreturn\"><mutation name=\"podvozek\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type=\"controls_repeat_ext\" x=\"20\" y=\"170\"><field name=\"TIMES\">3</field><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"></next></block></next></block></next></block></statement></block></xml>",
+    "validace": {
+      "cary_delky": "70,30,70,30,70,12,12,12,12,12,12,12,12,70,30,70,30,70,12,12,12,12,12,12,12,12,70,30,70,30,70,12,12,12,12,12,12,12,12",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 22,
+      "typy_bloku": "controls_repeat_ext,turtle_forward,turtle_right,turtle_pen_up,turtle_pen_down"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"procedures_defnoreturn\" x=\"20\" y=\"20\"><field name=\"NAME\">vagón</field><statement name=\"STACK\"><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">70</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"procedures_callnoreturn\"><mutation name=\"podvozek\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">30</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type=\"controls_repeat_ext\" x=\"20\" y=\"170\"><field name=\"TIMES\">3</field><value name=\"TIMES\"><shadow type=\"math_number\"><field name=\"NUM\">3</field></shadow></value><statement name=\"DO\"><block type=\"procedures_callnoreturn\"><mutation name=\"vagón\"/><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">85</field><next><block type=\"turtle_pen_down\"></block></next></block></next></block></next></block></statement></block></xml>"
+  }
+}

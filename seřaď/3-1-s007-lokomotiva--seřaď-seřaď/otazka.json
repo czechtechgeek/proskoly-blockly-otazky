@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "3-1-s007",
+    "typ": "seřaď",
+    "nazev": "Lokomotiva — seřaď",
+    "tematicky_okruh": "3.1-vagony",
+    "difficulty": 4,
+    "koncepty": [
+      "procedures_defnoreturn",
+      "forward",
+      "right",
+      "left",
+      "penUp",
+      "penDown",
+      "setPenWidth"
+    ],
+    "verze": 1,
+    "stav": "draft"
+  },
+  "cms": {
+    "task_text": "Definujte [hlp]vlastní blok 'lokomotiva'[/hlp] který nakreslí obdélník [hlp]50×35 px[/hlp] s [hlp]tloušťkou 3[/hlp] a [hlp]komín 15×20 px[/hlp] na střeše.",
+    "pozice_podkladu": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "pozice_kurzoru": {
+      "x": 80,
+      "y": 200,
+      "uhel": 0
+    },
+    "sketch_code": "turtle.setPenWidth(3);turtle.forward(50);turtle.right(90);turtle.forward(35);turtle.right(90);turtle.forward(50);turtle.right(90);turtle.forward(35);turtle.right(90);turtle.PenUp();turtle.forward(15);turtle.left(90);turtle.forward(35);turtle.right(90);turtle.PenDown();turtle.forward(15);turtle.right(90);turtle.forward(20);turtle.right(90);turtle.forward(15);turtle.right(90);turtle.forward(20);",
+    "toolbox_json": {
+      "kind": "categoryToolbox",
+      "contents": [
+        {
+          "kind": "category",
+          "name": "Funkce",
+          "colour": 290,
+          "custom": "PROCEDURE"
+        }
+      ]
+    },
+    "start_blocks_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"procedures_defnoreturn\" x=\"20\" y=\"20\"><field name=\"NAME\">lokomotiva</field><statement name=\"STACK\"><block type=\"turtle_set_pen_width\"><field name=\"WIDTH\">3</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type=\"procedures_callnoreturn\" x=\"20\" y=\"170\"><mutation name=\"lokomotiva\"/></block></xml>",
+    "validace": {
+      "cary_delky": "50,35,50,35,15,20,15,20",
+      "cary_tolerance": 5,
+      "uhly": "",
+      "uhly_tolerance": 10,
+      "max_bloku": 22,
+      "typy_bloku": "turtle_forward,turtle_right,turtle_left,turtle_pen_up,turtle_pen_down,turtle_set_pen_width"
+    },
+    "spravna_odpoved_xml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"procedures_defnoreturn\" x=\"20\" y=\"20\"><field name=\"NAME\">lokomotiva</field><statement name=\"STACK\"><block type=\"turtle_set_pen_width\"><field name=\"WIDTH\">3</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">50</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_up\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_left\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">35</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_pen_down\"><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">15</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field><next><block type=\"turtle_forward\"><field name=\"DISTANCE\">20</field><next><block type=\"turtle_right\"><field name=\"ANGLE\">90</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type=\"procedures_callnoreturn\" x=\"20\" y=\"170\"><mutation name=\"lokomotiva\"/></block></xml>"
+  }
+}
